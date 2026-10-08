@@ -36,9 +36,17 @@ jobs:
         run: |
           set -eu
           FILE="data/feeds/latest.json"
-          if [ -z "$(git status --porcelain -- "$FILE")" ]; then
-            echo "No changes in $FILE - nothing to commit."
-            exit 0
+          # 每次运行必然变化的字段不代表内容变化：顶层 generatedAt 与各源的耗时 ms。
+          # 先把它们抹掉再比对，避免"只换了时间戳"也提交一次。
+          canon() {
+            node -e 'const fs=require("fs");const d=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));delete d.generatedAt;for(const s of d.sources||[])delete s.ms;process.stdout.write(JSON.stringify(d));' "$1"
+          }
+          if git show "HEAD:$FILE" > /tmp/prev-latest.json 2>/dev/null; then
+            if [ "$(canon /tmp/prev-latest.json)" = "$(canon "$FILE")" ]; then
+              echo "No content changes in $FILE (only generatedAt / source timings differ) - nothing to commit."
+              git checkout -- "$FILE"
+              exit 0
+            fi
           fi
           git config user.name "feeds-bot"
           git config user.email "feeds-bot@users.noreply.github.com"
