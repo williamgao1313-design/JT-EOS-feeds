@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T03:00:26.534Z",
+  "generatedAt": "2026-10-09T11:25:33.595Z",
   "counts": {
-    "raw": 231,
-    "deduped": 226,
-    "kept": 226
+    "raw": 240,
+    "deduped": 231,
+    "kept": 231
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 17,
+      "count": 18,
       "error": null,
-      "ms": 3551
+      "ms": 413
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 12,
+      "count": 15,
       "error": null,
-      "ms": 2788
+      "ms": 1201
     },
     {
       "key": "lobsters",
@@ -29,15 +29,15 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1254
+      "ms": 1561
     },
     {
       "key": "github_trending",
       "ok": true,
       "status": 200,
-      "count": 9,
+      "count": 11,
       "error": null,
-      "ms": 2107
+      "ms": 2108
     },
     {
       "key": "simonwillison",
@@ -45,23 +45,23 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1148
+      "ms": 1172
     },
     {
       "key": "google_news_ai",
       "ok": true,
       "status": 200,
-      "count": 57,
+      "count": 55,
       "error": null,
-      "ms": 1449
+      "ms": 1296
     },
     {
       "key": "google_news_onhold",
       "ok": true,
       "status": 200,
-      "count": 46,
+      "count": 51,
       "error": null,
-      "ms": 1363
+      "ms": 1311
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1206
+      "ms": 1149
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1344
+      "ms": 1144
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1154
+      "ms": 1053
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1105
+      "ms": 1058
     }
   ],
   "items": [
@@ -112,6 +112,124 @@
       ]
     },
     {
+      "id": "f938cde4916de282",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google Launches Gemini 4 Argon AI Model: Features, Pricing, Availability and Benchmark Concerns - The Blunt Times",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWjZNR21fbGxzdnktUU1TY2pYLUtTTnFGcUl5emcwRHM4UVItOXlEcEpadWYzUnpRM3ZXSmRzMXpGaXlFVC1TOGVCMy1TVERRUHQ1ajlkaGI0cWh0ZVFCVF9JOUVicWVhR1VGUm85Y2V5c2liclBoNl8tMV9DaUotS3BvY3hFRHZfWFphbEduaUZiWVN5SU5DVXNWZUNFR0FMSlFJWTJmMGhrWHlQUUJDNXIxaDZRYWJDUUxaUFNZY2tlQQ?oc=5",
+      "publishedAt": "2026-10-09T07:33:43.000Z",
+      "snippet": "Google Launches Gemini 4 Argon AI Model: Features, Pricing, Availability and Benchmark Concerns The Blunt Times",
+      "score": 7,
+      "tags": [
+        "gemini",
+        "benchmark"
+      ]
+    },
+    {
+      "id": "8f70c9a0472124ba",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "AIB is warning customers of scam texts doing the rounds claiming a transaction is on hold - The Journal",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUTRtNlFjcG1EMldVbWdKWXY3VUpzTjNpb1BJcGhabC1LQm8xa1VSei15YWN5enVnbFZjTVFreVZpMjBCTU5DZDQzZjZMNmk5SnM4UlZuUUktbEd3N2FfMHYwUXZyWUdabVJXOUo5UVlWYkphOUpiX1pwY1NCc3psa05ETTNIVWxHR0ktSTJ4RF9qSVhJRGc?oc=5",
+      "publishedAt": "2026-10-09T05:31:00.000Z",
+      "snippet": "AIB is warning customers of scam texts doing the rounds claiming a transaction is on hold The Journal",
+      "score": 7,
+      "tags": [
+        "on hold"
+      ]
+    },
+    {
+      "id": "7eb353bc148f50ef",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Climate strategy put on hold after councillors discover public access problem - Yahoo News UK",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR05HMXFrZzRxOVh5SjkwdHluTHU5T1BxdksyRVJNVVg1VjVXSzdPLVlXZktUV2pDUDRYc0tmWmZhWjVWTkgyeGpUR2p4S0NJbjB5TFN0eE1xT3BsY2ZCNzhVOTNJazlVR290WE51MHpJSkY2RDVVaXFXaEFSZ25zckF3eUI?oc=5",
+      "publishedAt": "2026-10-09T05:30:00.000Z",
+      "snippet": "Climate strategy put on hold after councillors discover public access problem Yahoo News UK",
+      "score": 7,
+      "tags": [
+        "on hold"
+      ]
+    },
+    {
+      "id": "89a74d0b7b987274",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "url": "https://quake-srp.pages.dev/",
+      "publishedAt": "2026-10-09T05:22:58.000Z",
+      "snippet": "",
+      "score": 7,
+      "tags": [
+        "rust",
+        "browser",
+        "show hn"
+      ]
+    },
+    {
+      "id": "997d431889325626",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI pulls three AI-generated math papers one day after release - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EZm5pRkQ4M0xEb0xkTExxQ2pSWHZJcHp1Mk5jSEN3eVpkQ2pJRnhUWGlfTnBSY0YtRktIckE5dFNTNTAybjB1bXhlMGM1Vkh3Z3Q0UGRJTDZsc25UNW9FMVR6NGVHb0NqdGtVa3V5VE5mdVcxWXhfdg?oc=5",
+      "publishedAt": "2026-10-09T00:52:57.000Z",
+      "snippet": "OpenAI pulls three AI-generated math papers one day after release Crypto Briefing",
+      "score": 7,
+      "tags": [
+        "openai",
+        "release"
+      ]
+    },
+    {
+      "id": "d0ea77a173bfbac5",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "ttok 1.0",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok/",
+      "publishedAt": "2026-10-09T00:34:43.000Z",
+      "snippet": "Release: ttok 1.0 I released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! I figured switching the default was a reasonable excuse to finally ship a 1.0",
+      "score": 7,
+      "tags": [
+        "release"
+      ]
+    },
+    {
+      "id": "8cfe189730799274",
+      "domain": "publishing",
+      "source": "retraction_watch",
+      "title": "OpenAI withdraws three preprints a day after releasing 722 manuscripts on unsolved math problems",
+      "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/",
+      "publishedAt": "2026-10-08T22:20:59.000Z",
+      "snippet": "Less than 24 hours after OpenAI posted over 700 preprints describing major math results by an internal AI model, the company has withdrawn three of the manuscripts for errors. On Oct. 6, OpenAI published 722 preprints in a GitHub repository about purported progress in solving 372 math problems in ge",
+      "score": 7,
+      "tags": []
+    },
+    {
+      "id": "5e244772eecc0424",
+      "domain": "publishing",
+      "source": "retraction_watch",
+      "title": "A paper suggested a paleontologist’s fossil was forged. He wants it retracted.",
+      "url": "https://retractionwatch.com/2026/10/08/mosasaur-xenodens-calminechari-fossil-forgery-authenticity-paleontology/",
+      "publishedAt": "2026-10-08T17:18:58.000Z",
+      "snippet": "Nicholas Longrich would like to set the record straight. The paleontologist at the University of Bath in England and his colleagues described what they believed to be a new species of marine reptile in 2021, based on a Moroccan fossil found in a mine. But in 2024, another group of researchers questi",
+      "score": 7,
+      "tags": []
+    },
+    {
+      "id": "72f8efdf9e2cba23",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Show HN: Jevman – AI decision models play Pac-Man",
+      "url": "https://opper.ai/jevman-benchmark/",
+      "publishedAt": "2026-10-08T16:34:13.000Z",
+      "snippet": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives are out there. We wanted to put the popular ones to the test and thought Pac-Man is a good benchmark for simple and fast decision making. So we let jev 1.13, kev, clef, clef flash, ",
+      "score": 7,
+      "tags": [
+        "openai",
+        "benchmark"
+      ]
+    },
+    {
       "id": "0c06f795217f4219",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -122,6 +240,20 @@
       "score": 7,
       "tags": [
         "rust"
+      ]
+    },
+    {
+      "id": "2ce9a8613793ee1c",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Association for Human Mathematics Says OpenAI's Release Is a Demonstration of Power - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeVJlcFU3ZmNvSGZsblk1TXEtaWNVNDUxM1Y3SFdaby1WdmpmZkRjY1hzZWpVdTJWWWVQTVBQN0wyQWtxWHNLYUtrdGNCUlVsazBaQ3dLaWk3d0lsSkVIa0lBU2VtVGxEakRKbk9zVHFqWlFHNkpsbC1Xa2UyT2lXZ1hpdw?oc=5",
+      "publishedAt": "2026-10-08T12:07:04.000Z",
+      "snippet": "Association for Human Mathematics Says OpenAI's Release Is a Demonstration of Power Pasquale Pillitteri",
+      "score": 7,
+      "tags": [
+        "openai",
+        "release"
       ]
     },
     {
@@ -152,6 +284,133 @@
       ]
     },
     {
+      "id": "c92a970824af9d29",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Programming Isn’t Special",
+      "url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
+      "publishedAt": "2026-10-09T11:09:10.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "77b2d8d78517fb71",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Madhya Pradesh High Court Rejects Pleas To Increase OBC Reservation From 14% To 27%; Orders Appointments On - Free Press Journal",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTjhPRW1NT2wyQ08zSmVVdm02MGlYZnBERVQ1cXZ3WFVyUkxGaERXdHJWRlh3RTZBazRDallQMW11aExIMWRaYVl4QXg1V3h4NHctd2M4WS01WWVzNHlKMVY3VmVZejZ1ZGlSdXlJS0w5YjJWeG9JOGdWaENwcjByak1FdklKSy13TG5Uem9jZHN4MmV3Uk9ScGQ2dVFabWVhaUdOdW12MWp2THh2QzhQT0pRR3J2Vk1ObkpyN2Y1ZHlFWmhpb0FKZHhqRFBlRTd6SFE3b3ZrV3VUeGVfMC1TS3V4YTR4eXhqOXp5STRIbXA4X1ZuQzlRUzA2S0tPUmlJ0gGGAkFVX3lxTE9lbldKMVRGbDRRejZIVjNmUmJaTlltSVpmdUw0VjViNkxfRzlfSlpYRnM4Yy1ienlqVWZXSmlIRTV4aVppc0pyejV5S0MxN2R0R3dwWlo1OFBaNHU4WWY5c24tSDdxbTNEUGtFRFhwYWtHY201OGJycVBJTUNRRlhvRUEzN2VpYnJfaEEzaTdORkNJMnU1MVVsdm0zY2hycGM1QUdvaEtfdG5IOU1HMkFZaFZXLVhMay1lZlZNckRiSzlGTC14c0E4aWQ3aXVHbmtkQkhaT0Frb3BvWHNwSGhDRkV0VU1VVjE3RTJsVWVYcFE1OXN3VXNlQkUteXM0ZkdTTktEUUE?oc=5",
+      "publishedAt": "2026-10-09T10:43:20.000Z",
+      "snippet": "Madhya Pradesh High Court Rejects Pleas To Increase OBC Reservation From 14% To 27%; Orders Appointments On Free Press Journal",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "9d9b290adcf4c7a0",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "India to release AI regulation consultation paper in 30 days: Vaishnaw - DQ",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnRjSHRpdkJhc1ZCVzA5SDJjUVFXS2Z2dlRMZVlIWnpGc3BTN3FEa0lraE5ZS3Y1dTVYci1sMVhCYjhsS0UydFBidFg1ek44M21BbDBTb3p1R1dnVHlBSGN2RkFWcDhBTzVJTDdUQ0VsT29KRGVEb0l3QnJhR3c4LWdYNHpLUjB3UEs1MmQ2UnhHUHphUWdBaW1UbkxyU2ZYSjRHT01tWU9KbmvSAasBQVVfeXFMT0Z0Y0h0aXZCYXNWQlcwOUgyY1FRV0tmdnZUTGVZSFp6RnNwUzdxRGtJa2hOWUt2NXU1WHItbDFYQmI4bEtFMnRQYnRYNXpOODNtQWwwU296dUdXZ1R5QUhjdkZBVnA4QU81SUw3VENFbE9vSkRlRG9Jd0JyYUd3OC1nWDR6S1Iwd1BLNTJkNlJ4R1B6YVFnQWltVG5MclNmWEo0R09NbVlPSm5r?oc=5",
+      "publishedAt": "2026-10-09T10:03:18.000Z",
+      "snippet": "India to release AI regulation consultation paper in 30 days: Vaishnaw DQ",
+      "score": 6,
+      "tags": [
+        "release"
+      ]
+    },
+    {
+      "id": "6a6ceacd010f2f32",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "New Fortress Energy reported to federal authorities - WJournalpr",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQzMwVHpHbDlZYzdBbDM3ZXBZd1R1ODhkaG54MmNqeEVFa3lvQUZ5cFpQOXhod2JmS3Q5UVF5UnI3VG94SVc3MW1CSjVGanhkdkp5SE84RnZyOWNoWkZRMGRMY0Uzbk9DdEgtV3EwNFNxajE5VVdMWHg3aVhudVppWlB2aWpqNHg3dHl5R3RJRG85RDN4TW95TVRUMV9Kek9RbHRZazYzMjFXTUVmVmlZZjF5alZvbEd4Uk5sUFhpNkczaURNTkJMeE1zX0Y1QmZLYlZj?oc=5",
+      "publishedAt": "2026-10-09T10:00:00.000Z",
+      "snippet": "New Fortress Energy reported to federal authorities WJournalpr",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "4b1944f6ff52d168",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic says its AI models hacked 3 organizations on their own during tests - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX3ZqRkZfWUw5X3dBbVVkUzh3NGVXTXdrOEIwOVRGUHdTeTRaaURSWS1DYVA3aXdUREVFeTM1ZnF0Mm91bzJTb0R6OWR3a0VwaFBPQmFqeVRuQjdrUFZSSFpmbjMzSGZEX2xCeE84c3A2Q3dpRnlEcVZ5MFhLVUE5b0lwUml2eWFacWZDVHJsaVh5VVJMZjZRdmlNSWlkQW1Wa2Rkb3Jn0gGrAUFVX3lxTE9RRnJFaXBvLVJUT0NMMXRtN0JscFBCQTIzRHlQUFdYMjJ2bnZkQ080WGZQYUtqTGNaZTZidWljbFhnNklKVGFaWXBLbXdtV0xkOTlYcnhFOUxMYU1vUnJMclpyR21nYTBLUDh5UURFTy1MbGRUQThiWXNLSVVMWkZJQlpwWTNJQUpGM3dyVGNHZmp6Y0E0R29FaWtkd25sczZ0RktJRTRXcGVkNA?oc=5",
+      "publishedAt": "2026-10-09T09:41:39.000Z",
+      "snippet": "Anthropic says its AI models hacked 3 organizations on their own during tests ABC News - Breaking News, Latest News and Videos",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "b9c390b4912bf176",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "#DefendResearch and PEN America Present… Word Wipe!",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/09/defendresearch-and-pen-america-present-word-wipe/",
+      "publishedAt": "2026-10-09T09:30:00.000Z",
+      "snippet": "Today's Fun Friday post introduces a new anti-censorship tool — Word Wipe allows you to see what a world redacted of words banned by the US government looks like. The post #DefendResearch and PEN America Present… Word Wipe! appeared first on The Scholarly Kitchen .",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "7e1e383be20664c0",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "en-html.org is a Scam Site",
+      "url": "https://etbe.coker.com.au/2026/10/09/en-html-org-scam-site/",
+      "publishedAt": "2026-10-09T07:37:38.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "9bc0280737373e55",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Deeper dive: Keyboard differences between Windows and Macs",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "publishedAt": "2026-10-09T06:51:52.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "144829252626292c",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Tigers hang on, hold off SEU - New Ulm Journal",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeW90enNqemVDWWs0bGVtZ2lucEJ3RHFja29PQy10YnVyM1BDaUJ5WUcwamFxcnowVzJiTk9PczYxQ2pLMFRjNHBiOWRRcnJpMmtXSkNabFpZNWNKTEk1UW51ZXQzWDA2TVVvVU9oWjRpclBWeVY5RE1oenVRcDc0QlNjNS1sQnVjbmppVXJn?oc=5",
+      "publishedAt": "2026-10-09T06:02:48.000Z",
+      "snippet": "Tigers hang on, hold off SEU New Ulm Journal",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "9c8ed7c74b8c4e31",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Reducing undefined behavior in the C language",
+      "url": "https://lwn.net/Articles/1095811/",
+      "publishedAt": "2026-10-09T05:30:04.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "c1988677ffa07417",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOWVKNnJhdE1kLXd4a0Nfd2o3UHNHRS1fWGxHa1h5UXBWOGRhYjVOUklUSy05eTJ0RC1QN3FrZkxWak5mQ0ktUkNCeldZMjlJUHlqQ054eVhCUEZWUUhFSzRJVGltcGNuNFRZMG5iaTJWQ2pKdk5PdjZXQ3BUWWR1UkJ4ZXkwb0RYazloWmxSVV9zZS1OSm1MYTJ6cGZMSTRHRFJvMDlGam1lam9QNzVwbmpVY1RIdGVkZVN5b3hZZjNfZw?oc=5",
+      "publishedAt": "2026-10-09T03:25:00.000Z",
+      "snippet": "Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock The Conversation",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "c76be7ae3588e373",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -161,6 +420,19 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "b92f6aa4caf17d63",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+      "url": "https://github.com/edrisranjbar/lifeos",
+      "publishedAt": "2026-10-09T00:02:19.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
     },
     {
       "id": "717019c2b84cecbe",
@@ -239,12 +511,12 @@
       ]
     },
     {
-      "id": "5dbeac465ab8d61d",
+      "id": "da10c942946991ff",
       "domain": "vibe_coding",
       "source": "lobsters",
-      "title": "Rolling the Root Key (Update)",
-      "url": "https://ispcol.potaroo.net/2026-10/kskroll.html",
-      "publishedAt": "2026-10-08T21:45:09.000Z",
+      "title": "Demoting i686 Windows targets to std-only",
+      "url": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+      "publishedAt": "2026-10-08T21:39:50.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
@@ -287,6 +559,19 @@
       ]
     },
     {
+      "id": "0b01f3a1eade5a11",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google vs Anthropic: AI Markets Split 43%-41% [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9sSlVtUTdjR3dFTHlUQnM4eS00Qm40TG1Sejh4R2xJOGZZUEgzLTV6QktVQmdsUFNoSE01N2lQTTlxQkRRVF9Cc0loTW9lWGk5Q0U3blNpOVZ4RmlOaFNjdk94b05wSWtzS2VGbzh6SmhfSzU5N3dJ?oc=5",
+      "publishedAt": "2026-10-08T20:19:11.000Z",
+      "snippet": "Google vs Anthropic: AI Markets Split 43%-41% [2026] shattered.io",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
       "id": "2ce15ca70b57f82a",
       "domain": "ai",
       "source": "google_news_ai",
@@ -313,19 +598,6 @@
       ]
     },
     {
-      "id": "0b01f3a1eade5a11",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Google vs Anthropic: AI Markets Split 43%-41% [2026] - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9sSlVtUTdjR3dFTHlUQnM4eS00Qm40TG1Sejh4R2xJOGZZUEgzLTV6QktVQmdsUFNoSE01N2lQTTlxQkRRVF9Cc0loTW9lWGk5Q0U3blNpOVZ4RmlOaFNjdk94b05wSWtzS2VGbzh6SmhfSzU5N3dJ?oc=5",
-      "publishedAt": "2026-10-08T20:03:23.000Z",
-      "snippet": "Google vs Anthropic: AI Markets Split 43%-41% [2026] shattered.io",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
       "id": "1d40068544246f95",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -337,6 +609,19 @@
       "tags": []
     },
     {
+      "id": "d775143605b1df9f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI's math breakthrough points beyond math - Axios",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LelN6VkJTbXlOd1VicGE5STlrQVZJNGVuZ0J4eS04cmJ3RGx6TWRSeWdkYkwySmx4dElWLWZHN3F1YjhMTTI4SGxlaHVxTDg0RGVvVUUyaXduc2ZwUmFYWlY3Zy0zcnhTSE1Wcw?oc=5",
+      "publishedAt": "2026-10-08T18:51:07.000Z",
+      "snippet": "OpenAI's math breakthrough points beyond math Axios",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "30603a543122ddc7",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -344,6 +629,19 @@
       "url": "https://github.com/p10node/k10s",
       "publishedAt": "2026-10-08T18:29:06.000Z",
       "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "80a2b7a282e81f98",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Pocketty – iPhone SSH terminal that pings you when an agent is blocked",
+      "url": "https://pocketty.app/",
+      "publishedAt": "2026-10-08T18:11:52.000Z",
+      "snippet": "Hello~! pocketty is an SSH terminal for iPhone and iPad, made for herdr. herdr keeps your agent panes alive on your computer and knows the state of each one: working, needs you, or done. I made this in anger/desperation for the latter half of my recent paternity leave. Nap traps are sweet, but there",
       "score": 6,
       "tags": [
         "show hn"
@@ -413,6 +711,19 @@
       ]
     },
     {
+      "id": "87b2cdeeb3d3f757",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google's Gemini 4 Argon is the latest super-smart AI that most cannot get - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BUzlCemRWYUYxdlBZa05MYURDZTNCUjdzNko5OXFuUEFDdktLV2dvcE5ESVUteUpKeFhBNGhBb1NpYmxHS1c4UkF2THkzaDdGSS1BX2Z4WFlfdzA?oc=5",
+      "publishedAt": "2026-10-08T17:06:58.000Z",
+      "snippet": "Google's Gemini 4 Argon is the latest super-smart AI that most cannot get Mashable",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
       "id": "42e292c86e78d457",
       "domain": "ai",
       "source": "hackernews",
@@ -450,19 +761,6 @@
       ]
     },
     {
-      "id": "72f8efdf9e2cba23",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Jevman – AI decision models play Pac-Man",
-      "url": "https://opper.ai/jevman-benchmark/",
-      "publishedAt": "2026-10-08T16:34:13.000Z",
-      "snippet": "Openai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives are out there. We wanted to put the popular ones to the test and thought Pac-Man is a good benchmark for simple and fast decision making. So we let jev 1.13, kev, clef, clef flash, ",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
       "id": "6e223ce5af128f2f",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -485,6 +783,19 @@
       "tags": []
     },
     {
+      "id": "eae17488b0a21296",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: I Put an AI Agent on a Nokia 110",
+      "url": "https://github.com/anupray95/AI-Agent-on-a-NOKIA",
+      "publishedAt": "2026-10-08T14:18:51.000Z",
+      "snippet": "I was using this mobile to reduce my screentime. Recently got the idea to put ai agent in it. Started with installing android, but failed as it has only 48MB RAM. Then reverse-engineered for few days and finally able use AI Agent in this and automated few actions. Thanks",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
       "id": "a3af749c3c13d107",
       "domain": "ai",
       "source": "google_news_ai",
@@ -495,6 +806,45 @@
       "score": 6,
       "tags": [
         "openai"
+      ]
+    },
+    {
+      "id": "bac8d8fc95f9cf68",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Govt To Release Consultation Paper On AI Regulation: Vaishnaw - Inc42",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2tjczdlUnlvXzFXTDhEUWlOeWU2alcycUU3bkdqYnFyNWlQOWtKRklxZlFsQlJxX3paVFI3X1YyY21ScWthdDBzVFRZZGhuMFpSNG00eDBHU3JibHU4OUhpRDlTWER4WmtXM2ZxVGFab29fX0ZoLWhPR0lMWlh3Zll3QmpFai1HaWJsWA?oc=5",
+      "publishedAt": "2026-10-08T14:11:00.000Z",
+      "snippet": "Govt To Release Consultation Paper On AI Regulation: Vaishnaw Inc42",
+      "score": 6,
+      "tags": [
+        "release"
+      ]
+    },
+    {
+      "id": "f62df33891a5c4ac",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "377 math results: OpenAI tackles some of the field’s toughest problems - Interesting Engineering",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaWNvb29vcjJ3OFpFMXBwWHIyWVE0ZXpkMDdSTEhHT0xCUjhWcEEzYmVpbzN1V0JVWE44dHNHVHhKMTU1ZnVoa00yZmxGWm1KLU1sSlAwbVIxMEFSRVN4SWtjTXAwQkY4V01kcm1oYUl2V3N0cEVPaGoxa1c1VnFMNHpaMXY?oc=5",
+      "publishedAt": "2026-10-08T13:54:00.000Z",
+      "snippet": "377 math results: OpenAI tackles some of the field’s toughest problems Interesting Engineering",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "f27c95e4053bb603",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeExQUy1GNFc0TTR3VHN3YXV4SG9yWmNQN1FzdE83ZmV2Q0xYRVcyYzRKQUdGXzRrcFRrY0lLdk9vY1hzZnBYeVlWdnJoc0VNektwbFNiem5YcGlxYW9IVFMyT0RSNElaN3BXX3ZETnZ6N2tnRjZGNC03LVZlT2pWa2Z5UFQ1V0F2VGk2VUx2QzJISHRCN0FQU1FPeWRDU3hlYTQzTWZaY0J2RGpmZ0EzMVMwek5PUHho?oc=5",
+      "publishedAt": "2026-10-08T13:30:00.000Z",
+      "snippet": "US stock markets set to open mostly unchanged. Eyes on Meta after open model release investingLive",
+      "score": 6,
+      "tags": [
+        "release"
       ]
     },
     {
@@ -555,17 +905,6 @@
       "tags": []
     },
     {
-      "id": "235521c8c5c45f62",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Thinking will become a hobby",
-      "url": "https://www.spinellis.gr/blog/20261008/?li261008=",
-      "publishedAt": "2026-10-08T12:23:28.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "10697849be9a197f",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -587,250 +926,6 @@
       "score": 6,
       "tags": [
         "gemini"
-      ]
-    },
-    {
-      "id": "184f3f22f9b56b02",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage - VentureBeat",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNU0ZZSnZNWFdoU0p6bDNHb0R3Rk8xTGdSTUJfSjVlWTVhSmFQaWFocVVLTUFISlljVzVqTE9jazlBTVpiZENFWVFaWFdBYUpQME43blNrY2ljWGpJVi0xMVpMelRMck9Eb082d0dmZ2dva3NUV0hXNXJROUdSR0Roak1kTzFYVU5LQ1dhdk83NE1CeW9pWGV6MHFXbVBjTTM1N3VKUkpoc0dhVHA0R2FuaVVqU3JJX0lLMUxWdy1aTHJ6NFVDLWpycVh1WjFMXy1VRlI3dWRWSmFxUmRIelB5M0p5RndhWV9HRjFnZ2VOT1dfeXpK?oc=5",
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "snippet": "Google Cloud unveils persistent Gemini Agents for long-running tasks, and they get their own Gmail, Calendar, and Drive storage VentureBeat",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "050d904dc3f8bca9",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Chutes, Harvard Release 6.12B LLM Request Dataset [2026] - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YV1ZCcXNPMjFWNF9sNE82YXFrMmxHZWN2MGZtYWYxNGVTaGhWN0lhTXN4RUJsam10U1R2YmIzN1lubHd2Rnd2MVZFZmNFRjVYMGx3WnY3bHE0eWZpdTJlNF8tYU9JRTMzLWo1SUtjelc2cUow?oc=5",
-      "publishedAt": "2026-10-08T10:42:36.000Z",
-      "snippet": "Chutes, Harvard Release 6.12B LLM Request Dataset [2026] shattered.io",
-      "score": 6,
-      "tags": [
-        "release"
-      ]
-    },
-    {
-      "id": "1487766a4f35f133",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "‘Mathematicians did not ask for this’: Math group calls on researchers to reject OpenAI - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOG5YanVwRlUtR2NKNzJqUmdlbXlEVzZ2c1lQMzRGLUp6a1lMZzIwdEJFZnBSNi1aOXRYT3Vxc0EteWdWUHZRZHFzOFlZTUEtV19QQXdGNlRGUEpJUENoaG80VjFiQzhpbFRBX0g3alVseEN1aUV6NzV2QVVpQzJfTHhvVzFUak9WQjVQeTlvV0VMODZQc0RobXhheW5KUHItM19pXzdJNERJdWdVVnpUSUVNQ1dDelJ2Rlg5b3Bn0gHEAUFVX3lxTE9SN281MUp0dHZvQ3FzZ1doZERoX2ZhdldOZE5uTHBJNXNFQlF1dTVfNGplNmh1Um9ob0hIb1ZKSEg4WWFsSVBxbmZxMEVBT0NidnVXb3FpTzA3UDZheEM1X1Q0SFlGdHpCdmtKQzVSODI3UXNVb2UtWmFaOWFGYTFtUUQ4c1RMREdCLTFQQWQ5VjI3VElieTZYSUdiczBhNmxKOThyOTZfVGxTVVhXeGp1RWJ1cmFOMWdwNGVITEpUWm01VFE?oc=5",
-      "publishedAt": "2026-10-08T10:27:53.000Z",
-      "snippet": "‘Mathematicians did not ask for this’: Math group calls on researchers to reject OpenAI The Indian Express",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "d125b5b661281392",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Migrating Git repos to SHA-256",
-      "url": "https://exa.y2k.diy/garden/git-sha256/",
-      "publishedAt": "2026-10-08T10:00:39.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "72b34a5860683b6c",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Guest Post – Do Not Go Gentle: Duke University Press Turns 100",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/08/guest-post-do-not-go-gentle-duke-university-press-turns-100/",
-      "publishedAt": "2026-10-08T09:30:20.000Z",
-      "snippet": "As Duke University Press celebrates its 100th year, we take some time to reflect on our history and the important role played by university presses. The post Guest Post – Do Not Go Gentle: Duke University Press Turns 100 appeared first on The Scholarly Kitchen .",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "60e208886de2c960",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Gentoo infrastructure sponsors wanted",
-      "url": "https://www.gentoo.org/news/2026/10/07/infrastructure-sponsors-wanted.html",
-      "publishedAt": "2026-10-08T09:23:49.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "78d1d78581e5312f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI's 372 Math Proofs Spark Concern Among Experts - Tempo.co English",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRWp6a1hLMFNqekpBdy1Gb2hsNEhIR25pd1BWWnJRaXNKVDYtSTB4b3RmbkJmWlAxRzlrVXlJWW5ZaXJTd0VQNm9hNzA0aXZFX1pDd3A2bjBfZ0FCNFlROVY4RjBMVFhjOWJTNExZaEppdC10di11OWdLMXVvdDFUUjhneURpU21CLVlmNg?oc=5",
-      "publishedAt": "2026-10-08T09:21:44.000Z",
-      "snippet": "OpenAI's 372 Math Proofs Spark Concern Among Experts Tempo.co English",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "27941f2fe99fead8",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Beyond the &",
-      "url": "https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/",
-      "publishedAt": "2026-10-08T09:04:32.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "df7d699c33590221",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "jujutsu (jj) 0.46.0",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
-      "publishedAt": "2026-10-08T09:02:42.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "5fd74cb183c58b7b",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The people holding up the internet",
-      "url": "https://sheets.works/data-viz/holding-up-the-internet",
-      "publishedAt": "2026-10-08T08:18:39.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "7c1cb73d9bc8dcd4",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "OpenAI Withdraws 3 Math Papers",
-      "url": "https://github.com/openai/math/blob/main/history.md",
-      "publishedAt": "2026-10-08T08:08:37.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "aec1d77d39613c70",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "I've Been Deindexed by Google",
-      "url": "https://kennyqin.com/deindexed-by-google/",
-      "publishedAt": "2026-10-08T07:59:30.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "7e813afdc2dd0ebb",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "OpenAI withdraws three mathematical results",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "publishedAt": "2026-10-08T07:05:40.000Z",
-      "snippet": "https://github.com/openai/math/blob/main/history.md",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "39dfd05bf9f33cde",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Releases 722 Mathematical Papers, Prompting Both Astonishment and Caution - Sri Lanka Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNElWZ1pFd19yZVV4bE1BbGpScTBFMDR0MEZwLUVRcU1VNlR5Yy1uN2tOX0NwOXVyR1d2cE9VdW5MVHhyb3otbjBqWEhQMXhocmo5SUVJbkZHOXRLcWVmNkREVzV4LUZ6bEd3Ry0tNURMNktMS0k0cHBiM2ZLajVMX21Nd1dSOURrZldNV0ptRUpzMlFsWEJBVnBjWWJTWkZHWHYzWVZB?oc=5",
-      "publishedAt": "2026-10-08T06:53:37.000Z",
-      "snippet": "OpenAI Releases 722 Mathematical Papers, Prompting Both Astonishment and Caution Sri Lanka Guardian",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "3bdeaf80ae85dad0",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Classic PC demoscene productions running natively in the browser",
-      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
-      "publishedAt": "2026-10-08T06:29:25.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "browser"
-      ]
-    },
-    {
-      "id": "9863e5f1dba3dc0d",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "A rant about APIs",
-      "url": "https://dev.clintonblackburn.com/2026/10/08/a-rant-about-apis.html",
-      "publishedAt": "2026-10-08T06:07:14.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "82bcc55e3a908b7c",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Publishes 722 AI-Generated Papers Tackling Hundreds of Math Problems - Konsulteer",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOU1mMkc5UlllVnBCeXJCNnBfLUw2SVM0T1FUOGl6UlNQZmFNdVYtSGlDdkIxeldiTEdDTG53T29LX0Zsd2dTRnY5UjJ3cW5sOVZtTWJ5N203VTdwb2NnUTZCQU42MFI2aHBuZ1ZLT0ptcHNwUU9WWFBGYUQyX0d3SnlmcE9FTmRxbzFUb1pTR1YyWll1cENSTTBwSUg0WVVsRTFUV1FZVkkycDdTbWpj?oc=5",
-      "publishedAt": "2026-10-08T05:49:36.000Z",
-      "snippet": "OpenAI Publishes 722 AI-Generated Papers Tackling Hundreds of Math Problems Konsulteer",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "dbf683d8da072772",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic launches Claude Haiku 5.5, its fastest and cheapest AI model yet - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSk84ZWpzbVB1OTlHZzdYRkF6MEZlMFRNVUdpNndTUkU5TDljNlpFT25lZUZMaTh1SV8yZ3FLQ202elZJQVdoeWFQelJGT1pPeXNZUG9iOWJBSEEzcGc3OUowVDVuQzdiTlZKUEpQOGRnQlFoU19paXFEZUMtYl9GM2phV3Qtay04SEpiYk42Y1pyd0psa0RSMkp5eTNzX2VpYW5zdWlRZF9CcERHZ1lnRF9VcFJLVXNLWlZwaUJaRW5mSTh1SXZWaDU0ZFFzWkFpT25yN2psQmNhQVdMdERhY2h1R3I0c2lLRVU3SNIB8gFBVV95cUxOZWFfVWQtY3BGVmlDektjVkVvVGZNUXo0Y2FtMGFlckdVWk8xbkduaEpCWDVSRW1mY3lnS0FmMFRTZ3U0Mm5PQVEzT1BDM1VWbHM2VW9jbDdJNUs3dE5iU1ZIYVp6TGxuSWlVSkFMOTN0WlA0N1lUNVZSMUlCY1l2MmtEdnVhMnRYTFNaRmVFSHd3U19kZkg0aFVFU3lPQjJ0Nk5DUk9MWGJzZkxYTjZRamRYZU1PMldMbGJGeVh0a2JQZE9UMV9XRkVWYzFVVGdNRGgtMFlCZFdfQUh5S2Z3V0pVWXc5VE1VRFhnamU1MlVnQQ?oc=5",
-      "publishedAt": "2026-10-08T04:36:00.000Z",
-      "snippet": "Anthropic launches Claude Haiku 5.5, its fastest and cheapest AI model yet The Times of India",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "dd7d4f9dd37929f8",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI releases progress on more than 300 math research problems, stunning humans - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUU1YaVNmSXhlYVF0XzBLM0JBY1pJZFA0MGQ5YVJzZ19Cd3V0ZWx1Q0dlZmY0MFVNNk9BSG44ZGFPb1B6UUR6OFZrZGM2NHhmU285aG1zdnVVSnNnR3BsNnBLMTR2NnFFZ2RnYmdiX2I5NGZUanJYVUlxOHVpYlZrakR4VkE3WTR1ekVleHBwOWpFR29rT250TUlZalpYaW5HV2ZaSmRxb2tUbHV2bkVlYzFjenk3dw?oc=5",
-      "publishedAt": "2026-10-08T04:15:00.000Z",
-      "snippet": "OpenAI releases progress on more than 300 math research problems, stunning humans The Washington Post",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "633828c97efbe418",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Says Its AI Made Progress on 372 Unsolved Math Problems - The SOFX Report",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaGtKdGlnSWRjNFRIY2tRQ1FCWlAyR1VYeHE5d2hyamI1RXpFR0ZIZ2N1bVJRNGFmWW1OVVE1SUVXb2hyajN2dzVYNkZubDhqV0poeEh4N0tCS2ZhdVFOQlZpR2xhajhvMldjQ2lwaUsyY21BSHp1bU1HUXBtS3ZqSVVZa1EzSnpZNE1vcg?oc=5",
-      "publishedAt": "2026-10-08T03:49:40.000Z",
-      "snippet": "OpenAI Says Its AI Made Progress on 372 Unsolved Math Problems The SOFX Report",
-      "score": 6,
-      "tags": [
-        "openai"
       ]
     },
     {
@@ -856,19 +951,6 @@
       "snippet": "In what one sleuth called a “systemic failure,” a wildlife journal has issued corrections to a handful of papers not for an error in the articles but to include an item that wasn’t: ethics statements. The most recent such correction in the European Journal of Wildlife Research (EJWR) was on Septembe",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "be5fdb4b80cb8f51",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "C for Rust Programmers",
-      "url": "https://bd103.dev/blog/2026-10-07-c-for-rust-programmers/",
-      "publishedAt": "2026-10-07T14:30:05.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": [
-        "rust"
-      ]
     },
     {
       "id": "8405711af5b56379",
@@ -947,32 +1029,6 @@
       ]
     },
     {
-      "id": "8066135daebfb69d",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "Harkin food-safety bill put on hold - Sioux City Journal",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYmJsdjNrOWNQYkc0YXhrZ05ra2RQekJ4RFphdWl4QnJ2clZUNmNQYU9mN2hxMHpTbldqS2pvNm95SXcyRjNremI5ZWhGVHE5ZllNZmdTcUN4c1Q5NVJ6dXZfVElyNUZYa2dsMkc5Z1c4ZEVBRGZMN0ttWFpYbjhiU2hCZEJQSFFBZ0NVdEZDQVNHZXJwdk1NMUowaWMzcDBvTVBqbDlFVE5zQU0?oc=5",
-      "publishedAt": "2026-10-06T09:53:44.000Z",
-      "snippet": "Harkin food-safety bill put on hold Sioux City Journal",
-      "score": 6,
-      "tags": [
-        "on hold"
-      ]
-    },
-    {
-      "id": "a0ec6b1f9075d606",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "Zurich completes Beazley takeover as Beazley stock is delisted - AD HOC NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNckkxX2xJdDBvZFJRUllTUlJvbzIwSng3YldhQUlmWjBXcU9sOGgwSVhyejhSLTMyai16cVFVVGlKZDZHOHhrU1ZLNmxMbXh4NWtVdVRKaUpONENtZXJxUXdsdXdWb2JXWTNtYkE1UG1DUU5WSl9GNjRQMkY0Y1JQbmUtdF9ETmFwdGdac2J6enJMclRQdmVIOHc2cV84SUFjNFVDRDM1R2Q0RWQ3bWFnR0tYMTJOanMzcjV4RkI5Ml9HOTA?oc=5",
-      "publishedAt": "2026-10-06T09:34:27.000Z",
-      "snippet": "Zurich completes Beazley takeover as Beazley stock is delisted AD HOC NEWS",
-      "score": 6,
-      "tags": [
-        "delisted"
-      ]
-    },
-    {
       "id": "a3522d16302d624d",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -1011,20 +1067,6 @@
       "tags": [
         "anthropic",
         "release"
-      ]
-    },
-    {
-      "id": "53a46e72d8846bcd",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Claude Sonnet 5.5",
-      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-      "publishedAt": "2026-09-28T22:07:38.000Z",
-      "snippet": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suff",
-      "score": 6,
-      "tags": [
-        "anthropic",
-        "benchmark"
       ]
     },
     {
@@ -1104,6 +1146,116 @@
       "tags": [
         "stars"
       ]
+    },
+    {
+      "id": "d4b090b4f423ee9f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Meghalaya’s edGrid Showcased at World Bank’s World Development Report 2026 India Launch as a Model for AI-Powered Education Governance - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNd2ZOcFpNYXFCZnJvVkVZR01tSlMwUzdWVTJwMkFHVVFtakU0NTFoTGdwODZyMmZPX01udW4tbFhMRFRQLXBPT0xJRTVOTURTOGR0cncwaE5mOHB4bzhZZnhTZXE1Y2N6cU1tUnRwZ0xVV1Y3SFdJeEloN2s4Q3ZhZE92RXpMRmdCXzBmSUM3bWtuWW0xZHc5UDJtWng2bFlJbG54RDQ0T3JUb2JuNzM0ZG12ZERmZFRBWVU2R2JwWnhNaVlJNEloRlJ1Q3pXUGhSRHlfdk5zN1o5VWVuZWxZMC1HUjg5NExZYmtyVFlacmRpSlBDNDNlcnZual9wM2xpbzgwMF9ZTdIBiwJBVV95cUxQMnU0RkxIY29zT3dBQXFoVXQ5cERpTUNaVFNieUZmZWtlaXlVQ0h4R2hJV2tiTzJObGI3c096Q2o4bTBJZHFVemdPMExEX0V6dmFqRzR3bkw1VlFndkhmQVJmcldUZDE0RDJSU1lwTWxHWHEzR2kyQ25tMVRWVXlGX0wtc0FuTlJaV244TTlFakZqU0pPOFhuZC1ucGNKR2h1SlJ1UHpWOXpOSVpXaGNTYWg3NnhEdzVlMlBUb3d6S05FMTZuaEJaaVJVQjlYZFJZdk1Pd04tek5rTjZLbUhNVWhKSUdJZ3BGM1p0Rnpnc0FiN1lmQldQUHBfN0txNlFaY2NEN21tcDZpVms?oc=5",
+      "publishedAt": "2026-10-09T10:36:10.000Z",
+      "snippet": "Meghalaya’s edGrid Showcased at World Bank’s World Development Report 2026 India Launch as a Model for AI-Powered Education Governance The Tribune",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "855995f711ba761d",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Indosat and F5 launch governed AI platform - TNGlobal",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JVkdyaUtoNjRyanE5LXBhLTRXRkhlemk5cHJfUVI2QnJjVFBzaUhtaFhQYzFSb3JpejE5VC1OR1BzX0hIdFdUYjduUG5wVlNCZ01oWGdGT1N1SkU1LWpJMXJ2aEl4UjBVTUNrcEdNcWhUME1nN3c?oc=5",
+      "publishedAt": "2026-10-09T09:51:57.000Z",
+      "snippet": "Indosat and F5 launch governed AI platform TNGlobal",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "14f14a3f89a80579",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Why Calls To Slow AI Development Are Unlikely To Derail The Investment Cycle - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZWQ2dkplSFBGR3JQNjdwVHdGc2dJWU00c3dnbFE5ZEx1encybHN1Z2RGT1NQcEphUFVhVlRNaTdJYVF2YV9wMmNkRnJDWjFBRGs3Qmp0eTZpUGFxemJ2NjFLRFM0eGtQSVdudTV1dnJta05xUzJueC1Sd0ZUR1hfM0ZDR0l3enZGRUw2YW1HeVlRYVZiOW1nWmg3WXJhZThRWVlDNldhaXE?oc=5",
+      "publishedAt": "2026-10-09T09:25:00.000Z",
+      "snippet": "Why Calls To Slow AI Development Are Unlikely To Derail The Investment Cycle Seeking Alpha",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "f05f3ae5a8475ba0",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Mistral Large 4 Preview Opens Before Its Model Weights Arrive - iNews Zoombangla",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BR3gwc0NHUGIwR0VjUzFtMFBuR0VReXRjaEw5YmQxNFZYVk9LVGhWY3VHRDJaQmhUNVRMeFVjaWdkckdBNDNrRVplTFV5d29VMHltcTItRWQwaTlnN1FVRFptSzBjYTlnNklINFBpZFc3Mkl2alE?oc=5",
+      "publishedAt": "2026-10-09T08:15:06.000Z",
+      "snippet": "Mistral Large 4 Preview Opens Before Its Model Weights Arrive iNews Zoombangla",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "5ea7c6b291db36b3",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling - MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMF9vVjNJWGtFV09Mc2VuYXZaUEFqZ0dqN1lOOVRock1SbDI4X0dIMlBfdmVYVUVvZG9VTnBmZHdoNzcwbzN0RGExMmZsMkpjdGQ2eF9BbllZOF84bU82eFRvenM2QzZnWHJRSDY2SG5hakpqVHdLM29UQkNaQXNKaUt5M2FuSTNXeWV5N2JqLUlDdWg1dGFKcDd4UC1SSi1VcF9kN2RJQ3JnZlp4bXhlMjZQV0tZVF9hVzhOVXJIT0NFdmV2ekN5bHV3OXU4YUVB0gHQAUFVX3lxTFAwX29WM0lYa0VXT0xzZW5hdlpQQWpnR2o3WU45VGhyTVJsMjhfR0gyUF92ZVhVRW9kb1VOcGZkd2g3NzBvM3REYTEyZmwySmN0ZDZ4X0FuWVk4XzhtTzZ4VG96czZDNmdYclFINjZIbmFqSmpUd0szb1RCQ1pBc0ppS3kzYW5JM1d5ZXk3YmotSUN1aDV0YUpwN3hQLVJKLVVwX2Q3ZElDcmdmWnhteGUyNlBXS1lUX2FXOE5VckhPQ0V2ZXZ6Q3lsdXc5dThhRUE?oc=5",
+      "publishedAt": "2026-10-09T07:23:36.000Z",
+      "snippet": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling MarkTechPost",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "912849767e62bc4c",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Open Weight AI Is Moving the Competitive Advantage From Models to Inference - HackerNoon",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZDdDN2FCN08zRFZ1RlU2WUhhLUJ4Nlhwdnd3ZFlEc0JuVjNicS13RC1ZbXpadjA2cGxLd3BvWnVLak56ajFkZXpIdE81RzZwZ0VEckZVOWhEbUxwaDg1aGZwT09MbXN4YndsLWFhcWlQRWNzMHpaOV9SUHdQQ0VtTi03NV9saVlkTzQzYXVKQlFZUkZuSTdYSXBaNWxJdWs?oc=5",
+      "publishedAt": "2026-10-09T06:58:35.000Z",
+      "snippet": "Open Weight AI Is Moving the Competitive Advantage From Models to Inference HackerNoon",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "06a38494d87fcfa3",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "MXC - a sandboxed code execution system",
+      "url": "https://github.com/microsoft/mxc",
+      "publishedAt": "2026-10-09T05:51:29.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "cac4aae89390c68b",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "finally a good small model｜Theo - t3.gg - finance.biggo.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EaHo5Z3U4UlpuR2hYc1pCUUxCalQzWXRhOHlacTZ3LU0wWGdyODQ3M3FBT2dTR0gzV2xaeFFOTXdVSkZHZFVWcU9HZjlMa09PYkVUbW1GZThhUy1MTFRN?oc=5",
+      "publishedAt": "2026-10-09T04:38:50.000Z",
+      "snippet": "finally a good small model｜Theo - t3.gg finance.biggo.com",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "108b37f3156b9ef8",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "cstm.AI Launched by Custom Software Development Company DEV.co - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFI1RnptX1pfZGRHckM5V3VWVmRfNmVpNHRocEtDdVRGNWUxSUNwM2E0WlpaUnFqWi15TDRXQTJGckpkZ0wxU2JvRzVHMW95SzJDOFZvRHl2V0VyMVlkQWRWZlhicm1lR0NpV0s2OHVqeHlkbWx5cHNUUy01MndfeTBQR3FMWjlpTmw0VWRPRWhtVmpOTXRNSUNZbW11N21KSWRoNmJTdnE1ZTR2RjNqUXFZcXM?oc=5",
+      "publishedAt": "2026-10-09T01:34:03.000Z",
+      "snippet": "cstm.AI Launched by Custom Software Development Company DEV.co USA Today",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "022b4622de2b5233",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "JetBrains Mellum2.1: 12B Model Hits 47% SWE-Bench [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wNEcxbWhKWjBQcS1LOUJPbFhEcmRkRl9tSUpJOFBwWno1TmJ2c3Y4WEV2SnB6cEgxeUx5T2Nhdy15M1ppbnVCLU03Z0F5c0gxME9IRGh5SlNZTlQ4bnRCNURsUkI2UV9lcXBKMDJvU0s?oc=5",
+      "publishedAt": "2026-10-09T01:19:15.000Z",
+      "snippet": "JetBrains Mellum2.1: 12B Model Hits 47% SWE-Bench [2026] shattered.io",
+      "score": 5,
+      "tags": []
     },
     {
       "id": "04c2ed684e6a0cb4",
@@ -1194,6 +1346,28 @@
       "tags": []
     },
     {
+      "id": "a5ca18b892b7e819",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "He Helped Create Modern AI. Now the ‘Godfather of AI’ Wants an FDA-Style Approval System for It. - Entrepreneur",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOWdDTFhRc2VuX0lhSTdHNGpWa1dzMnFKbnU0MWNrMGQyODhDRWFmQURObzdHMW9scGl5cG1JTXktbl92clk2Vk5ZX3F0aG9KNlhZZGRkTkxWRUoya0Q5R0x5V3A4cS16YU1jTG1CQnYxV1B5WHFhUmEwS3NSa0I3RWVIZDVxTHZna3djYTdPemtGbXZyNWhZVHhSSkRMQkE?oc=5",
+      "publishedAt": "2026-10-08T18:34:07.000Z",
+      "snippet": "He Helped Create Modern AI. Now the ‘Godfather of AI’ Wants an FDA-Style Approval System for It. Entrepreneur",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "67e2d2f77f746434",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Cloudflare Keeps 1.1.1.1 Out of Piracy Blocking, Escapes Penalties in France",
+      "url": "https://torrentfreak.com/cloudflare-keeps-1-1-1-1-out-of-piracy-blocking-escapes-penalties-in-france/",
+      "publishedAt": "2026-10-08T18:32:52.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "9b3bbf9d958f926d",
       "domain": "ai",
       "source": "google_news_ai",
@@ -1216,17 +1390,6 @@
       "tags": []
     },
     {
-      "id": "739dd37a1a51c1ca",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Introducing SWE-2: Pushing the Pareto Frontier - Cognition",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBwTnlyakE4ZHJtTFdkN1dhUUh1UnhsRFpuamNmTTNNVFZvODVkY3VwSloydjAzV0xCNmNSTjlBdHJpU0FhaFM4?oc=5",
-      "publishedAt": "2026-10-08T17:35:04.000Z",
-      "snippet": "Introducing SWE-2: Pushing the Pareto Frontier Cognition",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "284c055db9a0fd9c",
       "domain": "ai",
       "source": "google_news_ai",
@@ -1238,24 +1401,24 @@
       "tags": []
     },
     {
-      "id": "e24d7a1a3514cd30",
+      "id": "c654cb5e2a8bb6c6",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents - MarkTechPost",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUF9nVDF4bTd4bVNmT0x1RjdhVkt3cmdWLVNvSktGaFhjb0lKeUJlY3ROY0RfRlA4UnRuRjhlcU1MNXFiYlJBYWpQNVNnWUl3eFZnbFNfOGtQVTJtUFE1UEtyVVlsdkZPenM3d0gxcHlnQzZEeTVXWlU1bDIxMDdpSDdlOWNXSkRCbTlLQWthay1hckt6LUM3bEVfNVd3NjR2eVZiTTRqMXhUbGcxcHpRM01HVGTSAbQBQVVfeXFMTVBfZ1QxeG03eG1TZk9MdUY3YVZLd3JnVi1Tb0pLRmhYY29JSnlCZWN0TmNEX0ZQOFJ0bkY4ZXFNTDVxYmJSQWFqUDVTZ1lJd3hWZ2xTXzhrUFUybVBRNVBLclVZbHZGT3pzN3dIMXB5Z0M2RHk1V1pVNWwyMTA3aUg3ZTljV0pEQm05S0FrYWstYXJLei1DN2xFXzVXdzY0dnlWYk00ajF4VGxnMXB6UTNNR1Rk?oc=5",
-      "publishedAt": "2026-10-08T16:17:35.000Z",
-      "snippet": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents MarkTechPost",
+      "title": "CIQ launches Fuzzball 4.3 for easy AI model dep... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNndwY0RtUGNJVHdoeU9UN1FaT1Roa0w1VEh3SmQyTTBweDJ2M2kzODJCcVZIdnZEa0Y1NlZOYXVYSXdiaExPak1EdERkNWVMeVhKaDZfclNfSmhzRHB3NW9WSTdjWV8tZWRBeF9oaTZZTlk3ZFd3anhzLUdNQjlQSkUzNmZqU295VnItX2pvZUhkWW4zTl9KUjFNMTQ?oc=5",
+      "publishedAt": "2026-10-08T16:25:49.000Z",
+      "snippet": "CIQ launches Fuzzball 4.3 for easy AI model dep... Pluang",
       "score": 5,
       "tags": []
     },
     {
-      "id": "586ce5e3be6bf0e9",
+      "id": "1573aef5f55ef87d",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "AI Tracker: Teladoc launches new AI features - Modern Healthcare",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0Zsbm5XcmxTU0JuTzczTC1fUF9FVzB3LTJ3X2hLYVRJUFl3ZXB6TEZoMldEOXlkTXBTOVp2amNpLXFVeWlBUUd4X2dZNzlvUnB2LUoybW9LRThOY2pjN18tbnB3S2NieGMwSm9fVVBuZHprWUFrTU50Wk91ZVREV3NDZ1hvQ3RxcW9zeEMxMGs?oc=5",
-      "publishedAt": "2026-10-08T15:52:52.000Z",
-      "snippet": "AI Tracker: Teladoc launches new AI features Modern Healthcare",
+      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents - MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU1dXa214MmlITzRLVk9GWUczZFdkQTR4Q3ZqOGVPNDNEZDFhcFpUU2IzVjVuVVFSQjNmNEJCVjZPYjk2VktkdEpFNFhpcGxOUFZkTzdPV0ZVbEtGVlcyM3p2ODhieF9QdFQ4TWs0WlpiWDRkX1RROWZFQ2JwenZvb2ZLbmpOdFRKaFUwZGE0M2pzNFliWV9YbU8zZm02QlRJLW9uZ2FCOW5qT0VC0gGsAUFVX3lxTFBTV1drbXgyaUhPNEtWT0ZZRzNkV2RBNHhDdmo4ZU80M0RkMWFwWlRTYjNWNW5VUVJCM2Y0QkJWNk9iOTZWS2R0SkU0WGlwbE5QVmRPN09XRlVsS0ZWVzIzenY4OGJ4X1B0VDhNazRaWmJYNGRfVFE5ZkVDYnB6dm9vZktuak50VEpoVTBkYTQzanM0WWJZX1htTzNmbTZCVEktb25nYUI5bmpPRUI?oc=5",
+      "publishedAt": "2026-10-08T16:17:35.000Z",
+      "snippet": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents MarkTechPost",
       "score": 5,
       "tags": []
     },
@@ -1271,13 +1434,13 @@
       "tags": []
     },
     {
-      "id": "090ac7c9aaefcc76",
+      "id": "f0de3a8f20e11480",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "What Nvidia Just Announced - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01OEhBMjBIQ3ZoQkFEVXJRXzhLWjJQbE5RVjVaUjBQSlVVR2RYY0F0bTB5aFluZzVWOFJwaWlGb3VhMlhQSzNBNzFEUHBDVzQ4V0lJYTE3NHg3SkJrSzVKSDZR?oc=5",
-      "publishedAt": "2026-10-08T14:47:14.000Z",
-      "snippet": "What Nvidia Just Announced https://tech-insider.org/",
+      "title": "Nvidia’s $20B Open-Source Bet Targets China’s Lead [2026] - https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51eDU3Z3l4bUZJTTFFdFoxVVpPSGYyaVRSODZ3SVhWU0F1emRHX2pKUjlidkp1M2V1RXNXVFo3UEhtUVVLTUFNRHktT0dCVFEycTlsbzU4S05wTzFidVN6QUR6NFZjeElaU2hPZGhZam5sbGZWV3A3YmhR?oc=5",
+      "publishedAt": "2026-10-08T14:45:49.000Z",
+      "snippet": "Nvidia’s $20B Open-Source Bet Targets China’s Lead [2026] https://tech-insider.org/",
       "score": 5,
       "tags": []
     },
@@ -1326,6 +1489,17 @@
       "tags": []
     },
     {
+      "id": "7d96dd718bf8af80",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "New CRAM method offers giant boost to compressed memory reads",
+      "url": "https://www.tomshardware.com/software/linux/new-linux-tech-compresses-memory-in-ram-as-ram-for-452x-speedup-new-cram-method-offers-giant-boost-to-compressed-memory-reads",
+      "publishedAt": "2026-10-08T13:11:41.000Z",
+      "snippet": "https://lpc.events/event/20/contributions/2424/ https://www.phoronix.com/news/Linux-CRAM-Compressed-RAM",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "18d937b3a164b800",
       "domain": "ai",
       "source": "google_news_ai",
@@ -1337,13 +1511,24 @@
       "tags": []
     },
     {
-      "id": "fea83cf54e6172cc",
+      "id": "0c1b51722b54edc8",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Perfect Corp. Integrates the Newly Launched “Vidu Q4 Preview” AI Video Model Across All YouCam Apps and YouCam Online Editor, Among the First Worldwide - Morningstar",
-      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOMHpPdjYxNDZnSFlLdWlUUXRIQTlBd1dpZEpjTEd3MUsyR0owdlpKcVBBS25faVVXWmJ2RXIxOEozcFFqZE42NWhxT3Jpckc5cklFUmtyRVJrZnFoVUludjdSM1dHTUs5UllhZlhLRTVodHV5cXdYOW1OeVhKQmtrc2M4VDJUU25kTFlxMjRqSDY2djBoU05qUEhULWMtWXdQRHMwZXlITnB3eWdsaEdpeEljMWE3VzNycENVb29Wa2VjbWVjdTJGU2FjN0lTVVA4bnVQcEJKOUUyWFhDc0R1Rlo0U3RQWWhDampoYWZ3OFowRlpKQU1GTUc1c2FKckhTX29FS1BOWkFGbElNMWhHb2xWR1haMEhUSWZ4dlFWa3hxTTZ5QzhnOUVqSVNxNzhBbWlV?oc=5",
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "snippet": "Perfect Corp. Integrates the Newly Launched “Vidu Q4 Preview” AI Video Model Across All YouCam Apps and YouCam Online Editor, Among the First Worldwide Morningstar",
+      "title": "Perfect Corp. Integrates the Newly Launched “Vidu Q4 Preview” AI Video Model Across All YouCam Apps and YouCam Online Editor, Among the First Worldwide - AOL.ca",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTGg5NlVNNmZPQk9tTmhSU09nS0ZaOFlKbHdKWS1qcGc0Sk1ldHZZX1A5by10bzdxTEQyMXRoU0RISmRvaEk3OC1mZG13YVNTcGFJSUR6aUxaaGVlS3FHdW1zQkJOWThsNUU4d1B2MzJPcHRmZGRrQmVuT0dDRVEtR1JhaTE3MGF1?oc=5",
+      "publishedAt": "2026-10-08T12:02:59.000Z",
+      "snippet": "Perfect Corp. Integrates the Newly Launched “Vidu Q4 Preview” AI Video Model Across All YouCam Apps and YouCam Online Editor, Among the First Worldwide AOL.ca",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "7a92258175481d48",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Mistral Large 4 (Le Chonk): A Review of Europe’s Trillion-Parameter Model and Its Open-Weight… - Medium",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVEVreUF5WHFJakRYZDNCSGJxYlpTS1l5RkhOSWQ5NUM0U255cUVNV3Q4Q1VvQU00R1JEVl83RmQxak1VQ2Rsejd5b2M2aFdtMER2Q1MzR2d1MXZnVVpGcERmTmJCbmdsOGRKczZkXzY1SnFRXzFfbFJxcG9ORzNRM2IyMkRvWl9xNjh0Szl1eFQ1STV3SGp4cTNwR2d5MEQ2ZUxacG1KMFAxUVdISUFyUy1LdzJtUVB0S2NBQ3dWYjRBM0cxOTNMNjZJT1JVcUk?oc=5",
+      "publishedAt": "2026-10-08T11:57:11.000Z",
+      "snippet": "Mistral Large 4 (Le Chonk): A Review of Europe’s Trillion-Parameter Model and Its Open-Weight… Medium",
       "score": 5,
       "tags": []
     },
@@ -1359,191 +1544,109 @@
       "tags": []
     },
     {
-      "id": "fcbf904ba0a19696",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Geoffrey Hinton Calls For FDA-Style Safety Approval Before AI Systems Are Released - Tekedia",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNenluQnF6YTBZaW12ZmlOMnI5ekhCZnotdE5VVmJaXzljMTJzOGYxU0sxTXFlQXk5YjA5R1hNV1luMWhndjN6aW1pM0lnaURlX1dQd0dQYVNYX0MtbXdfTk9HRGtMM0ItZTJTOGRERnE0UXFsb2c2TVp6WWFVRUNFMXFmazJrTWJxMWhSVnF3dXp2Sk5BRGN6SDZmMFh0bXRmdURMU1dUX0YxNmc?oc=5",
-      "publishedAt": "2026-10-08T11:05:13.000Z",
-      "snippet": "Geoffrey Hinton Calls For FDA-Style Safety Approval Before AI Systems Are Released Tekedia",
+      "id": "72b34a5860683b6c",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "Guest Post – Do Not Go Gentle: Duke University Press Turns 100",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/08/guest-post-do-not-go-gentle-duke-university-press-turns-100/",
+      "publishedAt": "2026-10-08T09:30:20.000Z",
+      "snippet": "As Duke University Press celebrates its 100th year, we take some time to reflect on our history and the important role played by university presses. The post Guest Post – Do Not Go Gentle: Duke University Press Turns 100 appeared first on The Scholarly Kitchen .",
       "score": 5,
       "tags": []
     },
     {
-      "id": "dcaae855493e8dc7",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Nvidia Bets $60M AI Factories on Open-Source Models [2026] - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zdXVLV1BkSW5JQi01WHg3R1JlUXlybE0wOGZNR3Y5Z1V3Zzg3ZXFjZWtZNi1rWUVKVldwQzdmWDd5YVRWUkkxb2VmUzVGNjYtS1RnZ0owYTI5RHg0UzJBVlBKRDYzUnFLZjcxTG1xS05wNDQxZUE?oc=5",
-      "publishedAt": "2026-10-08T10:48:57.000Z",
-      "snippet": "Nvidia Bets $60M AI Factories on Open-Source Models [2026] shattered.io",
+      "id": "60e208886de2c960",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Gentoo infrastructure sponsors wanted",
+      "url": "https://www.gentoo.org/news/2026/10/07/infrastructure-sponsors-wanted.html",
+      "publishedAt": "2026-10-08T09:23:49.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "14d8bbee87eb8675",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter - Geeky Gadgets",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ERWxTZGJSV2VsWjZYaXd4ZzB4eFdxOFJpZEYzQkswRXgzMmVvdmJpeUIxVFBveXVZQlpxM1hyOFI1Y0dOeEFvUXRiWVNmOTk0eGM4cHVzRWMyMFppTGFrZVpXU0dmazVu?oc=5",
-      "publishedAt": "2026-10-08T10:48:25.000Z",
-      "snippet": "Mistral Large 4 Open Source AI Enters Public Preview: One Trillion Parameter Geeky Gadgets",
+      "id": "27941f2fe99fead8",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Beyond the &",
+      "url": "https://lwn.net/SubscriberLink/1096028/7524dbcae1be7205/",
+      "publishedAt": "2026-10-08T09:04:32.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "0c30a524552582d5",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVU1keF9rZ0tJY1VWOVdQNTJOLV9NbndpOGc0TENacTlSTWI2Vnh5empUTENqRlJDeTZjQk1VMFBNTFpqamhpdTgzYzI0c2JEc0d5WVRTLUR4RFpJX3F0dEtmWXJLdU1PMzdyOGluRFJPRzlaR1o3NWJjZ3JtQlMyeHIyMjcxeUpLa0pPbXBJZ0RndG40NklXS2VzeTJCdUxrWDVn?oc=5",
-      "publishedAt": "2026-10-08T10:35:35.000Z",
-      "snippet": "Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1 WSJ",
+      "id": "df7d699c33590221",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "jujutsu (jj) 0.46.0",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
+      "publishedAt": "2026-10-08T09:02:42.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "9ceea2f6e5b6c60f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Cloudflare open sources decision models for AI agents - news.lavx.hu",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPV0JzeVM2LVVKaGFyUk5NdE1uTDRERk5YZDVUaG03dElJZXJVQjhKTGNhYV9yZEVVUTdfd3BqdVNLbWptSERCSXhVdElmWVNmRVctcmN3X25WSHBKWVhsS0xlTVZCRHNmenNoTncwOHlKTDAtZWtLWUFHbU5FcGV1T2JWalRGSWdJYnc?oc=5",
-      "publishedAt": "2026-10-08T08:38:34.000Z",
-      "snippet": "Cloudflare open sources decision models for AI agents news.lavx.hu",
+      "id": "5fd74cb183c58b7b",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "The people holding up the internet",
+      "url": "https://sheets.works/data-viz/holding-up-the-internet",
+      "publishedAt": "2026-10-08T08:18:39.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "b363bd2b874867e0",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "GPT-6 and Intelligent UI roll out to free ChatGPT users - Resultsense",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVVfaEd1WHYtdUpWX1lYaXpzM05NTFZZM1VXSTctQUdNVzRXWHVPUmEyeERCY25yOTBaWVlITEhTcG1uc2FVT193b0UwcDlJQTcyaE1DMVZRdlZNRW9UUDQzQ1BfUk80aHVwM19RSXlqdXZ1ZmhHRlEyeU9qYXdEOHg0YVpnWmU4djFtbndR?oc=5",
-      "publishedAt": "2026-10-08T08:30:46.000Z",
-      "snippet": "GPT-6 and Intelligent UI roll out to free ChatGPT users Resultsense",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "ee13ae881086ab43",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Open-Weight AI Changed the Race, Not the Rules - https://streamlinefeed.co.ke/",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM0tLRmxYc1N3UDBUWmtJajliYXpjWHNvY29kelBaekxSSlhJb0trTEEyMFhtQlNpaXdWOUs2TTExYW94LVpCY1dVWGJvRnBmM3Q0bnRvSG9iMl96WDhyTE90R0RiOTQ2MmRwRTVva01SeWEwcXFBZGxaWElMX09VMXRBYmp0Zw?oc=5",
-      "publishedAt": "2026-10-08T08:02:07.000Z",
-      "snippet": "Open-Weight AI Changed the Race, Not the Rules https://streamlinefeed.co.ke/",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "0d6d4ab546509b8f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Claude Haiku 5.5: Pricing, Features and AI Model Updates - Business Outreach Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zSVlabVEtNVd4cFgwemVaajJXNjJWZ0JmQy13Y3kyMUJSSEVjdTF2eUtCVEtWTk4tNXJfZHNuMFpKWHAtQy1lemlYUkJPbmFoNl9HcklZaWtrVS1ITVE?oc=5",
-      "publishedAt": "2026-10-08T07:43:36.000Z",
-      "snippet": "Claude Haiku 5.5: Pricing, Features and AI Model Updates Business Outreach Magazine",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "8d5770ed96352b21",
+      "id": "7c1cb73d9bc8dcd4",
       "domain": "ai",
       "source": "hackernews",
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "publishedAt": "2026-10-08T07:07:34.000Z",
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "url": "https://github.com/openai/math/blob/main/history.md",
+      "publishedAt": "2026-10-08T08:08:37.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
+      "tags": [
+        "openai"
+      ]
     },
     {
-      "id": "a21d61f8ecabd0cf",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Local MAI-Code-1.1-Flash: Specs, Evals and Hardware Costs - Kingy AI",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FUTFtSVN2UlpzMk1mYm9ObEVXcE5OYW12SkZhYjVkVVJuSFJDLWFQYXpIMWctdHNHWXFlTGtlY0dCdWFpSVV5T1ppQ1FObDFTRGlnUlNTU0lueVBtWEU5YVllTTJld3JUNHlGYWVyRHJ3eV9sMVQ3TTJzMnBlaEU?oc=5",
-      "publishedAt": "2026-10-08T06:54:54.000Z",
-      "snippet": "Local MAI-Code-1.1-Flash: Specs, Evals and Hardware Costs Kingy AI",
+      "id": "aec1d77d39613c70",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "I've Been Deindexed by Google",
+      "url": "https://kennyqin.com/deindexed-by-google/",
+      "publishedAt": "2026-10-08T07:59:30.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "c1fb58d18f87d5bf",
+      "id": "7e813afdc2dd0ebb",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "As Suno Rolls Out Its New AI Models With Industry Licenses, What Does That Mean For the Music Business? - Billboard",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcEtEZ3NjLTg4Z2JuRWNIVlVYTGExazRUb3N0aWthNGZUNGIzRExiV3BKSFAyajFIbHBnbWNCbjJoSGVWTUlmdV9kYVc2MFlnZVpfb21hVEktcS05aGJJR2F4SVU5aEF5dkNwM2tZZUtnQTFPSWVCQjQxSE53TEdQNDR1ZFVSSnJ3MWw3UzZkWU5COW9p?oc=5",
-      "publishedAt": "2026-10-08T05:42:52.000Z",
-      "snippet": "As Suno Rolls Out Its New AI Models With Industry Licenses, What Does That Mean For the Music Business? Billboard",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "397718f4c9158baf",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Chinese AI models: 16 September releases and scores - NeoTeo",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNGc2LXhiNkJHQjVpdVY5US1uOTMtOG16LTBkbC1KYTVaN0lMMVFJbXpGUWZrUjB1aVp6LTBNa0YxaFQ1Ul9BTWRFT3FZb2t6UXRGMkNmSGREVkZhNVcwOFJzUV9FV215UXVYVUZQSnNxY1hlZnVQNlQxUkRrMEt1dFBGeHhKMlZNZlpQMGd6cmJJV0Js?oc=5",
-      "publishedAt": "2026-10-08T05:29:37.000Z",
-      "snippet": "Chinese AI models: 16 September releases and scores NeoTeo",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "45f5d07542a82d78",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral Large 4 Preview: What’s Confirmed and What’s Hype - Online Tech Tips",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMXNIMDMyckVySHJseG9JVzBFOEE4ZDhPeTEwaThKNVA3ckgzTnp3cVVmYmoyYWxTNWx2TGM4ckZiRGlseDQxQldYTkVrYnllTlFKX3hpME96SG9SeF9hWmp6djZMVFc4ZlpNeDhrc0V5NU41eDNQOXdxM1RwVWJpaQ?oc=5",
-      "publishedAt": "2026-10-08T04:47:29.000Z",
-      "snippet": "Mistral Large 4 Preview: What’s Confirmed and What’s Hype Online Tech Tips",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "c075bad3d37ba314",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "ChatGPT Claims To Solve Tons Of Ancient Maths Problems - Trak.in",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOamo1aFpwc1lvUTdPSXNuM0xCdnV1TUN6UnBwU0U5V2s1bE9lTDNwTTlWNGs4XzlPa2xfM0NOV0lETC1fS0EwaTAzT3V0UGg3cWdScUlBdzFrdzJqWU9kUktYbjZUN3lfaFBvXzQ4SXd1ZlphREFJRDQ4d013NlZzejlXcEs4UQ?oc=5",
-      "publishedAt": "2026-10-08T04:17:25.000Z",
-      "snippet": "ChatGPT Claims To Solve Tons Of Ancient Maths Problems Trak.in",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "94862fda6c258a1e",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "AI: Nvidia’s Open Source ‘AI Factory’ Push vs China. AI-RTZ #1233 (Part 1) - AI: Reset to Zero",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80bWxMaFRsWUJ0WUQ5d3IwUnFROWh1UjZaZ0U4d3pMYkhSTkszRlc5bWttc2V0UjN5S1N2T1VhZkg5RmpfSk9aYnhsNlhZeU9tZEdIejhzRlc2bnNXVGVBVWszMlRvMXQ3YUY3MGcwQS11MTJ2bDRrbGdn?oc=5",
-      "publishedAt": "2026-10-08T04:10:08.000Z",
-      "snippet": "AI: Nvidia’s Open Source ‘AI Factory’ Push vs China. AI-RTZ #1233 (Part 1) AI: Reset to Zero",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "265d4cf3eb8d58c4",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mark Zuckerberg Says AI's Biggest Danger Isn't Rogue Models. It's Too Much Power In One Place. - International Business Times",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT2lkeWQzSGYxOWhCYUZjV2pCcWhHb01QZmIyTjRDOV9rM2FJdmNCdlVpNWg5S19RcWdzUllBTjJDVURuR19uc3RFYVVtVzc3OU51ZmMwMmQ0NVNkb0tQSnVjZmlzOUJBMWlJc2N6LUJMc3BIYVNuYTh6RkpEY1pkZUFiWjJaYXE5SDVUai0zUncwWXRvcEVla1ZNZzF3dEVxVmgtaDNIQkp3S1ROQUdpRVFCY1NvZ2ktckE?oc=5",
-      "publishedAt": "2026-10-08T03:32:59.000Z",
-      "snippet": "Mark Zuckerberg Says AI's Biggest Danger Isn't Rogue Models. It's Too Much Power In One Place. International Business Times",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "80b7ac0ac9b41e1f",
-      "domain": "github",
       "source": "hackernews",
-      "title": "Zerobrew: A faster alternative to Homebrew",
-      "url": "https://github.com/zerobrewhq/zerobrew",
-      "publishedAt": "2026-10-08T03:23:08.000Z",
+      "title": "OpenAI withdraws three mathematical results",
+      "url": "https://twitter.com/danintheory/status/2108065033070789090",
+      "publishedAt": "2026-10-08T07:05:40.000Z",
+      "snippet": "https://github.com/openai/math/blob/main/history.md",
+      "score": 5,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "3bdeaf80ae85dad0",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Classic PC demoscene productions running natively in the browser",
+      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "publishedAt": "2026-10-08T06:29:25.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
+      "tags": [
+        "browser"
+      ]
     },
     {
       "id": "7682bffe0c3eca3d",
@@ -1555,19 +1658,6 @@
       "snippet": "Data center eyed by Anthropic could break ground soon in Bastrop County The Business Journals",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "18927a30b776f3c2",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "publishedAt": "2026-10-08T00:14:48.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "deepseek"
-      ]
     },
     {
       "id": "efc3dbf0e9953846",
@@ -1625,6 +1715,19 @@
       "snippet": "Comments",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "228366398983e14b",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Pinrail – A desktop inbox where coding agents wait for your review",
+      "url": "https://github.com/forgeplane/pinrail",
+      "publishedAt": "2026-10-07T17:15:03.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": [
+        "show hn"
+      ]
     },
     {
       "id": "9f7e8f81bcae1b61",
@@ -1712,19 +1815,6 @@
       "tags": []
     },
     {
-      "id": "24cc0daa20244200",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Rgpu – a PyTorch device whose tensors live on a remote GPU",
-      "url": "https://github.com/ymcrcat/rgpu",
-      "publishedAt": "2026-10-07T05:15:44.000Z",
-      "snippet": "rGPU runs GPU work on a remote NVIDIA machine while the application stays on the client.",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
       "id": "b6572969fc7ca61d",
       "domain": "ai",
       "source": "simonwillison",
@@ -1734,19 +1824,6 @@
       "snippet": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even t",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "70fd534ea95295c9",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
-      "url": "https://github.com/nano-muse/nanoMuse",
-      "publishedAt": "2026-10-07T03:30:44.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "6037779a0205eb30",
@@ -1826,26 +1903,30 @@
       "tags": []
     },
     {
-      "id": "2bc2badfc76797eb",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Research Integrity in Scholarly Communications — SSP Pulse Check Report",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/06/research-integrity-in-scholarly-communications-ssp-pulse-check-report/",
-      "publishedAt": "2026-10-06T09:30:14.000Z",
-      "snippet": "Today, we take a dive into the results of SSP's latest Pulse Check Survey, revealing how our community is grappling with research integrity and its interconnected challenges. The post Research Integrity in Scholarly Communications — SSP Pulse Check Report appeared first on The Scholarly Kitchen .",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "c76ed80534a7ac08",
+      "id": "8066135daebfb69d",
       "domain": "publishing",
       "source": "google_news_onhold",
-      "title": "Trump approves firing squad execution for Fort Hood shooter Nidal Hasan - Jacksonville Journal-Courier",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGR1cDBVeVUxTF92aWdRLTVaejdEMkJkOGw4ZlJYWVhjUF9jQVhhQzd2UVFNNk1OZE1RZVZHM1p0QWxvMDNLdkJQM0x1ZnRvU1dOSFIzYXFEcUtkRmI3ZlJrY3k2ZmtMa0JjcEZmNEkyQURZVEhtNGVVVkdHSDI4cXBIN0Y2U3Z3OXV4R1dSaEJia0NNOF9SWTRMN3dQVjZaWlhBUDdNV24?oc=5",
-      "publishedAt": "2026-10-06T03:18:26.000Z",
-      "snippet": "Trump approves firing squad execution for Fort Hood shooter Nidal Hasan Jacksonville Journal-Courier",
+      "title": "Harkin food-safety bill put on hold - Sioux City Journal",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYmJsdjNrOWNQYkc0YXhrZ05ra2RQekJ4RFphdWl4QnJ2clZUNmNQYU9mN2hxMHpTbldqS2pvNm95SXcyRjNremI5ZWhGVHE5ZllNZmdTcUN4c1Q5NVJ6dXZfVElyNUZYa2dsMkc5Z1c4ZEVBRGZMN0ttWFpYbjhiU2hCZEJQSFFBZ0NVdEZDQVNHZXJwdk1NMUowaWMzcDBvTVBqbDlFVE5zQU0?oc=5",
+      "publishedAt": "2026-10-06T09:53:44.000Z",
+      "snippet": "Harkin food-safety bill put on hold Sioux City Journal",
       "score": 5,
-      "tags": []
+      "tags": [
+        "on hold"
+      ]
+    },
+    {
+      "id": "a0ec6b1f9075d606",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Zurich completes Beazley takeover as Beazley stock is delisted - AD HOC NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNckkxX2xJdDBvZFJRUllTUlJvbzIwSng3YldhQUlmWjBXcU9sOGgwSVhyejhSLTMyai16cVFVVGlKZDZHOHhrU1ZLNmxMbXh4NWtVdVRKaUpONENtZXJxUXdsdXdWb2JXWTNtYkE1UG1DUU5WSl9GNjRQMkY0Y1JQbmUtdF9ETmFwdGdac2J6enJMclRQdmVIOHc2cV84SUFjNFVDRDM1R2Q0RWQ3bWFnR0tYMTJOanMzcjV4RkI5Ml9HOTA?oc=5",
+      "publishedAt": "2026-10-06T09:34:27.000Z",
+      "snippet": "Zurich completes Beazley takeover as Beazley stock is delisted AD HOC NEWS",
+      "score": 5,
+      "tags": [
+        "delisted"
+      ]
     },
     {
       "id": "2f410fa7dfa2a08d",
@@ -1959,19 +2040,6 @@
       ]
     },
     {
-      "id": "2ddaeb9b682ac445",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "Boeing Max 10 certification on hold as FAA evaluates go-around software bug - FlightGlobal",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR3QxY2poaEgyamM0YlBDbDlxU1hubDUtSVRncWE3MVd4eTM2NkRHaWVTbkRZM3packNuV3l2NlBzVThUT3NER1U0cm9sWlNONXdYME9mRTROSU5ja0Q4NkZsUU9DdktnQmJFbWFQTnlnOENIaE9vc1hOTjN6VWJ3dnY1emt6S0ZlNW9RM1U2eGh0emJiX0Y5RkdIZE9qYW9ZVEw1TlM5Ni00MG05amxaaHEyM1RxTW95VndRclVOd3l1QQ?oc=5",
-      "publishedAt": "2026-09-28T21:11:42.000Z",
-      "snippet": "Boeing Max 10 certification on hold as FAA evaluates go-around software bug FlightGlobal",
-      "score": 5,
-      "tags": [
-        "on hold"
-      ]
-    },
-    {
       "id": "6f2e9383be18028b",
       "domain": "publishing",
       "source": "google_news_onhold",
@@ -1979,6 +2047,19 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVWt1VjdnYy02TFFheHd5S0dZdUVDRUFmSGpkRnJyeWpOandRZzZ2YUpPa1FfYjY4SHpQdFFaRkNjSkV4alladmpsU2N6SnRmU2FuNy1vVnp4NXlsSWk4SnRoaG9xRUJMR3ppWGlfSWJfdTFXY1R6cXlqMF93QWJXUXEtUnFFU2hsZzh5ZE95M2NjbU9ncDVwbVZDaEw?oc=5",
       "publishedAt": "2026-09-28T14:28:36.000Z",
       "snippet": "FDA keeps Newron’s evenamide trial on hold in U.S. European Biotechnology Magazine",
+      "score": 5,
+      "tags": [
+        "on hold"
+      ]
+    },
+    {
+      "id": "2ddaeb9b682ac445",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Boeing Max 10 certification on hold as FAA evaluates go-around software bug - FlightGlobal",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR3QxY2poaEgyamM0YlBDbDlxU1hubDUtSVRncWE3MVd4eTM2NkRHaWVTbkRZM3packNuV3l2NlBzVThUT3NER1U0cm9sWlNONXdYME9mRTROSU5ja0Q4NkZsUU9DdktnQmJFbWFQTnlnOENIaE9vc1hOTjN6VWJ3dnY1emt6S0ZlNW9RM1U2eGh0emJiX0Y5RkdIZE9qYW9ZVEw1TlM5Ni00MG05amxaaHEyM1RxTW95VndRclVOd3l1QQ?oc=5",
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "snippet": "Boeing Max 10 certification on hold as FAA evaluates go-around software bug FlightGlobal",
       "score": 5,
       "tags": [
         "on hold"
@@ -2033,41 +2114,6 @@
       "tags": [
         "on hold"
       ]
-    },
-    {
-      "id": "ee8ee56bcf69a06c",
-      "domain": "publishing",
-      "source": "retraction_watch",
-      "title": "Tennessee researcher heads to court amid claims of theft, forgery and revenge",
-      "url": "https://retractionwatch.com/2026/09/24/tennessee-researcher-heads-to-court-amid-claims-of-theft-forgery-and-revenge/",
-      "publishedAt": "2026-09-24T10:00:00.000Z",
-      "snippet": "In May 2025, Tennessee authorities were preparing to arrest a university math professor for allegedly soliciting university donations from his students and pocketing the money. Investigative records paint the picture of a professor who took financial and personal advantage of his students for years ",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "f8465ef980b2e547",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "Council meetings could be slashed despite Devon reorganisation being put on hold - Exmouth Journal",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLVZFSnhqaUJBcS1zcTFWcUxtbW5GQnIwYnJ3c1JHRXN3QW5qYnlhZGdHMlppbTJYYkZVT1FOc2xwZHdJUExRVGowaG5USFpLMGtXVFN4ZU9XMkhEellHeFVjVFRhZ1pjM0pPaTFHVlh5cUtHMmJhdFZ0RFIzblh0WkhZZTdtYkNXYkVQbkhrMHhnOUR1OTNSUg?oc=5",
-      "publishedAt": "2026-09-24T07:15:00.000Z",
-      "snippet": "Council meetings could be slashed despite Devon reorganisation being put on hold Exmouth Journal",
-      "score": 5,
-      "tags": [
-        "on hold"
-      ]
-    },
-    {
-      "id": "4585de021034103c",
-      "domain": "publishing",
-      "source": "retraction_watch",
-      "title": "Wiley investigating book chapter on biodiversity for fake references",
-      "url": "https://retractionwatch.com/2026/09/23/wiley-investigating-book-chapter-on-biodiversity-for-fake-references/",
-      "publishedAt": "2026-09-23T10:00:00.000Z",
-      "snippet": "While reading a chapter from a 2024 book on restoring biodiversity in post-industrial land earlier this month, an ecologist came across a reference to a study on rewilding she wanted to look up. But the ecologist, who has asked to remain anonymous for fear of retaliation from the chapter authors, co",
-      "score": 5,
-      "tags": []
     },
     {
       "id": "0f76fd38c33a0294",
@@ -2239,39 +2285,13 @@
       ]
     },
     {
-      "id": "403c38876e27fc9c",
+      "id": "769164b4a13a2d88",
       "domain": "github",
       "source": "github_trending",
-      "title": "liquidslr/system-design-notes",
-      "url": "https://github.com/liquidslr/system-design-notes",
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
       "publishedAt": null,
-      "snippet": "Notes of the book System Desgin Interview - An Insider's Guide 393 stars today",
-      "score": 5,
-      "tags": [
-        "stars"
-      ]
-    },
-    {
-      "id": "5005c3abb8cb9e6f",
-      "domain": "github",
-      "source": "github_trending",
-      "title": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "publishedAt": null,
-      "snippet": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More [TypeScript] 670 stars today",
-      "score": 5,
-      "tags": [
-        "stars"
-      ]
-    },
-    {
-      "id": "71329c71c3325f7a",
-      "domain": "github",
-      "source": "github_trending",
-      "title": "EpicGames/raddebugger",
-      "url": "https://github.com/EpicGames/raddebugger",
-      "publishedAt": null,
-      "snippet": "A native, user-mode, multi-process, graphical debugger. [C] 279 stars today",
+      "snippet": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. [Go] 323 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -2291,35 +2311,48 @@
       ]
     },
     {
-      "id": "916c39335b92dcd2",
+      "id": "ee6c68beddbc478a",
+      "domain": "github",
+      "source": "github_trending",
+      "title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "publishedAt": null,
+      "snippet": "Production-grade engineering skills for AI coding agents. [JavaScript] 751 stars today",
+      "score": 5,
+      "tags": [
+        "stars"
+      ]
+    },
+    {
+      "id": "8d5770ed96352b21",
       "domain": "ai",
       "source": "hackernews",
-      "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
-      "url": "https://github.com/pingdotgg/ts-rust",
-      "publishedAt": "2026-10-08T00:46:00.000Z",
+      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
+      "publishedAt": "2026-10-08T07:07:34.000Z",
       "snippet": "",
       "score": 4,
       "tags": []
     },
     {
-      "id": "8ec4ad11cff77bc4",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-      "publishedAt": "2026-10-07T18:49:40.000Z",
-      "snippet": "",
+      "id": "2bc2badfc76797eb",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "Research Integrity in Scholarly Communications — SSP Pulse Check Report",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/06/research-integrity-in-scholarly-communications-ssp-pulse-check-report/",
+      "publishedAt": "2026-10-06T09:30:14.000Z",
+      "snippet": "Today, we take a dive into the results of SSP's latest Pulse Check Survey, revealing how our community is grappling with research integrity and its interconnected challenges. The post Research Integrity in Scholarly Communications — SSP Pulse Check Report appeared first on The Scholarly Kitchen .",
       "score": 4,
       "tags": []
     },
     {
-      "id": "601e9e897f008fa5",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "GPT‑6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
-      "publishedAt": "2026-10-07T18:00:58.000Z",
-      "snippet": "",
+      "id": "c76ed80534a7ac08",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Trump approves firing squad execution for Fort Hood shooter Nidal Hasan - Jacksonville Journal-Courier",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGR1cDBVeVUxTF92aWdRLTVaejdEMkJkOGw4ZlJYWVhjUF9jQVhhQzd2UVFNNk1OZE1RZVZHM1p0QWxvMDNLdkJQM0x1ZnRvU1dOSFIzYXFEcUtkRmI3ZlJrY3k2ZmtMa0JjcEZmNEkyQURZVEhtNGVVVkdHSDI4cXBIN0Y2U3Z3OXV4R1dSaEJia0NNOF9SWTRMN3dQVjZaWlhBUDdNV24?oc=5",
+      "publishedAt": "2026-10-06T03:18:26.000Z",
+      "snippet": "Trump approves firing squad execution for Fort Hood shooter Nidal Hasan Jacksonville Journal-Courier",
       "score": 4,
       "tags": []
     },
@@ -2379,6 +2412,17 @@
       "tags": []
     },
     {
+      "id": "0293c823e01c79d0",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Crevaison à l’atterrissage : un avion se pose dans la pelouse - Le Journal de Saint-Barth",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbFFaMndxX1hBM1JnZDh1SlAzbm44cThqQWt0UFF1UHNRLXpuejAwc1ozNUtNMG41N2JqaWo3YkIzb1JoT0MxaG9tTEQ3T2FNbFp5UXNMZFVSYVFwYnY3YlRRd2VmdTAzSjh0Ti1mdWpJRFhSZnhISXRyMFlERDVoMjJwdnNUNkhTR1lJTF9DeXdSa2hPMi1hSklfSUl0b2c0bmI3WWhVUk5pT3pIY1hrck9ldE9ybDRBa3cyMFF6Qy1YdkkxcTV2N0tYcGluMERISVlz?oc=5",
+      "publishedAt": "2026-10-04T00:23:25.000Z",
+      "snippet": "Crevaison à l’atterrissage : un avion se pose dans la pelouse Le Journal de Saint-Barth",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "84c11c83e20371a9",
       "domain": "ai",
       "source": "simonwillison",
@@ -2419,6 +2463,17 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOWpBa294MXNDV0Vxb05YVGw0UGt2QVhULWtxa1pEcG1faDZKdURLQXg5RzBQclRoTmdYVEI1ekU5a0U2UlF4cFhGa1RKMmNpVktCRFRuNk5CMmNqbDhDVTUtNjN3X293TU8weE1QSy0zQ0NuM1dZekRzUUVuNVlYZmhsbjJzLXVQYllDVUxLc2c2ejVFUTMtQlNKR2N0N1hHUW5pY3RCUmc?oc=5",
       "publishedAt": "2026-10-02T21:08:00.000Z",
       "snippet": "Seattle space startup Hubble Network seeks larger digs after 9-figure round The Business Journals",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "12b7c028fd754388",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Senate Leadership Fund pauses funding in NC Senate race - Carolina Journal",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVzhFN1JSd0I3SGpQWjBnUllmNmtYSVF3dGZoYXpjX3JaZUZBX3V4cDJWM1hFOXU1RFJkdjhSRzlDNlBhNjhFUDNVMW16MHd1cWRRaWs1VUZTbnlNVWxzWnc1bVdESDZoYWhkYjhURzZIVE53MTQ0aVZyNTY3eTZDenY5OERFaG9YVnJpaUxURUdldw?oc=5",
+      "publishedAt": "2026-10-02T21:02:24.000Z",
+      "snippet": "Senate Leadership Fund pauses funding in NC Senate race Carolina Journal",
       "score": 4,
       "tags": []
     },
@@ -2709,17 +2764,6 @@
       "tags": []
     },
     {
-      "id": "edf2f21c99b30436",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Guest Post — Does Peer Review Favor Familiarity Over Innovation?",
-      "url": "https://scholarlykitchen.sspnet.org/2026/09/18/guest-post-does-peer-review-favor-familiarity-over-innovation/",
-      "publishedAt": "2026-09-18T09:30:16.000Z",
-      "snippet": "Closing out Peer Review Week 2026, today's post suggests that research novelty and capacity for innovation should be given greater priority than clarity and comprehensiveness in peer review. The post Guest Post — Does Peer Review Favor Familiarity Over Innovation? appeared first on The Scholarly Kit",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "227a39365f59e391",
       "domain": "publishing",
       "source": "google_news_onhold",
@@ -2764,15 +2808,43 @@
       "tags": []
     },
     {
-      "id": "d26e8ab92cbe55e4",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "'Purpose I had is no longer': Hollands opens up on Blues axing - ABC News & Headlines – Australian Broadcasting Corporation",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYlZ4VDZzQ2QyM1Q5MGMyU1BxNUU0WnBDSnBBc2ZvSHQxeG01UUNNbnJXVWNLbnBoSVg1OFl5bng0eXdrMFVpcWE0WjZZcE8xM3BENEpEb3BaTlhFbDd6UU9YQ3ZhVE45aVFHSEEzek5PVUV5SGpqRVVQMjBuOEVvZjJFM0YyN1JYQUF4VjhXbGNqd1ZxNlQwUjB4cnRBTm5uZjljQVFWS3JOUQ?oc=5",
-      "publishedAt": "2026-09-09T07:00:00.000Z",
-      "snippet": "'Purpose I had is no longer': Hollands opens up on Blues axing ABC News & Headlines – Australian Broadcasting Corporation",
+      "id": "0f52070adcafc1ea",
+      "domain": "github",
+      "source": "github_trending",
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "publishedAt": null,
+      "snippet": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM] [Python] 95 stars today",
       "score": 4,
-      "tags": []
+      "tags": [
+        "stars"
+      ]
+    },
+    {
+      "id": "118284583623646b",
+      "domain": "github",
+      "source": "github_trending",
+      "title": "twostraws/SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "publishedAt": null,
+      "snippet": "SwiftUI agent skill for Claude Code, Codex, and other AI tools. 88 stars today",
+      "score": 4,
+      "tags": [
+        "stars"
+      ]
+    },
+    {
+      "id": "bcdb43bcf27c2802",
+      "domain": "github",
+      "source": "github_trending",
+      "title": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "publishedAt": null,
+      "snippet": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction [Python] 109 stars today",
+      "score": 4,
+      "tags": [
+        "stars"
+      ]
     }
   ]
 }
