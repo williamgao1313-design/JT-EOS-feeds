@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T05:49:31.431Z",
+  "generatedAt": "2026-10-10T10:43:15.754Z",
   "counts": {
-    "raw": 184,
-    "deduped": 176,
-    "kept": 176
+    "raw": 180,
+    "deduped": 174,
+    "kept": 174
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 23,
+      "count": 20,
       "error": null,
-      "ms": 342
+      "ms": 471
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 14,
+      "count": 13,
       "error": null,
-      "ms": 1209
+      "ms": 1175
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1507
+      "ms": 1581
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 11,
       "error": null,
-      "ms": 2086
+      "ms": 2059
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1096
+      "ms": 1149
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1537
+      "ms": 1518
     },
     {
       "key": "google_news_onhold",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1275
+      "ms": 1245
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1186
+      "ms": 1225
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1325
+      "ms": 1506
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1330
+      "ms": 1067
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1126
+      "ms": 1138
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2416
+      "ms": 2102
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1207
+      "ms": 1108
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 1147
+      "ms": 1347
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1161
+      "ms": 1126
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1092
+      "ms": 1035
     },
     {
       "key": "github_changelog",
@@ -141,21 +141,63 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1195
+      "ms": 1297
     }
   ],
   "items": [
     {
-      "id": "c4d95f9c65a73b4c",
+      "id": "9bb5abe9dbc883a8",
       "domain": "ai",
-      "source": "openai_news",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "publishedAt": "2026-10-09T07:00:00.000Z",
-      "snippet": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "score": 8,
+      "source": "google_news_ai",
+      "title": "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance - The Decoder",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3ZrZ0x3dkNneHdqN1E2YWpNdkREeGg5djFFdldVTjlKNVRpWjc0WjZvSExVU2VRR0JFdzUxaUx4Q0FHcjBIVHBiZ1FEdWxOdm90MnR2UDFqNkxZUHZFOFpQQlBfYy1lUGdNMEtUVTF4SklQUmxZVjUxMC12T3VmYktLZ1gydXVRdUZEWGFfcHhtV1Y4RFFBejU5cXJuWFBRTUs1M01OcXRYOEl6VGtza2ZHWnotZkk?oc=5",
+      "publishedAt": "2026-10-10T10:04:14.000Z",
+      "snippet": "Google's Gemini 4 \"Carbon\" model is reportedly matching Anthropic's Opus 5.5 coding performance The Decoder",
+      "score": 7,
       "tags": [
-        "openai"
+        "anthropic",
+        "gemini"
+      ]
+    },
+    {
+      "id": "98aa14d6c7a560c6",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws - The Hacker News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeGJhcy11MF9BYkZodjhDbEhySlJvc3RNSWtvR2ZNR0hIMV9ndmpiaENTbk4wMnRVb3d5eVY0THZlckdRb09hanRseXZFejNGeWdqZXRNa1FlUzNrNEFCVS1tUy1QTkoycmlDQmFJaVhZOFZVclFDU2lVLXFyM1kwQmVVM2c?oc=5",
+      "publishedAt": "2026-10-10T09:18:00.000Z",
+      "snippet": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws The Hacker News",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "9d46f9e04011ae43",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Voxlocal: a minimal voice agent written in Rust",
+      "url": "https://samkhawase.com/blog/voxlocal-minimal-voice-agent/",
+      "publishedAt": "2026-10-10T08:42:06.000Z",
+      "snippet": "Comments",
+      "score": 7,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "3ae1fe8e61b93bb6",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude AI sent Philadelphia police phony murder; Anthropic argues incident 'less severe' than other cybersecurity episodes - WION",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWXRCSTRmcF9TQl8tQ2NXdG5UTzhnNzktQ1JQeTN5bmRLTGhGcWdTVkJyN2hxckFzMHI4Nl9ENHVjMkdYc1JBLXpJaUtBQUtndUVZVnJyZm5MaUhhSk1IbTU0Vkp3ckhmNkN1TUdxbDI2dVBrZGgxQjRodE1VdXJGR3FEelpJOEdncVZCbE56MUlWelJxQVFjTXlKMHpMUXRmbWpRbzZYbXp6cHNZY0g3UmIzRWFaendqSWprZnU3YUxWSFExZkZwbW1LQ0pLSUZyOHFsaDhuaVl3cDJ4ZTFDTzdnekktNTQtTlhPbDBRc2N3SG45cUHSAfsBQVVfeXFMUFVLV0ZEdzE3bmxkY0piZkVOdWdUNDhiRGYtbWYyVTBvVjRlMVBQXzN2Z041RGVHS0JYSE1LRmhoRUZNbFhEUEdlZ2FlaDRLVTctNjlEV2NqZG5JeGxMOHBHRTVJNWFSd2tHeGFNbTYxRU5fcFdJNFgtLTVYYkhjYmc0M0NjdDV3bXpwZzdXVTczS0dVZkIzSTAwOURFR3ZyMmlQVkpFTFZNLV9DUnFYRmZoM2ZLWE5mbHBGZkNzZFlHeVdDblpHZEFqUkJaSFVYLW9vT1VTbEdXVWhjanduOTRUd09kcmlaQjhYeExmVEcwSUtnNzJldXFERVE?oc=5",
+      "publishedAt": "2026-10-10T08:13:21.000Z",
+      "snippet": "Claude AI sent Philadelphia police phony murder; Anthropic argues incident 'less severe' than other cybersecurity episodes WION",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "claude"
       ]
     },
     {
@@ -169,20 +211,6 @@
       "score": 7,
       "tags": [
         "typescript"
-      ]
-    },
-    {
-      "id": "3e757070b03fda60",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Massive Leak: Google's New Gemini 4 Model Internal Beta Evaluation – Is This Actually OpenAI Opus 5.5? - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HM0JXYTFyR2V2dUhFdUM5VGJpd1pSdks2bW5oZnJJa1JEeHIwVFB6Vy1TV3JIdlV3cE5LT2MtVFgzVkoxdUZNbkhXR0piNnhuMXJN?oc=5",
-      "publishedAt": "2026-10-10T02:50:08.000Z",
-      "snippet": "Massive Leak: Google's New Gemini 4 Model Internal Beta Evaluation – Is This Actually OpenAI Opus 5.5? 36Kr",
-      "score": 7,
-      "tags": [
-        "openai",
-        "gemini"
       ]
     },
     {
@@ -223,30 +251,17 @@
       "tags": []
     },
     {
-      "id": "8d12a6713de6212b",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Apogee: Rebuilding Mozilla's Orbit, fully local and private",
-      "url": "https://github.com/darshi1337/apogee",
-      "publishedAt": "2026-10-09T07:36:19.000Z",
-      "snippet": "Hey everyone! Last year, Mozilla released Orbit, an AI-powered browser summarizer hosted on a GCP server. After people started digging into the extension, they discovered things like backend endpoints such as store_result. Eventually, Mozilla discontinued the project. For the past month, I’ve been t",
-      "score": 7,
-      "tags": [
-        "backend",
-        "browser",
-        "show hn"
-      ]
-    },
-    {
-      "id": "a4c4280ba8d128dd",
+      "id": "c4d95f9c65a73b4c",
       "domain": "ai",
       "source": "openai_news",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
       "publishedAt": "2026-10-09T07:00:00.000Z",
-      "snippet": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "snippet": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "score": 7,
-      "tags": []
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "6b55a8857ccfa6cc",
@@ -317,19 +332,6 @@
       ]
     },
     {
-      "id": "4a0a7ea468d41527",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "publishedAt": "2026-10-07T07:00:00.000Z",
-      "snippet": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "score": 7,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "id": "a85ad9dc3cf901dd",
       "domain": "github",
       "source": "github_trending",
@@ -344,17 +346,115 @@
       ]
     },
     {
-      "id": "ff5513b9bc9c00b3",
+      "id": "cad40cff2ae71027",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "DICERE Revista de Derecho y Estudios Internacionales (3028-886X)",
+      "url": "https://doaj.org/toc/3028-886X?rss=",
+      "publishedAt": "2026-10-10T10:22:41.000Z",
+      "snippet": "Published by Universidad del Azuay Added to DOAJ on 10 Oct 2026 LCC Subject Category: Law: Law in general. Comparative and uniform law. Jurisprudence",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "1dbf3a2a366630d0",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Mistral Touts 'Le Chonk' as Capable European Sovereign Model - BankInfoSecurity",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQmhpeW9nQ0RsanZVcldJbVAwMEFvdXU0aUViRWJiYkwta3F6Y1JFY2hKcERZUEhMVEtrckdoVFpWakxuRXFocUZ3d2I3T2dJc0dXTVFVWk8zVFhpb0drcTAzdDFJTzFwWnhSZGdkR2QxVklmNVpFWkMtQjI5bDRiVndtUmtHUkg0YmYybXdFU1pZUUhQQnBsT082NlF4NFVQ?oc=5",
-      "publishedAt": "2026-10-10T05:44:21.000Z",
-      "snippet": "Mistral Touts 'Le Chonk' as Capable European Sovereign Model BankInfoSecurity",
+      "title": "Microsoft launches Microsoft-Decision-1, a fast decision-scoring model built on Alibaba's Qwen - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVWhJTGQtSnVnWVp5OTRRYVRHMWRYbko1WHBvTDN2MlFEUVc1TTdJMHBXSGpDb3ZtV3JkaGQwUDQ3ZUFBd3pkb1pxcV9zQ01QREl6MFN1UnpGQmZ0elItNmQ4NXpRUnc3d2hRNWh5a3l5bkk2eHBwQng1M0pXLWR3RkFBQUltaS1tS1VDeEU3VEFib3FudVZoZkM1aGhGTWk3VEJRa1dFWnpxbGdIMlBCWHYxblNnX1E4R0t2U25aU3BRTWlqMFE?oc=5",
+      "publishedAt": "2026-10-10T10:12:43.000Z",
+      "snippet": "Microsoft launches Microsoft-Decision-1, a fast decision-scoring model built on Alibaba's Qwen Dealroom",
       "score": 6,
       "tags": [
-        "mistral"
+        "qwen"
       ]
+    },
+    {
+      "id": "cc2f7ad50ba800df",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic AI Model Submits False Homicide Tip to Philadelphia Police Website - The420.in",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBa0ZIdURmUWJXcGR0ejBEbUlHeXBmV25yV250MktBeG5GaWFhTkZ3UjExTk5ETjJGSy11dGU2cWtsX25OTEVSUE95bkhwMEp4b0ZtRTl0UmViaWpUUnFKdzJiSFd6elVtUmswWF9xdjc4Vl9SeWlJSExUR0VuQ3c?oc=5",
+      "publishedAt": "2026-10-10T09:49:35.000Z",
+      "snippet": "Anthropic AI Model Submits False Homicide Tip to Philadelphia Police Website The420.in",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "a72e92e4f48fa67a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic's AI model sent Philadelphia police fake tip about unsolved murder - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1VVYl9WVW1DdUR2RTR3NERVNmhmTGVmY2xWY0dlbWpsblNlUk5OZ1JPQ3pUVXBxTVR4UzNEc2U4VnNNZUtnTW9RTXJzUjFJR1FiakdrZmxPQnlubEtaRFZsaTBVVmhXcm51bDZXcWdRRFJTSDdHUkc1TFJlR2Z1cG1GYWtTWDdLWmNPdmM3bmlqdTFxbkY1aEJWb1BJNkdWcDhpOGRqR0ZZeVhoWjlOdg?oc=5",
+      "publishedAt": "2026-10-10T09:28:42.000Z",
+      "snippet": "Anthropic's AI model sent Philadelphia police fake tip about unsolved murder Sky News",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "5f0f55b47009221f",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "There's little that's \"inevitable\" about AI",
+      "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "publishedAt": "2026-10-10T09:08:30.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "895e59d32c18fee8",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic AI model submits 20 visa applications on live US government website - The Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb2dLSmVJLVlqNTBNY1V6SDJLUHRHV0RFaUZYcnR2RXNsekVxaUdraWxCQjg5b3E0T1BDU2hSY2hxRnExSGxyUWF4b0JJeE9UWFE4Rmg0RVlwQW5iR3lxZW5iWld4Sk5Rc3ZVWlhpSXh0ZkdvSGtDcXcxS3laWFJNbWVsVkY0VFlya213aEE1MmtBWTJ2bm1STWZ1QmZ0VE1jXzQ5UlRhUFl1TEhvU1JwNHV4WHpodXNfNUxV?oc=5",
+      "publishedAt": "2026-10-10T08:10:00.000Z",
+      "snippet": "Anthropic AI model submits 20 visa applications on live US government website The Business Standard",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "1add991eeebc10f9",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Cites New AI Misbehavior, Some on Government Sites - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2RTWTd6RjNMSVZQb1hpRGVUY242T1JoTVdjcy1CQUItM0VOWnBIaC0xUjRhaTBSVW1nYXNnNnRFdWplQjU1LXQzcDR5dWt0cXJvYm1yOHNUcnF6U294Z3RuZHVxM1VoenlOazIxZ1FMSkR4NlBObVJLaklhTmlEeG1Cb19kcUZFdGVhWVNXU3gzT3ZWUWFzT1o3VGZTdXJQOTBNQXNUMkREcDg5czhjSg?oc=5",
+      "publishedAt": "2026-10-10T08:08:24.000Z",
+      "snippet": "Anthropic Cites New AI Misbehavior, Some on Government Sites Bloomberg.com",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "702366861e6f14b4",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic AI model sent false homicide tip to Philadelphia police - mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObHZIT1puUFZoX25kVG5xeTg2SXdwZ0JsNFNPd2J3dnNIWlo2SXVQd0xyaE5fUllCT1VfYVk5ckxqRm93N2NmV0F5blVTWXJJSnViaFZQM3ZMdkl3VllOdE1Ud1Z1N1k2VTk4SkFLUVo4LVMxRDJ6S2NuY0ZQenJPdUtiTQ?oc=5",
+      "publishedAt": "2026-10-10T07:50:54.000Z",
+      "snippet": "Anthropic AI model sent false homicide tip to Philadelphia police mezha.net",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "b004dfe0152bbb6b",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "1-click MMI execution in Android",
+      "url": "https://karansaini.com/mmi-android/",
+      "publishedAt": "2026-10-10T07:20:53.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
     },
     {
       "id": "b7ffc2a96ee443f5",
@@ -368,110 +468,6 @@
       "tags": []
     },
     {
-      "id": "bcf574d47f1d5a25",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI agents took ‘unintended’ actions on government sites - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2V1ZnA4a2RIbllCWVFuZDA0ellKck0teFdTaEZZV3lYeDZXenZVdWN4aElzZWxYNUZxcXlkWHhrUVJVN2gyY0pZOHRiS0hMQzV0QUU2bllGbDFCV3JNaVJaTFhhUTlXblQ0aG1QcEVRNzRDbW9xRDRRek5MU3dUMnpjQ2pmOFQ1SjlPOUZZdndrOGhCRGxwRTZnem9VaHBVRTdqTXczQkw5RHhWVXdKaFZZQk5qd2hnelplNGdfd1I?oc=5",
-      "publishedAt": "2026-10-10T05:25:51.000Z",
-      "snippet": "Anthropic AI agents took ‘unintended’ actions on government sites The Washington Post",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "387a0b55544cc1a6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
-      "publishedAt": "2026-10-10T04:02:17.000Z",
-      "snippet": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "ea788f9caae9e6ee",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI poses as witness, submits fabricated murder tip to police - Gulf News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU3pUdUFCc0ljY0JpSTFhTnFOekw2TGxjMFV4NDhwdE5pbzJhYTBpUmVVbG11MHNwTmFsMTRiWXhtTWEyNGwyOVVjQzJSd3RSZmx5bXo2SkVuTHdFRXlaRkZRR1JVWDNRVmhSOGZ6aFdLaGdsRFB3cTNISklMbE1WM3d4RGpmc05jWndTUTk2U3NwNVlLdDJ5NEI4WGQwdF9hNk5rdGpGMjIyaXAwQ04tenlfSklqQ3BlUy1NRzBxM25UczAwTEl6cmFMNNIBywFBVV95cUxOU3pUdUFCc0ljY0JpSTFhTnFOekw2TGxjMFV4NDhwdE5pbzJhYTBpUmVVbG11MHNwTmFsMTRiWXhtTWEyNGwyOVVjQzJSd3RSZmx5bXo2SkVuTHdFRXlaRkZRR1JVWDNRVmhSOGZ6aFdLaGdsRFB3cTNISklMbE1WM3d4RGpmc05jWndTUTk2U3NwNVlLdDJ5NEI4WGQwdF9hNk5rdGpGMjIyaXAwQ04tenlfSklqQ3BlUy1NRzBxM25UczAwTEl6cmFMNA?oc=5",
-      "publishedAt": "2026-10-10T04:00:57.000Z",
-      "snippet": "Anthropic AI poses as witness, submits fabricated murder tip to police Gulf News",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "2b72679a1db39dd1",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic Model Sends False Homicide Tip to Philadelphia Police - JPMorgan Chase (NYSE:JPM) - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYTVRR0dJblpnOWlPRkVyby03QnNrRFNQSmVmY3dqRVdQY3NvMWhYN2h3OUdVLTdNLVN0aUJWbVk0Nk5pZTlfNjRTX2FIaXNRM0N6ai1iV0VKb0NVMGFwbW8xck5jM0dEYVdqaDI4b0RlOU1hNmhISnJQWXFoSFVvS2JwTjlLbWhqcGl5VVdmaXg4ME1wMmhQV2xKV3JtZUdJNTVCRUphSQ?oc=5",
-      "publishedAt": "2026-10-10T03:57:18.000Z",
-      "snippet": "Anthropic Model Sends False Homicide Tip to Philadelphia Police - JPMorgan Chase (NYSE:JPM) Benzinga",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "be67dc9e6d9d9856",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI’s fake murder tip to US police - News24",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNVUJWOEZYWm9fVllWT05hTkhrVmNlTjRrRF9tbmI2cFJFVzhsdm5BMlVSdUtXLUxIcHBIblllT1h0UG9KdkdDLXRPZDVfLTZXLXFSVl8xeVN0Q2x0MVY4Y0VQS01SbTVoWnN0dDAwMEFnQzRDY05qQ1NXY1RGU1N3VmRPMENVUlpkVEJoZElUOENhRDk3QTNJb0tpcU5zOW11TmdWek9vZUx6M0VXX2ZRSENXOURfaW0weHN3X21Ic2JDemc4ZXpvTmpqMEhqOENXTElQT0dKQmlNMU9vSFVHd2k1WUNFYzA5R1RYNW1RbzVTQ1prM0RmaUV0U1ZOVWJXbU8tRmtibDZTR2FPeDV4WDhjSdIBmAJBVV95cUxPLVdqMUh1LUFhUTE5ejFVTzhjVEpDLTJxRG9SLUQtTWpuUzA2VGpIeEdiWW5HWENiWVdpZVl6bHQ5VTZaUjVBN1doLS1UTF9OMXdSckpvX01LSWhsUnNhMjFrM05hQmVrWFpvektrQWFDSlM0TFU0Y19VbmsxQUxRcVhxb1oxWTJGOUZtcEp3Qkw0aUc0ODdjdWstblRhcmVaVFQxcnpQOHpDNktLelhHWjNsRlJEeEkxbzdOV2RjbGhGVVRTVU5KY05lNVVtMHRxMEExbmhWWXJ0NEx0SkhBbFVoV1ZVZ1BFTVhHdDNpTUlqZkN5eDZwYVkwUmQ0TEFPeWJ6bk1UQS02elhaRnpYcm1jTjlmLXM1?oc=5",
-      "publishedAt": "2026-10-10T03:43:20.000Z",
-      "snippet": "Anthropic AI’s fake murder tip to US police News24",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "3d6840e79484826d",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5",
-      "publishedAt": "2026-10-10T03:34:00.000Z",
-      "snippet": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "78b9ccabbbd1732a",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI model sent fake murder tip to Philadelphia police, went undetected for months- Moneycontrol.com - LinkedIn",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnZRSm8zMzloaERRSm5sTnBDUUhmMlFnQ2ZTNXlFT3dXdmJVckl4ZTljVVFYMkU0UUlUN09kLVNpNktod2M5SDZpdGEzQlRlUUJDLVlGbTFzLXFRd3JuLUFiLWNRUmRxamZDeEt1X1duS0tsbXZUaklheVZ1WDUzWjdNOFJuc0dOZ0FnbEhBOUotZHdrYkJiMlZvbU1yU1hoZGZqdlFGb0lTMXBUTzMtWGVZX3p1MGk4RU4tVw?oc=5",
-      "publishedAt": "2026-10-10T03:15:09.000Z",
-      "snippet": "Anthropic AI model sent fake murder tip to Philadelphia police, went undetected for months- Moneycontrol.com LinkedIn",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "d7ca543f0ef0fd92",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic discloses rogue AI incident involving fake homicide tip to police - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVXpZT3BScGs4bVg2NWUxandPbDJ5SVgyVDNWVnhWZUVubnYyUFplbTZKWjVHbHAwTDBibGJqUTI4NVhqTERXQzR1SzIxV2dRLUlqdHZrdEJUY0VPOE5CY1NPT2FueTgyQVZfTGdyOW04VElYUHl0LXpkZ25vWjE0b2F4TlRlWUxyZFZKSU4wdVBKNG1YVnBPVWtqNFktR1V3ajN6MklXODVhZnFmWlRCNU92UGg5c01HVmFPZGdhV1V2eTliUXdoWk16bkpjN0xFQTZaLTdOSzMzejh3UFRjcnpocE1BUGpTbW5XNEF0bUzSAfABQVVfeXFMTVV6WU9wUnBrOG1YNjVlMWp3T2wyeUlYMlQzVlZ4VmVFbm52MlBaZW02Slo1R2xwMEwwYmxialEyODVYakxEV0M0dUsyMVdnUS1JanR2a3RCVGNFTzhOQmNTT09hbnk4MkFWX0xncjltOFRJWFB5dC16ZGdub1oxNG9heE5UZVlMcmRWSklOMHVQSjRtWFZwT1VrajRZLUdVd2ozejJJVzg1YWZxZlpUQjVPdlBoOXNNR1ZhT2RnYVdVdnk5YlF3aFpNem5KYzdMRUE2Wi03TkszM3o4d1BUY3J6aHBNQVBqU21uVzRBdG1M?oc=5",
-      "publishedAt": "2026-10-10T02:45:08.000Z",
-      "snippet": "Anthropic discloses rogue AI incident involving fake homicide tip to police The Indian Express",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
       "id": "5e8fffb447536fff",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -481,6 +477,32 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "c15204f070674e41",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Compiling Rust to readable C with Eurydice",
+      "url": "https://lwn.net/Articles/1055211/",
+      "publishedAt": "2026-10-09T23:28:36.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "6ee0b1d709f741d8",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Rewriting Prime Agent in Rust",
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "publishedAt": "2026-10-09T23:06:25.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "rust"
+      ]
     },
     {
       "id": "5bd7f8aba7df67cc",
@@ -497,7 +519,7 @@
       "id": "73cce8c7a1943dae",
       "domain": "ai",
       "source": "hackernews",
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
       "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "publishedAt": "2026-10-09T22:00:35.000Z",
       "snippet": "",
@@ -858,44 +880,35 @@
       ]
     },
     {
-      "id": "cc263448cd892223",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "publishedAt": "2026-10-09T10:00:26.000Z",
-      "snippet": "Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...",
+      "id": "8d12a6713de6212b",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Apogee: Rebuilding Mozilla's Orbit, fully local and private",
+      "url": "https://github.com/darshi1337/apogee",
+      "publishedAt": "2026-10-09T07:36:19.000Z",
+      "snippet": "Hey everyone! Last year, Mozilla released Orbit, an AI-powered browser summarizer hosted on a GCP server. After people started digging into the extension, they discovered things like backend endpoints such as store_result. Eventually, Mozilla discontinued the project. For the past month, I’ve been t",
       "score": 6,
       "tags": [
-        "openai"
+        "backend",
+        "browser",
+        "show hn"
       ]
     },
     {
-      "id": "b9c390b4912bf176",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "#DefendResearch and PEN America Present… Word Wipe!",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/09/defendresearch-and-pen-america-present-word-wipe/",
-      "publishedAt": "2026-10-09T09:30:00.000Z",
-      "snippet": "Today's Fun Friday post introduces a new anti-censorship tool — Word Wipe allows you to see what a world redacted of words banned by the US government looks like. The post #DefendResearch and PEN America Present… Word Wipe! appeared first on The Scholarly Kitchen .",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "16c4b6b547cc01e7",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Composite Design and Manufacturing (2977-7305)",
-      "url": "https://doaj.org/toc/2977-7305?rss=",
-      "publishedAt": "2026-10-09T08:09:58.000Z",
-      "snippet": "Published by Oxford University Press in Taiyuan University of Technology Added to DOAJ on 9 Oct 2026 LCC Subject Category: Technology",
+      "id": "a4c4280ba8d128dd",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "snippet": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "score": 6,
       "tags": []
     },
     {
       "id": "89a74d0b7b987274",
       "domain": "vibe_coding",
-      "source": "hackernews",
+      "source": "show_hn",
       "title": "Show HN: Quake ported to safe Rust, playable in browser",
       "url": "https://quake-srp.pages.dev/",
       "publishedAt": "2026-10-09T05:22:58.000Z",
@@ -954,19 +967,6 @@
       "tags": []
     },
     {
-      "id": "0c06f795217f4219",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Missing Piece in Rust Error Handling",
-      "url": "https://mcmah309.github.io/posts/the-missing-piece-in-rust-error-handling/",
-      "publishedAt": "2026-10-08T14:43:19.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
       "id": "a282385ac7e906dc",
       "domain": "ai",
       "source": "openai_news",
@@ -998,6 +998,19 @@
       "snippet": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "4a0a7ea468d41527",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "snippet": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "c794020a725dcf6f",
@@ -1163,6 +1176,28 @@
       ]
     },
     {
+      "id": "e8eb4c33620c950d",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Computers Cannot Make Decisions",
+      "url": "https://wiki.cateat.fish/art:computers_cannot_make_decisions",
+      "publishedAt": "2026-10-10T05:47:46.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "08ae233493700526",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "publishedAt": "2026-10-10T03:02:47.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "d93ddae79fe42146",
       "domain": "vibe_coding",
       "source": "hackernews",
@@ -1262,35 +1297,37 @@
       "tags": []
     },
     {
-      "id": "1c509322edb0157c",
-      "domain": "github",
+      "id": "cc263448cd892223",
+      "domain": "ai",
       "source": "hackernews",
-      "title": "Once: Cache CLI commands",
-      "url": "https://github.com/alex0ptr/once",
-      "publishedAt": "2026-10-09T09:43:06.000Z",
-      "snippet": "",
+      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "publishedAt": "2026-10-09T10:00:26.000Z",
+      "snippet": "Later: https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-...",
+      "score": 5,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "b9c390b4912bf176",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "#DefendResearch and PEN America Present… Word Wipe!",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/09/defendresearch-and-pen-america-present-word-wipe/",
+      "publishedAt": "2026-10-09T09:30:00.000Z",
+      "snippet": "Today's Fun Friday post introduces a new anti-censorship tool — Word Wipe allows you to see what a world redacted of words banned by the US government looks like. The post #DefendResearch and PEN America Present… Word Wipe! appeared first on The Scholarly Kitchen .",
       "score": 5,
       "tags": []
     },
     {
-      "id": "6f9beea176836649",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "OTel-Native by Design – Building Products That Export to Any Observability Stack",
-      "url": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
-      "publishedAt": "2026-10-09T06:54:45.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "06a38494d87fcfa3",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "MXC - a sandboxed code execution system",
-      "url": "https://github.com/microsoft/mxc",
-      "publishedAt": "2026-10-09T05:51:29.000Z",
-      "snippet": "",
+      "id": "16c4b6b547cc01e7",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Composite Design and Manufacturing (2977-7305)",
+      "url": "https://doaj.org/toc/2977-7305?rss=",
+      "publishedAt": "2026-10-09T08:09:58.000Z",
+      "snippet": "Published by Oxford University Press in Taiyuan University of Technology Added to DOAJ on 9 Oct 2026 LCC Subject Category: Technology",
       "score": 5,
       "tags": []
     },
@@ -1332,17 +1369,6 @@
       "tags": []
     },
     {
-      "id": "ea40ff6432465313",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Historia: Philosophy & Theory (3045-3224)",
-      "url": "https://doaj.org/toc/3045-3224?rss=",
-      "publishedAt": "2026-10-08T22:22:23.000Z",
-      "snippet": "Published by Yerevan State University Added to DOAJ on 8 Oct 2026 LCC Subject Category: Philosophy. Psychology. Religion: Philosophy (General) | History (General) and history of Europe",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "8b4c66f04ec9d86d",
       "domain": "ai",
       "source": "simonwillison",
@@ -1365,17 +1391,6 @@
       "tags": [
         "show hn"
       ]
-    },
-    {
-      "id": "1d40068544246f95",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "64-Day Certificate Lifetimes Coming Feb 2027",
-      "url": "https://letsencrypt.org/2026/10/07/64-day-certs.html",
-      "publishedAt": "2026-10-08T19:06:25.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
     },
     {
       "id": "f87c324e04ff3ad0",
@@ -1498,30 +1513,6 @@
       "tags": []
     },
     {
-      "id": "286afaa66cb88e8d",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Proton Drive for Linux",
-      "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
-      "publishedAt": "2026-10-08T09:10:42.000Z",
-      "snippet": "Hello everyone, I wanted to share this small project that I have. It's born out of a necessity that I had, because Proton doesn't ship a Linux version of the drive yet (it's apparently coming out later this year but who knows?) and all the current solutions are hacky and wonky at best. But for the t",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "5fd74cb183c58b7b",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The people holding up the internet",
-      "url": "https://sheets.works/data-viz/holding-up-the-internet",
-      "publishedAt": "2026-10-08T08:18:39.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "ba0c1ad9856569ea",
       "domain": "ai",
       "source": "hf_blog",
@@ -1584,17 +1575,6 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
       "publishedAt": "2026-10-07T12:45:31.000Z",
       "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "d4535aec50f73c55",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "TRACE Project Launches to Advance AI interoperability",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/07/trace-project-launches-to-advance-ai-interoperability/",
-      "publishedAt": "2026-10-07T09:30:07.000Z",
-      "snippet": "The community comes together to launch TRACE, a project to improve generative AI systems' interoperability, verifiability and usage tracking. The post TRACE Project Launches to Advance AI interoperability appeared first on The Scholarly Kitchen .",
       "score": 5,
       "tags": []
     },
@@ -1834,13 +1814,13 @@
       ]
     },
     {
-      "id": "9bc0280737373e55",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Keyboard differences between Windows and Macs",
-      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
-      "publishedAt": "2026-10-09T03:08:05.000Z",
-      "snippet": "",
+      "id": "d4535aec50f73c55",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "TRACE Project Launches to Advance AI interoperability",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/07/trace-project-launches-to-advance-ai-interoperability/",
+      "publishedAt": "2026-10-07T09:30:07.000Z",
+      "snippet": "The community comes together to launch TRACE, a project to improve generative AI systems' interoperability, verifiability and usage tracking. The post TRACE Project Launches to Advance AI interoperability appeared first on The Scholarly Kitchen .",
       "score": 4,
       "tags": []
     },
