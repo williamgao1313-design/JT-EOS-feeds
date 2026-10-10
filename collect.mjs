@@ -7,12 +7,16 @@
  * + 确定性打分。
  *
  * 运行环境：GitHub Actions（数据仓库 williamgao1313-design/JT-EOS-feeds），
- * 产出 data/feeds/latest.json 提交回同一仓库。本机只从 raw.githubusercontent.com
- * 读这一个文件。
+ * 产出 data/feeds/latest.json + 按天归档 data/feeds/archive/YYYY-MM-DD.json（同一个 JSON，
+ * 北京时间日界，只留最近 30 天），一起提交回同一仓库。本机从 raw.githubusercontent.com
+ * 读这两个路径（归档只回捞最近两天，用来兜住"源窗口滚动导致条目消失"）。
  *
  * 用法：
- *   node collect.mjs                       # 输出到 ./data/feeds/latest.json
- *   node collect.mjs --out <path>          # 覆盖输出路径
+ *   node collect.mjs                       # 输出到 ./data/feeds/latest.json + archive/
+ *   node collect.mjs --out <path>          # 覆盖输出路径（归档目录不变）
+ *   node collect.mjs --archive-dir <path>  # 覆盖归档目录
+ *   node collect.mjs --archive-keep <n>    # 归档只留最近 n 天（默认 30，0 = 不留）
+ *   node collect.mjs --no-archive          # 只写 latest.json，不写归档
  *   node collect.mjs --only key1,key2      # 只抓指定源（调试）
  *
  * 抓取闸门（硬性）：
@@ -88,14 +92,20 @@
  */
 
 import { createHash } from 'node:crypto';
-import { mkdir, writeFile } from 'node:fs/promises';
-import { dirname, resolve } from 'node:path';
+import { mkdir, readdir, rm, writeFile } from 'node:fs/promises';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 /* ============================== 常量 ============================== */
 
 const SCHEMA_VERSION = 1;
 const DEFAULT_OUT = 'data/feeds/latest.json';
+/** 按天归档目录（相对 cwd）：与 latest.json 并列的 archive/，App 端会回捞最近两天的归档。 */
+const DEFAULT_ARCHIVE_DIR = 'data/feeds/archive';
+/** 只保留最近 N 天的归档文件（工作区体积；git 历史里的旧版本不会被删） */
+const ARCHIVE_KEEP = 30;
+/** 归档按北京时间分日：App 的 Today/Yesterday 也用 +8 日界，两边算出同一个文件名才有得捞。 */
+const ARCHIVE_TZ_OFFSET_MIN = 8 * 60;
 
 const MIN_GAP_MS = 1000;          // 请求之间的最小间隔
 const MAX_REQUESTS = 24;          // 总请求预算（含重试）；17 个源 + 少量重试
@@ -908,14 +918,40 @@ export function buildDocument(collected, sourceReports) {
   };
 }
 
+/* ============================== 按天归档 ============================== */
+
+/**
+ * 北京时间（默认 UTC+8）的 YYYY-MM-DD 日键。runner 上系统时区是 UTC，而 App 端按本机
+ * 时区切"今天/昨天"，所以日界必须在代码里固定成 +8 —— 两边算出同一个文件名才有得捞。
+ */
+export function archiveDayKey(now = new Date(), offsetMinutes = ARCHIVE_TZ_OFFSET_MIN) {
+  return new Date(now.getTime() + offsetMinutes * 60 * 1000).toISOString().slice(0, 10);
+}
+
+/** 归档文件名（不含目录） */
+export function archiveFileName(now = new Date(), offsetMinutes = ARCHIVE_TZ_OFFSET_MIN) {
+  return `${archiveDayKey(now, offsetMinutes)}.json`;
+}
+
+/**
+ * 该删哪些归档：只认 `YYYY-MM-DD.json`，按文件名（= 日期）排序后保留最新 keep 个，
+ * 返回过期文件名。纯函数，离线可测；目录里别的文件一律不碰。
+ */
+export function pickExpiredArchives(names, keep = ARCHIVE_KEEP) {
+  const dated = names.filter((n) => /^\d{4}-\d{2}-\d{2}\.json$/.test(n)).sort();
+  return dated.slice(0, Math.max(0, dated.length - Math.max(0, keep)));
+}
+
 /* ============================== 主流程 ============================== */
 
 function printHelp() {
   process.stdout.write(
     [
       'Usage: node collect.mjs [--out <path>] [--only <sourceKey,...>]',
+      '                      [--archive-dir <path>] [--archive-keep <days>] [--no-archive]',
       '',
       `Default --out: ${DEFAULT_OUT} (relative to cwd)`,
+      `Default --archive-dir: ${DEFAULT_ARCHIVE_DIR} (keep ${ARCHIVE_KEEP} days, Beijing day keys)`,
       `Sources: ${SOURCES.map((s) => s.key).join(', ')}`,
       '',
     ].join('\n'),
@@ -923,7 +959,7 @@ function printHelp() {
 }
 
 function parseArgs(argv) {
-  const opts = { out: DEFAULT_OUT, only: null, help: false };
+  const opts = { out: DEFAULT_OUT, only: null, archive: true, archiveDir: DEFAULT_ARCHIVE_DIR, archiveKeep: ARCHIVE_KEEP, help: false };
   for (let i = 0; i < argv.length; i += 1) {
     const a = argv[i];
     if (a === '--help' || a === '-h') { opts.help = true; return opts; }
@@ -931,10 +967,21 @@ function parseArgs(argv) {
     if (a.startsWith('--out=')) { opts.out = a.slice('--out='.length); continue; }
     if (a === '--only') { opts.only = argv[i + 1]; i += 1; continue; }
     if (a.startsWith('--only=')) { opts.only = a.slice('--only='.length); continue; }
+    if (a === '--archive-dir') { opts.archiveDir = argv[i + 1]; i += 1; continue; }
+    if (a.startsWith('--archive-dir=')) { opts.archiveDir = a.slice('--archive-dir='.length); continue; }
+    if (a === '--archive-keep') { opts.archiveKeep = Number(argv[i + 1]); i += 1; continue; }
+    if (a.startsWith('--archive-keep=')) { opts.archiveKeep = Number(a.slice('--archive-keep='.length)); continue; }
+    if (a === '--no-archive') { opts.archive = false; continue; }
     throw new Error(`unknown argument: ${a}`);
   }
   if (opts.out == null || String(opts.out).trim() === '') {
     throw new Error('--out requires a non-empty path');
+  }
+  if (opts.archive && (opts.archiveDir == null || String(opts.archiveDir).trim() === '')) {
+    throw new Error('--archive-dir requires a non-empty path (or pass --no-archive)');
+  }
+  if (!Number.isFinite(opts.archiveKeep) || opts.archiveKeep < 0) {
+    throw new Error('--archive-keep requires a number >= 0');
   }
   if (opts.only != null) {
     opts.only = String(opts.only).split(',').map((s) => s.trim()).filter(Boolean);
@@ -1030,11 +1077,29 @@ async function main() {
 
   const doc = buildDocument(collected, sourceReports);
 
+  const json = `${JSON.stringify(doc, null, 2)}\n`;
   await mkdir(dirname(outPath), { recursive: true });
-  await writeFile(outPath, `${JSON.stringify(doc, null, 2)}\n`, 'utf8');
+  await writeFile(outPath, json, 'utf8');
+
+  // 按天归档：同内容再写一份 archive/YYYY-MM-DD.json（北京时间日界）。源自己的窗口会滚动
+  // （HN 的时间窗、RSS 只留最近 N 条），条目一旦滚出 latest.json 就再也找不回来 —— 归档是
+  // "昨天没看完的条目明天还在"的底账，App 端回捞最近两天（见 server/feeds/feedData.ts）。
+  let archiveNote = '';
+  if (opts.archive) {
+    const archiveDir = resolve(process.cwd(), opts.archiveDir);
+    const name = archiveFileName();
+    await mkdir(archiveDir, { recursive: true });
+    await writeFile(join(archiveDir, name), json, 'utf8');
+    const expired = pickExpiredArchives(await readdir(archiveDir), opts.archiveKeep);
+    for (const f of expired) await rm(join(archiveDir, f), { force: true });
+    archiveNote =
+      `archived -> ${opts.archiveDir}/${name}\n` +
+      (expired.length > 0 ? `pruned ${expired.length} archive file(s): ${expired.join(', ')}\n` : '');
+  }
 
   process.stdout.write(
     `\nwrote ${doc.items.length} items -> ${outPath}\n` +
+    archiveNote +
     `counts raw=${doc.counts.raw} deduped=${doc.counts.deduped} kept=${doc.counts.kept}\n` +
     `requests used=${gate.used}/${MAX_REQUESTS} blockedHosts=[${[...gate.blockedHosts].join(', ')}]\n`,
   );
