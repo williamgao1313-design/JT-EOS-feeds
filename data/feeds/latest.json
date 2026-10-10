@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T02:14:04.597Z",
+  "generatedAt": "2026-10-10T02:30:20.082Z",
   "counts": {
     "raw": 183,
-    "deduped": 174,
-    "kept": 174
+    "deduped": 175,
+    "kept": 175
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "status": 200,
       "count": 22,
       "error": null,
-      "ms": 363
+      "ms": 739
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 14,
       "error": null,
-      "ms": 1204
+      "ms": 1180
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1420
+      "ms": 1244
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 11,
       "error": null,
-      "ms": 2134
+      "ms": 1966
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1223
+      "ms": 1145
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1550
+      "ms": 1543
     },
     {
       "key": "google_news_onhold",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1302
+      "ms": 1365
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1215
+      "ms": 1239
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1269
+      "ms": 1553
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1147
+      "ms": 1271
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1106
+      "ms": 1142
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2064
+      "ms": 2241
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1116
+      "ms": 1151
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 1111
+      "ms": 1142
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1132
+      "ms": 1216
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1067
+      "ms": 1016
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1161
+      "ms": 1054
     }
   ],
   "items": [
@@ -346,6 +346,43 @@
       ]
     },
     {
+      "id": "bcf574d47f1d5a25",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic AI agents took ‘unintended’ actions on government sites - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2V1ZnA4a2RIbllCWVFuZDA0ellKck0teFdTaEZZV3lYeDZXenZVdWN4aElzZWxYNUZxcXlkWHhrUVJVN2gyY0pZOHRiS0hMQzV0QUU2bllGbDFCV3JNaVJaTFhhUTlXblQ0aG1QcEVRNzRDbW9xRDRRek5MU3dUMnpjQ2pmOFQ1SjlPOUZZdndrOGhCRGxwRTZnem9VaHBVRTdqTXczQkw5RHhWVXdKaFZZQk5qd2hnelplNGdfd1I?oc=5",
+      "publishedAt": "2026-10-10T02:25:51.000Z",
+      "snippet": "Anthropic AI agents took ‘unintended’ actions on government sites The Washington Post",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "3dc13c3a38ae7786",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Patches Updated To Begin Removing The Linux x32 ABI",
+      "url": "https://www.phoronix.com/news/Patches-Removing-Linux-x32-ABI",
+      "publishedAt": "2026-10-10T02:18:02.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "2a93c44100e7330e",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic's AI Generates False Murder Case Report for Police - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdFc2aEJYdXBrSjZ4bWhRZVFTU01DS2U0UzhJNU05cDR0MGs2cmp6eWNJSkFpTWwtM1FGM0dRQVJkdVpZUUlZX1NhSVg4MGtZYllFUXB2bXl3Z2N4X18zQzI4Y3p0anhXV3UtZDd4cjN0ZVNXOUpJeC1QYnEzNWllcHRCVWFlYjhuZGh6Q09B?oc=5",
+      "publishedAt": "2026-10-10T02:05:06.000Z",
+      "snippet": "Anthropic's AI Generates False Murder Case Report for Police 조선일보",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
       "id": "5e8fffb447536fff",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -357,11 +394,11 @@
       "tags": []
     },
     {
-      "id": "e9cd982dd3736975",
+      "id": "1eabb9b4cac8a088",
       "domain": "ai",
       "source": "google_news_ai",
       "title": "Free Gemini app users now only have access to ‘Auto’ models - 9to5Google",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmc0RWx6dGJKY1RlWTRlUElMOE8wVjUydmV2a21LUEVhd0RadlJBaDBjM1pTVGNDYnEtdkN3dTd0S1lldlhBOXdXR0NIT2IyaThrOTY5azBrbEU4VE1rMEU2NTJDV1lDNGxmSDd4dXJ5S0EtYkYzUTdqSWUtMnZ4WXhWMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tYVk5cWgxeWxjaF81UE1uazVnNXRWNEZyb3ZDVTRLdk84TGphNDh3Q1MtVThGYVo2YmRDbHRMMWdla1g1em13Y2l1eVpHalRsUGFSY2p2TDc4T2J5eG5lelkwbEpkQ2hQ?oc=5",
       "publishedAt": "2026-10-10T01:24:00.000Z",
       "snippet": "Free Gemini app users now only have access to ‘Auto’ models 9to5Google",
       "score": 6,
@@ -370,16 +407,42 @@
       ]
     },
     {
-      "id": "d2d1ff7d7f6349ca",
+      "id": "1a6c3c7b70c02938",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Anthropic AI agent sent fake murder tip to US police in testing glitch - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa3YyQzYzWnYtUjg5Ry0xcnpKbGJ0eU5BX3hHaWk2X2RGVGlXVzFLTkJwNzd1UW1JbllUQjMwUjZuSzV6cFZ6VFBQZG1ZUWNONzM0VzR4eG9lYTBTcG9Tb3lxdlNwQUhNUU1RbXZYbVU5TktUNWZMNEZrRHU3MUR6MDVSajVhTVhDcjhuOXo4S1p5RUdYalpLQUJmNFdoTFJkMHJ5aDRfM18xeXN2UWtINHh0cWpVcmlkZVE2MlVva1A0WWZENVdEaFF0VkNkOWpRWkZORlpR0gHWAUFVX3lxTE5rdjJDNjNadi1SODlHLTFyekpsYnR5TkFfeEdpaTZfZEZUaVdXMUtOQnA3N3VRbUluWVRCMzBSNm5LNXpwVnpUUFBkbVlRY043MzRXNHh4b2VhMFNwb1NveXF2U3BBSE1RTVFtdlhtVTlOS1Q1Zkw0RmtEdTcxRHowNVJqNWFNWENyOG45ejhLWnlFR1hqWktBQmY0V2hMUmQwcnloNF8zXzF5c3ZRa0g0eHRxalVyaWRlUTYyVW9rUDRZZkQ1V0RoUXRWQ2Q5alFaRk5GWlE?oc=5",
-      "publishedAt": "2026-10-10T00:51:36.000Z",
-      "snippet": "Anthropic AI agent sent fake murder tip to US police in testing glitch South China Morning Post",
+      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSW45eVowQUtrRDU1czZqQ25KNW1UU0VLc201dkpjOEpJR2NFYUNmTnhITG94WnB6WlNsVkFfRzV5ZU1MeUJpY0NqX19lNVcyN3NLdXpSYk1xb0twRl85Z1RLRVllUVpNQTFPal9FaWp1SnNoNk8tbnN1a1ZpN1MxNVhR?oc=5",
+      "publishedAt": "2026-10-10T01:19:55.000Z",
+      "snippet": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website The New York Times",
       "score": 6,
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "id": "a2cd54f030e15bd5",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic AI model sent fake murder tip to unsolved killings website, Philadelphia police say - Malay Mail",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRXYwX2ttMUxkM0xsOTFjajJNQ05BcHhIZjJaZjNCUE9QeUJxenJRZDNvMnpESHZPaWs3ODBtR04wWUdoeWdUMHFHM3dxU1JmMS1QTDc0dGJQSVAyRlJzNWRWUlRfNmlJbGhFNEFjVFAwOS1uMzFtOUNXV2txRWVFZnNXS3BPbDZ0MHBySFRiUUlKNHVxX0F5bVRRUHY2WGdUNGs2Y3c4dnpVNWVQdS1FY2FDZ3B6cHJLVnRha3RIMTdpQnBmb2hyRTNvWnJtWHFwdzVyRVQ1Y1owMG44N2hOOTR5Q19rUdIB5gFBVV95cUxQRXYwX2ttMUxkM0xsOTFjajJNQ05BcHhIZjJaZjNCUE9QeUJxenJRZDNvMnpESHZPaWs3ODBtR04wWUdoeWdUMHFHM3dxU1JmMS1QTDc0dGJQSVAyRlJzNWRWUlRfNmlJbGhFNEFjVFAwOS1uMzFtOUNXV2txRWVFZnNXS3BPbDZ0MHBySFRiUUlKNHVxX0F5bVRRUHY2WGdUNGs2Y3c4dnpVNWVQdS1FY2FDZ3B6cHJLVnRha3RIMTdpQnBmb2hyRTNvWnJtWHFwdzVyRVQ1Y1owMG44N2hOOTR5Q19rUQ?oc=5",
+      "publishedAt": "2026-10-10T01:18:41.000Z",
+      "snippet": "Anthropic AI model sent fake murder tip to unsolved killings website, Philadelphia police say Malay Mail",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "387a0b55544cc1a6",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
+      "publishedAt": "2026-10-10T01:00:22.000Z",
+      "snippet": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
+      "score": 6,
+      "tags": [
+        "gemini"
       ]
     },
     {
@@ -419,58 +482,6 @@
       "score": 6,
       "tags": [
         "anthropic"
-      ]
-    },
-    {
-      "id": "df1e7693e3a282f8",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI model sends false homicide tip to Philadelphia police website - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORzF6eTVLdVZRQnNNOHpmS2lzbk8zU05JVHMyZE1zQUdYWW53d3ZZcWpKVFVHT1FUdU55Q1pPN0xvSVdYcHRlVG1nY2tRODV6bm41V0dxMUhHTFh4QTlhUU51WWhJdWNHTjRmc2MweFBQOVE5U2t1cXRjeERJb00xMXJjMktzTVNTd0FhSmVYRFZpS21VVXhBLVF6TGgySnpLd0loNkh2NjVkOS1PT2JzdndQWFM?oc=5",
-      "publishedAt": "2026-10-09T23:33:00.000Z",
-      "snippet": "Anthropic AI model sends false homicide tip to Philadelphia police website New York Post",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "1a6c3c7b70c02938",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic Says Its A.I. Agents Attempted to Access a Range of Government Sites - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSW45eVowQUtrRDU1czZqQ25KNW1UU0VLc201dkpjOEpJR2NFYUNmTnhITG94WnB6WlNsVkFfRzV5ZU1MeUJpY0NqX19lNVcyN3NLdXpSYk1xb0twRl85Z1RLRVllUVpNQTFPal9FaWp1SnNoNk8tbnN1a1ZpN1MxNVhR?oc=5",
-      "publishedAt": "2026-10-09T23:15:12.000Z",
-      "snippet": "Anthropic Says Its A.I. Agents Attempted to Access a Range of Government Sites The New York Times",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "6d99a055c8775dd8",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI model posing as a human sent cops fake lead on unsolved murder - NZ Herald",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSThlMHBGVVJPZmZ0MWlVby16cHl5LWE5XzJfbzgyZnJhamdmNzNFUE92VGJGaHQtOTUxM1lzVEJ5ZkJzRElTUGsxV3BqbTZ0TmpVa1dSaFJlY0VXTU45RDRvT2x1cnRmZjlBOVNjcmx4U2F3TUl5T1RNU3YtWVdMWjdXV1lHNmJXTnJWaFpuZUdvUUlhQnEzdUVVeUx0SU5HTXZKaUpQYmg5d2phRWdIME02MkRSZ2VraUNzNnc4eS1UZ1JaMWxyRWY0WXQ1SFVYSXc?oc=5",
-      "publishedAt": "2026-10-09T23:09:48.000Z",
-      "snippet": "Anthropic AI model posing as a human sent cops fake lead on unsolved murder NZ Herald",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "387a0b55544cc1a6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
-      "publishedAt": "2026-10-09T23:04:52.000Z",
-      "snippet": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
-      "score": 6,
-      "tags": [
-        "gemini"
       ]
     },
     {
@@ -884,17 +895,6 @@
       "tags": []
     },
     {
-      "id": "9bc0280737373e55",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Deeper dive: Keyboard differences between Windows and Macs",
-      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
-      "publishedAt": "2026-10-09T06:51:52.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "d0ea77a173bfbac5",
       "domain": "ai",
       "source": "simonwillison",
@@ -1255,6 +1255,17 @@
       "title": "MXC - a sandboxed code execution system",
       "url": "https://github.com/microsoft/mxc",
       "publishedAt": "2026-10-09T05:51:29.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "9bc0280737373e55",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Keyboard differences between Windows and Macs",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "publishedAt": "2026-10-09T03:08:05.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
