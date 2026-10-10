@@ -36,20 +36,32 @@ jobs:
         run: |
           set -eu
           FILE="data/feeds/latest.json"
+          # 归档文件名 = 北京时间日键，和 collect.mjs 里的 archiveFileName() 必须算出同一个值
+          # （runner 的系统时区是 UTC，所以这里也手动 +8）。
+          DAY="$(node -e 'process.stdout.write(new Date(Date.now()+8*3600*1000).toISOString().slice(0,10))')"
+          ARCHIVE="data/feeds/archive/$DAY.json"
           # 每次运行必然变化的字段不代表内容变化：顶层 generatedAt 与各源的耗时 ms。
           # 先把它们抹掉再比对，避免"只换了时间戳"也提交一次。
           canon() {
             node -e 'const fs=require("fs");const d=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));delete d.generatedAt;for(const s of d.sources||[])delete s.ms;process.stdout.write(JSON.stringify(d));' "$1"
           }
-          if git show "HEAD:$FILE" > /tmp/prev-latest.json 2>/dev/null; then
-            if [ "$(canon /tmp/prev-latest.json)" = "$(canon "$FILE")" ]; then
-              echo "No content changes in $FILE (only generatedAt / source timings differ) - nothing to commit."
-              git checkout -- "$FILE"
-              exit 0
+          # 两个产物都"抹掉时间戳后仍相同"才算没有内容变化；另外把"归档过期被删掉的旧文件"
+          # 也当作变化（否则裁剪永远不会被提交）。
+          changed=0
+          for f in "$FILE" "$ARCHIVE"; do
+            if git show "HEAD:$f" > /tmp/prev.json 2>/dev/null; then
+              if [ "$(canon /tmp/prev.json)" = "$(canon "$f")" ]; then continue; fi
             fi
+            changed=1
+          done
+          if [ -n "$(git ls-files --deleted -- data/feeds)" ]; then changed=1; fi
+          if [ "$changed" -eq 0 ]; then
+            echo "No content changes in $FILE or $ARCHIVE (only generatedAt / source timings differ) - nothing to commit."
+            git checkout -- data/feeds
+            exit 0
           fi
           git config user.name "feeds-bot"
           git config user.email "feeds-bot@users.noreply.github.com"
-          git add -- "$FILE"
-          git commit -m "chore(feeds): update latest.json [skip ci]"
+          git add -A -- data/feeds
+          git commit -m "chore(feeds): update latest.json + archive/$DAY.json [skip ci]"
           git push
