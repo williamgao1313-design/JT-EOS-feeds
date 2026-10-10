@@ -18,20 +18,30 @@
  * 抓取闸门（硬性）：
  *   - 全程串行，任意两次请求之间 >= 1000ms（以上一次请求**结束**为起点计时）
  *   - 同一 host 一旦收到 403/429，立即停止抓该 host，错误如实记录
- *   - 请求总数上限 15（含重试）；网络/解析失败绝不折叠成 "0 条"，必须留下 error
+ *   - 请求总数上限 24（含重试）；网络/解析失败绝不折叠成 "0 条"，必须留下 error
  *
- * 十一个源（key / 形态 / domain）：
+ * 十七个源（key / 形态 / domain）：
  *   hackernews             HN Algolia search_by_date（48h 内 >50 分）  → 按内容判 ai/github/vibe_coding
  *   show_hn                HN Algolia show_hn（48h 内 >25 分）        → 强制 vibe_coding
  *   lobsters               lobste.rs/rss                              → vibe_coding
  *   github_trending        github.com/trending?since=daily（HTML）     → github
+ *   github_changelog       github.blog/changelog/feed/（RSS）          → github
  *   simonwillison          simonwillison.net/atom/everything/（Atom）  → ai
- *   google_news_ai         Google News RSS "AI model release when:1d" → ai
+ *   google_news_ai         Google News RSS 厂商/模型实体查询 when:2d   → ai（过 AI_TERMS 闸门）
+ *   openai_news            openai.com/news/rss.xml（RSS，1287 条火管） → ai
+ *   deepmind_blog          deepmind.google/blog/rss.xml（RSS）         → ai
+ *   hf_blog                huggingface.co/blog/feed.xml（RSS，876 条）  → ai
+ *   deepseek_models        HuggingFace 模型 API（JSON，无 RSS 的替代） → ai
  *   google_news_onhold     Google News RSS on hold/delisted when:30d  → publishing
  *   google_news_retraction Google News RSS 撤稿 期刊 when:30d          → publishing
+ *   doaj_added             doaj.org/feed（"Recent Journals Added"）    → publishing
  *   infodocket             infodocket.com/feed/（RSS）                 → publishing
  *   scholarly_kitchen      scholarlykitchen.sspnet.org/feed/（RSS）    → publishing
  *   retraction_watch       retractionwatch.com/feed/（RSS）            → publishing
+ *
+ * 火管源限流（实测得出）：openai_news 一份 feed 里躺着 1287 条、hf_blog 876 条、
+ * doaj_added 一天上百条 —— 这些源必须写 maxAgeDays（覆盖默认 30 天窗口）与 maxItems
+ * （按发布日期取最新 N 条），否则单源就能淹掉整个池子（池子目前 ~230 条/天）。
  *
  * HN 的两个特殊处理（实测得出的，别删）：
  *   1) vibe_coding 落的 HN 条目必须过**技术主题闸门** HN_TECH_WORDS：HN 是通用热榜，
@@ -42,25 +52,30 @@
  *
  * 打分公式（确定性，结果 clamp 到 0..10 后取整）：
  *   score = clamp(0, 10, round(
- *       baseline(source)                  // 源优先级基线：retraction_watch 4；
- *                                         //   scholarly_kitchen / infodocket /
+ *       baseline(source)                  // 源优先级基线：retraction_watch 与三家厂商一手源
+ *                                         //   （openai_news / deepmind_blog / deepseek_models）= 4；
+ *                                         //   scholarly_kitchen / infodocket / doaj_added /
  *                                         //   google_news_retraction / google_news_onhold /
- *                                         //   simonwillison / lobsters 3；其余 2
+ *                                         //   simonwillison / hf_blog / github_changelog /
+ *                                         //   lobsters = 3；google_news_ai / hackernews /
+ *                                         //   show_hn / github_trending = 2
  *     + freshness(publishedAt)            // <=24h: +3 / <=72h: +2 / 其它（含 null）: +1
  *     + min(signalHits, 2)                // 每个命中的 domain 信号词 +1，最多 +2
  *                                         //   publishing: on hold/delisted/delist/Clarivate/
  *                                         //     Web of Science/Scopus/retraction/撤稿/收录
- *                                         //   ai: OpenAI/Anthropic/Gemini/Llama/DeepSeek/
- *                                         //     benchmark/release
+ *                                         //   ai: OpenAI/Anthropic/Gemini/Claude/Llama/DeepSeek/
+ *                                         //     Qwen/Mistral/Hugging Face/DeepMind/benchmark/release
  *                                         //   vibe_coding: vscode/copilot/cursor/typescript/
  *                                         //     react/rust/library/frontend/backend/api/cli/
  *                                         //     browser/performance/database/show hn
- *                                         //   github: trending（+ 下面的 star 数）
+ *                                         //   github: trending/changelog/copilot/actions/release
+ *                                         //     （+ 下面的 star 数）
  *     + githubStars(starsToday)           // 仅 domain=github：>=1000: +2 / >=200: +1
  *   ))
  *
  * counts 定义：
- *   raw     = 所有源通过 30 天窗口后的条目总数（= 各源 count 之和，含重复）
+ *   raw     = 所有源通过各自窗口（maxAgeDays，默认 30 天）+ maxItems 限流后的条目总数
+ *             （= 各源 count 之和，含重复）
  *   deduped = 经 URL 指纹 + title 指纹确定性去重后的条目数
  *   kept    = 最终写入 items 的数量（当前不做额外截断，故通常等于 deduped）
  *
@@ -83,9 +98,9 @@ const SCHEMA_VERSION = 1;
 const DEFAULT_OUT = 'data/feeds/latest.json';
 
 const MIN_GAP_MS = 1000;          // 请求之间的最小间隔
-const MAX_REQUESTS = 15;          // 总请求预算（含重试）
+const MAX_REQUESTS = 24;          // 总请求预算（含重试）；17 个源 + 少量重试
 const REQUEST_TIMEOUT_MS = 20000;
-const MAX_AGE_DAYS = 30;          // 只保留最近 30 天
+const MAX_AGE_DAYS = 30;          // 默认只保留最近 30 天；源可用 maxAgeDays 覆盖
 const SNIPPET_MAX = 300;
 
 const USER_AGENT =
@@ -97,11 +112,18 @@ const ACCEPT_FEED =
 /** 源优先级基线（同时作为去重同分时的 source 优先级）。 */
 const SOURCE_BASELINE = {
   retraction_watch: 4,
+  // 用户点名的三家厂商一手源，基线拉满（m02132：只关注 OpenAI / Google DeepMind / DeepSeek）
+  openai_news: 4,
+  deepmind_blog: 4,
+  deepseek_models: 4,
   scholarly_kitchen: 3,
   infodocket: 3,
+  doaj_added: 3,
   google_news_retraction: 3,
   google_news_onhold: 3,
   simonwillison: 3,
+  hf_blog: 3,
+  github_changelog: 3,
   lobsters: 3,
   google_news_ai: 2,
   hackernews: 2,
@@ -115,11 +137,25 @@ const SIGNALS = {
     'on hold', 'delisted', 'delist', 'clarivate', 'web of science',
     'scopus', 'retraction', '撤稿', '收录',
   ],
-  ai: ['openai', 'anthropic', 'gemini', 'llama', 'deepseek', 'benchmark', 'release'],
+  ai: ['openai', 'anthropic', 'gemini', 'claude', 'llama', 'deepseek', 'qwen', 'mistral',
+    'hugging face', 'deepmind', 'benchmark', 'release'],
   vibe_coding: ['vscode', 'copilot', 'cursor', 'typescript', 'react', 'rust', 'library',
     'frontend', 'backend', 'api', 'cli', 'browser', 'performance', 'database', 'show hn'],
-  github: ['trending'],
+  github: ['trending', 'changelog', 'copilot', 'actions', 'release'],
 };
+
+/**
+ * Google News 的 AI 查询闸门：只放**厂商/产品实体词**。
+ * 实测依据（2026-10-09）：`AI model release when:1d` 一天能回 57 条，其中大量是
+ * "某公司用 AI 提效"这类与模型发布无关的商业稿；改成实体查询 + 本闸门后只留
+ * 三家目标厂商与其模型名（用户 m02132：只关注 OpenAI / Google DeepMind / DeepSeek，
+ * 但 Anthropic / Meta / Qwen 这些同行发布也不该全丢）。
+ */
+const AI_TERMS = [
+  'openai', 'gpt', 'chatgpt', 'google deepmind', 'deepmind', 'gemini',
+  'deepseek', 'anthropic', 'claude', 'meta ai', 'llama', 'qwen', 'mistral',
+  'grok', 'xai', 'hugging face', 'open-source model', 'foundation model',
+];
 
 /** 用于判定 hackernews 条目是否落到 ai domain 的词表（比 SIGNALS.ai 宽）。 */
 const AI_WORDS = [
@@ -181,10 +217,48 @@ const NAMED_ENTITIES = {
 
 const CJK_RE = /[\u3400-\u9fff\uf900-\ufaff]/;
 
+/**
+ * "出版领域"实体词闸门（requireAny）：Google News 查询语法不被完整遵守时兜底，
+ * 标题或摘要里至少出现一个才收。
+ *
+ * 只放**领域实体词**，实测踩过两个坑（2026-10-09，见下面 google_news_* 源注释）：
+ *   ① 通用名词会误收："journal" 命中报纸名（Rhyl Journal / New Ulm Journal），
+ *      "delist" 命中股票退市（Nasdaq delisting notice）和游戏下架（PS5 Game Delisted）；
+ *   ② "on hold" 这种通用短语命中足球伤情/工地停工。
+ * 所以这里全是"只有学术出版圈才会写"的词——术语(Clarivate/Scopus/WoS/影响因子/收录/剔除/撤稿)，
+ * 宁可漏收，也不让报纸名和退市公告混进"出版领域"。
+ */
+const PUBLISHING_TERMS = [
+  'clarivate',
+  'web of science',
+  'scopus',
+  'journal citation reports',
+  'impact factor',
+  'doaj',
+  'no longer indexed',
+  'predatory journal',
+  'retract',
+  '期刊',
+  '收录',
+  '剔除',
+  '撤稿',
+  '影响因子',
+  '核心期刊',
+  '学术不端',
+  '学术期刊',
+  '预警期刊',
+];
+
 /* ============================== 源定义 ============================== */
 
-function googleNewsUrl(query) {
-  return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
+/**
+ * Google News RSS。⚠ 中文查询必须走中文版（hl=zh-CN&gl=CN&ceid=CN:zh-Hans），
+ * 用 en-US 版查中文词实测 **status 200 但 0 条**（2026-10-09 实测：`撤稿 期刊` en 版 0 条、
+ * zh 版 12 条）——这就是发布源里 google_news_retraction 长期空白的原因。
+ */
+function googleNewsUrl(query, locale = 'en') {
+  const params = locale === 'zh' ? 'hl=zh-CN&gl=CN&ceid=CN:zh-Hans' : 'hl=en-US&gl=US&ceid=US:en';
+  return `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&${params}`;
 }
 
 const SOURCES = [
@@ -235,19 +309,38 @@ const SOURCES = [
     key: 'google_news_ai',
     kind: 'feed',
     domain: 'ai',
-    url: googleNewsUrl('AI model release when:1d'),
+    // ⚠ 2026-10-10 收紧：旧的 `AI model release when:1d` 一天回 57 条，绝大多数是
+    // "某公司用 AI 提效"这类与模型发布无关的商业稿。改成**厂商/模型实体查询**
+    // （窗口 1d→2d 兜住两次跑批的间隔），再由 AI_TERMS 闸门兜底。
+    url: googleNewsUrl(
+      '(OpenAI OR "Google DeepMind" OR DeepSeek OR Anthropic OR Gemini OR Claude OR Qwen OR Mistral) (model OR release OR launches OR "open source") when:2d',
+    ),
+    requireAny: AI_TERMS,
+    maxItems: 10,
   },
   {
     key: 'google_news_onhold',
     kind: 'feed',
     domain: 'publishing',
-    url: googleNewsUrl('"on hold" OR delisted journal when:30d'),
+    // ⚠ 2026-10-09 修：旧查询 `"on hold" OR delisted journal when:30d` 的裸短语会**跨域命中**
+    // —— 实测 43 条里混进足球伤情（"contract talks on hold"）、工地停工（Citadel 迈阿密总部）、
+    // 股票退市（Nasdaq delisting notice）与游戏下架（PS5 Game Delisted）。现在查询本身只认
+    // **数据库/评价体系实体**（Clarivate / Web of Science / Scopus / 影响因子 / JCR），再由
+    // requireAny 闸门兜底。实测同一条查询：旧版 43 条几乎全是垃圾，新版 30 天内只剩 1–2 条真信息
+    // ——这个题材本来就稀少，宁缺毋滥。
+    url: googleNewsUrl(
+      '("on hold" OR delisted OR delisting OR "no longer indexed" OR removed) (Clarivate OR "Web of Science" OR Scopus OR "impact factor" OR "Journal Citation Reports") when:30d',
+    ),
+    requireAny: PUBLISHING_TERMS,
   },
   {
     key: 'google_news_retraction',
     kind: 'feed',
     domain: 'publishing',
-    url: googleNewsUrl('撤稿 期刊 when:30d'),
+    // ⚠ 2026-10-09 修：中文查询 + en-US 版 = 永久 0 条（见 googleNewsUrl 注释）。改走中文版后
+    // 实测 `撤稿 期刊 when:30d` 有 12 条（Materials Horizons 撤稿声明、学术不端通报等）。
+    url: googleNewsUrl('撤稿 期刊 when:30d', 'zh'),
+    requireAny: PUBLISHING_TERMS,
   },
   {
     key: 'infodocket',
@@ -266,6 +359,65 @@ const SOURCES = [
     kind: 'feed',
     domain: 'publishing',
     url: 'https://retractionwatch.com/feed/',
+  },
+  {
+    key: 'doaj_added',
+    kind: 'feed',
+    domain: 'publishing',
+    // DOAJ 官方 "Recent Journals Added"（收录一手）。实测 200 / Atom 100 entries，
+    // 更新到小时级、一天上百条（每篇只是一个刊名+ISSN）⇒ 必须限流，只留最新 5 条。
+    url: 'https://doaj.org/feed',
+    maxAgeDays: 7,
+    maxItems: 5,
+  },
+  {
+    key: 'openai_news',
+    kind: 'feed',
+    domain: 'ai',
+    // OpenAI 官方新闻 RSS。实测 200，**1287 items**（整段历史都在这一份里）——
+    // 典型的"火管"源，靠 maxAgeDays + maxItems 限流，否则一次就能淹掉整个池子。
+    url: 'https://openai.com/news/rss.xml',
+    maxAgeDays: 7,
+    maxItems: 8,
+  },
+  {
+    key: 'deepmind_blog',
+    kind: 'feed',
+    domain: 'ai',
+    // Google DeepMind 官方博客。实测 200 / 100 items（最新 2026-10-06）。
+    url: 'https://deepmind.google/blog/rss.xml',
+    maxAgeDays: 14,
+    maxItems: 6,
+  },
+  {
+    key: 'hf_blog',
+    kind: 'feed',
+    domain: 'ai',
+    // Hugging Face 官方博客。实测 200 / 876 items（同属火管源）。
+    url: 'https://huggingface.co/blog/feed.xml',
+    maxAgeDays: 7,
+    maxItems: 6,
+  },
+  {
+    key: 'deepseek_models',
+    kind: 'hf_models',
+    domain: 'ai',
+    // DeepSeek 没有任何可抓的官方 RSS（2026-10-10 实测：api-docs.deepseek.com/news/ 返回
+    // 200 但页面零条目、deepseek-ai/DeepSeek-V3 的 releases.atom 只有 2025-06 那一条）。
+    // ⇒ 改用 Hugging Face 模型 API 当"新模型发布"信号：实测 200 / 1.3KB JSON，带 createdAt。
+    url: 'https://huggingface.co/api/models?author=deepseek-ai&sort=createdAt&direction=-1&limit=10',
+    maxAgeDays: 7,
+    maxItems: 4,
+  },
+  {
+    key: 'github_changelog',
+    kind: 'feed',
+    domain: 'github',
+    // GitHub 官方 Changelog（有日期，补上后 github 领域不再只有无日期的 Trending 快照）。
+    // 实测 200 / 10 items。
+    url: 'https://github.blog/changelog/feed/',
+    maxAgeDays: 14,
+    maxItems: 5,
   },
 ];
 
@@ -377,11 +529,11 @@ function parseDate(raw) {
   return d.toISOString();
 }
 
-function withinWindow(publishedAt) {
+function withinWindow(publishedAt, maxAgeDays = MAX_AGE_DAYS) {
   if (publishedAt === null) return true; // 解析不出来 -> 保留
   const age = Date.now() - Date.parse(publishedAt);
   if (!Number.isFinite(age)) return true;
-  return age <= MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  return age <= maxAgeDays * 24 * 60 * 60 * 1000;
 }
 
 /* ============================== 闸门 ============================== */
@@ -612,6 +764,40 @@ export function collectGithubTrending(html) {
   return items;
 }
 
+/**
+ * Hugging Face 模型 API（JSON 数组）→ 条目。
+ * 给"没有官方 RSS"的厂商（当前是 DeepSeek）当发布信号：一个仓库 = 一次模型发布。
+ */
+export function collectHfModels(text, source) {
+  let data;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    throw new Error('unexpected HF payload: not valid JSON');
+  }
+  if (!Array.isArray(data)) throw new Error('unexpected HF payload: expected an array');
+
+  const items = [];
+  for (const m of data) {
+    const repoId = typeof m?.id === 'string' ? m.id.trim() : '';
+    if (!repoId) continue;
+    const name = repoId.includes('/') ? repoId.slice(repoId.indexOf('/') + 1) : repoId;
+    const bits = ['New model release on Hugging Face'];
+    if (Number.isFinite(m.downloads)) bits.push(`${m.downloads.toLocaleString('en-US')} downloads`);
+    if (Number.isFinite(m.likes)) bits.push(`${m.likes.toLocaleString('en-US')} likes`);
+    items.push({
+      title: name,
+      url: `https://huggingface.co/${repoId}`,
+      publishedAt: parseDate(m.createdAt),
+      snippet: bits.join(' · ').slice(0, SNIPPET_MAX),
+      source: source.key,
+      domain: source.domain,
+      meta: { starsToday: null },
+    });
+  }
+  return items;
+}
+
 /* ============================== 打分 ============================== */
 
 function scoreSignals(item) {
@@ -788,6 +974,8 @@ async function main() {
         });
       } else if (source.kind === 'github') {
         parsed = collectGithubTrending(res.text);
+      } else if (source.kind === 'hf_models') {
+        parsed = collectHfModels(res.text, source);
       } else {
         const looksLikeFeed = /<rss\b|<feed\b|<channel\b/i.test(res.text);
         if (!looksLikeFeed) throw new Error('response is not an RSS/Atom document');
@@ -796,7 +984,31 @@ async function main() {
       // forceDomain：Show HN 这类源整体归一个 domain，不让启发式分类改归属。
       if (source.forceDomain) parsed = parsed.map((it) => ({ ...it, domain: source.forceDomain }));
 
-      const fresh = parsed.filter((it) => withinWindow(it.publishedAt));
+      // requireAny：领域实体词闸门（Google News 这类宽查询的兜底；查询语法 Google 未必完整遵守）。
+      if (Array.isArray(source.requireAny) && source.requireAny.length > 0) {
+        const before = parsed.length;
+        parsed = parsed.filter((it) => {
+          const hay = `${it.title} ${it.snippet || ''}`.toLowerCase();
+          return source.requireAny.some((w) => hay.includes(String(w).toLowerCase()));
+        });
+        const dropped = before - parsed.length;
+        if (dropped > 0) {
+          process.stdout.write(`[gate] ${source.key.padEnd(22)} dropped ${dropped} off-topic\n`);
+        }
+      }
+
+      // 窗口与限流：maxAgeDays 覆盖默认 30 天窗口（厂商 blog 这类"火管"源只取最近几天），
+      // maxItems 再按发布日期截断（实测 OpenAI News 一份 feed 里躺着 1287 条历史）。
+      const maxAgeDays = Number.isFinite(source.maxAgeDays) ? source.maxAgeDays : MAX_AGE_DAYS;
+      let fresh = parsed.filter((it) => withinWindow(it.publishedAt, maxAgeDays));
+      if (Number.isFinite(source.maxItems) && fresh.length > source.maxItems) {
+        const before = fresh.length;
+        fresh = fresh
+          .slice()
+          .sort((a, b) => compareDateDesc(a.publishedAt, b.publishedAt))
+          .slice(0, source.maxItems);
+        process.stdout.write(`[cap]  ${source.key.padEnd(22)} kept newest ${source.maxItems}/${before}\n`);
+      }
       report.count = fresh.length;
       report.ok = true;
       anyOk = true;
