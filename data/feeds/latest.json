@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T02:03:04.974Z",
+  "generatedAt": "2026-10-10T02:14:04.597Z",
   "counts": {
-    "raw": 182,
-    "deduped": 173,
-    "kept": 173
+    "raw": 183,
+    "deduped": 174,
+    "kept": 174
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 21,
+      "count": 22,
       "error": null,
-      "ms": 401
+      "ms": 363
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 14,
       "error": null,
-      "ms": 1206
+      "ms": 1204
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1238
+      "ms": 1420
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 11,
       "error": null,
-      "ms": 1872
+      "ms": 2134
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1068
+      "ms": 1223
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1618
+      "ms": 1550
     },
     {
       "key": "google_news_onhold",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1336
+      "ms": 1302
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1264
+      "ms": 1215
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1435
+      "ms": 1269
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1075
+      "ms": 1147
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1082
+      "ms": 1106
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2581
+      "ms": 2064
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1103
+      "ms": 1116
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 1264
+      "ms": 1111
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1072
+      "ms": 1132
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1012
+      "ms": 1067
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1045
+      "ms": 1161
     }
   ],
   "items": [
@@ -156,6 +156,19 @@
       "score": 8,
       "tags": [
         "openai"
+      ]
+    },
+    {
+      "id": "6d712afa02e36d70",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "publishedAt": "2026-10-10T02:04:12.000Z",
+      "snippet": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the appli",
+      "score": 7,
+      "tags": [
+        "anthropic"
       ]
     },
     {
@@ -344,39 +357,26 @@
       "tags": []
     },
     {
-      "id": "f4154156a74fd1f3",
+      "id": "e9cd982dd3736975",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Anthropic AI model sent fake murder tip to unsolved killings website, Philadelphia police say - Malay Mail",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUHVLdVgxM0JJMHlpcW16LXRkNlRla0RSQ0RxSFhMb2d0SWw5bjhpWVNqVGRQekVnbmJJSDJLUTJEZ29nRkROMXVoYU95cmdUX2Voc2NlbUpBeWVVbnpXd1RhUGljYkZwdzhlcDQ0U3BfOHBucS1YOTBKNFpOYnBya1lQcVNiTlEtaXh4emcyTnNMdzVtZzQ4VXFFZWNjVW10cVN6RF9nRkNYS3BIcnZxUzdPc3ZLQmRMcDNOVEZxTWhuVmdhc25yN2hqRU1YYVFXR2NTdlpmUGk5OFVDRUJYc9IB5gFBVV95cUxQRXYwX2ttMUxkM0xsOTFjajJNQ05BcHhIZjJaZjNCUE9QeUJxenJRZDNvMnpESHZPaWs3ODBtR04wWUdoeWdUMHFHM3dxU1JmMS1QTDc0dGJQSVAyRlJzNWRWUlRfNmlJbGhFNEFjVFAwOS1uMzFtOUNXV2txRWVFZnNXS3BPbDZ0MHBySFRiUUlKNHVxX0F5bVRRUHY2WGdUNGs2Y3c4dnpVNWVQdS1FY2FDZ3B6cHJLVnRha3RIMTdpQnBmb2hyRTNvWnJtWHFwdzVyRVQ1Y1owMG44N2hOOTR5Q19rUQ?oc=5",
-      "publishedAt": "2026-10-10T01:20:42.000Z",
-      "snippet": "Anthropic AI model sent fake murder tip to unsolved killings website, Philadelphia police say Malay Mail",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "387a0b55544cc1a6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
-      "publishedAt": "2026-10-10T01:00:22.000Z",
-      "snippet": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
+      "title": "Free Gemini app users now only have access to ‘Auto’ models - 9to5Google",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmc0RWx6dGJKY1RlWTRlUElMOE8wVjUydmV2a21LUEVhd0RadlJBaDBjM1pTVGNDYnEtdkN3dTd0S1lldlhBOXdXR0NIT2IyaThrOTY5azBrbEU4VE1rMEU2NTJDV1lDNGxmSDd4dXJ5S0EtYkYzUTdqSWUtMnZ4WXhWMA?oc=5",
+      "publishedAt": "2026-10-10T01:24:00.000Z",
+      "snippet": "Free Gemini app users now only have access to ‘Auto’ models 9to5Google",
       "score": 6,
       "tags": [
         "gemini"
       ]
     },
     {
-      "id": "cd2de4be3465d47d",
+      "id": "d2d1ff7d7f6349ca",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Anthropic discloses fake tip to police among new rogue AI incidents - CNA",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmN2SkFGZmZ3cjNKMkE2Z3JJS3FxaU4tck05cXI3a2ppSTEwUGo2NXducG04MHNFaUF1d2NCVXlLcXBqa0lPUVVsckU5TlNMOFdpMnE0a3pRQ2szT1FHNzhhcGlzT2FUR09tUVBUQ2xkYmwxVnBGS2piUjI1RkwyZmNna3NhMnR1OGw2c1dxS3g2allkdzdWQnllVkpKaGtPMFBPUWxTeTFOWC1oc0ZoOEdWcw?oc=5",
-      "publishedAt": "2026-10-10T00:36:23.000Z",
-      "snippet": "Anthropic discloses fake tip to police among new rogue AI incidents CNA",
+      "title": "Anthropic AI agent sent fake murder tip to US police in testing glitch - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa3YyQzYzWnYtUjg5Ry0xcnpKbGJ0eU5BX3hHaWk2X2RGVGlXVzFLTkJwNzd1UW1JbllUQjMwUjZuSzV6cFZ6VFBQZG1ZUWNONzM0VzR4eG9lYTBTcG9Tb3lxdlNwQUhNUU1RbXZYbVU5TktUNWZMNEZrRHU3MUR6MDVSajVhTVhDcjhuOXo4S1p5RUdYalpLQUJmNFdoTFJkMHJ5aDRfM18xeXN2UWtINHh0cWpVcmlkZVE2MlVva1A0WWZENVdEaFF0VkNkOWpRWkZORlpR0gHWAUFVX3lxTE5rdjJDNjNadi1SODlHLTFyekpsYnR5TkFfeEdpaTZfZEZUaVdXMUtOQnA3N3VRbUluWVRCMzBSNm5LNXpwVnpUUFBkbVlRY043MzRXNHh4b2VhMFNwb1NveXF2U3BBSE1RTVFtdlhtVTlOS1Q1Zkw0RmtEdTcxRHowNVJqNWFNWENyOG45ejhLWnlFR1hqWktBQmY0V2hMUmQwcnloNF8zXzF5c3ZRa0g0eHRxalVyaWRlUTYyVW9rUDRZZkQ1V0RoUXRWQ2Q5alFaRk5GWlE?oc=5",
+      "publishedAt": "2026-10-10T00:51:36.000Z",
+      "snippet": "Anthropic AI agent sent fake murder tip to US police in testing glitch South China Morning Post",
       "score": 6,
       "tags": [
         "anthropic"
@@ -458,6 +458,19 @@
       "score": 6,
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "id": "387a0b55544cc1a6",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
+      "publishedAt": "2026-10-09T23:04:52.000Z",
+      "snippet": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
+      "score": 6,
+      "tags": [
+        "gemini"
       ]
     },
     {
@@ -1148,6 +1161,17 @@
       "tags": []
     },
     {
+      "id": "5fbaee873be53ec4",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "11 of 23 Core Open Source Projects Run on 1 or 2 People",
+      "url": "https://linuxstans.com/11-of-23-core-open-source-projects-run-on-1-or-2-people/",
+      "publishedAt": "2026-10-09T23:56:55.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "7a431aa4d8c7d41b",
       "domain": "ai",
       "source": "hackernews",
@@ -1743,19 +1767,6 @@
       "snippet": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "ce0a6806784a2a04",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
-      "publishedAt": "2026-09-29T18:27:48.000Z",
-      "snippet": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown",
-      "score": 5,
-      "tags": [
-        "openai"
-      ]
     },
     {
       "id": "ceba6e96b7fe51e4",
