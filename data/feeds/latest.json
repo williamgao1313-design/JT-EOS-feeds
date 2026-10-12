@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T00:52:23.912Z",
+  "generatedAt": "2026-10-12T02:33:50.632Z",
   "counts": {
-    "raw": 155,
-    "deduped": 151,
-    "kept": 151
+    "raw": 138,
+    "deduped": 134,
+    "kept": 134
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 14,
+      "count": 12,
       "error": null,
-      "ms": 399
+      "ms": 336
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1169
+      "ms": 1138
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1424
+      "ms": 1154
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1905
+      "ms": 1853
     },
     {
       "key": "simonwillison",
@@ -45,31 +45,31 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1081
+      "ms": 1038
     },
     {
       "key": "google_news_ai",
-      "ok": true,
-      "status": 200,
-      "count": 10,
-      "error": null,
-      "ms": 1504
+      "ok": false,
+      "status": null,
+      "count": 0,
+      "error": "HTTP 503",
+      "ms": 26926
     },
     {
       "key": "google_news_onhold",
-      "ok": true,
-      "status": 200,
-      "count": 1,
-      "error": null,
-      "ms": 1250
+      "ok": false,
+      "status": null,
+      "count": 0,
+      "error": "HTTP 503",
+      "ms": 20368
     },
     {
       "key": "google_news_retraction",
-      "ok": true,
-      "status": 200,
-      "count": 4,
-      "error": null,
-      "ms": 1209
+      "ok": false,
+      "status": null,
+      "count": 0,
+      "error": "HTTP 503",
+      "ms": 24955
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1152
+      "ms": 1456
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1131
+      "ms": 1270
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1058
+      "ms": 1079
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1549
+      "ms": 2151
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1078
+      "ms": 1089
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 1171
+      "ms": 1114
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1145
+      "ms": 1097
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1080
+      "ms": 1013
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1026
+      "ms": 1012
     }
   ],
   "items": [
@@ -156,20 +156,6 @@
       "score": 7,
       "tags": [
         "rust"
-      ]
-    },
-    {
-      "id": "509575350713e780",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic's Claude AI submits false tip on Philadelphia unsolved homicide case - Japan Today",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVUFNcVRXSXFUa1RvY1E3bWtUcFRvRnQ2U1g0WGduaFhnZTJtSjIydDVyZVIyV3labzZETjgzN2hVMExaSm9HZ2Y4bGh3d1puUkR1alNYX2lFVkpMeUNBemQ4cUhXcHhGU1NMOEtWWjAwUFVKNHEwcU9OZFhxNF9IQ1NQYzEwVzItcUowcmhxUVBfa2h1ZldzUjc3VjE1ZWRYWnpjbnlGTmVScnlkOWQyWEtoOUhsaWxjUWd1cXNR?oc=5",
-      "publishedAt": "2026-10-11T21:22:24.000Z",
-      "snippet": "Anthropic's Claude AI submits false tip on Philadelphia unsolved homicide case Japan Today",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "claude"
       ]
     },
     {
@@ -196,20 +182,6 @@
       "score": 7,
       "tags": [
         "react"
-      ]
-    },
-    {
-      "id": "4063c1ff91f9367c",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Anthropic asks users to stop being mean to Claude",
-      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-      "publishedAt": "2026-10-11T01:17:22.000Z",
-      "snippet": "",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "claude"
       ]
     },
     {
@@ -253,108 +225,37 @@
       ]
     },
     {
-      "id": "0e8dea6f009c3dc8",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "MIT Professor Despairs: OpenAI's Solution to The Millennium Problem Is Already Beyond Human Comprehension - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nSkg4OEFHWVFORGlkX1BtaTY1cktFT0h5cnk4TVVoRjRCdHlmeTJKR0JweUtmTFpvY0tfUTAxN01hM3NlZE5rTXRFdzlSbUt6S0M0?oc=5",
-      "publishedAt": "2026-10-12T00:23:46.000Z",
-      "snippet": "MIT Professor Despairs: OpenAI's Solution to The Millennium Problem Is Already Beyond Human Comprehension 36Kr",
+      "id": "416ddde973d83174",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Refurb weekend II: Alpha Micro Eagle 300 and friends",
+      "url": "https://oldvcr.blogspot.com/2026/10/refurb-weekend-ii-alpha-micro-eagle-300.html",
+      "publishedAt": "2026-10-12T01:49:50.000Z",
+      "snippet": "Comments",
       "score": 6,
-      "tags": [
-        "openai"
-      ]
+      "tags": []
     },
     {
-      "id": "3d6840e79484826d",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdC1Yb1VaRzVmWnNoRmpLRFF4cWtUZXNyMjYtVzItMEJIYWhGWUpsUXRtWEJmaDVpZ1lGSXE3WGFYWU94cUFwcTRZZnQzVFBsaktQVjQ3WmJMMFVyQnlTS3NtUEMzVkY1WmNoU1dmdW1LWVB5YXJ1amROdEVIWVRhSFNLdldjVkMwcVRjaHJoOGVwVFBDbmxCdHlqTGIwc2px?oc=5",
-      "publishedAt": "2026-10-12T00:18:27.000Z",
-      "snippet": "Anthropic AI Model Went Rogue, Submitted Fake Unsolved Murder Tip WSJ",
+      "id": "708ddec48bc5e3ef",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "CSS for underlines",
+      "url": "https://www.rubenerd.au/css-for-underlines/",
+      "publishedAt": "2026-10-12T01:43:08.000Z",
+      "snippet": "Comments",
       "score": 6,
-      "tags": [
-        "anthropic"
-      ]
+      "tags": []
     },
     {
-      "id": "c6d4d5b6cade8e11",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Claude AI’s Fake Homicide Tip Surfaced After 81 Days [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RVzlqNzdtdVpsV3dTM0hRU1d5SmF0YlctaW80eEpaMFppTzc2ZVdUb1FKbmszSF9vR29jbEdGQldnMEpqdXVkYTYtYXRqZnhUcmJRVkc5WTQ1SzhBMktXdHVjd3FSVTRZejhxSnlKekZrSnEx?oc=5",
-      "publishedAt": "2026-10-11T23:51:54.000Z",
-      "snippet": "Claude AI’s Fake Homicide Tip Surfaced After 81 Days [2026] https://tech-insider.org/",
+      "id": "aa3504d9bb8e3315",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "'AI' is Not a Tool",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "publishedAt": "2026-10-12T01:18:09.000Z",
+      "snippet": "Comments",
       "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "45bb673620ddd378",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic Launches Office Tools, Adds Natural-Language Data Visualization - THE ELEC, Korea Electronics Industry Media",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByd1UyUkxXU3lsY0RIOWNvTzI1UXBMb194X0lXUk9RTzVMUVRUZFdKa29rZGR2T09iS0NheVJ1UnE1OHZOcFljMEZoSDVXQkhyb3VsbFZoQk1jQzlDdTZDQlpoWVAwMk0?oc=5",
-      "publishedAt": "2026-10-11T23:40:38.000Z",
-      "snippet": "Anthropic Launches Office Tools, Adds Natural-Language Data Visualization THE ELEC, Korea Electronics Industry Media",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "1cbad8d7d4333acd",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Quietly Lists a New Life Sciences Model, Targeting the Drug-Tool Supplier Track - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93Vk1PM0g0MmU3MkRXRUdBT1VKMVdzTk9WaU50eTJSRFlLVjZPaW5ubGpjaGNyVXg2WktzSHdoUFpRdkZwNEQydHJyWWw3TVZnTHAzdHZ3TDl6T0NhYVFxM2FwV2MxX0diMWhyTk5KblA4SS11R0E?oc=5",
-      "publishedAt": "2026-10-11T23:35:00.000Z",
-      "snippet": "OpenAI Quietly Lists a New Life Sciences Model, Targeting the Drug-Tool Supplier Track BigGo Finance",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "23d64ed8a02c902b",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Amazon is reportedly circling Decart after Nvidia and Anthropic both walked away - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONy1kbUM5WnEyOXRQNUJ5VGhtNDhfa3F1U0hUUUFYSFJocGVHeG1KWXBDVHZDREZ6VnlJdEIyTW9XZHVVQ0cway1DeUNid0JZNUlFN3NjdFZHcXpDN19HUEx3a2JDalJSV1BubERvdHlody1PZU04cDgwMUV6LVYxVkwwRjBKZjB5Y0xwYU85M2VITUYzVmkwX3A2Yk50Y3JnLVhCaExHcENWNlln?oc=5",
-      "publishedAt": "2026-10-11T23:19:54.000Z",
-      "snippet": "Amazon is reportedly circling Decart after Nvidia and Anthropic both walked away Startup Fortune",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "5775a01930e98c04",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Codeifai Launches ConnectQR App Inside ChatGPT and Claude as User Accounts Reach 8,541 - Kalkine",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdTV3N1Y3NnhSZmY0S04yMV9WM0EtSkJ6SExnZ2wzdXcySnNjemlhU1BGelU3WVdKelR1TmUwTkthck1ISl8xTl9zRWxycUdGaFU3UzFUaVJZajhLMk9ZMC1nNVA1WHJ3VWhDc2ZmVFRvOXRPY3Ryb1FYR0RUOUwtVnNMSktBMGRVcVgwR05GLUhrbnN3YlJPbGhxbEZ6U21KNm9Lal80TVUtUUV2TGd3bzhMM3RTNFE3WmtKbkdJMHhvVVVuT3c?oc=5",
-      "publishedAt": "2026-10-11T23:15:02.000Z",
-      "snippet": "Codeifai Launches ConnectQR App Inside ChatGPT and Claude as User Accounts Reach 8,541 Kalkine",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "387a13cebbab5413",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Codex CLI 0.162 vs Claude Code 2.1.296 [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SaU1sVEFFQzNhZDM1d1VJZmc4Y1NpTlFvRlBRVlBCUXFCYkx3TzFUcE8xSmkzS253bmY0RmVDaHk4aDFfY3JJWGZCOWw5azBqNnBXRmRtekNRU3JLT24zRWUwNVQyajZMaXk4eWx1NlFFZ3duX25SNw?oc=5",
-      "publishedAt": "2026-10-11T22:42:59.000Z",
-      "snippet": "Codex CLI 0.162 vs Claude Code 2.1.296 [2026] https://tech-insider.org/",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
+      "tags": []
     },
     {
       "id": "a4f51a2e435da1f0",
@@ -366,19 +267,6 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "aea67f4d93aa115e",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Google Gemini access is changing. Free users, take note. - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCWE5lMm02VXRBeGo4NjVOMFpzbHFJRGdCRDVnM1RRUkxvRU4wcjduY2pDWXUtaVVra3NLVFVzd2lPN3REMVZTN0FHRVdZOEM3Q1ljWTRNQy1BX1JMSGh4NjgzWXV3MlRoWlQtaFk1cWJRczV2Vmc?oc=5",
-      "publishedAt": "2026-10-11T21:49:30.000Z",
-      "snippet": "Google Gemini access is changing. Free users, take note. Mashable",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
     },
     {
       "id": "5823151e1fc3f84a",
@@ -471,17 +359,6 @@
       ]
     },
     {
-      "id": "8358da99e10283a0",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Hacking the Eufy Doorbell and Base Station",
-      "url": "https://adepts.of0x.cc/Eufy-DoorBell-hacking/",
-      "publishedAt": "2026-10-11T11:54:20.000Z",
-      "snippet": "Here is the follow-up dive into the base station Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "d9a3053444fd5a9b",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -526,15 +403,18 @@
       "tags": []
     },
     {
-      "id": "7bf90c5622a7b200",
+      "id": "4063c1ff91f9367c",
       "domain": "ai",
-      "source": "simonwillison",
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "publishedAt": "2026-10-11T00:52:37.000Z",
-      "snippet": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days",
+      "source": "hackernews",
+      "title": "Anthropic asks users to stop being mean to Claude",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "publishedAt": "2026-10-11T01:17:22.000Z",
+      "snippet": "",
       "score": 6,
-      "tags": []
+      "tags": [
+        "anthropic",
+        "claude"
+      ]
     },
     {
       "id": "cf94b41781517218",
@@ -881,13 +761,13 @@
       "tags": []
     },
     {
-      "id": "379d34a56ae83257",
+      "id": "7bf90c5622a7b200",
       "domain": "ai",
-      "source": "hackernews",
-      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
-      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "publishedAt": "2026-10-11T02:02:38.000Z",
-      "snippet": "",
+      "source": "simonwillison",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "publishedAt": "2026-10-11T00:52:37.000Z",
+      "snippet": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days",
       "score": 5,
       "tags": []
     },
@@ -960,36 +840,12 @@
       "tags": []
     },
     {
-      "id": "902cb8584e304b6c",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Vibe coded browser ports of Halo, The Simpsons: Hit And Run, GTA work well",
-      "url": "https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300",
-      "publishedAt": "2026-10-10T18:11:58.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "browser"
-      ]
-    },
-    {
       "id": "fc44527920be83a9",
       "domain": "vibe_coding",
       "source": "lobsters",
       "title": "Kiesel Devlog #15: Release 0.4.0",
       "url": "https://linus.dev/posts/kiesel-devlog-15/",
       "publishedAt": "2026-10-10T17:55:46.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "9281fd0fb2b7fcb4",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Iframes that finally fit their content",
-      "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
-      "publishedAt": "2026-10-10T12:54:56.000Z",
       "snippet": "Comments",
       "score": 5,
       "tags": []
@@ -1023,17 +879,6 @@
       "title": "oh, apparently it's not possible to portably check for string-to-float conversion errors in standard c",
       "url": "https://sebsite.pw/w/20261009-strtod.html",
       "publishedAt": "2026-10-10T05:37:18.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "5e8fffb447536fff",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "No Man Is an Island",
-      "url": "https://borretti.me/article/no-man-is-an-island",
-      "publishedAt": "2026-10-10T01:37:07.000Z",
       "snippet": "Comments",
       "score": 5,
       "tags": []
@@ -1339,32 +1184,6 @@
       ]
     },
     {
-      "id": "6ca688319d581197",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "科技部：牵头开展学术不端撤稿论文专项整治工作 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1FtS0x0cXlYVXc5M0RYcU9SWnFPVHp1dWk3aTlNMExmY0Z6XzZodHh2d29XX214VFRRTnMzUFcycnhzNjBrU3VGUmdkYy1CU3dUcVFYQm5pb2tQLXo2bG1vQmJReUNjd2FPOE5KcjBvY2c3U0dmcnVqQWFQSzhYY0hhWHQ?oc=5",
-      "publishedAt": "2026-10-05T03:34:00.000Z",
-      "snippet": "科技部：牵头开展学术不端撤稿论文专项整治工作 新浪财经",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
-      "id": "7785f569b4fd0729",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "耿同学再度立功！知名学者顶刊论文正式撤稿，核心数据彻底失效 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVFVvSzN0WDZDOHVGaDVNR2JySTczYjZxZlo1Ml9kV2RBNm9ZNmk2bnZSbWRyLVI2WUh3QWViYVB5eUE5LUt5TFktMVVyYWZUenRkZFhPSndaMlp5SWw4bG9VY1RJZmVkWEJIMnYyVlpmQkN2X0JJbmZKaUREdmFxMHo3WVlCcThDTkNQZg?oc=5",
-      "publishedAt": "2026-10-04T14:59:00.000Z",
-      "snippet": "耿同学再度立功！知名学者顶刊论文正式撤稿，核心数据彻底失效 搜狐网",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "267e39fe89edf2f2",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -1407,19 +1226,6 @@
       "snippet": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "ceba6e96b7fe51e4",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "Elsevier journal retracts 100+ papers for authorship issues, editor conflicts of interest - Retraction Watch",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWNTRzI2ZHBQWTdCZTlhbjBGS2Y5ZS1RcWlGOXhuZWFJWHBqTTBjajFIejJyNC1pSEhHZkJQaFVLaTNNcTJaelRJeGpSekE5V3Z5U2RZcmMwWUFzYm1mSTRxTkZtOS1uSWtBTnFNSWVXZWx5dzNkc0E3QkxfeVhjaTh4d2sxX3FMWHVLWURMeWk5Ykg4d05PUndtVUZSVTdqcVYxV3d2TmpCSHRDTlRBbWVxTk5JeFdVSlR3Zjd2VlB0NUNoOGc?oc=5",
-      "publishedAt": "2026-09-22T07:00:00.000Z",
-      "snippet": "Elsevier journal retracts 100+ papers for authorship issues, editor conflicts of interest Retraction Watch",
-      "score": 5,
-      "tags": [
-        "retraction"
-      ]
     },
     {
       "id": "1a05b53dbceec762",
@@ -1474,23 +1280,23 @@
       ]
     },
     {
+      "id": "379d34a56ae83257",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "publishedAt": "2026-10-11T02:02:38.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "e4264a7a75b371b4",
       "domain": "github",
       "source": "hackernews",
       "title": "PSPi 6 – Raspberry Pi in a PSP",
       "url": "https://github.com/othermod/PSPi-Version-6",
       "publishedAt": "2026-10-11T00:45:49.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "3fd96d17ec2ae599",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "publishedAt": "2026-10-10T18:48:35.000Z",
       "snippet": "",
       "score": 4,
       "tags": []
@@ -1837,17 +1643,6 @@
       "tags": []
     },
     {
-      "id": "6136128a83666b79",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "虚构疾病骗过了聊天机器人和一份学术期刊 - Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVZMbUxKTjA1eENJcVdpYTN5bjRtWkhpVTdGVHE1Y2hobXI5YlNCU2hRcktFTjVRczBDcnFRTXBtMGM5YzQ5b2VpRmdJRHQ0cWp2RnAyRGFYQ0RlajhXcjc0OVZYMVZTREt6MEZHNU4wVmxJeVpkSklhd1ItekdYZWdIQQ?oc=5",
-      "publishedAt": "2026-09-28T07:00:00.000Z",
-      "snippet": "虚构疾病骗过了聊天机器人和一份学术期刊 Pasquale Pillitteri",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "85bcbddc29bf70d8",
       "domain": "publishing",
       "source": "infodocket",
@@ -1910,17 +1705,6 @@
       "url": "https://scholarlykitchen.sspnet.org/2026/09/21/mental-health-awareness-mondays-maternal-mental-health-its-more-than-postpartum-depression/",
       "publishedAt": "2026-09-21T09:30:21.000Z",
       "snippet": "In today’s Mental Health Monday post, Ja’Nya Jenoch, a licensed mental health counselor, professor, author, and health researcher, takes us through the history of maternal mental health, unpacks terms such as postpartum depression and maternal separation anxiety, and explores the complex systems and",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "e5bfa1aab44e08f2",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "兽医科学期刊撤回关于赖氨酸甲基转移酶SMYD2对小鼠胚胎造血干细胞生成作用的文章声明 - 生物通",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SUFQxVzl0RzlRRy1qSHRfSVdUcjFpLTB4ekVhOHZoanlEaG1jRkppZWtjbXl0QWZvQjJnckJXMnpiS2FOSEp4RmdVcEkyZDEtbjU0MnF6Vjc2MDVwUjhZYXE5TEhBQ2dFeTluQQ?oc=5",
-      "publishedAt": "2026-09-15T23:59:36.000Z",
-      "snippet": "兽医科学期刊撤回关于赖氨酸甲基转移酶SMYD2对小鼠胚胎造血干细胞生成作用的文章声明 生物通",
       "score": 4,
       "tags": []
     }
