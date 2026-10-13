@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T12:14:47.657Z",
+  "generatedAt": "2026-10-13T03:42:17.910Z",
   "counts": {
-    "raw": 158,
-    "deduped": 153,
-    "kept": 153
+    "raw": 171,
+    "deduped": 165,
+    "kept": 165
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 13,
+      "count": 24,
       "error": null,
-      "ms": 363
+      "ms": 496
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 5,
+      "count": 7,
       "error": null,
-      "ms": 1171
+      "ms": 1165
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1166
+      "ms": 1280
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 9,
       "error": null,
-      "ms": 1972
+      "ms": 2035
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1164
+      "ms": 1124
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1565
+      "ms": 1506
     },
     {
       "key": "google_news_onhold",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1308
+      "ms": 1243
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 4,
       "error": null,
-      "ms": 1235
+      "ms": 1193
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1411
+      "ms": 1374
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1290
+      "ms": 3345
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1147
+      "ms": 1138
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2320
+      "ms": 5141
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1105
+      "ms": 1151
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 1102
+      "ms": 1122
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1103
+      "ms": 1155
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1014
+      "ms": 1060
     },
     {
       "key": "github_changelog",
@@ -141,91 +141,127 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1042
+      "ms": 1055
     }
   ],
   "items": [
     {
-      "id": "6037414bb8bae403",
+      "id": "06023e6238fabbc0",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Anthropic Launches Claude Motion to Turn Reports Into Interactive Animations - Geeky Gadgets",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB5eDRuNGhXN3FCY28tcjR3SGFjdkhsemo4UEJsb09UY0t4TzZ0cVBOdmpDWFBocWIwX1RjTmlmNHFOY0M2WGdQWHIxd0hzOHUtWVI1R0E1TQ?oc=5",
-      "publishedAt": "2026-10-12T11:50:00.000Z",
-      "snippet": "Anthropic Launches Claude Motion to Turn Reports Into Interactive Animations Geeky Gadgets",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
-      "id": "c7cf6eae32f4df61",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "U.K. regains access to OpenAI and Anthropic AI models pre-release - Quartz",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5FYUVickpOUVl2V0VsZ2dsN041YjcyejdLRno0aXJ0MU13NmNYN3d0UEJuNDNJSzZET0hNSFVqeWVFdTFLNUFnc240RHpHXzlkdzZoa2pwbnpCMUtid2x4SElKSzl3dFg3emxZNUxFaVJ0bkxwWnpHaUFn?oc=5",
-      "publishedAt": "2026-10-12T11:37:07.000Z",
-      "snippet": "U.K. regains access to OpenAI and Anthropic AI models pre-release Quartz",
+      "title": "Meta joins the frontier AI model race with Muse Wonder, challenging OpenAI and Anthropic - Neowin",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNREQ4Mmozb2pPa015ZFVUT2VhSHdGaVVTMHVJSGZtUVBwSlo2dkZidUlOWTAtRjlsMklJcXllcmtXTXNCc3BpaUVSMGkwcTVTQnJLZkJiVEN4NEpPYno3X2Z6aG1pS0ZZVm5EX2NwRjA1QkxCSnlzS3d1NWdtNGM1cl9RYlRQcUNBSnZyUFlaXzFEbGppMksySzFGSlV0R0dxaElUOXVUY2lUcnNwOTlPVDlwSEwzWDg?oc=5",
+      "publishedAt": "2026-10-13T02:58:47.000Z",
+      "snippet": "Meta joins the frontier AI model race with Muse Wonder, challenging OpenAI and Anthropic Neowin",
       "score": 7,
       "tags": [
         "openai",
-        "anthropic",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "abf4f9463b41c94a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Meta Catches Up to OpenAI and Anthropic, Unveils New AI Model 'Muse Wonder' - news.sbs.co.kr",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44RlRLazJ5MXFKRWZUTW0zanhjQkJJZGdSb2xyNzJCX1FzdVE2Q21FdTVqQmF6OHMzT2xJeXpkamkzYkZKVFFzdEl4c1NFSlhFZ1RhU2pwcWxJX01vSjg1S1M2THFfUQ?oc=5",
+      "publishedAt": "2026-10-13T00:29:00.000Z",
+      "snippet": "Meta Catches Up to OpenAI and Anthropic, Unveils New AI Model 'Muse Wonder' news.sbs.co.kr",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "f616300f779ab6f3",
+      "domain": "github",
+      "source": "github_changelog",
+      "title": "Client telemetry user attribution and configurable capture",
+      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+      "publishedAt": "2026-10-12T22:38:00.000Z",
+      "snippet": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture appe",
+      "score": 7,
+      "tags": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "a2619c156310bbc0",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Brickbrag – A multiplayer brick-building world in the browser",
+      "url": "https://brickbrag.com/",
+      "publishedAt": "2026-10-12T21:03:36.000Z",
+      "snippet": "",
+      "score": 7,
+      "tags": [
+        "browser",
+        "show hn"
+      ]
+    },
+    {
+      "id": "1e252fdddc10ceab",
+      "domain": "publishing",
+      "source": "retraction_watch",
+      "title": "A company named Springer that isn’t the publisher is offering authorship for sale",
+      "url": "https://retractionwatch.com/2026/10/12/springer-journals-online-authorship-for-sale/",
+      "publishedAt": "2026-10-12T19:03:53.000Z",
+      "snippet": "Computer scientist Richard Fateman got an email in August that was completely “out of the blue”: an offer of coauthorship in articles headed for publication in prestigious journals, in exchange for a fraction of the publication costs. Fateman, professor emeritus at the University of California, Berk",
+      "score": 7,
+      "tags": []
+    },
+    {
+      "id": "6ac1b2988dda4301",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Just say no to OpenAI and Anthropic",
+      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+      "publishedAt": "2026-10-12T18:17:29.000Z",
+      "snippet": "",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "a0b4e24ed7b3ae81",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "publishedAt": "2026-10-12T18:15:38.000Z",
+      "snippet": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features ",
+      "score": 7,
+      "tags": [
         "release"
       ]
     },
     {
-      "id": "a10b454aec4f8d37",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-      "url": "https://github.com/SaarthurR/atticus-mac",
-      "publishedAt": "2026-10-12T00:15:12.000Z",
-      "snippet": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that s",
+      "id": "36f062fd4876fbd5",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "publishedAt": "2026-10-12T15:54:36.000Z",
+      "snippet": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI f",
       "score": 7,
       "tags": [
-        "browser",
-        "show hn"
+        "release"
       ]
     },
     {
-      "id": "f15e1784d5e3746e",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
-      "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/",
-      "publishedAt": "2026-10-11T23:28:36.000Z",
-      "snippet": "Comments",
+      "id": "5c33edcbee19731c",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "publishedAt": "2026-10-12T04:57:07.000Z",
+      "snippet": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette",
       "score": 7,
       "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "940a14cc8fbf9d82",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
-      "url": "https://github.com/swimmingbrain/brainotes",
-      "publishedAt": "2026-10-11T23:22:29.000Z",
-      "snippet": "In August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn't excpect it to get that much feedback, bug reports and help from here!) This is the same idea for the other half of my studies, the handwritten notes. I take t",
-      "score": 7,
-      "tags": [
-        "browser",
-        "show hn"
-      ]
-    },
-    {
-      "id": "46396da3d9be2890",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The next-gen borrow checker, a drop-in replacement for Rust borrow checking",
-      "url": "https://gist.github.com/FlameyosSnowy/a49a35ba006238be55d8c3e410c31061",
-      "publishedAt": "2026-10-11T19:21:16.000Z",
-      "snippet": "Comments",
-      "score": 7,
-      "tags": [
-        "rust"
+        "release"
       ]
     },
     {
@@ -248,7 +284,7 @@
       "title": "cathrynlavery/diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "publishedAt": null,
-      "snippet": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. [HTML] 2100 stars today",
+      "snippet": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop. [HTML] 2081 stars today",
       "score": 7,
       "tags": [
         "copilot",
@@ -256,41 +292,356 @@
       ]
     },
     {
-      "id": "ec2a4c16a12278c9",
+      "id": "af5c49d5e3ea5cdd",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Meta unveils frontier models as battle with ChatGPT and Claude heats up - TRT World",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQREcxcUozbEdndm12VlZPVEc5TjhScE5HR2RvWGhUSk5jcEtLM01EZzQ1dFoyT0JLT2ZudVhiLVBleTNabGRNMzdRYXdBR0xKNjN1RzZJUE5yTXo1QW1ldkt1Y2gwSGZGbG12RXZHVEFkVTJpMWhKOWpLTHU0Nmh6MlBwUjZJNV9YY042U3lnSTZsX3FvMU5yYzlQdUppN2p4U01nMnJfRTcwZmhNRlU0cGl4aDF6Vk5tQ0wxSkpRUUFmaWVlaFBKSEl2dHN5N21BRFdBdU5xaU9HUUFEVlQ5ZEdzN01MdjBLZFlZ?oc=5",
+      "publishedAt": "2026-10-13T02:22:56.000Z",
+      "snippet": "Meta unveils frontier models as battle with ChatGPT and Claude heats up TRT World",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "48ef91389e2a6f79",
       "domain": "vibe_coding",
       "source": "lobsters",
-      "title": "How to effectively debug when you no longer understand the code",
-      "url": "https://copyconstruct.medium.com/how-to-effectively-debug-when-you-no-longer-understand-the-code-bd3dcb2c5f7b",
-      "publishedAt": "2026-10-12T12:01:18.000Z",
+      "title": "Vi Hart's Big Navier-Stokes Post",
+      "url": "https://www.patreon.com/vihart/posts/vi-harts-big-171939430",
+      "publishedAt": "2026-10-13T01:29:49.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
     },
     {
-      "id": "ffdea647b643f4f3",
+      "id": "e83518bcdf1d93b6",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "What Do Industry Experts Say on Anthropic's Model Report? - AI Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQkh2V2EySTVJbTNtRmtMVHh2M1FBNm9nV1BJSzR6anhhQXRMVHJuUi1RZXFleXZxanBCeUpmZ2JwMGxBXzlUVWdfXzJRMFNvUkVvc1ktd1JhUnpUWDlwR3BSRUk3dmZRWHBKVldESnI1SW1uZTQxSGc3SzhVczY2XzZTenp1YnhsVG40?oc=5",
-      "publishedAt": "2026-10-12T12:01:09.000Z",
-      "snippet": "What Do Industry Experts Say on Anthropic's Model Report? AI Magazine",
+      "title": "Alibaba's Qwen team open sources QwenGyre to train AI agents that run for hours - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWjRmbC1iVXVLRGp0cjM1ZU5Zd01HSFU3bkhtU0hWN0NEQ0kxRl9DODQwMVZKYnRoRElTYkN6RkN3NGVFXzBfaDFZazBFY0RYemNRT25uNGx1UmVSY21BR3JtRjYydzhRVGtPRlI0M1VOTzRNQUZER1RIdkdzWlpYY1V3eTVpM1pDVl9KMHBtTjBIT0k1U3dsM3RGOTB2MWdJVGs4ZC1naFVUdw?oc=5",
+      "publishedAt": "2026-10-13T01:20:21.000Z",
+      "snippet": "Alibaba's Qwen team open sources QwenGyre to train AI agents that run for hours Startup Fortune",
+      "score": 6,
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "5a30e078bed777c5",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Nvidia Is Not Looking for the Next OpenAI. It Wants to Challenge China’s Open AI Models. - semivision",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSkJ2cHZjYWxnY2tXR0NYRE9tZlZRYzVvTzZ3cVhJeEpVY3RteTJCTWd5SEpmTnBCRjVkbjZGcU9xWnUtNXdZYmtJRVZ3RWJjdUZ1MG9VS0g1dTUtX3k5UVM1UVlDQ2tzQXpRMnBuVXFYbjc0Z1ZlNDlCanFiR0V4Qg?oc=5",
+      "publishedAt": "2026-10-13T01:13:52.000Z",
+      "snippet": "Nvidia Is Not Looking for the Next OpenAI. It Wants to Challenge China’s Open AI Models. semivision",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "94507786b061b9a9",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic says new safeguards sharply reduce AI distillation attacks - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQkp2LVdoWTN5Z3JtM2xBNzBhMUtYakltbmh5dm5RNlI0czRiZG44bWNadmh5MjJBMHAyT2RObUlFN0hfMEZjTURJTTl1dTRkYThBMHVMQS1tZEMzY21Zb2NoUld3Zi0xc1JyeHVBNzlvRlVVRnZCdUl2NFkyVzIzTW1oX0U4Zy1iMldUalotWl9BMm8?oc=5",
+      "publishedAt": "2026-10-13T01:09:00.000Z",
+      "snippet": "Anthropic says new safeguards sharply reduce AI distillation attacks Yahoo! Finance Canada",
       "score": 6,
       "tags": [
         "anthropic"
       ]
     },
     {
-      "id": "154bb75096dcd675",
+      "id": "0598965e9c8e4cce",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Anthropic forced to ban models from the internet to stop them going ‘rogue’ - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc01JbU1vNlBlZVVfbGdxZFBZdGFLUTFSbHFZeXVnUGZ1MnBJTDA5ZlBwQkVxWUJ1ck1ZaHV5R3BVd24zZVhVM0MxMlNJcC1NMm9RS3kwSktQUWxGVVd3Q2Zrb0x1Y3dZRDcybDVsQkI1X0xRT0wxZFZ5YjNsTGIzdDNYUFl3WkJFaUdueW1IbXN2bG12Z19XaDQ0V1daMFRqUV85Y2Z0aWIxWkg3TmtzMFozQQ?oc=5",
-      "publishedAt": "2026-10-12T11:26:00.000Z",
-      "snippet": "Anthropic forced to ban models from the internet to stop them going ‘rogue’ The Independent",
+      "title": "Google's Gemini Agent Bets on Governance and Model Choice - Creative Strategies",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT0tyZE9wZnN2RU1aZW93ZXJCZnluWnF6Q21RNEpYMVBLeHNvZEpFTkJOa0Vac1ZnTk1TT1ItQ3FUUkd2SG1aTWNMRGRuS1JCelVkdkhURmtRMEhuZ0ZIT3lXY0h3ZGw3T0R4UmtySm96dGRtZ2R3MklmQVZmV0dEelBjV0VORlI3Nm4xcnZaZzFrdUpneXpuSWZKaTI?oc=5",
+      "publishedAt": "2026-10-13T00:36:58.000Z",
+      "snippet": "Google's Gemini Agent Bets on Governance and Model Choice Creative Strategies",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "27722d7f46ecb55b",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Lenovo Googlebook 15 Launches With Gemini AI And OLED Display - Explosion Network",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUV9kSXNuSE1qS2V1VnhLUTV5aUM0YXBSZEQySXhTSDFqS083b2tKazNpMVVhTUs3d1ltS0VKOWVFcGl4Q3dFME9tb1pRR3dBS1c3SkxuNnM2WkFrd0hQZlNOS1RiTGVLdmIwWUtrbXNzUEN3LWhvYUN2RHlvNC1lYjRuTU5RZ1pTMWs5TnNHWEU4N2RkSGc?oc=5",
+      "publishedAt": "2026-10-12T23:54:34.000Z",
+      "snippet": "Lenovo Googlebook 15 Launches With Gemini AI And OLED Display Explosion Network",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "4e31d642a69fbea5",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Meta Launches Muse Wonder AI Model to Challenge ChatGPT and Claude - CEOWORLD magazine",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSjdoVURSNFowLUVzYkpyc0VUUFl6R1QtNFZOTzdjOWtmTVluUDc3VFQtNWxsNVBJRkN5RnE2WG11MFBka1RZdzNFbnpnY2k3Tkx5NTVRSjlUcERHVjJ1TkJScGdoWll0V3RZbE9ub1VPdUc1TzNFd3hvUTlTSmwtQlNicWRuN1hmOHZHOUxUdlhMallGY29zX3Y3Uk9VMVFD?oc=5",
+      "publishedAt": "2026-10-12T23:52:50.000Z",
+      "snippet": "Meta Launches Muse Wonder AI Model to Challenge ChatGPT and Claude CEOWORLD magazine",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "856c4ce080201257",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic AI model made false tip in unsolved Philly murder: Officials - Modern Ghana",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GWm1YdWJwdGVmWUY2d3VxQVpJU0F4T2N6dHRRdWJGSHUzSUJkQW1GVUtRMmxtdWItOWpaWHJsMVVRb0JjOEtIejh6aFlCSkczRGZZV0ZqZDVxcjlaaWow0gFcQVVfeXFMT1BSRlpWamtlbzNDRERyVEFJY0ZneDNCejlQdnB1dlluRHBfOXBuVDk4MzRkRGNzVFBYZXNmQ1cxb1Vodjg3SkVSUThxUFBrTm5XTUVLSmduMUNEcW4?oc=5",
+      "publishedAt": "2026-10-12T23:46:03.000Z",
+      "snippet": "Anthropic AI model made false tip in unsolved Philly murder: Officials Modern Ghana",
       "score": 6,
       "tags": [
         "anthropic"
       ]
+    },
+    {
+      "id": "2c277741abff477f",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: An experimental pattern-first DAW that supports MCP",
+      "url": "https://github.com/andrewfader/blokkily",
+      "publishedAt": "2026-10-12T23:21:12.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "7ec57a695797e438",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Biotechnology for Sustainable Materials (2948-2348)",
+      "url": "https://doaj.org/toc/2948-2348?rss=",
+      "publishedAt": "2026-10-12T22:25:57.000Z",
+      "snippet": "Published by Biomed Central Added to DOAJ on 12 Oct 2026 LCC Subject Category: Technology: Chemical technology: Biotechnology",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "2ef68260d657d708",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "A modern web app in c",
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "publishedAt": "2026-10-12T20:52:08.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "299fc5a93dd95d15",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Biotechnology for the Environment (2948-2356)",
+      "url": "https://doaj.org/toc/2948-2356?rss=",
+      "publishedAt": "2026-10-12T18:42:31.000Z",
+      "snippet": "Published by BioMed Central Added to DOAJ on 12 Oct 2026 LCC Subject Category: Technology: Chemical technology: Biotechnology | Technology: Environmental technology. Sanitary engineering",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "3a6168465fe82d8c",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Speeding up the Unreal editor by… not using unnecessarily secure hash methods",
+      "url": "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods/",
+      "publishedAt": "2026-10-12T18:37:55.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "fc27ecf430ac7c0a",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "npj Clean Energy (3059-2232)",
+      "url": "https://doaj.org/toc/3059-2232?rss=",
+      "publishedAt": "2026-10-12T18:19:09.000Z",
+      "snippet": "Published by Nature Publisher Group UK Added to DOAJ on 12 Oct 2026 LCC Subject Category: Technology: Engineering (General). Civil engineering (General): Environmental engineering | Technology: Electrical engineering. Electronics. Nuclear engineering",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "bb8832f402e470a6",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "512 bytes at a time: reconstructing IBM i save-file checksums",
+      "url": "https://blog.silentsignal.eu/2026/10/06/512-bytes-at-a-time-reconstructing-IBM-i-save-file-checksums/",
+      "publishedAt": "2026-10-12T18:12:46.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "14a17df139f4fcf2",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+      "publishedAt": "2026-10-12T18:03:56.000Z",
+      "snippet": "I think a chasm has been crossed. Opus 5.5 few shotted a fully working Figma for me. In the past year I have been trying to benchmark vibe coded apps and see how good they get and this week it did it with very very little guidance from me. I basically just told it reach feature parity. Prior to this",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "b4c609255e0547b4",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "ESP32 As Your Raspberry Pi’s Linux Wireless Co-processor",
+      "url": "https://hackaday.com/2026/10/07/esp32-as-your-raspberry-pis-linux-wireless-co-processor/",
+      "publishedAt": "2026-10-12T18:00:48.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "7cd7d8c9ddbdb2eb",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "your c is not standard c",
+      "url": "https://sebsite.pw/w/20261012-notstdc.html",
+      "publishedAt": "2026-10-12T17:17:18.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "7044dbb9fe1a528e",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "The Bulletin of Linguistic and Intercultural Studies (3153-2578, 3100-8291)",
+      "url": "https://doaj.org/toc/3100-8291?rss=",
+      "publishedAt": "2026-10-12T17:13:43.000Z",
+      "snippet": "Published by “Mihai Viteazul” National Intelligence Academy (ANIMV) Publishing House Added to DOAJ on 8 Oct 2026 LCC Subject Category: Language and Literature: Philology. Linguistics: Communication. Mass media",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "3fd6f127a122d592",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Knihy a Dějiny (1210-8510, 2571-2322)",
+      "url": "https://doaj.org/toc/2571-2322?rss=",
+      "publishedAt": "2026-10-12T17:11:22.000Z",
+      "snippet": "Published by Library of the Czech Academy of Sciences Added to DOAJ on 9 Oct 2026 LCC Subject Category: Bibliography. Library science. Information resources | History (General) and history of Europe",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "09b15176f4548802",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "What I've been seeing lately (in software)",
+      "url": "https://mei.puppycat.house/w/seeing-261010",
+      "publishedAt": "2026-10-12T17:08:00.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "f73433b8d487ccef",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "What are you doing this week?",
+      "url": "https://lobste.rs/s/7vzgsl/what_are_you_doing_this_week",
+      "publishedAt": "2026-10-12T17:04:52.000Z",
+      "snippet": "What are you doing this week? Feel free to share! Keep in mind it’s OK to do nothing at all, too.",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "1310d799568c5e62",
+      "domain": "github",
+      "source": "github_changelog",
+      "title": "Push attribution for commits in limited public preview",
+      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+      "publishedAt": "2026-10-12T16:30:11.000Z",
+      "snippet": "GitHub now durably records the authenticated user who pushed each commit and surfaces that pusher identity in the UI and API alongside the existing author and committer fields. Commit author… The post Push attribution for commits in limited public preview appeared first on The GitHub Blog .",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "4935ca539e5b249c",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Parsing JSON at tens of gigabytes per second… in Python",
+      "url": "https://lemire.me/blog/2026/10/12/parsing-json-at-tens-of-gigabytes-per-second-in-python/",
+      "publishedAt": "2026-10-12T15:24:45.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "6c55fc8a9b6f50fc",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Finding a $90,000 Remote Code Execution Vulnerability in Google",
+      "url": "https://simonkoeck.com/writeups/google-devsite-flask-session-pickle-rce",
+      "publishedAt": "2026-10-12T14:40:35.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "c2e8d46277b61a75",
+      "domain": "github",
+      "source": "github_changelog",
+      "title": "Anonymous organization-level registries for Dependabot",
+      "url": "https://github.blog/changelog/2026-10-12-anonymous-organization-level-registries-for-dependabot",
+      "publishedAt": "2026-10-12T14:04:16.000Z",
+      "snippet": "You can now select Anonymous as the authentication method for an organization-level private registry. Use it for registries that Dependabot can reach without credentials, such as an internal package mirror… The post Anonymous organization-level registries for Dependabot appeared first on The GitHub ",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "39f35bd0d82191d6",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "(Post-Quantum) Cryptographic Right Answers",
+      "url": "https://words.filippo.io/right-answers/",
+      "publishedAt": "2026-10-12T13:44:38.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "bc032cf998173e74",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
+      "url": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
+      "publishedAt": "2026-10-12T13:20:04.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "b513204f5d54bc21",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "French supermarket chains say cyberattack forced refrigerator shutdown",
+      "url": "https://www.afp.com/en/french-supermarket-chains-say-cyberattack-forced-refrigerator-shutdown",
+      "publishedAt": "2026-10-12T12:23:52.000Z",
+      "snippet": "This popped up and reminded me strangely of a story post a month ago here: https://lobste.rs/s/ygjo0g/i_think_military_commissary_freezers And, lo and behold, the very same controller supplier is mentioned in both the earlier US article and the one covering this by french newspaper Le Monde : the da",
+      "score": 6,
+      "tags": []
     },
     {
       "id": "c8ddca153846c289",
@@ -304,32 +655,6 @@
       "tags": []
     },
     {
-      "id": "2c13a3e46d982627",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "New Instadoc Depicts AI Agents’ Unprecedented Hugging Face Cyberattack - Netflix",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNFFaTnhQVlZLSTFXR3FkMTBIWm5sRzUzQzhCWFZDREF6cDJCSVNfSmdfeWNMWGxxQzllM0tvb2FXcXJDaDRvX0xTTWFtVE0xNk1GaUhjQ0djdTV2blhMaGZDckZESTZSRnlWSGRrX1AzSGo0b2lfWVZsOWpMLWtNU2VZZ19UUQ?oc=5",
-      "publishedAt": "2026-10-12T10:43:30.000Z",
-      "snippet": "New Instadoc Depicts AI Agents’ Unprecedented Hugging Face Cyberattack Netflix",
-      "score": 6,
-      "tags": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "387a0b55544cc1a6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Gemini 4 Argon: our next era of frontier intelligence - blog.google",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcTJSaTZIUWN0aGhNSzV3Umt3cGpxcmxTSnVPMGNZdGprNXJGNm1jMVBuVk5iakF5Z09jb3hURDRpTmhnRFlDNDJramJZbnRocTQ2bEZLYk5BUkVONVRNSFZTbjVUNi1MMDM3SFlVT25XZGdvN3UtRW1ZUWsyTHV6bU45QU1pWlo2ZHh5Z1EwRXV3MmthZmlEZA?oc=5",
-      "publishedAt": "2026-10-12T10:43:20.000Z",
-      "snippet": "Gemini 4 Argon: our next era of frontier intelligence blog.google",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
       "id": "ed1d1ddd9cbbac2b",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -341,54 +666,15 @@
       "tags": []
     },
     {
-      "id": "4577448a79d55b0a",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "AI Bubble Ready to Burst? Investor Raises Alarm Over Anthropic's Sky-High Valuation - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS3BtQmtFQ2ZicmRMYmRuaTA1S0V4RW1vMnp3RzNrcG9SQUM3SGUybW5NOEs3Ul9Yc0JySWxkc25NY2NhZk93YllNcTU3V0xqOWJiQXdKMDJlRV8yTkVJSjBzSU9paVA1NFc4TE9yc0o5M3NKc2pSSEdHcmZtRUhRQXladC04MVUxT2ZHb1Q2LUJQZWFpblhRUGwzQ2hJZWEyT09EVGU5QURtZW1aMjl2SXlqOGVCNjVhLWNtUDN4Q0t5MDc5RzczTXVwSFRTYXJhRy1ZU05SbHQ?oc=5",
-      "publishedAt": "2026-10-12T10:26:23.000Z",
-      "snippet": "AI Bubble Ready to Burst? Investor Raises Alarm Over Anthropic's Sky-High Valuation TradingView",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "695dbef0409a9d2e",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Linus Torvalds says Claude Code helped write a Linux kernel patch - Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTE15RGxtREwyXzMySEU3Umx0US1RamV3d2xaWWFVVmFtUlpwV3RYN2RmR3V3VDNrZ2J6cEdIbzhMLVc5Um9kNEhTZ0RvOENGcXhzOHBidlFSQ3pvU01iTm5SampPemtDVWtKN0lXLXdxcXhEeTgtLTBVSENlVkxBT2llUVJGT293ZWJn?oc=5",
-      "publishedAt": "2026-10-12T10:24:51.000Z",
-      "snippet": "Linus Torvalds says Claude Code helped write a Linux kernel patch Pasquale Pillitteri",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
       "id": "6bec678d83188ec9",
       "domain": "vibe_coding",
       "source": "lobsters",
       "title": "Linus Torvalds Working On A Hefty Linux Kernel Improvement With Claude Code",
       "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
       "publishedAt": "2026-10-12T10:11:29.000Z",
-      "snippet": "I personally am not happy about this, the last place I want AI to touch is my Linux. Comments",
+      "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "5c018fb380a3f2fd",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic AI Sent False Murder Tip to Police - Technology Org",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNktITVZmd1Q1dWVWaTNwck00bndKYXlKTVNQOF9wd05Ob3R4dVVNakxDNkhTc2ZnQVBJZGU3M3hxWTlURmpzX3pnRzZZcWJwOVZtMkxDTERENjY0UDd4dFFSb0VOTXZLN09PckhaMng5bG9CM2pCdGhISlJ5a1VjMktXNHJ2cUpVS05GbHlYOVhJWHpL?oc=5",
-      "publishedAt": "2026-10-12T09:57:46.000Z",
-      "snippet": "Anthropic AI Sent False Murder Tip to Police Technology Org",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
     },
     {
       "id": "05bd138df9eba647",
@@ -408,17 +694,6 @@
       "title": "Fingerprints are the new cookies",
       "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
       "publishedAt": "2026-10-12T09:05:44.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "a74045ecc85e9fb2",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Linux boots on iPhone 11",
-      "url": "https://www.patreon.com/partshacker/posts/linux-boots-on-172091834",
-      "publishedAt": "2026-10-12T08:59:03.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
@@ -446,17 +721,6 @@
       "tags": []
     },
     {
-      "id": "99586fc9f80bd0cb",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Hyperboreus (0949-2615, 3042-8386)",
-      "url": "https://doaj.org/toc/3042-8386?rss=",
-      "publishedAt": "2026-10-12T08:24:01.000Z",
-      "snippet": "Published by Bern Open Publishing Added to DOAJ on 12 Oct 2026 LCC Subject Category: Language and Literature: Philology. Linguistics | Language and Literature: Greek language and literature. Latin language and literature",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "a04b02530723bd9c",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -467,19 +731,6 @@
       "score": 6,
       "tags": [
         "show hn"
-      ]
-    },
-    {
-      "id": "f5afeb65983a403d",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "publishedAt": "2026-10-12T05:03:47.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "anthropic"
       ]
     },
     {
@@ -494,125 +745,45 @@
       "tags": []
     },
     {
-      "id": "765bca3a438c6740",
+      "id": "a10b454aec4f8d37",
       "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "When LLM Decompilers Recompile More and Preserve Less",
-      "url": "https://arxiv.org/abs/2609.05370",
-      "publishedAt": "2026-10-12T02:44:55.000Z",
-      "snippet": "Comments",
+      "source": "show_hn",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "publishedAt": "2026-10-12T00:15:12.000Z",
+      "snippet": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is a fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks,",
       "score": 6,
-      "tags": []
+      "tags": [
+        "browser",
+        "show hn"
+      ]
     },
     {
-      "id": "416ddde973d83174",
+      "id": "f15e1784d5e3746e",
       "domain": "vibe_coding",
       "source": "lobsters",
-      "title": "Refurb weekend II: Alpha Micro Eagle 300 and friends",
-      "url": "https://oldvcr.blogspot.com/2026/10/refurb-weekend-ii-alpha-micro-eagle-300.html",
-      "publishedAt": "2026-10-12T01:49:50.000Z",
+      "title": "Highlights from \"I spent 6 years developing a game in Rust and it just shipped, AMA\" (2024)",
+      "url": "https://gamesbymason.com/blog/2024/6-years-in-rust-ama/",
+      "publishedAt": "2026-10-11T23:28:36.000Z",
       "snippet": "Comments",
       "score": 6,
-      "tags": []
+      "tags": [
+        "rust"
+      ]
     },
     {
-      "id": "708ddec48bc5e3ef",
+      "id": "940a14cc8fbf9d82",
       "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "CSS for underlines",
-      "url": "https://www.rubenerd.au/css-for-underlines/",
-      "publishedAt": "2026-10-12T01:43:08.000Z",
-      "snippet": "Comments",
+      "source": "show_hn",
+      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
+      "url": "https://github.com/swimmingbrain/brainotes",
+      "publishedAt": "2026-10-11T23:22:29.000Z",
+      "snippet": "In August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn't excpect it to get that much feedback, bug reports and help from here!) This is the same idea for the other half of my studies, the handwritten notes. I take t",
       "score": 6,
-      "tags": []
-    },
-    {
-      "id": "aa3504d9bb8e3315",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "'AI' is Not a Tool",
-      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
-      "publishedAt": "2026-10-12T01:18:09.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "a4f51a2e435da1f0",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Tello's GameSir T1d controller as a Linux Xbox controller",
-      "url": "https://blog.jacq.cc/guides/gamesir-t1d-linux-gamepad/",
-      "publishedAt": "2026-10-11T22:01:59.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "5823151e1fc3f84a",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "D-Bus Hell",
-      "url": "https://dbushell.com/2026/10/11/d-bus-hell/",
-      "publishedAt": "2026-10-11T20:36:07.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "5b02f4a11eef881f",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "I'm sorry, but you still have to think",
-      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
-      "publishedAt": "2026-10-11T18:09:49.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "c8e5456625604fda",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The wild west of polyglot docs sites",
-      "url": "https://technicalwriting.dev/blog/2026/10/polyglot/index.html",
-      "publishedAt": "2026-10-11T17:43:46.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "56c17b008f979e8e",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Arena Allocators in C",
-      "url": "https://eliasebner.com/blog/guides/arena-allocators-in-c/",
-      "publishedAt": "2026-10-11T16:59:58.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "a1046f87e0accff4",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "I'm still around.. I'm just not writing here",
-      "url": "https://rachelbythebay.com/w/2026/10/08/idle/",
-      "publishedAt": "2026-10-11T14:44:03.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "d08547e4e0195189",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
-      "url": "https://verdagon.dev/blog/valen-group-borrowing",
-      "publishedAt": "2026-10-11T12:23:01.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
+      "tags": [
+        "browser",
+        "show hn"
+      ]
     },
     {
       "id": "4a46bd29d67f299b",
@@ -626,43 +797,6 @@
       "tags": [
         "copilot"
       ]
-    },
-    {
-      "id": "6d712afa02e36d70",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Quoting The New York Times",
-      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-      "publishedAt": "2026-10-10T02:04:12.000Z",
-      "snippet": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the appli",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "30a7fc529efd3f98",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "GitHub Copilot weekly releases — October 5",
-      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-      "publishedAt": "2026-10-09T22:58:23.000Z",
-      "snippet": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
-      "score": 6,
-      "tags": [
-        "copilot"
-      ]
-    },
-    {
-      "id": "0265a8836615b252",
-      "domain": "publishing",
-      "source": "retraction_watch",
-      "title": "‘Cerebral torment’: IOP retracts nearly 100 conference papers for tortured phrases",
-      "url": "https://retractionwatch.com/2026/10/09/iop-publishing-conference-proceedings-tortured-phrases/",
-      "publishedAt": "2026-10-09T16:06:52.000Z",
-      "snippet": "IOP Publishing has retracted nearly 100 papers from three of its conference proceedings after the articles were flagged for containing tortured phrases. Tortured phrases are rephrasings and synonyms — often awkward and nonsensical — substituted in text to evade plagiarism detectors. For example, one",
-      "score": 6,
-      "tags": []
     },
     {
       "id": "c4d95f9c65a73b4c",
@@ -688,20 +822,6 @@
       "score": 6,
       "tags": [
         "openai",
-        "release"
-      ]
-    },
-    {
-      "id": "243e8a9db58aac53",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "Copilot code review: New organization billing options and controls",
-      "url": "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
-      "publishedAt": "2026-10-08T19:43:05.000Z",
-      "snippet": "This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s… The post Copilot code review: New organization billing options and controls appeared first on The G",
-      "score": 6,
-      "tags": [
-        "copilot",
         "release"
       ]
     },
@@ -815,20 +935,6 @@
       ]
     },
     {
-      "id": "90a4053b1fa78085",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "pwasm 0.2a0",
-      "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
-      "publishedAt": "2026-10-01T17:10:31.000Z",
-      "snippet": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improv",
-      "score": 6,
-      "tags": [
-        "claude",
-        "release"
-      ]
-    },
-    {
       "id": "c773f1b56e477d21",
       "domain": "ai",
       "source": "deepmind_blog",
@@ -848,7 +954,7 @@
       "title": "storytold/artcraft",
       "url": "https://github.com/storytold/artcraft",
       "publishedAt": null,
-      "snippet": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers [Rust] 4106 stars today",
+      "snippet": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers [Rust] 4095 stars today",
       "score": 6,
       "tags": [
         "stars"
@@ -861,7 +967,7 @@
       "title": "bilawalsidhu/gods-eye-view",
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "publishedAt": null,
-      "snippet": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe. [JavaScript] 1903 stars today",
+      "snippet": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe. [JavaScript] 1895 stars today",
       "score": 6,
       "tags": [
         "stars"
@@ -874,31 +980,174 @@
       "title": "morluto/rea",
       "url": "https://github.com/morluto/rea",
       "publishedAt": null,
-      "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries. [TypeScript] 45495 stars today",
+      "snippet": "Reverse engineer anything with agents, from app behavior down to native binaries. [TypeScript] 45327 stars today",
       "score": 6,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "dcd866d834bba363",
+      "id": "f571c3ccdc44c477",
       "domain": "ai",
       "source": "hackernews",
-      "title": "QGIS bans AI assisted contributions",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "publishedAt": "2026-10-12T11:22:24.000Z",
+      "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+      "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+      "publishedAt": "2026-10-12T23:07:25.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
     },
     {
-      "id": "4bb0be444686fa7c",
+      "id": "0f7bab308053e645",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Yann LeCun Criticizes AI Slowdown Theory, Pushes Open-Source Models - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQejlIajBxODkzMi1xSy02SVZNeDdiYnJqRjEtRzZyX1dneFdJbWNpQmhuQXdtRllVNHhfZUR0aHRFSm9WMWN3QWV2dG5mOVI3bExzZDRwSGtLQ3c3cEVfaEhSelNLRWJzVWhRTm9lejRtc2VRMVNpNFhydUJpVEEyek1IbjhsNl9P?oc=5",
-      "publishedAt": "2026-10-12T10:18:37.000Z",
-      "snippet": "Yann LeCun Criticizes AI Slowdown Theory, Pushes Open-Source Models 조선일보",
+      "source": "hackernews",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "url": "https://github.com/prabanta-dev/janas",
+      "publishedAt": "2026-10-12T22:05:43.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "e78781a617459a79",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "publishedAt": "2026-10-12T21:40:18.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "d04dca12238ab5a0",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "publishedAt": "2026-10-12T21:35:35.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "361ed59df8fcc3e4",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Epic Games tells employees to use AI to get Disney game done",
+      "url": "https://www.avclub.com/epic-games-disney-ai-delay",
+      "publishedAt": "2026-10-12T20:07:42.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "adfcd7eaacbf0e05",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Making big downloads resumable in Firefox",
+      "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "publishedAt": "2026-10-12T19:36:02.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "050c7872630cb3a0",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "publishedAt": "2026-10-12T19:25:29.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "f7b6b498e516d001",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "publishedAt": "2026-10-12T18:29:04.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "a2d0c717b7f10252",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "publishedAt": "2026-10-12T17:14:01.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "284177c0015e0342",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "publishedAt": "2026-10-12T16:46:34.000Z",
+      "snippet": "Hey HN, I’m Vishnu from Agent37 ( https://agent37.com ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video walkthrough of the product here: https://youtu.be/DK5ISR2tbNo We start",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "8b099aefcc191413",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "publishedAt": "2026-10-12T15:16:45.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "6fa055921b9a12c2",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Why aren't AI companies being charged for hacking?",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "publishedAt": "2026-10-12T14:52:37.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "315734ece0a158e7",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "publishedAt": "2026-10-12T12:46:52.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "ac4fe3bd44dfdf7e",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "publishedAt": "2026-10-12T12:41:58.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "dcd866d834bba363",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "QGIS enacts moratorium on AI contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "publishedAt": "2026-10-12T11:22:24.000Z",
+      "snippet": "https://lists.osgeo.org/pipermail/qgis-developer/2026-Septem...",
       "score": 5,
       "tags": []
     },
@@ -925,68 +1174,57 @@
       "tags": []
     },
     {
-      "id": "0feb3922c1f53205",
+      "id": "aa3504d9bb8e3315",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
-      "url": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
-      "publishedAt": "2026-10-12T04:54:00.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "'AI' is Not a Tool",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "publishedAt": "2026-10-12T01:18:09.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "4dc821564a647b75",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-      "url": "https://github.com/storytold/wordcraft",
-      "publishedAt": "2026-10-12T01:57:39.000Z",
-      "snippet": "",
+      "id": "5823151e1fc3f84a",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "D-Bus Hell",
+      "url": "https://dbushell.com/2026/10/11/d-bus-hell/",
+      "publishedAt": "2026-10-11T20:36:07.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "4b0722d6a2f21176",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "Doory – Open-Source Canva",
-      "url": "https://github.com/shaongitbd/doory",
-      "publishedAt": "2026-10-12T00:48:27.000Z",
-      "snippet": "",
+      "id": "5b02f4a11eef881f",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "I'm sorry, but you still have to think",
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "publishedAt": "2026-10-11T18:09:49.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "fcb9f38a16445d95",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "HashiCorp archives the Boundary open source repo",
-      "url": "https://github.com/hashicorp/boundary",
-      "publishedAt": "2026-10-12T00:02:45.000Z",
-      "snippet": "",
+      "id": "56c17b008f979e8e",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Arena Allocators in C",
+      "url": "https://eliasebner.com/blog/guides/arena-allocators-in-c/",
+      "publishedAt": "2026-10-11T16:59:58.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "94f18cf931b308a1",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "publishedAt": "2026-10-11T20:20:52.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "6a10a1b53dcacee7",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "apsw: Another Python SQLite Wrapper",
-      "url": "https://github.com/rogerbinns/apsw",
-      "publishedAt": "2026-10-11T16:58:22.000Z",
-      "snippet": "",
+      "id": "a1046f87e0accff4",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "I'm still around.. I'm just not writing here",
+      "url": "https://rachelbythebay.com/w/2026/10/08/idle/",
+      "publishedAt": "2026-10-11T14:44:03.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1004,39 +1242,6 @@
       ]
     },
     {
-      "id": "d9a3053444fd5a9b",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "What's Wrong with GitHub",
-      "url": "https://www.gnu.org/philosophy/whats-wrong-with-github.html",
-      "publishedAt": "2026-10-11T09:37:56.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "17e537abeee1ca19",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "How big is a Git commit?",
-      "url": "https://ratfactor.com/cards/git-commit-size",
-      "publishedAt": "2026-10-11T09:25:42.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "eb0b4ce6635e1916",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "LineageOS 24.0 released",
-      "url": "https://lineageos.org/Changelog-32/",
-      "publishedAt": "2026-10-11T06:21:25.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "7bf90c5622a7b200",
       "domain": "ai",
       "source": "simonwillison",
@@ -1046,19 +1251,6 @@
       "snippet": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "ad377da326e3210c",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: WallHop – 12ft.io is gone, so I built a replacement",
-      "url": "https://wallhop.io/",
-      "publishedAt": "2026-10-11T00:46:48.000Z",
-      "snippet": "Hi HN, I'm Josh. WallHop is a free paywall bypass: paste an article URL (or prefix any URL with wallhop.io/) and you get the readable article without the paywall popup, ads or clutter. No signup, no extension. I built it after 12ft.io went away. The News Media Alliance took it down in July 2025 and ",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "bd87ac90bfa7d096",
@@ -1072,112 +1264,39 @@
       "tags": []
     },
     {
-      "id": "cad40cff2ae71027",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "DICERE Revista de Derecho y Estudios Internacionales (3028-886X)",
-      "url": "https://doaj.org/toc/3028-886X?rss=",
-      "publishedAt": "2026-10-10T10:22:41.000Z",
-      "snippet": "Published by Universidad del Azuay Added to DOAJ on 10 Oct 2026 LCC Subject Category: Law: Law in general. Comparative and uniform law. Jurisprudence",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "5bd7f8aba7df67cc",
+      "id": "6d712afa02e36d70",
       "domain": "ai",
       "source": "simonwillison",
-      "title": "Deno is joining Cloudflare",
-      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "publishedAt": "2026-10-09T22:48:37.000Z",
-      "snippet": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a fir",
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "publishedAt": "2026-10-10T02:04:12.000Z",
+      "snippet": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the appli",
       "score": 5,
-      "tags": []
+      "tags": [
+        "anthropic"
+      ]
     },
     {
-      "id": "e2b91d0dc4635f5a",
+      "id": "30a7fc529efd3f98",
       "domain": "github",
       "source": "github_changelog",
-      "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
-      "url": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
-      "publishedAt": "2026-10-09T21:32:54.000Z",
-      "snippet": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find… The post CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis appeared first on ",
+      "title": "GitHub Copilot weekly releases — October 5",
+      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
+      "publishedAt": "2026-10-09T22:58:23.000Z",
+      "snippet": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
       "score": 5,
-      "tags": []
+      "tags": [
+        "copilot"
+      ]
     },
     {
-      "id": "3fd6f127a122d592",
+      "id": "0265a8836615b252",
       "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Knihy a Dějiny (1210-8510, 2571-2322)",
-      "url": "https://doaj.org/toc/2571-2322?rss=",
-      "publishedAt": "2026-10-09T18:44:38.000Z",
-      "snippet": "Published by Library of the Czech Academy of Sciences Added to DOAJ on 9 Oct 2026 LCC Subject Category: Bibliography. Library science. Information resources | History (General) and history of Europe",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "7659dc613240abe0",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Medicine and Public Health (2956-9443)",
-      "url": "https://doaj.org/toc/2956-9443?rss=",
-      "publishedAt": "2026-10-09T16:30:09.000Z",
-      "snippet": "Published by AFM Publishing House of the Andrzej Frycz Modrzewski Krakow University Added to DOAJ on 9 Oct 2026 LCC Subject Category: Medicine",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "6922db39f0c97919",
-      "domain": "ai",
-      "source": "hf_blog",
-      "title": "Impactful scheduling for GPU clusters",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "publishedAt": "2026-10-09T15:20:29.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "58eb2a6fa2784ba9",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Quoting Matthew Green",
-      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "publishedAt": "2026-10-09T15:02:29.000Z",
-      "snippet": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is tha",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "217d03813307dab5",
-      "domain": "publishing",
-      "source": "infodocket",
-      "title": "Now Available: NASIG Proceedings, Volume 40 (2026)",
-      "url": "https://www.infodocket.com/2026/10/09/now-available-nasig-proceedings-volume-40-2026/",
-      "publishedAt": "2026-10-09T13:21:23.000Z",
-      "snippet": "Direct to Complete Table of Contents NASIG Proceedings, Volume 40 (2026) Concurrent Session Excel Mastery: Effective Data Visualization and Trend Analysis for Database Renewals Assessment Amy Castillo (University of Texas at Arlington) Enhancing E-Resource Management: Leveraging Bibliographic Rank f",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "68dee2e1118363ff",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "A new feature for my blog, built using my voice",
-      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "publishedAt": "2026-10-09T12:54:06.000Z",
-      "snippet": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Cod",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "374cfe9748aa30f8",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Belgian Journal of Zoology (0777-6276, 2295-0451)",
-      "url": "https://doaj.org/toc/2295-0451?rss=",
-      "publishedAt": "2026-10-09T12:34:02.000Z",
-      "snippet": "Published by Royal Belgian Institute for Natural Sciences Added to DOAJ on 9 Oct 2026 LCC Subject Category: Science: Zoology | Science: Biology (General): Ecology",
+      "source": "retraction_watch",
+      "title": "‘Cerebral torment’: IOP retracts nearly 100 conference papers for tortured phrases",
+      "url": "https://retractionwatch.com/2026/10/09/iop-publishing-conference-proceedings-tortured-phrases/",
+      "publishedAt": "2026-10-09T16:06:52.000Z",
+      "snippet": "IOP Publishing has retracted nearly 100 papers from three of its conference proceedings after the articles were flagged for containing tortured phrases. Tortured phrases are rephrasings and synonyms — often awkward and nonsensical — substituted in text to evade plagiarism detectors. For example, one",
       "score": 5,
       "tags": []
     },
@@ -1420,17 +1539,6 @@
       "tags": []
     },
     {
-      "id": "985330f72eb7af26",
-      "domain": "publishing",
-      "source": "retraction_watch",
-      "title": "Journal investigating paper on heart device with registration number for wrong trial",
-      "url": "https://retractionwatch.com/2026/09/30/journal-investigating-paper-on-heart-device-with-registration-number-for-wrong-trial/",
-      "publishedAt": "2026-09-30T19:13:42.000Z",
-      "snippet": "The publisher of a European Heart Rhythm Association journal is investigating a paper that lists the incorrect registration number for a clinical study of a widely used but controversial heart implant. The paper, published in EP Europace in May, described a prospective study of the Watchman FLX, fro",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "ed30cb2e798ddd4d",
       "domain": "ai",
       "source": "deepmind_blog",
@@ -1461,7 +1569,7 @@
       "title": "Alishahryar1/free-claude-code",
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "publishedAt": null,
-      "snippet": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly) [Python] 506 stars today",
+      "snippet": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly) [Python] 626 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -1474,7 +1582,7 @@
       "title": "lyogavin/airllm",
       "url": "https://github.com/lyogavin/airllm",
       "publishedAt": null,
-      "snippet": "AirLLM 70B inference with single 4GB GPU [Jupyter Notebook] 886 stars today",
+      "snippet": "AirLLM 2.8T LLM inference with single 4GB GPU [Jupyter Notebook] 879 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -1487,11 +1595,66 @@
       "title": "mksglu/context-mode",
       "url": "https://github.com/mksglu/context-mode",
       "publishedAt": null,
-      "snippet": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. [TypeScript] 485 stars today",
+      "snippet": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. [TypeScript] 246 stars today",
       "score": 5,
       "tags": [
         "stars"
       ]
+    },
+    {
+      "id": "5bd7f8aba7df67cc",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "publishedAt": "2026-10-09T22:48:37.000Z",
+      "snippet": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a fir",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "6922db39f0c97919",
+      "domain": "ai",
+      "source": "hf_blog",
+      "title": "Impactful scheduling for GPU clusters",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "publishedAt": "2026-10-09T15:20:29.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "58eb2a6fa2784ba9",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "publishedAt": "2026-10-09T15:02:29.000Z",
+      "snippet": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is tha",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "217d03813307dab5",
+      "domain": "publishing",
+      "source": "infodocket",
+      "title": "Now Available: NASIG Proceedings, Volume 40 (2026)",
+      "url": "https://www.infodocket.com/2026/10/09/now-available-nasig-proceedings-volume-40-2026/",
+      "publishedAt": "2026-10-09T13:21:23.000Z",
+      "snippet": "Direct to Complete Table of Contents NASIG Proceedings, Volume 40 (2026) Concurrent Session Excel Mastery: Effective Data Visualization and Trend Analysis for Database Renewals Assessment Amy Castillo (University of Texas at Arlington) Enhancing E-Resource Management: Leveraging Bibliographic Rank f",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "68dee2e1118363ff",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "publishedAt": "2026-10-09T12:54:06.000Z",
+      "snippet": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Cod",
+      "score": 4,
+      "tags": []
     },
     {
       "id": "b9c390b4912bf176",
@@ -1512,17 +1675,6 @@
       "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
       "publishedAt": "2026-10-08T21:05:44.000Z",
       "snippet": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is less ",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "f87c324e04ff3ad0",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "Triage role users or higher can now archive pull requests",
-      "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
-      "publishedAt": "2026-10-08T19:01:42.000Z",
-      "snippet": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine… The post Triage role users or higher can now archive pull requests appeared first on The GitHu",
       "score": 4,
       "tags": []
     },
@@ -1736,17 +1888,6 @@
       "tags": []
     },
     {
-      "id": "af8e597212fe0e4b",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Rex's Dino Store",
-      "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-      "publishedAt": "2026-10-02T22:57:38.000Z",
-      "snippet": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "0a50a73a7dbd2896",
       "domain": "publishing",
       "source": "infodocket",
@@ -1929,7 +2070,7 @@
       "title": "microsoft/BitNet",
       "url": "https://github.com/microsoft/BitNet",
       "publishedAt": null,
-      "snippet": "Official inference framework for 1-bit LLMs [C++] 195 stars today",
+      "snippet": "Official inference framework for 1-bit LLMs [C++] 97 stars today",
       "score": 4,
       "tags": [
         "stars"
@@ -1942,7 +2083,7 @@
       "title": "open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "publishedAt": null,
-      "snippet": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...) [Python] 142 stars today",
+      "snippet": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...) [Python] 157 stars today",
       "score": 4,
       "tags": [
         "stars"
