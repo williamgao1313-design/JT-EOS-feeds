@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T01:33:04.976Z",
+  "generatedAt": "2026-10-16T09:09:12.842Z",
   "counts": {
-    "raw": 178,
-    "deduped": 173,
-    "kept": 173
+    "raw": 181,
+    "deduped": 177,
+    "kept": 177
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "status": 200,
       "count": 17,
       "error": null,
-      "ms": 401
+      "ms": 498
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 11,
       "error": null,
-      "ms": 1229
+      "ms": 1191
     },
     {
       "key": "lobsters",
@@ -29,15 +29,15 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1220
+      "ms": 1367
     },
     {
       "key": "github_trending",
       "ok": true,
       "status": 200,
-      "count": 12,
+      "count": 13,
       "error": null,
-      "ms": 2189
+      "ms": 2293
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1134
+      "ms": 1107
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1533
+      "ms": 1571
     },
     {
       "key": "google_news_onhold",
@@ -61,15 +61,15 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1284
+      "ms": 1280
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 8,
+      "count": 9,
       "error": null,
-      "ms": 1228
+      "ms": 1240
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1324
+      "ms": 1315
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1350
+      "ms": 1119
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1122
+      "ms": 1118
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2527
+      "ms": 1585
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1138
+      "ms": 1134
     },
     {
       "key": "deepmind_blog",
@@ -117,15 +117,15 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1323
+      "ms": 1265
     },
     {
       "key": "hf_blog",
       "ok": true,
       "status": 200,
-      "count": 5,
+      "count": 6,
       "error": null,
-      "ms": 1122
+      "ms": 1157
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1030
+      "ms": 1039
     },
     {
       "key": "github_changelog",
@@ -141,18 +141,58 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1348
+      "ms": 1042
     }
   ],
   "items": [
     {
+      "id": "ddba49f1054be002",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google Starts Limited Release Of Gemini 4 Argon To Security Teams - CIO Africa",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTzhkaUpJUGJNSGlaMWk4WkFhck9tN3QxaWV4QzlHVW9ObjJiWFN3VHRrOWc2aVNKU3dkUHdJcXh1cE5Edkx3Mnh2NWxhWjAyVW5GT0J1ZWRDZEVoaXEteDRieHVUOHNZR3BmazZ1bXJrT2hTN0xKTWE2dXB2bjVkQ1lpU1QzazlqclJOSEtSSlE?oc=5",
+      "publishedAt": "2026-10-16T07:19:04.000Z",
+      "snippet": "Google Starts Limited Release Of Gemini 4 Argon To Security Teams CIO Africa",
+      "score": 7,
+      "tags": [
+        "gemini",
+        "release"
+      ]
+    },
+    {
+      "id": "d37fda406661b62e",
+      "domain": "github",
+      "source": "github_changelog",
+      "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
+      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+      "publishedAt": "2026-10-16T02:16:35.000Z",
+      "snippet": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for GitHub Copilot in Slack",
+      "score": 7,
+      "tags": [
+        "copilot"
+      ]
+    },
+    {
+      "id": "fdfb4d56709dcc85",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 - 搜狐",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0R1d2d0TU1oR3VhcGdhZ1RSbWJaYXFIUEh3ZzR5T3lHVDNyd0ZheFVkRzhQSnlMX0NFdFZjNDFCQlFMNE1rWmlRSXFVREZqUzVOcUxsNTJMZEdxb09kOXlXWkhUclFWSk8zYWFyRjVyc05LbkdnUWhwM2ptLTJuNV9UMTVORC1LWmpubw?oc=5",
+      "publishedAt": "2026-10-16T02:02:22.000Z",
+      "snippet": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 搜狐",
+      "score": 7,
+      "tags": [
+        "撤稿"
+      ]
+    },
+    {
       "id": "41d6c8d9e8be0d79",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "两千多篇撤稿浪费数百万美元经费，如何刹住不正当发表的“邪修”风？ - 虎嗅网",
+      "title": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FX3RHNUQ1c2ozTk1lejNfWE9XMndiQi1hOHlYTGdxMERYb1hRY0ZiQU11NGlTOVN6UzJRbHA4YUtZV1l6WVBBdjRsU3VoaHJYcGk1cg?oc=5",
       "publishedAt": "2026-10-16T00:51:00.000Z",
-      "snippet": "两千多篇撤稿浪费数百万美元经费，如何刹住不正当发表的“邪修”风？ 虎嗅网",
+      "snippet": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 虎嗅网",
       "score": 7,
       "tags": [
         "撤稿"
@@ -402,57 +442,185 @@
       ]
     },
     {
-      "id": "976cf275ce41747b",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "publishedAt": "2026-10-13T01:40:05.000Z",
-      "snippet": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-      "score": 7,
-      "tags": [
-        "claude",
-        "release"
-      ]
+      "id": "552eb3b39f934770",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Folders Esoteric Language",
+      "url": "https://danieltemkin.com/esolangs/folders",
+      "publishedAt": "2026-10-16T08:46:51.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
     },
     {
-      "id": "5448649e123f5a54",
+      "id": "1bdb124c910179f3",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/hounpx/what_are_you_doing_this_weekend",
+      "publishedAt": "2026-10-16T08:19:09.000Z",
+      "snippet": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "6eca5dfe4781fb2b",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Microsoft's AI Chief Claims Model Outperforms OpenAI with 25% Less Compute - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZVh6UmJSb0lQSWZBYTFUNExLMFlHYmdYT3NuV3l0cmE2ejBpUmJ4SFdhbWp3aEV0bEJTZVlrSWpxcF9sVmpsSnBoNnFfUzhveDJfeEZGd1RFVWNGMUJkRlN5dnZtZkRTMDNQMUtXZk0teE92Q3NhQmljdHU2YzNPWEloYkFlX1h1WXIxSWNFaXgxZEZxbEpVQWlHa185VDQ2TjlLWTlJaGg?oc=5",
-      "publishedAt": "2026-10-16T00:59:41.000Z",
-      "snippet": "Microsoft's AI Chief Claims Model Outperforms OpenAI with 25% Less Compute KuCoin",
+      "title": "OpenAI AI Model Collides with Crypto Ethics - OneSafe",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5adlhCbUx5ZFgwaUdZdGMtMFJNQjh1OEUyNUI0eGlRRDRZdDRDbFZHZHBuRjdZaURfQ096RHhEQkFqeVFmYmZxdlBlNWNHMTkyc0dkTEszNmZHZ1o0NUVGNEJQQ1cyaGRk?oc=5",
+      "publishedAt": "2026-10-16T08:16:22.000Z",
+      "snippet": "OpenAI AI Model Collides with Crypto Ethics OneSafe",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "4bc6346d957a8025",
+      "id": "ee5a54db3c4a5f64",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Microsoft AI chief says the company beat OpenAI at its own game, using a quarter of the computing power - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUm9QUUxrcmFLc2hGRGljQUd3N1JKbXNVYVZPb0xfbno1eWhaVDZ4UnJXSzBkU0VBcTlCbC1Hdkc4eXZ6QzB3eEh5cEdKM3ZmWnEyNWxkWUxEeWl1anY3ald1b1JISkh4R1BmY2wxaDQ0YXJCMndhTmw3UlJGT3RFSUd3Q3hLVFFybHdlYmROV0pQZUE2X0J6RlhXQlhYc0E?oc=5",
-      "publishedAt": "2026-10-15T23:31:00.000Z",
-      "snippet": "Microsoft AI chief says the company beat OpenAI at its own game, using a quarter of the computing power Business Insider",
+      "title": "OpenAI Unveils AI Cyber Defense Strategy for South Korean Enterprises, Launches Integrated Solution 'Daybreak' - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YVHA3VVU1NHFTYmlfbEJ2bjlPQ1JLei0yTkJwbWhlcXVoQ2JmZll4ZnhGNmZvTkRzZG5IUExtVWh1Qmlrdm12QTkxMFJNRkkybi1VaTlOUTIteGZZZTlJSF9YWHhMUC1qQWlITGpTWmI1N3RuV2c?oc=5",
+      "publishedAt": "2026-10-16T07:25:00.000Z",
+      "snippet": "OpenAI Unveils AI Cyber Defense Strategy for South Korean Enterprises, Launches Integrated Solution 'Daybreak' BigGo Finance",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "91e16c4b74013f17",
+      "id": "1393ec173a001984",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Meta Raises Its AI Game as Google Opens Gemini 4 Argon - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTU9GVTFqbWVHS01VbXdsU0h4eDQ3V1IzaXgzTWJIS2o3MDdoRklic29Xb1ROVWJYTl9oSVJmYjMzTU1MdkswVTlzTDY0a1pOR1V0VWpGQ3J3Z3lXU1hGYURyZDdpMGlkUDlyTlNRaUpmSjFoTkh0WGRwSTNsSFhLYTZiaENidmJBRlV1d2pGWUo5Mm5VSGg4b244VU1QaEp4VG9kQTZOT2tFdTZ0b0xaQ1lR?oc=5",
-      "publishedAt": "2026-10-15T23:11:11.000Z",
-      "snippet": "Meta Raises Its AI Game as Google Opens Gemini 4 Argon PYMNTS.com",
+      "title": "OpenAI's Model Uses Funds from External Wallet in Ethical Dilemm - GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkN1RzE2Sk13Yy1JUXNhX0Zscl9lSlRrZkZaeENPZnRFQmNLeThQQllZbVRaOEl0azN2MHdrMWVlMUxiTG51OFRxMC1NN0dUZU4tZkRTYnJjeXA5aUJkVWczbFlzSGdweko3MjlOODFKV2ZnNGdCRTkyNHRjZUJSZkloQmUzbXBnam9xTDVIM0hsVEM2RHBNME1mQ19FWDFUMjBLRVZR?oc=5",
+      "publishedAt": "2026-10-16T07:11:25.000Z",
+      "snippet": "OpenAI's Model Uses Funds from External Wallet in Ethical Dilemm GuruFocus",
       "score": 6,
       "tags": [
-        "gemini"
+        "openai"
       ]
+    },
+    {
+      "id": "7af2973b300f56af",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "ادبیات پایداری (2008-6881, 2821-1022)",
+      "url": "https://doaj.org/toc/2821-1022?rss=",
+      "publishedAt": "2026-10-16T07:11:12.000Z",
+      "snippet": "Published by Shahid Bahonar University of Kerman Added to DOAJ on 16 Oct 2026 LCC Subject Category: Language and Literature: Literature (General)",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "85b89a4d20d5a2f5",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Model Used Testnet Wallet Without Authorization, Omitted Activity - KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUFZ4UFAzUFk3N0ZaQ3JWeUdiVFAwLTM1Y2RPYk5ZcWlZTUZhUDNjVm1VVDhFRDJLa0NFRk1fTDgyTDVkcGlaWjJtSFFZNVNTbm8tQlU3MU5rUnRyVnczNG1nOXZxVkRyaktPTE01ejZIblBRcWpaRl8wTjFzbV9vRG43YWF5eGJuLUJOWDFrcDdlQWxNTXhiQzNIRnpadXdBdlBEVDQ4TkI?oc=5",
+      "publishedAt": "2026-10-16T07:04:27.000Z",
+      "snippet": "OpenAI Model Used Testnet Wallet Without Authorization, Omitted Activity KuCoin",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "dad1e3635803f2db",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Says Research Model Raided Developer Wallet on Ethereum Testnet - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUIxTDdrN3JVbmlUUDFZajZyaDhaQWJPcTdpUWZHcnNEWnREYlB3OTlYYUx1NFRsX0hxRVRjTmFOVHp0V0VSbUFDM1R4RTBId1Z1U1gzaUtPWk45Ym4yYTlsdkh1Vk5UcU5VMGRKWTFOY1RkYlNxVHFfNHFyYWw2RTNoUGN4bFVZTTQ4VlR1SHp0cTV4QVdaSExTRDhNcllWVnBVUjgtTUlfLVAz?oc=5",
+      "publishedAt": "2026-10-16T06:59:06.000Z",
+      "snippet": "OpenAI Says Research Model Raided Developer Wallet on Ethereum Testnet CryptoRank",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "359b7c1295cfc76e",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Reports Research Model Made Unauthorized Transfers on Testnet - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kUzlYakNpMFFZWDdoVWROcGVCck9YTVVJa1p0NUtuTllsNUZ2QmZoaDY0aTNFNW5ESzlZSGt0WTgzTzQ0YjRQYU11YnlHR0w3NVVOV2toQWx4eW5iZGpyV3NWM29LV0pHVVBXeDRsb1ZoeTdqRnc?oc=5",
+      "publishedAt": "2026-10-16T06:25:00.000Z",
+      "snippet": "OpenAI Reports Research Model Made Unauthorized Transfers on Testnet BigGo Finance",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "7179b7e0bc1b8bb5",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI model helped itself to testnet crypto, then kept quiet about it - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQXZiX2VXb0cyWUxsRmY1SjZPZ2F5OXlNUERFcW9Fd1JsLXJWYVp0bl8yOTdyUG1wT3RtM3ZGYlFSWGVTa0MzQUE2NUtoZXNPSm9ES25taUt0WlRVeHU2azhoUVFkWnBoRHE5bUc5OG1oZEs5b3l4eDNta2VFY0ZSZG1zZU03R1o2R1RMQ2U5a0lfeWNfZWFEeGJPak03M2FlY1YySTJ2aUUtUHlrMVdicWdrSGo5TEtJOWZQbWtBSnBBNk9nS2lUQXNpQjh0QQ?oc=5",
+      "publishedAt": "2026-10-16T06:11:00.000Z",
+      "snippet": "OpenAI model helped itself to testnet crypto, then kept quiet about it TradingView",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "a1039aa0443de7c0",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Bank of America hires 1,000 contractors to patch bugs found by Anthropic's Mythos model - news.lavx.hu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc1JHWm1hUWY2UXoxOTFtczNlXy04SlVETWF5RXlkQVNnNVlEaDlxYkVjQTJJbUFjZkpGVzdIVVM3Rld4MXoxcVlLNnp3VkNEQ3pyNkQxb2h2ckZiZ3Bwc01zd1ZJcERqYjJ3b0hkLWxxbTdQaFZES1JPMHhzOE5hNkNrQlUyckJ4OFZCU2JKV0N5RklhUk9hTmZSM0hfM2lpeVhPaVl6bG9PY0pSbVo3bDA0TnE0UUk?oc=5",
+      "publishedAt": "2026-10-16T06:10:34.000Z",
+      "snippet": "Bank of America hires 1,000 contractors to patch bugs found by Anthropic's Mythos model news.lavx.hu",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "a9a83bbf158cebc8",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "My self-hosted infrastructure with Incus OS",
+      "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
+      "publishedAt": "2026-10-16T03:25:49.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "9bdf1a84450172d5",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Linus Torvalds on AI-assisted kernel contributions",
+      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+      "publishedAt": "2026-10-16T02:50:33.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "c9311b087f360254",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Where did WIN32_LEAN_AND_MEAN come from? (2009)",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20091130-00/?p=15863%2F",
+      "publishedAt": "2026-10-16T02:28:13.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "af14d0aa7e59c219",
+      "domain": "ai",
+      "source": "hf_blog",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "publishedAt": "2026-10-16T01:44:47.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": []
     },
     {
       "id": "f4768d05625df197",
@@ -466,71 +634,6 @@
       "tags": []
     },
     {
-      "id": "da077c290f51c6ed",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults - AP News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFdMbjctMUxlYlQ0VnBoa3Jpc09HdE9CWlM5b1NjbzhLZ2YwWWUtbTVucWVuMDZwRWozUmNUajh4bm45MjlZY0xiVHdxczJHQW5UZG9NdXEzLUVQaFZlUTB6cW53bVg5MUdpWExJRU5aYzRwVjNTMkY3U0NycUpsaEhRaHZ0cEw3N0xoTFpCZWZTemdsYkFJcGVCVVNhMjVLdmhJZUMyWWd3YTQxemh3MmZ6UHZiZw?oc=5",
-      "publishedAt": "2026-10-15T22:26:00.000Z",
-      "snippet": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults AP News",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "116d6772462efdcf",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Claude Platform Now Sends Agent Traces Straight to Your Observability Stack - DevOps.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX012MHRnd3dSNWRMS2xLTF9UX0J4WUlXaE9iYmdmd3ZKVjQwbXllb1JOeDBCaUFUUFYzbWJWQkYyNkFXRnNHX0Jjdkgwb0ZkS25ZalBNb2dLdGF6SlFpeGdKU2lFbWR5dnltSktHdzY2R0xHV3pGTVU3VkZvaWhKNUtZNDFHMmNzUUYxcHlZMmJuY0tVNzlMX3h3?oc=5",
-      "publishedAt": "2026-10-15T22:12:06.000Z",
-      "snippet": "Claude Platform Now Sends Agent Traces Straight to Your Observability Stack DevOps.com",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "885460c76b0710ca",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral Large 4 Launches at 1.05T Params, $1.36/M [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wY2JlUFE5T2FCLTFsUVhuMFBOOWxkd2lFYjNXdkV4OE9JbUlYY1lHNDhuRDh6SFhJQkxuUjBTd0pGV0swV0dubEZwbkNrbW5oSmlVTi1RM2xvSG5ZeGtRVkFWVTZJc3AtQ3pKV09pcU01NzRSSU9KcjE0X3g4eWc?oc=5",
-      "publishedAt": "2026-10-15T21:39:39.000Z",
-      "snippet": "Mistral Large 4 Launches at 1.05T Params, $1.36/M [2026] https://tech-insider.org/",
-      "score": 6,
-      "tags": [
-        "mistral"
-      ]
-    },
-    {
-      "id": "c0bce971f93f5c03",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Google's 'Gemini 4 Argon' Launch Exposes Big Tech's Dual Strategy: Performance Rivalry Meets Security Control - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51bWZxSnpJbjhfREpEVGZTWDdfMUs0QldmM0Vtc0lQUzFNNHRjN1k0SXI5Y2kza2pyWC1TSW9oblFHZElfTy1RS0Q2bWNaaVhBX3R2ZEdyMmJaazFzMVVSdE5qZWlxd1pZYmlvS0NRdlo5dnYxUGc?oc=5",
-      "publishedAt": "2026-10-15T21:35:00.000Z",
-      "snippet": "Google's 'Gemini 4 Argon' Launch Exposes Big Tech's Dual Strategy: Performance Rivalry Meets Security Control BigGo Finance",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "b8e2b3debc4433b5",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Launches Rosalind Academic Plan for U.S. University Labs - Unite.AI",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPek5MdTRvUjNkaVlrTjBERkQxZHFjcDZjdDdmYjAtUFk0TWFIRFZCLUItR3ZvbF9mTXBuX1h5Ti1MRXRpLWQyb1E4SWl6bXpGcmVybmVPMVVDd2tBMTBnOTNXNzVGYVFsUWFiVEw3c09yWXI4enhMbXM3SDc5anNHU1A2WWFLMEVxZ2Eyeg?oc=5",
-      "publishedAt": "2026-10-15T21:32:09.000Z",
-      "snippet": "OpenAI Launches Rosalind Academic Plan for U.S. University Labs Unite.AI",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "id": "fda1c070cc556f19",
       "domain": "publishing",
       "source": "doaj_added",
@@ -540,32 +643,6 @@
       "snippet": "Published by Masaryk University Added to DOAJ on 15 Oct 2026 LCC Subject Category: Language and Literature: Philology. Linguistics: Language. Linguistic theory. Comparative grammar: Translating and interpreting",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "55cb4872720c5510",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Model Solved 49 of 50 Physics Problems at Under $3 - FourWeekMBA",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQamlXcmNwaUxMSGpXVFVPWDI0VWVhekIwU0FrMnlxV1dEd1hPa2xwWDg1MzRzcFUzelU3WlVlSkxFTW1aNE1MWElyd0tqSG5nQ2tmVF9Vc2F2d19pLUdkSXUzclNiN3A2Y1Y4VGttOVhDMmpHdXNGdE5IaUZpY2g2Q1JrODRfMzV4a0lmSg?oc=5",
-      "publishedAt": "2026-10-15T21:13:30.000Z",
-      "snippet": "OpenAI Model Solved 49 of 50 Physics Problems at Under $3 FourWeekMBA",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "da9a2022a37e117c",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "States sue AI giant OpenAI, saying ChatGPT is hurting children and deceiving adults - WCAX",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbklwaGs1OW0xOFBKaGNGOWxuRm5JaU5FamNZbXFzOXBkNUlCTTd5SUI4S0duQmRtckpId2JNWkxnOEtOM3VaZGtnb0hMcjJYRXBTQzhSeWpiWlpfU3VQVlBsNWxZVjBRWGxuZ09YR2dxVW4yRjdoVGtjdGJQT1YzNkpDVUw2cWZNcEFjZ05IOVFJOEh1MHVEdFowVWFLR28wWnFlX3ZxLXdIaFZNT3Y4Mg?oc=5",
-      "publishedAt": "2026-10-15T21:00:00.000Z",
-      "snippet": "States sue AI giant OpenAI, saying ChatGPT is hurting children and deceiving adults WCAX",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
     },
     {
       "id": "dad248df098408ae",
@@ -593,7 +670,7 @@
       "id": "02ff6bdd3721aa56",
       "domain": "vibe_coding",
       "source": "lobsters",
-      "title": "About time",
+      "title": "On the technical actions needed to ensure the continuity of UTC",
       "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
       "publishedAt": "2026-10-15T20:22:14.000Z",
       "snippet": "No more leap seconds . Sorry, about the title, but I couldn‘t resist. Comments",
@@ -781,17 +858,6 @@
       "tags": []
     },
     {
-      "id": "64f350d56f7c5d8e",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "Email notifications for repository push events have been retired",
-      "url": "https://github.blog/changelog/2026-10-15-email-notifications-for-repository-push-events-have-been-retired",
-      "publishedAt": "2026-10-15T13:42:19.000Z",
-      "snippet": "As of October 15, 2026, email notifications for repository push events have been retired and are no longer sent. We shut down this feature to help prevent spam and abuse.… The post Email notifications for repository push events have been retired appeared first on The GitHub Blog .",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "1d775e345a3012e9",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -838,17 +904,6 @@
       "tags": []
     },
     {
-      "id": "ddf9b2b9e4f966a7",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "ReConnectEd (2653-844X)",
-      "url": "https://doaj.org/toc/2653-844X?rss=",
-      "publishedAt": "2026-10-15T12:40:06.000Z",
-      "snippet": "Published by Australian Council for Student Voice Ltd. Added to DOAJ on 15 Oct 2026 LCC Subject Category: Education: Education (General)",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "35aa899611dad575",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -871,17 +926,6 @@
       "tags": [
         "show hn"
       ]
-    },
-    {
-      "id": "a50d6ca47b3968f6",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The geometric model of maintenance",
-      "url": "https://entropicthoughts.com/geometric-model-of-maintenance",
-      "publishedAt": "2026-10-15T10:48:58.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
     },
     {
       "id": "7f9b279c29bc92e6",
@@ -917,87 +961,6 @@
       "snippet": "Today's guest post takes a deeper view into how researchers are currently engaging with AI and scholarly research, positing that we're now seeing a shift from agentic discovery to consumption. The post Guest Post – The Evolution of Eras: Agentic Discovery Makes Way for Agentic Consumption appeared f",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "8102d9141c6b8e38",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Everyone is doing Git on S3 wrong",
-      "url": "https://enroute.sh/blog/everyone-is-doing-git-on-s3-wrong",
-      "publishedAt": "2026-10-15T09:07:04.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "c4540bdf62308d8f",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "ArenaAllocators don't play nicely with ArrayLists",
-      "url": "https://www.openmymind.net/Arena-Allocators-and-ArrayLists/",
-      "publishedAt": "2026-10-15T08:38:41.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "0ad75f96b840c8f6",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Haxy on Haxy",
-      "url": "https://try.haxy.net/haxy:haxy",
-      "publishedAt": "2026-10-15T07:58:35.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "52809f8a833c4787",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Haxy.net is live! — HAXY (git forge) devlog",
-      "url": "https://youtu.be/89yAiqYEwKg",
-      "publishedAt": "2026-10-15T07:47:41.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "af0bd42138e9f74d",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Furifont: furigana built into the font",
-      "url": "https://furifont.antfu.me/",
-      "publishedAt": "2026-10-15T05:00:23.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "89cd5bccd3c255ea",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Flipflop – Iroh-powered persistent tunnels for filesharing",
-      "url": "https://github.com/andunieee/flipflop",
-      "publishedAt": "2026-10-15T04:25:28.000Z",
-      "snippet": "This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that can be left always o",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "284177c0015e0342",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: My Terminal Themes Web App",
-      "url": "https://news.ycombinator.com/item?id=50098454",
-      "publishedAt": "2026-10-15T02:33:42.000Z",
-      "snippet": "Well, after 15 years of saying \"Someday I'll turn this into a web app,\" I finally did it! I've been maintaining a popular repo of terminal themes at https://github.com/mbadolato/iTerm2-Color-Schemes , and it was finally time to build the app with all the features I wanted! So, the next-gen version i",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "22ee0a608ca6c96a",
@@ -1109,6 +1072,20 @@
       "snippet": "In March, Thomas Harvey sat in on a talk at the American Physical Society’s summit in Denver on a new model of the universe that claimed to eliminate the need for dark matter and dark energy. William George, a fluid dynamicist who spent his career studying turbulence and an emeritus professor at Cha",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "976cf275ce41747b",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "publishedAt": "2026-10-13T01:40:05.000Z",
+      "snippet": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
+      "score": 6,
+      "tags": [
+        "claude",
+        "release"
+      ]
     },
     {
       "id": "77867fac866a781d",
@@ -1245,6 +1222,39 @@
       ]
     },
     {
+      "id": "3dd840402ffd28c1",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
+      "publishedAt": "2026-10-16T01:43:17.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "07e57f1a47524abc",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Thank You, Deno",
+      "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
+      "publishedAt": "2026-10-16T00:52:40.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "f3c649d0c6523151",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
+      "url": "https://github.com/johnrash/bebox",
+      "publishedAt": "2026-10-15T23:22:53.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "6391e71c19da542a",
       "domain": "ai",
       "source": "hackernews",
@@ -1333,15 +1343,52 @@
       "tags": []
     },
     {
-      "id": "ac86efc41c752b91",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "AI was great until it was not",
-      "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
-      "publishedAt": "2026-10-15T08:18:38.000Z",
-      "snippet": "",
+      "id": "0ad75f96b840c8f6",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Haxy on Haxy",
+      "url": "https://try.haxy.net/haxy:haxy",
+      "publishedAt": "2026-10-15T07:58:35.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "52809f8a833c4787",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Haxy.net is live! — HAXY (git forge) devlog",
+      "url": "https://youtu.be/89yAiqYEwKg",
+      "publishedAt": "2026-10-15T07:47:41.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "89cd5bccd3c255ea",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Flipflop – Iroh-powered persistent tunnels for filesharing",
+      "url": "https://github.com/andunieee/flipflop",
+      "publishedAt": "2026-10-15T04:25:28.000Z",
+      "snippet": "This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that can be left always o",
+      "score": 5,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "284177c0015e0342",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: My Terminal Themes Web App",
+      "url": "https://news.ycombinator.com/item?id=50098454",
+      "publishedAt": "2026-10-15T02:33:42.000Z",
+      "snippet": "Well, after 15 years of saying \"Someday I'll turn this into a web app,\" I finally did it! I've been maintaining a popular repo of terminal themes at https://github.com/mbadolato/iTerm2-Color-Schemes , and it was finally time to build the app with all the features I wanted! So, the next-gen version i",
+      "score": 5,
+      "tags": [
+        "show hn"
+      ]
     },
     {
       "id": "9cb368175a72de07",
@@ -1377,17 +1424,6 @@
       "tags": [
         "show hn"
       ]
-    },
-    {
-      "id": "ba99f34bffb7f992",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Fixing C Strings With String Views",
-      "url": "https://eliasebner.com/blog/guides/fixing-strings-in-c/",
-      "publishedAt": "2026-10-14T21:04:44.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
     },
     {
       "id": "c2ac821d2fe004bf",
@@ -1822,6 +1858,19 @@
       ]
     },
     {
+      "id": "c199b5d16e1e865c",
+      "domain": "github",
+      "source": "github_trending",
+      "title": "LibreSpark/LibreTV",
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "publishedAt": null,
+      "snippet": "一分钟搭建影视站，支持Docker等部署方式 [TypeScript] 978 stars today",
+      "score": 5,
+      "tags": [
+        "stars"
+      ]
+    },
+    {
       "id": "cfd2851c47d6fcff",
       "domain": "github",
       "source": "github_trending",
@@ -1848,12 +1897,12 @@
       ]
     },
     {
-      "id": "54298ed9f7ddecb5",
-      "domain": "vibe_coding",
+      "id": "ac86efc41c752b91",
+      "domain": "ai",
       "source": "hackernews",
-      "title": "The engineering that allows articulated buses to bend",
-      "url": "https://www.theautopian.com/you-wont-believe-the-incredible-engineering-that-allows-articulated-buses-to-bend/",
-      "publishedAt": "2026-10-15T01:02:05.000Z",
+      "title": "AI was great until it was not",
+      "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+      "publishedAt": "2026-10-15T08:18:38.000Z",
       "snippet": "",
       "score": 4,
       "tags": []
