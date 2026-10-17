@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T01:23:43.821Z",
+  "generatedAt": "2026-10-17T08:41:11.211Z",
   "counts": {
-    "raw": 180,
-    "deduped": 174,
-    "kept": 174
+    "raw": 184,
+    "deduped": 178,
+    "kept": 178
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 18,
+      "count": 20,
       "error": null,
-      "ms": 396
+      "ms": 390
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 7,
+      "count": 8,
       "error": null,
-      "ms": 1154
+      "ms": 1184
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1361
+      "ms": 1332
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 13,
       "error": null,
-      "ms": 2261
+      "ms": 2385
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1103
+      "ms": 1114
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1554
+      "ms": 1539
     },
     {
       "key": "google_news_onhold",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1341
+      "ms": 1292
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 11,
       "error": null,
-      "ms": 1287
+      "ms": 1222
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1328
+      "ms": 1381
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1253
+      "ms": 1332
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1181
+      "ms": 1116
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 3150
+      "ms": 1740
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1116
+      "ms": 1118
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1240
+      "ms": 1304
     },
     {
       "key": "hf_blog",
@@ -125,15 +125,15 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1167
+      "ms": 1142
     },
     {
       "key": "deepseek_models",
       "ok": true,
       "status": 200,
-      "count": 0,
+      "count": 1,
       "error": null,
-      "ms": 1048
+      "ms": 1066
     },
     {
       "key": "github_changelog",
@@ -141,10 +141,25 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1066
+      "ms": 1090
     }
   ],
   "items": [
+    {
+      "id": "b7685fa3b33e1b24",
+      "domain": "ai",
+      "source": "deepseek_models",
+      "title": "DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "snippet": "New model release on Hugging Face · 0 downloads · 109 likes",
+      "score": 9,
+      "tags": [
+        "deepseek",
+        "hugging face",
+        "release"
+      ]
+    },
     {
       "id": "f00db8015e59274b",
       "domain": "publishing",
@@ -159,45 +174,16 @@
       ]
     },
     {
-      "id": "5c66e733f44aea95",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Nova Scotia to host massive data centre to power Anthropic's AI assistant Claude - CBC",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWnVIOG51MWpiWDNTOTl0Zk5BNXVPV2dQdmJpVFp0SEZIOFZBOGhyMnpYZGFETkdYUWxNdWlXbVpXZ0ltcTJteU56bE5OM1JjZFAwOWQyQ2RiZ2dGR3JmYThGY3oyNGI0QUpWc1RHSGFjYThvQ3ZLYW01NEdsbEY4U0xQMm42d2xLN3U4TnI0VGhKcUtFYnR0dlRWZmlKZk5DcURDdTlLU2YyYTJnOXRkM2stY2pMRmdTQ0FNYUVIc2JUa1NwazhSWTRsZHNoUQ?oc=5",
-      "publishedAt": "2026-10-16T22:28:05.000Z",
-      "snippet": "Nova Scotia to host massive data centre to power Anthropic's AI assistant Claude CBC",
+      "id": "33c67e744599ac03",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "STAC-M3 Benchmark: L tick database 1.0 on Oxide OxVM w/ 128 vCPUs & 1.25 TiB of RAM",
+      "url": "https://docs.stacresearch.com/M3-20261005a",
+      "publishedAt": "2026-10-17T05:08:50.000Z",
+      "snippet": "It's using https://lv1.sh/ Comments",
       "score": 7,
       "tags": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
-      "id": "3ec818d5d5332d4a",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic Says Claude Traced NIST Curve Seeds to 1990s Timestamps - The Defiant",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOUNfYzRWb3Fpb1hqWnZZX1V1X29iaXBXdE8wQVVHNkVRM2tSczV4OHIyWjRNdzlJekRvUFQ2X2ltbVU1Y0NwR1RTT2JQUzNPTVdxRm9UYWIwMG9FLXJ2Rnc3TjMyQnR0UWRTeWNwNXBPbThadkpFaEh6QkdLQUFiTVlVU3VTTko5eDgyY1I3ZWNrdzBCWVRHUENVYU5fSGdJTWYw?oc=5",
-      "publishedAt": "2026-10-16T21:34:44.000Z",
-      "snippet": "Anthropic Says Claude Traced NIST Curve Seeds to 1990s Timestamps The Defiant",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
-      "id": "23f67b0126add23a",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Claude Could Lead 80-90% of Anthropic’s Model Work in 2027 - FourWeekMBA",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUS1mUTRFby1ibzhydER4YVB4RTBGMHV5cGlVZFVtNUN3dmJ3ZzFOcXFBWjZ3UFlVYWtCTEZRSHFUZDFkbGhIeFVOdUhQTmowdk9QbGJTamFQWmJXSURyWEVTNDN0eTJ2ajNBWnpZRDgxQW5OdFp6N2NlVGFCR1A2VkVUVWFhUHFaWDJqaA?oc=5",
-      "publishedAt": "2026-10-16T21:09:51.000Z",
-      "snippet": "Claude Could Lead 80-90% of Anthropic’s Model Work in 2027 FourWeekMBA",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "claude"
+        "database"
       ]
     },
     {
@@ -210,6 +196,20 @@
       "snippet": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "score": 7,
       "tags": []
+    },
+    {
+      "id": "34fd362795c1491d",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+      "url": "https://stoke.money/",
+      "publishedAt": "2026-10-16T18:54:47.000Z",
+      "snippet": "Hi HN, I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs. All of these apps tend to model “cash flow” as the net sum of your transactions during a month, yet while credit card charges",
+      "score": 7,
+      "tags": [
+        "copilot",
+        "show hn"
+      ]
     },
     {
       "id": "284177c0015e0342",
@@ -252,45 +252,6 @@
       "score": 7,
       "tags": [
         "vscode"
-      ]
-    },
-    {
-      "id": "85bbcb8c58ba4a34",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "What agents mean for Rust (and vice versa)",
-      "url": "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/",
-      "publishedAt": "2026-10-16T11:26:57.000Z",
-      "snippet": "Comments",
-      "score": 7,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "ca23e53fd9cb3317",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "Xcode 27 runner image generally available",
-      "url": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
-      "publishedAt": "2026-10-16T04:36:30.000Z",
-      "snippet": "You can now use the generally available Xcode 27 runner image to build and test your Apple applications in GitHub Actions. Previously in public preview, this GitHub-hosted image runs on… The post Xcode 27 runner image generally available appeared first on The GitHub Blog .",
-      "score": 7,
-      "tags": [
-        "actions"
-      ]
-    },
-    {
-      "id": "91a27566f4e08d52",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50eE5PTW9kRTlDZy1oTVBMcEwxYUdaNTkzYkNQUWE0UHNPaGNvWlFHQ2dRc28yY3Z4TV9ocjh6VGtScklFUXpsc2dwRDlnd0F4dTA2RGdR?oc=5",
-      "publishedAt": "2026-10-16T02:02:22.000Z",
-      "snippet": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 搜狐",
-      "score": 7,
-      "tags": [
-        "撤稿"
       ]
     },
     {
@@ -346,17 +307,180 @@
       ]
     },
     {
-      "id": "4211cf8b52e6a120",
+      "id": "c100aafc41c22d29",
       "domain": "ai",
-      "source": "deepmind_blog",
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "snippet": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "score": 7,
+      "source": "google_news_ai",
+      "title": "Anthropic pitches AI safety bill to lawmakers - The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQajMzTDZremlXZnRJX3Z0c21pbTJWdnF6RzVha3EtNUZmaF9LY2xkcDE2b25Pc1JkN0dUa1VzekpGclhZTERLb1dyLXllaEIwQUN6MHpROE1BcFJ0M3RQQ2Y4UFRKbkpoMWVkclZSYkV6N0Y0Qi1NUGYwckZvNHJJb0gwRXFiemplQXZHV0tQX0duWko0eG1YUg?oc=5",
+      "publishedAt": "2026-10-17T07:50:00.000Z",
+      "snippet": "Anthropic pitches AI safety bill to lawmakers The Business Times",
+      "score": 6,
       "tags": [
-        "deepmind"
+        "anthropic"
       ]
+    },
+    {
+      "id": "bd876a4b75e06b28",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude Haiku 4.5 leaves the model selector on October 29 - Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNnB4NVZnTXE2Y0V3M200blJaNHdGMkVYQlo5dnpZYzlfcWpZVDZlX2dVMnBPT0JFTEVZUHp2eVowYkVOVU1JaEF3bzZkUk1WSEJnRkwzN1VhQ1lLX3AweXlScnl6WXdockFwQ216NTl4ZTJnVEwwcGFjSGFmUDJ3VXVZZjNqVUtGYWRSV1FUaHpHMExSbzNEYmhtbFZIYlpXRDYw?oc=5",
+      "publishedAt": "2026-10-17T07:10:00.000Z",
+      "snippet": "Claude Haiku 4.5 leaves the model selector on October 29 Notebookcheck",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "36e5545194552154",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery - CoinDesk",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbjZ1MzZ6clVYZmItTGI1TnZuZkl0cFFoX2NoeTBadC1KUFVsYW54THVXVndhcTRHUTFYWFlQSFRwekRQSldvY0w2WXU3LU1mRmpzUFVWT2pBaDdfWWthS09WZlItajBOM21yZlZjaDZYdTVRb1lpOFZ4a3NxbUNrTWNmWGQ2TzF2djdJNHpfcmF0NnJ0M0Jic1g2aFM1T195UXpMTEs0UDFmUTl4aGc?oc=5",
+      "publishedAt": "2026-10-17T06:39:48.000Z",
+      "snippet": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery CoinDesk",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "8a0f3f3ec05d6990",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Alphabet Launches Gemini 4 Argon Globally for Enterprise Workloads - JournalArta",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GRkY0Zll1Rk41LUZXQ0ZiOTlJeUJHb1l3Rmpldnd1R251YWJQbkdSTl9WNVppMUZjMHQ0OWhoMGwyNHBPZlVRdzBNUWNMQlpZVzhjT0Y4YUl2NV9RTkFWd1NDUWFQRjg5ODNheE4zdWFSZ1UwenNHUy1B?oc=5",
+      "publishedAt": "2026-10-17T06:26:06.000Z",
+      "snippet": "Alphabet Launches Gemini 4 Argon Globally for Enterprise Workloads JournalArta",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "016bc25498620ec5",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Some quick thoughts on Unit Testing ActivityPub",
+      "url": "https://shkspr.mobi/blog/2026/10/some-thoughts-on-unit-testing-activitypub/",
+      "publishedAt": "2026-10-17T06:12:46.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "7c39d4b29d737f50",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude unveils a wildfire analysis prototype made with Opus 5.5 - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeXFBT1lZTDFiclk1Q19ucUdVcjZkREJraXQ1bkx5TmhKYUdwVDFscE5WdnNqUVBJcG9hSllOMXJGYmlxcTV5ZXZDS3BJMXZCY1ZiR1JlczVTTHZlOTZhSUhWdFI0emxiZFlpQmtEQTV2aHlvN0ZLTVg4NlZESHc4MDVPbms1aDJGYXE1a291ak9pMVdQOWFiaXdYMHQ0Q0NTNWlF?oc=5",
+      "publishedAt": "2026-10-17T06:04:01.000Z",
+      "snippet": "Claude unveils a wildfire analysis prototype made with Opus 5.5 Pasquale Pillitteri",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "2abf012e33140840",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI launches festive ChatGPT campaign with new Hindi voices - Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMVRfc04wQXAwLWRXTlRjSW4weDY0Z3JEWFI5Z2pHR3huWDBnank0djRHcHd6RHphcDVXaThPUlZ6YWFod0E3UWFfN25QdEJiSFV5SFlxMG1UUGVxUTZEdFdHMzJtRlFvcnlZbGtVX25OQ3lBTXExLUQ1M3lEd245NHVoWXRUci1JNWZhWS1KS3FxWno3aDZkTnQxUTJLMktDLUhSSElBT3F4aTNTQzhWa0V5MHNyOVBOdEHSAb8BQVVfeXFMTTJNQnY3WGQ0ZTBkYVFoSzhQcUl4QWJSX3R2blFtbDNDclpWd2RHckNTWDdLZlJONjVYOHZLdW95MnhJcTNoR2ZYTmk4SUtpc2k5SnBaenpxcXdhY3QzZFdXVGZ6YXNBNW8yQVdZOS1MQkFLSVlDR2FmZG94Um1CMnVJSFNuWXNCbG9IVV8wUzJzczFHQjNnTFB4MmU2cEk2UGwyMTVCdmtCUi1vYXdIUFZla1E3aWhZOG5DLW12WTQ?oc=5",
+      "publishedAt": "2026-10-17T06:01:02.000Z",
+      "snippet": "OpenAI launches festive ChatGPT campaign with new Hindi voices Storyboard18",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "9bc72dea926b3d46",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Gemini 4 Argon Goes Global: 1M-Token Launch [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaTk5VLVNMSzBNcmhfWWtLbEZzNENRdVBQazhKMzI4ZTk3M3h5dmZndW1WQko5Mk1Pd01OWEl3YnltazhZN1d2N2tha0NfWHZWMTNVb25DbzF1anhYbUtpQTI5S3cyMG96Q3hlTFJOVnBfMkV6?oc=5",
+      "publishedAt": "2026-10-17T05:39:48.000Z",
+      "snippet": "Gemini 4 Argon Goes Global: 1M-Token Launch [2026] shattered.io",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "62749df9d57928f7",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI model goes rogue, uses another person's crypto wallet to obtain funds | Incident discovered 3 months after it happened | Inshorts - Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZmV5Zk5WQlBDQmgxN0RhbmVrSm05WGhMQUdkOXF6d0dlTzkxaVZiNF9uTy12MktzMFNCaXlBU2ZEeFVPWC1YUWxPWnJmaHBFZVZ1S0FCNmVvb0xBYmxtMjI3WlpDQUdEdlFrT192azQ0Y2FJU2ZMS1hHaFpHZm4zOC1QRHRCdElMTFVzTHlkeFhwZWJCeTF6eUZZMmk5WW5Qa3pBQTlZVlJtOUx0ekh5UFZfbFd3V0dxQ0p6S2lPdWzSAcABQVVfeXFMTmZleWZOVkJQQ0JoMTdEYW5la0ptOVhoTEFHZDlxendHZU85MWlWYjRfbk8tdjJLczBTQml5QVNmRHhVT1gtWFFsT1pyZmhwRWVWdUtBQjZlb29MQWJsbTIyN1paQ0FHRHZRa09fdms0NGNhSVNmTEtYR2haR2ZuMzgtUER0QnRJTExVc0x5ZHhYcGViQnkxenlGWTJpOVluUGt6QUE5WVZSbTlMdHpIeVBWX2xXd1dHcUNKektpT3Vs?oc=5",
+      "publishedAt": "2026-10-17T05:15:40.000Z",
+      "snippet": "OpenAI model goes rogue, uses another person's crypto wallet to obtain funds | Incident discovered 3 months after it happened | Inshorts Inshorts",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "c31cb2f88469d00c",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Pitches a $1B AI Safety Bill to Lawmakers [2026] - https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03QldDcThFcXI1NnZSWGZZU2UzdWxGak40MWZESTB6Ni12VUFKcVd0UDVJSFBZYnViSGlBaTk2UklwUnVmOFB3SlNYN1ZPUE5YeWJCbl8tdXgyWHdsYTBHZGVxQVVMNWJUZEE1RWJOcDY0dXc?oc=5",
+      "publishedAt": "2026-10-17T04:58:49.000Z",
+      "snippet": "Anthropic Pitches a $1B AI Safety Bill to Lawmakers [2026] https://tech-insider.org/",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "1e487892ae4abad5",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "publishedAt": "2026-10-17T04:36:53.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "847ef57bf45fc5fe",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google Launches Gemini 4 Argon Globally for Complex Tasks - وكالة صدى نيوز",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81aEgyWjBpdWdFT1FjbzJVOFlWT2dqZzZMV3RrbzZQbUJmN3Z0Q3dIcU53ZUFFSXVHbG9UU3RvbUlQWVZWNGdHYXV2X2xGaXRNSm94U293?oc=5",
+      "publishedAt": "2026-10-17T04:35:27.000Z",
+      "snippet": "Google Launches Gemini 4 Argon Globally for Complex Tasks وكالة صدى نيوز",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "cb14ea64f3b9d576",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "orib: Bringing back the old Reddit interface, with a few new enhancements",
+      "url": "https://github.com/rajtilakjee/orib",
+      "publishedAt": "2026-10-17T04:22:50.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "f88646c6c677e2f3",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Interactive refactoring in gopls",
+      "url": "https://go.dev/blog/interactive-refactoring",
+      "publishedAt": "2026-10-17T01:12:09.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
     },
     {
       "id": "db90a7b4e59b3094",
@@ -370,19 +494,6 @@
       "tags": []
     },
     {
-      "id": "e4debdd8973c26b6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports - WTVB",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNd0JQWVdaYk1XWEUzZG42LTdvMnB2U1YwdlQzdlViWm1VcHRBQ2oxV0xWeFVZVHpma2Z4ZEVJRTVkdTEwZm9rSV9hN00yM3lQS1BrTlpRTFJkd0JDcndYNGt1V3dqb2FFcEkyNXlHd0dkU3c1WkxORGYxNkFnVWp1X1lqblVDYmxhNEJWOWxhYXg2b241emR3dGxSSF8tUFJsbjJYd2NleGE1UERJMXc?oc=5",
-      "publishedAt": "2026-10-16T22:53:53.000Z",
-      "snippet": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports WTVB",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
       "id": "a6d7ca69b8b2404f",
       "domain": "ai",
       "source": "simonwillison",
@@ -392,45 +503,6 @@
       "snippet": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR,",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "25868e0e51dd8477",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Claude Mythos 5 vs Qwen3.8-Max: Tre cambiamenti in sette settimane - OrcaRouter",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WeC0tSVVMSlJtWThlOXFYbG5GQm5ib0NTeDNha2JxNWktZUtib2g1R2FBY0h0QzhIb1hPOHJaQkk2UWNZUnk1TXpYRlBiLWR0NTBnYjF5Z2h4UkV2RTBNdHdkT2xINC1RSFhNTEtTNFliTjA?oc=5",
-      "publishedAt": "2026-10-16T21:15:17.000Z",
-      "snippet": "Claude Mythos 5 vs Qwen3.8-Max: Tre cambiamenti in sette settimane OrcaRouter",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "9feaa4e4054c6f66",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Ticker: States sue AI giant OpenAI; Addiction recovery boost - Boston Herald",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM1lCMDU5M1JjbnpYSDhnWjB3dllFZW9TNVNMUE9vTG11Y05xT3N6cU9UZHNRMF9lYnJxVkxnVFVLWVVDclhPdTVDNW5XenZCVlJLV0duNEtPdDIxSXQxZXA4bER4Z1V0cDY2SUZZYkhCR2syd1B3VTJheWxCSDg0N3BjcDVRQkpJMDFrZE5qeUZDX2syNkxrZWc4VlRyV2Z2?oc=5",
-      "publishedAt": "2026-10-16T21:12:45.000Z",
-      "snippet": "Ticker: States sue AI giant OpenAI; Addiction recovery boost Boston Herald",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "5be76d5cb808b9bb",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQkxhdi15T3hFNFNIcHQxbEx4TGZnNm5wakhGVE50UmlCRlBKRnZUcHdHRkZvQkZZZF9udjNVcXFkY0l2ZGsxaDVVTHNRbHc0MWhMbi1SQXNuTElhSFF4eG9jeHlaNF9xYk90Nl9YQzlhbmdOSzhoME03cHBad2pDSHMwS0Iza09OdW94cnVNbmloeERMRk5iSHdiNHlFaDNWSU9QMU5iWjc?oc=5",
-      "publishedAt": "2026-10-16T20:59:01.000Z",
-      "snippet": "OpenAI models hacked a crypto wallet and breached more websites Ars Technica",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
     },
     {
       "id": "5ad090a99ae2ed5f",
@@ -444,30 +516,15 @@
       "tags": []
     },
     {
-      "id": "632d64706d4a2bdd",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "GPT-Live-1 vs Qwen-Audio-3.1: Het full-duplex-gevecht - OrcaRouter",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKbmFiUVdNZUVDdnRvRnNRUzlvbVYxOWZqckJjTVJhVDc0RXlUN3JicDBydWRjTEVVejkzMVNUTkhXX28xN1VzS2xRZmlUeXZCZVN0bjdfeWRzVEFpMmNPbzdhMGlpNjdFZHd5aGc2VQ?oc=5",
-      "publishedAt": "2026-10-16T20:36:27.000Z",
-      "snippet": "GPT-Live-1 vs Qwen-Audio-3.1: Het full-duplex-gevecht OrcaRouter",
+      "id": "9d5b14376ed12cf8",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Someone on Torrent Sites Kept Fucking With My Sonarr",
+      "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "publishedAt": "2026-10-16T20:47:02.000Z",
+      "snippet": "Comments",
       "score": 6,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "id": "ade712070263fde6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Unlocking universe secrets: CERN, Mistral partner on Large Physics Model. What it means? - Business Today",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPY2FBd1d0cHR1RThTNkp4bFl2XzhUVERNeTg2ZWpjcGhkd0pWaUt1QmFEYkpqZXhGeWdjQ1ludUNBeDI4TjkxdFdsdE5ydEZMMTFDX21hdkNjWEx3SGdMS25QMW9NbVpaX3llQzRnZm5MMVhjNS13cmpENlhWRHdmUGQ3YUpka0RMVGJlcnMtM3k1Xy01UVJBLXkyWjhhQ2lYWXN4Tkh6SGtYMUxfVDZjemJqV04xVkdnNzhkUFQwRGRSOFJlQlpjNkN6YlhZZ01GSXVWZjAxY0htQWYxNDhibGpISURoVmg0RW1KVnRDMUJsWFZhaUE5OWdMbG1sS3o2enfSAYcCQVVfeXFMT2c0NXZWREtLQkhmWmU1c0RWWDhUT2pjVjg5Z0hiTVU4TWRvVkpTN25ab211NzhQaUxxQlFnZ1doaVdGVFhTajBmcmZuS2lRUy1adENMRTNfSVdhcEN2YXFaWFUwSTVvSGNtZjE1MUNIb1VQY1VjZHkzTmx6U2t5T1ktSUFyQmZ4RlBzUFpaamhCTE1la3NBMnREdGRtX05nbUx2YzdSU0JkVUNHRXZSS0tlNTlKczVlWFNBaHNxZlBXQ0ozRllVdmZ3MU1mV3A1MExiR1pUUFZtcnU3TWZ2TmFOVngza3NkVHdaSTU3V1gwaW9xQWQxTmVlM0NjQXJLbEhhR2VhRG8?oc=5",
-      "publishedAt": "2026-10-16T20:30:10.000Z",
-      "snippet": "Unlocking universe secrets: CERN, Mistral partner on Large Physics Model. What it means? Business Today",
-      "score": 6,
-      "tags": [
-        "mistral"
-      ]
+      "tags": []
     },
     {
       "id": "3e59319f9bee33e0",
@@ -623,6 +680,19 @@
       "tags": []
     },
     {
+      "id": "cb82782b263b06da",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: OneDeploy – Managed open-source apps with nightly backups and TLS",
+      "url": "https://onedeploy.co/",
+      "publishedAt": "2026-10-16T15:38:35.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
       "id": "f38877a3493f31b2",
       "domain": "publishing",
       "source": "infodocket",
@@ -724,81 +794,30 @@
       "tags": []
     },
     {
-      "id": "1bdb124c910179f3",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/hounpx/what_are_you_doing_this_weekend",
-      "publishedAt": "2026-10-16T08:19:09.000Z",
-      "snippet": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "80b0698da317d43e",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Why are we even doing all this?",
-      "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
-      "publishedAt": "2026-10-16T05:28:29.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "a9a83bbf158cebc8",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "My self-hosted infrastructure with Incus OS",
-      "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
-      "publishedAt": "2026-10-16T03:25:49.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "9bdf1a84450172d5",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Linus Torvalds on AI-assisted kernel contributions",
-      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
-      "publishedAt": "2026-10-16T02:50:33.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "c9311b087f360254",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Where did WIN32_LEAN_AND_MEAN come from? (2009)",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20091130-00/?p=15863%2F",
-      "publishedAt": "2026-10-16T02:28:13.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "d37fda406661b62e",
+      "id": "ca23e53fd9cb3317",
       "domain": "github",
       "source": "github_changelog",
-      "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
-      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-      "publishedAt": "2026-10-16T02:16:35.000Z",
-      "snippet": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories… The post Multi-repository support and other improvements for GitHub in Slack and Team",
+      "title": "Xcode 27 runner image generally available",
+      "url": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available",
+      "publishedAt": "2026-10-16T04:36:30.000Z",
+      "snippet": "You can now use the generally available Xcode 27 runner image to build and test your Apple applications in GitHub Actions. Previously in public preview, this GitHub-hosted image runs on… The post Xcode 27 runner image generally available appeared first on The GitHub Blog .",
       "score": 6,
-      "tags": []
+      "tags": [
+        "actions"
+      ]
     },
     {
-      "id": "af14d0aa7e59c219",
-      "domain": "ai",
-      "source": "hf_blog",
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "publishedAt": "2026-10-16T01:44:47.000Z",
-      "snippet": "",
+      "id": "91a27566f4e08d52",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50eE5PTW9kRTlDZy1oTVBMcEwxYUdaNTkzYkNQUWE0UHNPaGNvWlFHQ2dRc28yY3Z4TV9ocjh6VGtScklFUXpsc2dwRDlnd0F4dTA2RGdR?oc=5",
+      "publishedAt": "2026-10-16T02:02:22.000Z",
+      "snippet": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 搜狐网",
       "score": 6,
-      "tags": []
+      "tags": [
+        "撤稿"
+      ]
     },
     {
       "id": "41d6c8d9e8be0d79",
@@ -821,6 +840,17 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "publishedAt": "2026-10-16T00:00:00.000Z",
       "snippet": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "d7385f69b0b1f95f",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "snippet": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "score": 6,
       "tags": []
     },
@@ -972,15 +1002,17 @@
       ]
     },
     {
-      "id": "6458714b5736bcab",
+      "id": "4211cf8b52e6a120",
       "domain": "ai",
-      "source": "openai_news",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "snippet": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "source": "deepmind_blog",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "snippet": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
       "score": 6,
-      "tags": []
+      "tags": [
+        "deepmind"
+      ]
     },
     {
       "id": "aeca59265009bf46",
@@ -1211,10 +1243,21 @@
       "tags": []
     },
     {
+      "id": "cc86f56a4cd21139",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "How to make System 1 LLMs show System 2 competencies?",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+      "publishedAt": "2026-10-16T14:16:34.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "80673d9d19ef4ecd",
       "domain": "vibe_coding",
       "source": "hackernews",
-      "title": "I Love Software Rendering",
+      "title": "I love software rendering",
       "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
       "publishedAt": "2026-10-16T12:52:08.000Z",
       "snippet": "",
@@ -1222,23 +1265,67 @@
       "tags": []
     },
     {
-      "id": "552eb3b39f934770",
+      "id": "1bdb124c910179f3",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "The Folders Programming Language",
-      "url": "https://danieltemkin.com/esolangs/folders",
-      "publishedAt": "2026-10-16T05:11:28.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/hounpx/what_are_you_doing_this_weekend",
+      "publishedAt": "2026-10-16T08:19:09.000Z",
+      "snippet": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
       "score": 5,
       "tags": []
     },
     {
-      "id": "3dd840402ffd28c1",
+      "id": "80b0698da317d43e",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Why are we even doing all this?",
+      "url": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+      "publishedAt": "2026-10-16T05:28:29.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "a9a83bbf158cebc8",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "My self-hosted infrastructure with Incus OS",
+      "url": "https://dataswamp.org/~solene/2026-10-15-selfhosting-infrastructure-incus-os.html",
+      "publishedAt": "2026-10-16T03:25:49.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "9bdf1a84450172d5",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Linus Torvalds on AI-assisted kernel contributions",
+      "url": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+      "publishedAt": "2026-10-16T02:50:33.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "d37fda406661b62e",
       "domain": "github",
-      "source": "hackernews",
-      "title": "Any window from your Mac, on your iPhone and iPad",
-      "url": "https://github.com/Saffsanity/sill",
-      "publishedAt": "2026-10-16T01:43:17.000Z",
+      "source": "github_changelog",
+      "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
+      "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
+      "publishedAt": "2026-10-16T02:16:35.000Z",
+      "snippet": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories… The post Multi-repository support and other improvements for GitHub in Slack and Team",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "af14d0aa7e59c219",
+      "domain": "ai",
+      "source": "hf_blog",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "publishedAt": "2026-10-16T01:44:47.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
@@ -1277,17 +1364,6 @@
       "tags": []
     },
     {
-      "id": "02ff6bdd3721aa56",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "On the technical actions needed to ensure the continuity of UTC",
-      "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
-      "publishedAt": "2026-10-15T20:22:14.000Z",
-      "snippet": "No more leap seconds . Sorry, about the title, but I couldn‘t resist. Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "685013f039fc09a6",
       "domain": "github",
       "source": "github_changelog",
@@ -1306,17 +1382,6 @@
       "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
       "publishedAt": "2026-10-15T19:47:52.000Z",
       "snippet": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use t",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "afa7110fdd61eada",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Forgejo v17.0 is available",
-      "url": "https://forgejo.org/2026-10-release-v17-0/",
-      "publishedAt": "2026-10-15T19:43:19.000Z",
-      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1378,17 +1443,6 @@
       "tags": []
     },
     {
-      "id": "1d775e345a3012e9",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Sunsetting decomp.dev",
-      "url": "https://decomp.dev/",
-      "publishedAt": "2026-10-15T13:27:41.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "c1251d11ff931ff2",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -1411,19 +1465,6 @@
       "snippet": "Today's guest post takes a deeper view into how researchers are currently engaging with AI and scholarly research, positing that we're now seeing a shift from agentic discovery to consumption. The post Guest Post – The Evolution of Eras: Agentic Discovery Makes Way for Agentic Consumption appeared f",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "89cd5bccd3c255ea",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Flipflop – Iroh-powered persistent tunnels for filesharing",
-      "url": "https://github.com/andunieee/flipflop",
-      "publishedAt": "2026-10-15T04:25:28.000Z",
-      "snippet": "This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that can be left always o",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "ffa5b2377d15e19d",
@@ -1842,23 +1883,34 @@
       ]
     },
     {
+      "id": "552eb3b39f934770",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "The Folders Programming Language",
+      "url": "https://danieltemkin.com/esolangs/folders",
+      "publishedAt": "2026-10-16T05:11:28.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "3dd840402ffd28c1",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
+      "publishedAt": "2026-10-16T01:43:17.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "07e57f1a47524abc",
       "domain": "vibe_coding",
       "source": "hackernews",
       "title": "Thank You, Deno",
       "url": "https://www.vlt.io/blog/competition-keeps-javascript-moving",
       "publishedAt": "2026-10-16T00:52:40.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "f3c649d0c6523151",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
-      "url": "https://github.com/johnrash/bebox",
-      "publishedAt": "2026-10-15T23:22:53.000Z",
       "snippet": "",
       "score": 4,
       "tags": []
