@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T01:18:56.389Z",
+  "generatedAt": "2026-10-18T08:57:48.680Z",
   "counts": {
-    "raw": 165,
+    "raw": 166,
     "deduped": 160,
     "kept": 160
   },
@@ -11,17 +11,17 @@
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 21,
+      "count": 19,
       "error": null,
-      "ms": 373
+      "ms": 441
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 10,
+      "count": 12,
       "error": null,
-      "ms": 1180
+      "ms": 1859
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": null,
       "count": 0,
       "error": "HTTP 500",
-      "ms": 2323
+      "ms": 2559
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 13,
       "error": null,
-      "ms": 2249
+      "ms": 2260
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1203
+      "ms": 1096
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1534
+      "ms": 1496
     },
     {
       "key": "google_news_onhold",
@@ -61,15 +61,15 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1295
+      "ms": 1287
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 14,
+      "count": 15,
       "error": null,
-      "ms": 1252
+      "ms": 1195
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1384
+      "ms": 1173
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1317
+      "ms": 1308
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1122
+      "ms": 1076
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2113
+      "ms": 2094
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1134
+      "ms": 1089
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1171
+      "ms": 1083
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1197
+      "ms": 1131
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1054
+      "ms": 1074
     },
     {
       "key": "github_changelog",
@@ -141,25 +141,10 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1059
+      "ms": 1030
     }
   ],
   "items": [
-    {
-      "id": "b7685fa3b33e1b24",
-      "domain": "ai",
-      "source": "deepseek_models",
-      "title": "DeepSeek-V4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "publishedAt": "2026-10-17T02:40:38.000Z",
-      "snippet": "New model release on Hugging Face · 0 downloads · 950 likes",
-      "score": 9,
-      "tags": [
-        "deepseek",
-        "hugging face",
-        "release"
-      ]
-    },
     {
       "id": "a74ef38697293dcb",
       "domain": "publishing",
@@ -174,31 +159,46 @@
       ]
     },
     {
-      "id": "12c8a2881e54732e",
+      "id": "b7685fa3b33e1b24",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol - Wccftech",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWGl2Z05pc2NyUm5mNzFIMGNsTTFIRE5tejBmQjduLS1xeXNBZzF6LUMtWFoxZ1FNeE9yUEUwWFBUYjhXVWY5UHo3dVhZcVA3QVhQM0o2LWJnVVBGdUUtWE51aWlwRks2a3d1NGc2RE5zN1VFNjhtbEJucV9pc3JsRzBhaThyY3ZscjhsUHJLdnpHMk9wdGxkMFMxT0ZSTERSb3p3VkJnR0JHNTk5X2wtNDNQMHFJcFhLUFJNRERxUDJIZ1I2d0t1QWdYdTFiYk9FMFYteHNITnJnbW5pN2txTHdUS1JkLU0tZFhVb3YxOEVUQmZvT2V6X19CTdIB-wFBVV95cUxOWGl2Z05pc2NyUm5mNzFIMGNsTTFIRE5tejBmQjduLS1xeXNBZzF6LUMtWFoxZ1FNeE9yUEUwWFBUYjhXVWY5UHo3dVhZcVA3QVhQM0o2LWJnVVBGdUUtWE51aWlwRks2a3d1NGc2RE5zN1VFNjhtbEJucV9pc3JsRzBhaThyY3ZscjhsUHJLdnpHMk9wdGxkMFMxT0ZSTERSb3p3VkJnR0JHNTk5X2wtNDNQMHFJcFhLUFJNRERxUDJIZ1I2d0t1QWdYdTFiYk9FMFYteHNITnJnbW5pN2txTHdUS1JkLU0tZFhVb3YxOEVUQmZvT2V6X19CTQ?oc=5",
-      "publishedAt": "2026-10-17T19:01:00.000Z",
-      "snippet": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol Wccftech",
-      "score": 7,
+      "source": "deepseek_models",
+      "title": "DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "snippet": "New model release on Hugging Face · 0 downloads · 1,137 likes",
+      "score": 8,
       "tags": [
-        "openai",
-        "deepseek"
+        "deepseek",
+        "hugging face",
+        "release"
       ]
     },
     {
-      "id": "8d1a118e8665e0a9",
+      "id": "2c7ac114ba4a224f",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUFoxYWFYWWFqQTRraXdReXZYYmo5S0ZabG04MmlMbnp5R1VoMUsyLWpIMVg0bUhnOUNqMmxZV05BWm1DRVg4QlhONW9qbUo5UktELXhFMmc4VXhKMzhPbGxuZ2l0cjhGdE1MaEtPU0hBNzdqbTZPaEFHRENkVU9hcG9ieFhDalBPSUNZSEJGRQ?oc=5",
-      "publishedAt": "2026-10-17T18:48:08.000Z",
-      "snippet": "Replit makes OpenAI its default over Anthropic, CEO says TechCrunch",
+      "title": "FT: Anthropic wants lawyers’ negotiating ethics built into Claude agents that bargain against other agents - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQamFkOGxrLXRBeXl4OWM0VnR0Z3V3VmR6RmZxVFJzWEx6M3hWY2ZRdUZOc0xTclA2akdqbFJPTTVjSS11N0haZ0cyTlpIYnoyMFVDbWZTYWZCckQyVUNNajNxeWRadmV1TUZxSno3QUlvMzMtRGtJX0xjNHhFcktvdzdFcDlkQmFBRl90a1YwMFVlcU9CS2tvVGJzVU5tbnpmeVNmY2FqLWhDWThGcjB1TXVqcGVXU2RraFdXYjY0VGxpZFVqd3VYWXc3TGRadEhXYmFTTm1HZ21SdE9IN3VITy1RdmNydm1HcDZJblREaldlYUFfUUNNNEJRT1lkZw?oc=5",
+      "publishedAt": "2026-10-18T05:49:00.000Z",
+      "snippet": "FT: Anthropic wants lawyers’ negotiating ethics built into Claude agents that bargain against other agents TradingView",
       "score": 7,
       "tags": [
-        "openai",
-        "anthropic"
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "bc0bbfc114d27f0e",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Grok 4.7 vs Claude vs DeepSeek: 13x Price Gap [2026] - https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa3lWQTNQaTFRNEJiZ1NqeE8yRzg0ei1WemdFQkU4ek9pYWxEQVY5anpPUFQtZE9ZS3NUQV9sVm9DaldHVUg2b0k0X3lCT0hpcDlLMm1mdlAzbGFKVXd6WlJvRjBRWWVHQUI1eFhoTlA1eGo4UlVpdGEtWDFXaDZEOWN4Zmp2aE5fSHg0?oc=5",
+      "publishedAt": "2026-10-18T04:45:35.000Z",
+      "snippet": "Grok 4.7 vs Claude vs DeepSeek: 13x Price Gap [2026] https://tech-insider.org/",
+      "score": 7,
+      "tags": [
+        "claude",
+        "deepseek"
       ]
     },
     {
@@ -216,6 +216,19 @@
       ]
     },
     {
+      "id": "2ed67115e32695c5",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "publishedAt": "2026-10-17T13:16:49.000Z",
+      "snippet": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican promp",
+      "score": 7,
+      "tags": [
+        "release"
+      ]
+    },
+    {
       "id": "f00db8015e59274b",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -229,16 +242,146 @@
       ]
     },
     {
-      "id": "b1b14f79df8b6d04",
+      "id": "fded71fa50e18402",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock - OnlineKhabar English News",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwbGd5bTRHbDhDd1RZVzJMLVZWTVRTdnNQZEhwY3JyajJQYnNSQmNQQWxEMVZpVDEwNl9GX3BMTkpxSVFYZjdKRUNsQk8yclNkalNiZldKZ2lCRWkyVWY3eEZldjhzTTEyRmNTZUN6SWRZSzg?oc=5",
-      "publishedAt": "2026-10-18T01:15:00.000Z",
-      "snippet": "Is this the ‘mathocalypse’? Why OpenAI’s latest results dump has left mathematicians in shock OnlineKhabar English News",
+      "title": "DeepSeek Ships a Faster Flash Model and Its Own Search API - trendingtopics.eu",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMW5VYU5mbW5FTmUxVlpuU3dNU0pWdXpGU19ublRrRm1HUFNRS0pBSlZzdjQ4VEQ3dlVtYXYzcmhPUUtMdzNCSmUtZWxJU3lDNTNMdU1uSHBQSWxwWmZzQjhiZktGeldHLWlLa2VoN3RBblN6VnhkMzdoanJ2TTVqZ2NSOHNSUVkzd1QxZmwxMENseXM?oc=5",
+      "publishedAt": "2026-10-18T08:37:54.000Z",
+      "snippet": "DeepSeek Ships a Faster Flash Model and Its Own Search API trendingtopics.eu",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "2830a33d7732294e",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI model broke into a government website during training - Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGpqeVFqOGtUVTNnOU5TWHM2bUJYNHlobjFTd3IteWdCTnR0X3ppZ1hrdzlfdXRNZUw5TVFpWVFsUGVsVWJ3RFR6YWlQVWJMYUpZT3JWNDE4ckUwdlozSXotV25JRVJsa2ZSeTEwdzM0WlNtcmxFUzNrbFBjTGpUeWR1eEt1U3h3QnZZQWd2UTVSM1gxNVhmcFJFV2hidHRfLThXeG5xeGY?oc=5",
+      "publishedAt": "2026-10-18T08:21:00.000Z",
+      "snippet": "OpenAI model broke into a government website during training Notebookcheck",
       "score": 6,
       "tags": [
         "openai"
+      ]
+    },
+    {
+      "id": "2125b29266a5fcbe",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI admits its GPT-5.6 Sol agent stole crypto to finish a coding task - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ0E0M1JjNGJpeGJKLWFFSS1hcHI5MjN3QXdncTBOc1JQMXNrYmJPTFUzaHpuQW0zdkYydzN3cEZFNThmQjNLMy0wRXRUYjdPRzJGTWUxSFdvWXU2akxFUmhZbXYxT2IySjRpc0wxenV0RjRRUlpPTjY4Wmcta2k2bkNmM2drN1NEQkg5djdNRmxUQmNTYnFwU2lRMUFYT3F2?oc=5",
+      "publishedAt": "2026-10-18T07:29:55.000Z",
+      "snippet": "OpenAI admits its GPT-5.6 Sol agent stole crypto to finish a coding task Startup Fortune",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "012e3e7e58f279b7",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "publishedAt": "2026-10-18T06:50:36.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "3b84fd4788098b77",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek’s new AI model talks less, so a coding task costs 20 cents - Martin Cid Magazine",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcU9qcjE0Vi1yemt4eC1uVkJZRlNaSHg4ejMyMncwZ0RPR1ZVdl9JSF8wU0FlZDY4OC04QmpQUmV0eENpUER2THNPRUgwbTRLeXVMOTJuaHRhVE13NzNEOGt2MkpUQVozYVVjZ2o5MUw1aC05OENCTFJzRUxyUkpjZWdEbm5Gakxhc3NNcU9Bcw?oc=5",
+      "publishedAt": "2026-10-18T06:10:53.000Z",
+      "snippet": "DeepSeek’s new AI model talks less, so a coding task costs 20 cents Martin Cid Magazine",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "bade35c1f4ad304d",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Model Derived Crypto Wallet Keys and Spent Testnet Funds Without Permission - Cryptonews.net",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aVEhjam5feWd1bnJBVFVETXAzSjhRaFppeUhQd1hJc1FsNUt4S1hXRHRIMDVPeEdCTXhPOUp5NnNNLWE2ZXZxV3NLQ2Nxc1FfUDZ6cVVZdC1xQQ?oc=5",
+      "publishedAt": "2026-10-18T05:01:02.000Z",
+      "snippet": "OpenAI Model Derived Crypto Wallet Keys and Spent Testnet Funds Without Permission Cryptonews.net",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "da539833c2e8f499",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek unveils faster, cheaper AI model boosting coding and reasoning - CHOSUNBIZ - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzMGlhSDlhOUNvakNZUXNQU09XVVBDN3owVllzamJhNGl0ZVRhYWZ0RlNqNl9WNlBPM3FPeHJTaFhDeGo5Ymh1eVVvSzBFc1NWSXp6aVd2MzlEclB6OFZtNGQzWnZieHlqbmpocl9TTHlUb0RveFRTTy1n0gGOAUFVX3lxTE9mM3VkckprYnloMWVNRGZZcXM2U0hkVmp4Sno2bGlzTUlEYUkyOG9HejRsTm1zZzYxY0FsMzNtd0xtWGJWbmY1TUo0RHJlTmREYXg0UmpnTjVTZGNoWS0xZk9aUzJ6VWljemllaFVvS1dHX2JmT0pkN3JyYWYxY3IxX1FQM3U4bFlidmxldVE?oc=5",
+      "publishedAt": "2026-10-18T04:52:00.000Z",
+      "snippet": "DeepSeek unveils faster, cheaper AI model boosting coding and reasoning - CHOSUNBIZ Chosunbiz",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "15d487b319197743",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek sets a $0.75 web search price as Cloudflare grades bots on conduct - PPC Land",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlhMVmRJb3VhQ1M2YTZuQzRsb1Q4RkU4V04zNnd2Sk10V1JwY2ZCSXNGdFBvNWVDNlk1SWNNZktXQTVLYWNHbk1OOWh1dUkxb0dmeW8teVlZZmlkQ3d0bVBpSy1iM29GT3B6cFdjbGtZUkt4SlduR0FJeG9pZ1FhcTlhUWVQcF9vV0lSZ2w0TUZvRW81QzVF?oc=5",
+      "publishedAt": "2026-10-18T04:50:26.000Z",
+      "snippet": "DeepSeek sets a $0.75 web search price as Cloudflare grades bots on conduct PPC Land",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "6d9c92c61f88dee7",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "publishedAt": "2026-10-18T04:33:49.000Z",
+      "snippet": "FOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it'll throw up a questionnaire that checks if you understand how the code you're pushing works.",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "cbfce2b8ef2c23de",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Taps 2,800 Lawyers to Watch AI Agent Deals [2026] - https://tech-insider.org/",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PWERsakVaT0tELTFnWEZLSW0yUVFXWXBYdndoY2FxZktKdXBJM3FBMFdSbFdkSFg0dHBEVEpyX01LM1RTMDlhSC1sbVNfRjkwaGM1SU9JeGFXTW1JYWNlWWtDdWkyNGdsdFZEcnF4SU9nV1NoVFVLNmJMM0t5YXM?oc=5",
+      "publishedAt": "2026-10-18T04:22:54.000Z",
+      "snippet": "Anthropic Taps 2,800 Lawyers to Watch AI Agent Deals [2026] https://tech-insider.org/",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "2fc7d41c6251996b",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
+      "url": "https://tkgally.github.io/500-clocks/",
+      "publishedAt": "2026-10-18T04:04:58.000Z",
+      "snippet": "Lately I've been testing frontier models by having them create self-contained web pages that display clocks--sort of my personal version of Simon Willison’s pelican-on-a-bicycle metric. I have been particularly impressed by the variety, interest, and quality of the clocks created by Claude Opus 5.5.",
+      "score": 6,
+      "tags": [
+        "show hn"
       ]
     },
     {
@@ -247,101 +390,21 @@
       "source": "google_news_retraction",
       "title": "《分子疗法·肿瘤学》期刊文章因图表重复使用被撤销 - 生物通",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UalVJbzQway16VTFSczExX0VaZjd4dHVTcldEeUJRcW90X3U0ZnNTZkdyWDZlcFJkRUpoNFBLdFd3TUN5QUstTE50Z2VYUkZtX3ZrN3VqUjMxaEh6clRLcmQ1OWR3M3dtVDhmTEp3?oc=5",
-      "publishedAt": "2026-10-18T00:50:54.000Z",
+      "publishedAt": "2026-10-18T00:50:48.000Z",
       "snippet": "《分子疗法·肿瘤学》期刊文章因图表重复使用被撤销 生物通",
       "score": 6,
       "tags": []
     },
     {
-      "id": "74fe316877149e22",
+      "id": "59dc5cbded2c46ab",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Claude sent phony tip about an unsolved murder to Philadelphia police - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGVJTUJDMGdzWjVHek0yRlIteTZwVHZ6UEVOWlM5X0k2RmVBY1p3cWR4NjNfS0wzdUg2OWtyeUlXeWhBYXNkWW1PelFMaU15bzJDX0k5bDV4cmI0SHhnR0xkaF90SnlnS1JSQU9QU3A5QVU5eGZrdEpYS3NiSnVTdmlBQWdKZw?oc=5",
-      "publishedAt": "2026-10-18T00:13:58.000Z",
-      "snippet": "Claude sent phony tip about an unsolved murder to Philadelphia police Mashable",
+      "source": "simonwillison",
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "publishedAt": "2026-10-17T21:11:12.000Z",
+      "snippet": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( ne",
       "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "5e3cedad68c133b1",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Alphabet Stock Price Forecast: Can Expanding Access to Gemini 4 Argon Help Its Stock Recover? - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcG1EUWVvaFpxcDgwRzNNZzRRb2tJTlMzSWVmYjJEb0UwSUZYNy1Dc3pSZmRvdTF0UnRkZHZoNDlLSHFPWWhDVDRmeWUzV25HNWRmLUg3Q3h5Nkh5N3ZmY0ZDZldqZmVxdThnc3BKQmdGbVBENDhhelk0cXlEVlZWT19lNk01eTllOWRCTnRqRDI0TkJidEQyRkhIaUR2eE5kX2prYXdwWXFRaWpNQmF6NEZwODdhWjVJSnNqQ0xnSlVQV1pSWVN2OThxLW5SR2ZwOVVHZlNNWURrREgxQnVVVGpwcmI4VUJseDJLVA?oc=5",
-      "publishedAt": "2026-10-18T00:03:12.000Z",
-      "snippet": "Alphabet Stock Price Forecast: Can Expanding Access to Gemini 4 Argon Help Its Stock Recover? TradingKey",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "cc4b1c8bb9598910",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek releases AI model update, opens search APIs to all users - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUGdtMm0zTGN2ZDByNFhUUExKanVmSGhiOWgxVG8tdW1fWS1pUGlGTWUyTkZUbkR3R3Vha1VIUXNsUDlRNXU0a2lsdHJsaXJMUXRFX180ZjE5S0ttUDVKdlRMUlFxZ1EwVlM5cmN2d1JBU2V0b3Q4NGFfMjdqTTJ4c1h1OTN3c0pld3ViZF9wSkFxdFdpV3dNZU9kY0tOLWFpQXNJSVBEWVR1R1QyZFhBVDE2NWxVa1V6TTRRR3R3?oc=5",
-      "publishedAt": "2026-10-17T21:05:06.000Z",
-      "snippet": "DeepSeek releases AI model update, opens search APIs to all users Investing.com",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "160b8899f27a72b1",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI reveals GPT-5.6 Sol agent stole crypto to finish a coding task - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN1hSNlIyZlVrMDlXbkhhN2VoM1l3NkFxOHdHdW9XSklsSE5Vc2M1ZUp5d3ZjUUlrQlY2LTZOSHFUY1otVFJwVllIUnBQX21lWnJhYkNQUFdrTXdwZ0M4NU5JNmctZTRDWmJ4a2RxY0owTmtCVHE5WnJOLUY1Ync0dTh1a21GdThCa2xGQ01ZQzB3U1czMFZCXzN4enI?oc=5",
-      "publishedAt": "2026-10-17T20:50:05.000Z",
-      "snippet": "OpenAI reveals GPT-5.6 Sol agent stole crypto to finish a coding task Startup Fortune",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "e52bdfd88474f573",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls - Startup Fortune",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdzJ3R3lub3I0cERXWXZENnI1ME8tQjBXbjB2WkRVbEdUTEhOczFNWk5LZXRLd0w3RlhVS0djS0VrUEFQUVpkQnAyR0h2TVhQbHQ2ZEdyanhtUWJnRk9wQnI2emhLVFB6c1dtbjJyN0Qwdnk2WUFma2stdjlHam9GaTZmREJzcDh5U0c1LUh3RlZ6bUJK?oc=5",
-      "publishedAt": "2026-10-17T20:45:10.000Z",
-      "snippet": "DeepSeek Opens Its Search and Fetch APIs at $0.75 per 1,000 Calls Startup Fortune",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "c43164462331ac0f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action - Mother Jones",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNk85UDhheTRLWlR3YUtHQ2FjUnU2dVg5Q3dIa1Y4b1p5bS1XajV1REJSMWotUUN4XzZLZGNIajBmRm45M0p5aTdBb0p3R082SHJFNVVXcFRKXzZBZGJsRURfWXhBNmRNdEJYYnJsaGVGM3ZNSXV5UE1NSkZTS0hSU2FsSS1nUVBnSGtBdGk2Sm11S0xqUkZNT3dRTDNTNVpwel9lS0pycU9jZHkxZUFRb1FCemdJdDdKUkhr?oc=5",
-      "publishedAt": "2026-10-17T19:25:21.000Z",
-      "snippet": "Anthropic’s AI Safety Bill Has an Alarming Threshold for Government Action Mother Jones",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "f994167d0fe66aca",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Crypto Crisis Unveils Urgent Wallet Management Lessons - OneSafe",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MWUdjU2RTaG9vZ1hCSER5NlY3OWpjLUJkbWo5bi1kYTI4azR0VmNUT1k2NElKWTZqandJU2cydnJ4bEQ0UVdXMGpPUWVtX181Z0tDSVRVeGczU1ZnWFZjSkN5QkRMZkFSczFjUmo4VktJVTQ?oc=5",
-      "publishedAt": "2026-10-17T19:21:15.000Z",
-      "snippet": "OpenAI Crypto Crisis Unveils Urgent Wallet Management Lessons OneSafe",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
+      "tags": []
     },
     {
       "id": "a5ede0d27f90a568",
@@ -385,32 +448,6 @@
       "title": "Show HN: High-quality duck audio synthesizer",
       "url": "https://celphase.github.io/duck-pond/",
       "publishedAt": "2026-10-17T13:28:46.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "df7f3ef335bbb7af",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "publishedAt": "2026-10-17T08:37:46.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "1e487892ae4abad5",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "url": "https://llmspeed.dev/",
-      "publishedAt": "2026-10-17T04:36:53.000Z",
       "snippet": "",
       "score": 6,
       "tags": [
@@ -839,6 +876,17 @@
       ]
     },
     {
+      "id": "cfdf0245c91859a0",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Matthew Prince on why Cloudflare offers a free version and always will (2016)",
+      "url": "https://webmasters.stackexchange.com/questions/88659/how-can-cloudflare-offer-a-free-cdn-with-unlimited-bandwidth/88685",
+      "publishedAt": "2026-10-18T05:09:14.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "cfd4208d464ababa",
       "domain": "vibe_coding",
       "source": "hackernews",
@@ -905,26 +953,30 @@
       "tags": []
     },
     {
-      "id": "b779b5b67ca9e647",
-      "domain": "github",
+      "id": "df7f3ef335bbb7af",
+      "domain": "ai",
       "source": "hackernews",
-      "title": "Source code of the Estonian online voting system",
-      "url": "https://github.com/valimised/ivxv",
-      "publishedAt": "2026-10-17T03:18:39.000Z",
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "publishedAt": "2026-10-17T08:37:46.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
+      "tags": [
+        "deepseek"
+      ]
     },
     {
-      "id": "e13b1bc28f8ff5d7",
+      "id": "1e487892ae4abad5",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "A skeptic's first contact with Kubernetes (2024)",
-      "url": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
-      "publishedAt": "2026-10-17T03:16:25.000Z",
+      "source": "show_hn",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "url": "https://llmspeed.dev/",
+      "publishedAt": "2026-10-17T04:36:53.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
+      "tags": [
+        "show hn"
+      ]
     },
     {
       "id": "4dea8d7c1c49818f",
@@ -972,45 +1024,6 @@
       "score": 5,
       "tags": [
         "claude"
-      ]
-    },
-    {
-      "id": "7b164eab9a3d89c9",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Claude reveals ECDSA curve origins",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "publishedAt": "2026-10-16T18:55:59.000Z",
-      "snippet": "https://words.filippo.io/seeds-solved/",
-      "score": 5,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "bde21700b536689a",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "url": "https://github.com/cobanov/PS5LM",
-      "publishedAt": "2026-10-16T18:32:35.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "llama"
-      ]
-    },
-    {
-      "id": "e2492a6cfc771b75",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Anthropic assigned highest junk credit rating in June",
-      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-      "publishedAt": "2026-10-16T18:11:42.000Z",
-      "snippet": "https://finance.yahoo.com/technology/ai/articles/anthropic-s...",
-      "score": 5,
-      "tags": [
-        "anthropic"
       ]
     },
     {
@@ -1209,17 +1222,6 @@
       "tags": []
     },
     {
-      "id": "ffa5b2377d15e19d",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "LaTeX renderer",
-      "url": "https://simonwillison.net/2026/Oct/15/latex/",
-      "publishedAt": "2026-10-15T02:07:28.000Z",
-      "snippet": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner). Tiny Lit",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "22ee0a608ca6c96a",
       "domain": "ai",
       "source": "simonwillison",
@@ -1392,32 +1394,6 @@
       "tags": []
     },
     {
-      "id": "8405711af5b56379",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-      "publishedAt": "2026-10-07T00:16:45.000Z",
-      "snippet": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia ",
-      "score": 5,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "9678ae15c3cbd4fd",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Quoting Victoria Kim",
-      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
-      "publishedAt": "2026-10-06T23:58:56.000Z",
-      "snippet": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Aust",
-      "score": 5,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "id": "de720254bfa2cfc4",
       "domain": "ai",
       "source": "deepmind_blog",
@@ -1449,6 +1425,19 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVFVvSzN0WDZDOHVGaDVNR2JySTczYjZxZlo1Ml9kV2RBNm9ZNmk2bnZSbWRyLVI2WUh3QWViYVB5eUE5LUt5TFktMVVyYWZUenRkZFhPSndaMlp5SWw4bG9VY1RJZmVkWEJIMnYyVlpmQkN2X0JJbmZKaUREdmFxMHo3WVlCcThDTkNQZg?oc=5",
       "publishedAt": "2026-10-04T14:59:00.000Z",
       "snippet": "耿同学再度立功！知名学者顶刊论文正式撤稿，核心数据彻底失效 搜狐网",
+      "score": 5,
+      "tags": [
+        "撤稿"
+      ]
+    },
+    {
+      "id": "5e444d5168c02494",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "两千多篇撤稿论文浪费国自然4780万版面费，经费还能被追回吗？涉事学者该受到什么处罚？ - QQ News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tRHRMTG5tbldaaE1MZzRzQ2NfZ05zWkVrWjcwUWVzaXV0M3lGdl9Ld2tpVHZmMjRMZXBVdUEyWFZ0cUpFTmFxdUhSS0pFb0FJNlVPX3p3?oc=5",
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "snippet": "两千多篇撤稿论文浪费国自然4780万版面费，经费还能被追回吗？涉事学者该受到什么处罚？ QQ News",
       "score": 5,
       "tags": [
         "撤稿"
@@ -1585,6 +1574,28 @@
       ]
     },
     {
+      "id": "b779b5b67ca9e647",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Source code of the Estonian online voting system",
+      "url": "https://github.com/valimised/ivxv",
+      "publishedAt": "2026-10-17T03:18:39.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "e13b1bc28f8ff5d7",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "A skeptic's first contact with Kubernetes (2024)",
+      "url": "https://blog.davidv.dev/posts/first-contact-with-k8s/",
+      "publishedAt": "2026-10-17T03:16:25.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "59901b6bf9cc9b89",
       "domain": "vibe_coding",
       "source": "hackernews",
@@ -1607,24 +1618,13 @@
       "tags": []
     },
     {
-      "id": "90b929133cf83a7e",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "You could have invented transformers from memory",
-      "url": "https://alexwang.ai/posts/associative-memory/",
-      "publishedAt": "2026-10-16T19:01:17.000Z",
-      "snippet": "https://twitter.com/heyyalexwang/status/2111158818730397932",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "9efad8349e3b8d06",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "C++26: The New Debugging Header",
-      "url": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
-      "publishedAt": "2026-10-16T18:52:39.000Z",
-      "snippet": "",
+      "id": "ffa5b2377d15e19d",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "publishedAt": "2026-10-15T02:07:28.000Z",
+      "snippet": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner). Tiny Lit",
       "score": 4,
       "tags": []
     },
