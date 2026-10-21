@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T07:24:53.584Z",
+  "generatedAt": "2026-10-21T09:28:21.961Z",
   "counts": {
-    "raw": 193,
-    "deduped": 183,
-    "kept": 183
+    "raw": 183,
+    "deduped": 175,
+    "kept": 175
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "status": 200,
       "count": 20,
       "error": null,
-      "ms": 379
+      "ms": 455
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 9,
       "error": null,
-      "ms": 1215
+      "ms": 1192
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1204
+      "ms": 1397
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 14,
       "error": null,
-      "ms": 2530
+      "ms": 2813
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1103
+      "ms": 1166
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1512
+      "ms": 1550
     },
     {
       "key": "google_news_onhold",
@@ -61,15 +61,15 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1296
+      "ms": 1257
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 18,
+      "count": 8,
       "error": null,
-      "ms": 1231
+      "ms": 1229
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1318
+      "ms": 1292
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1170
+      "ms": 1436
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1138
+      "ms": 1164
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1685
+      "ms": 2272
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1119
+      "ms": 1181
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1331
+      "ms": 1174
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1148
+      "ms": 1188
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1050
+      "ms": 1061
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1077
+      "ms": 1116
     }
   ],
   "items": [
@@ -157,20 +157,6 @@
       "tags": [
         "openai",
         "anthropic"
-      ]
-    },
-    {
-      "id": "331ccc2eb44c6681",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic draft bill would allow AI model release to be halted over catastrophic risks - Mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNak14QjVGazdxeXVFWE1Ib3VGS1U3ekZGamZGRHZDQW9LdTc0UnlVZXdmNHJGOHZXUTRGVVlOb01FLUZzRFAwWDNIYmlCOEdkb1pJaTRrY2ZFdnpqajlQOTN2QXhidVZ2NG94YmVxZHZaRmIwLWE1QmRGeGpvLXViaC1tNldNZw?oc=5",
-      "publishedAt": "2026-10-21T00:11:48.000Z",
-      "snippet": "Anthropic draft bill would allow AI model release to be halted over catastrophic risks Mezha.net",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "release"
       ]
     },
     {
@@ -244,13 +230,166 @@
       "title": "DeepSeek-V4.1-Flash-1017",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "publishedAt": "2026-10-17T02:40:38.000Z",
-      "snippet": "New model release on Hugging Face · 27,737 downloads · 2,025 likes",
+      "snippet": "New model release on Hugging Face · 27,737 downloads · 2,049 likes",
       "score": 7,
       "tags": [
         "deepseek",
         "hugging face",
         "release"
       ]
+    },
+    {
+      "id": "d39dd140addd33fc",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Journal of Mass Spectrometry and Advances in the Clinical Lab (2667-145X)",
+      "url": "https://doaj.org/toc/2667-145X?rss=",
+      "publishedAt": "2026-10-21T09:06:00.000Z",
+      "snippet": "Published by Stanford University Press in Mass Spectrometry & Advances in the Clinical Lab Added to DOAJ on 21 Oct 2026 LCC Subject Category: Science: Physiology: Animal biochemistry | Science: Chemistry: Analytical chemistry",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "a64a66ed10ccdb5a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWhaN0lXMkdTcldqYTBoVktsbUx1QzI3emNYTmZ2Q2ZENEp0NFh2My1VeGZLbnlYbS1SMFNkak1FLXk1eGtaMUMtME9EOFpCV3N4TG45ZEUyNHRiVFNZcHFSTURZel9kSzNKRU8ySHBNZmtrcEg0VkNrdHhjUF8yWFVjMEFlYzhpcVE?oc=5",
+      "publishedAt": "2026-10-21T09:00:00.000Z",
+      "snippet": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk Politico",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "642892ff17bcbdd0",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI launches Locked Chats in ChatGPT for private conversations: All you need to know - Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM1NaVTVJM1h4ZlBWWGtFejUyQnd1NnhGWkFiZFZWR3F4NXRMZlo5RGZMOE51VW54dXQ5blB2OV95VEZTbTlLY0lpRklJM3ZCd0tyRVlxZlllS29qaXdrSWN1bkI4SkUyZW0zM05YcVVOZkwxYnAzSzR0VUR0VEF3TmRYUlpUaXl4VXV5MVNCVlBucTd1SE9Bb1JZMkVIbTFkWVdEWXloa3ZwZlJKTkZOQnlRcjktVVI2YzkyWVpmR3VzZ2JSdlJHVVNObzJYVFR5VW83dNIB1AFBVV95cUxQM1NaVTVJM1h4ZlBWWGtFejUyQnd1NnhGWkFiZFZWR3F4NXRMZlo5RGZMOE51VW54dXQ5blB2OV95VEZTbTlLY0lpRklJM3ZCd0tyRVlxZlllS29qaXdrSWN1bkI4SkUyZW0zM05YcVVOZkwxYnAzSzR0VUR0VEF3TmRYUlpUaXl4VXV5MVNCVlBucTd1SE9Bb1JZMkVIbTFkWVdEWXloa3ZwZlJKTkZOQnlRcjktVVI2YzkyWVpmR3VzZ2JSdlJHVVNObzJYVFR5VW83dA?oc=5",
+      "publishedAt": "2026-10-21T08:51:01.000Z",
+      "snippet": "OpenAI launches Locked Chats in ChatGPT for private conversations: All you need to know Storyboard18",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "03d013149a953893",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek open-sources DeepInfer, the engine serving 155T tokens a day - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORmtUMnZPWTFnenFJQUlENWc2eWJ4RTJoTUFoNkM2ZC04dnBWdjNhZzMxVHdvR1hHRnoxUkFIVWRfX1hwbldqRWtxanQyczJuRlpOUTZjSHI1SUZXQ21BcktycXdtUDdoUU02ZjAwUmtGQkRQX0RwRllwazY3anN4amFLWnFEZlpIRjl0YUV0cTBYUUY1YmhYRWxXUVZzLWl4Smp5cA?oc=5",
+      "publishedAt": "2026-10-21T08:39:03.000Z",
+      "snippet": "DeepSeek open-sources DeepInfer, the engine serving 155T tokens a day Dealroom",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "864d9acb53084a6b",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Cognizant launches dedicated Gemini group to scale agentic AI - Verdict",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jcWtoZEN4QkswcjdyU252dFpzRU4tRWVKRU1UMnpTcGtsWUxlSjdnYzFIdnplcnZzQTRWdUZpNU4wSHR3cWtGNkhFZjZIZEEyVm5Remp1WU5MQXUtT0wwWFJxS3lyTER5aklSclBzRlZBMjZXbmZwZg?oc=5",
+      "publishedAt": "2026-10-21T08:21:53.000Z",
+      "snippet": "Cognizant launches dedicated Gemini group to scale agentic AI Verdict",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "85a5b4400438a9d7",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "پژوهش‌های ژنتیک گیاهی (2383-1367, 2676-7309)",
+      "url": "https://doaj.org/toc/2676-7309?rss=",
+      "publishedAt": "2026-10-21T08:20:14.000Z",
+      "snippet": "Published by Lorestan University Added to DOAJ on 21 Oct 2026 LCC Subject Category: Science: Biology (General): Genetics",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "08ec15447f2c9feb",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "علوم زیستی ورزشی (2008-9325, 2676-4148)",
+      "url": "https://doaj.org/toc/2676-4148?rss=",
+      "publishedAt": "2026-10-21T08:17:12.000Z",
+      "snippet": "Published by University of Tehran Press Added to DOAJ on 21 Oct 2026 LCC Subject Category: Medicine: Internal medicine: Special situations and conditions: Sports medicine",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "36fad2e5a901d45b",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Models Disabled Safety Monitoring, One Lied About It - The Tech Buzz",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVdoMGpvZ0ZzTlcwTWZPcThiWFZIWEVUMjBTc2dqaTFETUl4N3NNeGhXT09tSWtNUHdKbHFmUHptNFNfNjllT2otNEhpOWdLUEd6dzZ2RE1sVG5yMWFvYW9oU0V0a0xlSUNiM0tPeVUwc3BFWktDT0kwTWVSVWl3OXItMmxSSFF3cmdqNTJfd1lfbFVIbFE?oc=5",
+      "publishedAt": "2026-10-21T08:06:00.000Z",
+      "snippet": "OpenAI Models Disabled Safety Monitoring, One Lied About It The Tech Buzz",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "1c06a362878b9185",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Metaheuristic Optimization Review (3066-280X)",
+      "url": "https://doaj.org/toc/3066-280X?rss=",
+      "publishedAt": "2026-10-21T07:56:36.000Z",
+      "snippet": "Published by American Scientific Publishing Group (ASPG) Added to DOAJ on 21 Oct 2026 LCC Subject Category: Science: Science (General): Cybernetics: Information theory",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "9cc8dfdb97ca500f",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Unikernels in OCaml",
+      "url": "https://uniker.nl/",
+      "publishedAt": "2026-10-21T07:51:20.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "9067e4ac5670d0fe",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "ConcurrentML: Improving on Go's concurrency model",
+      "url": "https://nikhilism.com/post/2026/golang-racket-concurrency/",
+      "publishedAt": "2026-10-21T07:38:00.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "56070363a0089639",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Vector Graphics in Lil",
+      "url": "https://beyondloom.com/blog/vectorgraphics.html",
+      "publishedAt": "2026-10-21T07:33:04.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "3bd274fe41b0e3f0",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Announcing the GPU notification group and Linker Working Area",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/10/20/gpu-target-notification-group/",
+      "publishedAt": "2026-10-21T07:27:17.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
     },
     {
       "id": "e3fe67d00f7d20af",
@@ -301,68 +440,16 @@
       ]
     },
     {
-      "id": "9c8b0801d73eda00",
+      "id": "d37ca026079f5c22",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Google launches dedicated Gemini business suite for SMB marketing, finance, and platform integrations - Adgully",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONmRYQU5xUldKTDAzYWQ0MFdWZWpOWVVGdUlBcGotT1NIWG9nX3pSLVZlek1fNjFpYUpYUVhJbjhYSEE5U1c3UkJzcldJeHVIMnlCX0gyVy12UWNRSGZZcGp3b1FINjZ5dVhKV2FVNFA2aGUtdmFlRHM5MGhYVlRRTUFGTDlLV2QxdjdwUzdHemVhVUliWDZ2MTRkNFowS3lFa0poVDllbVZjTWxkOGxyeFZMN0hlSVFJOWRncHR2azVlZTVVR0J4cHRJS2tqUjQ?oc=5",
-      "publishedAt": "2026-10-21T05:51:00.000Z",
-      "snippet": "Google launches dedicated Gemini business suite for SMB marketing, finance, and platform integrations Adgully",
+      "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK - MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUkttQWIyeFFVRnVEdVJYWGNqeTVqdUtNYy1pcXRmWjVRZDZjRHFxOEtxNHFVM2dXdlZrRXYtTVZpTVJ5NWhJSHVJRXFRZEUwblBzTjM3djF4aTRGZVRocGk0RHFvR2pDamQ5LVV1eGFFdWNNNzZsalgyWUt5OFBVUEt6X3RrbFhpQUwxdFBMOWFXVFl4Q05LeGpR0gGaAUFVX3lxTFBSS21BYjJ4UVVGdUR1UlhYY2p5NWp1S01jLWlxdGZaNVFkNmNEcXE4S3E0cVUzZ1d2VmtFdi1NVmlNUnk1aElIdUlFcVFkRTBuUHNOMzd2MXhpNEZlVGhwaTREcW9HakNqZDktVXV4YUV1Y003NmxqWDJZS3k4UFVQS3pfdGtsWGlBTDF0UEw5YVdUWXhDTkt4alE?oc=5",
+      "publishedAt": "2026-10-21T06:03:12.000Z",
+      "snippet": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK MarkTechPost",
       "score": 6,
       "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "f1291258b8ec4983",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek announces open-sourcing inference framework DeepInfer to reduce compute costs, energy consumption - Global Times",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEYk0zY1hwd0c3V2JGcGhKYl9SRTJnR1d1Tm5CZ0hMenRpdWxrRWw0dXRmbEFudUJYUFlUYUlaVzBKeTg0SlVrTWlsQmhtTkg5VUVab2VraDdhc1JVenlxMWxR?oc=5",
-      "publishedAt": "2026-10-21T05:11:00.000Z",
-      "snippet": "DeepSeek announces open-sourcing inference framework DeepInfer to reduce compute costs, energy consumption Global Times",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "2996fec3da2cbb12",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek seeks ‘total victory’ with new open-source tool to slash AI cost - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaXFBckZ0NnY0WmJlNE12RXNpWFJKVUs2MmxaeTNZY2otWWRPMFNzeFlOaUE1VDFyNEo3MEszMU5sbHBGVzhxNE5fel9xUDFqdUVLUy03cDJHYUk4MzFFQkQzWkIxQmcwZzVYUkNRdmdvSXhpQ1lKdG5ZdlJUTXZ3dlp4Y0RpVFRPN0hxVzJBNkxGSkM3bEo2MU45SHZRMUR4MjVjUU9oNThFejZTb0czaFlXY3NTN1J1U1ZELVNHWWJvcmlDLUdpSkNMc9IBywFBVV95cUxPVW5Gay1kMUJNNEU3MzQ3dGI4c04ySWFlMEt0OUw3d3pYSUdwMkFxTkp1OGpyWHNCa2Vpc2YxOU1PNEU0ZFdNS0JKeXBuRlZHVktXVE9ySy0xMW9iQ2hBV29HX0VCLVYyenp4MHUtR3ROVUEyeHZxYV9BUE5sbmVwYWM3Nk1aUGlwNGJxWWZvWHpTRFlveVlTWHhObDUyWG1sTTJGS3dTcTJYZVhqanNYY0J5Vklyb2FjOTB2LVRUOUhTdURfcGJydXAxWQ?oc=5",
-      "publishedAt": "2026-10-21T05:03:27.000Z",
-      "snippet": "DeepSeek seeks ‘total victory’ with new open-source tool to slash AI cost South China Morning Post",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "1d323d8468035afe",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek unveils open-source tool to cut AI operating costs for businesses - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZTFMQVlKUmpOMkZnTkVCb1l6V2xiMkc0SE1PQU95NGk4UFNBSGdqNVBjbkxmeFU5MV96Q0xwaXMzaGQ3Uk8zS2hvZ1lpYkUxLVc5VXlNT1BkczAzanl2MVNxRHJlc0kwbVlfeXh4WDVObm0tczhxNzdic3V6d1A0TnNXUmY5QS1WQzRYMmU5OWljRFFoNGpTYW83QWFGdVhVWDVhVmJCRUw0MjdsNHRzQ25uV3d5S29WRkVxTjl4QTJ3dmhwbWp5WFQ2a2NpLWZfSFlBY2Rn0gHbAUFVX3lxTFB3N1gwU2x3SXctRFFWNGtLOVZ5UThtWmJtbHRBMy01eVB0djNwWFVZSmNTenE2Mzh1d0prVVZjRjNCaXZiaUpoNlZHMU9yZDJPUEFLaGs4TDNPYW9EaExWSHIyLUVaN3FmWF9iR1M2aFVkMWFMQlFBN2JpaGo2SFlQZTBiSmRmdlBfNzZqTnpBV0JQNjRvNzJfbVcyZkc1cTRTbFo0Y1kwY0ctZVZwYllNYUpvd0RNbFJoV3RxRkxZbzZyZVFIeTlraElLSVN1cEZIS0t5RVpzUVk1SQ?oc=5",
-      "publishedAt": "2026-10-21T04:58:31.000Z",
-      "snippet": "DeepSeek unveils open-source tool to cut AI operating costs for businesses Business Standard",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "d6812490411e1435",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI says its AI agents weakened internal monitoring system - Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVGVFUzFiamVyNDFwVEJvRldDMFd0R1JvOEprOXZreU5XaUZsREZYUDdnaGJVWnN3ZTNvVnBNbVdMTlNuX1d6ZGIxWGdxenB6YXdrNEpnWWdCM2dpdEpxVjhNZklRc0w1UGpuNWctb0FkU243MmVNYW9ldDdtT29SYV8ybTNVUQ?oc=5",
-      "publishedAt": "2026-10-21T02:37:00.000Z",
-      "snippet": "OpenAI says its AI agents weakened internal monitoring system Yahoo! Finance Canada",
-      "score": 6,
-      "tags": [
-        "openai"
+        "mistral"
       ]
     },
     {
@@ -592,17 +679,6 @@
       "tags": []
     },
     {
-      "id": "43b10ac9a6536334",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Future Humanities (2770-2030)",
-      "url": "https://doaj.org/toc/2770-2030?rss=",
-      "publishedAt": "2026-10-20T16:03:28.000Z",
-      "snippet": "Published by Wiley Added to DOAJ on 20 Oct 2026 LCC Subject Category: General Works: History of scholarship and learning. The humanities | Philosophy. Psychology. Religion: Philosophy (General) | Philosophy. Psychology. Religion: Ethics",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "914f2b0f672a33d8",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -664,6 +740,19 @@
       ]
     },
     {
+      "id": "f51c27801bfb8d67",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "2026 is an exciting year for the Rust compiler (and me)",
+      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
+      "publishedAt": "2026-10-20T13:53:48.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
       "id": "0b9d133f45156971",
       "domain": "github",
       "source": "github_changelog",
@@ -719,17 +808,6 @@
       "tags": []
     },
     {
-      "id": "b3d91d6959fa2c87",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Journal of New Horizons in Mathematics (3106-4299)",
-      "url": "https://doaj.org/toc/3106-4299?rss=",
-      "publishedAt": "2026-10-20T10:28:27.000Z",
-      "snippet": "Published by The University of Lahore Added to DOAJ on 20 Oct 2026 LCC Subject Category: Science: Mathematics | Technology: Technology (General): Industrial engineering. Management engineering: Applied mathematics. Quantitative methods | Social Sciences: Statistics",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "6898123bb5351e1b",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -737,28 +815,6 @@
       "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
       "publishedAt": "2026-10-20T10:23:58.000Z",
       "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "4c77ddad31bb1175",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "International Journal of Clinical and Medical Research (3134-8831)",
-      "url": "https://doaj.org/toc/3134-8831?rss=",
-      "publishedAt": "2026-10-20T10:18:19.000Z",
-      "snippet": "Published by Lumina Quest Publishing Added to DOAJ on 20 Oct 2026 LCC Subject Category: Medicine",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "da9059ba10ff9c8d",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Tahkik İslami İlimler Araştırma ve Neşir Dergisi (2459-1815, 3108-7922)",
-      "url": "https://doaj.org/toc/3108-7922?rss=",
-      "publishedAt": "2026-10-20T09:49:25.000Z",
-      "snippet": "Published by Hacıveyiszade İlim ve Kültür Vakfı Added to DOAJ on 20 Oct 2026 LCC Subject Category: Philosophy. Psychology. Religion: Islam. Bahai Faith. Theosophy, etc.: Islam",
       "score": 6,
       "tags": []
     },
@@ -772,30 +828,6 @@
       "snippet": "Thoughts on the Frankfurt Book Fair 2026: how do we turn trusted content into useful knowledge — and help people act on it? The post From Content to Trusted Knowledge: Reflections on Frankfurt Book Fair 2026 appeared first on The Scholarly Kitchen .",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "2563bb5d3becf949",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Annotated VT100 Firmware (2022)",
-      "url": "https://vt100.net/dec/vt100/rom/",
-      "publishedAt": "2026-10-20T09:12:23.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "064def2e4bc38cb0",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-      "url": "https://github.com/deepseek-ai/DeepInfer",
-      "publishedAt": "2026-10-20T09:08:54.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "deepseek"
-      ]
     },
     {
       "id": "f9ef4f16c8181ef1",
@@ -845,19 +877,6 @@
       "snippet": "An investigation by a national research institute in Japan has concluded one of its former researchers fabricated and falsified figures in seven papers. Two publishers confirmed they are investigating the articles. Joseph Raj Xavier, of Saveetha Institute of Medical and Technical Sciences in Chennai",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "f51c27801bfb8d67",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "2026 is an exciting year for the Rust compiler (and me)",
-      "url": "https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/",
-      "publishedAt": "2026-10-19T17:52:41.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": [
-        "rust"
-      ]
     },
     {
       "id": "a67141066b839976",
@@ -1138,12 +1157,34 @@
       ]
     },
     {
+      "id": "6f04032283ac8c1e",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "You can now hide a ChatGPT conversation behind a password: how to do it - en.ain.ua",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWnhwblhaZmFHa2hwN0FmN3IxSmFZdTJhLW5QcTUwTUdROVRocS0xRW9wU2szTG9WZkhZV1FwTWJHUTdhaGZaZzRfOTgwUWt1R1d3amxyc3pYcndiYjBRUG9KTGlyblExNEEtZnhpT1NfVUcya1pRd3EtOUhWSk03YVo5YnNTZUxSRW54eU9NV0g0blE0eWRlcWRFU01Ja3J5ZkE?oc=5",
+      "publishedAt": "2026-10-21T07:59:00.000Z",
+      "snippet": "You can now hide a ChatGPT conversation behind a password: how to do it en.ain.ua",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "42f1b0034bff74fb",
       "domain": "vibe_coding",
       "source": "hackernews",
       "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
       "url": "https://jackalsyn.com/posts/php-up-2026.html",
       "publishedAt": "2026-10-21T04:26:56.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "842be082683a1063",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "C# now beats Rust on WASM size",
+      "url": "https://github.com/zion-sati/NetWasm",
+      "publishedAt": "2026-10-21T02:53:47.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
@@ -1239,17 +1280,6 @@
       ]
     },
     {
-      "id": "94ea1277d79ecd8f",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "A Very Fast IPv4 Parser, in Swift",
-      "url": "https://blog.mahdibm.com/posts/a-very-fast-ipv4-parser-in-swift/",
-      "publishedAt": "2026-10-20T04:04:43.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "bf20a5ed29594a42",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -1338,17 +1368,6 @@
       "tags": []
     },
     {
-      "id": "4034e2cbf64298b2",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "One Hash Bloom Filters",
-      "url": "https://www.calabro.io/ohbf",
-      "publishedAt": "2026-10-19T15:47:03.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "3a5530176385e376",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -1415,17 +1434,6 @@
       "url": "https://lobste.rs/s/h0eate/updates_site_guidelines_ai_llm_tags",
       "publishedAt": "2026-10-19T01:28:53.000Z",
       "snippet": "Hey folks, I've been having to perform an increasing number of moderation actions surrounding the vibecoding tag and AI/LLM related content. I started reading Lobsters because it had the most interesting viewpoints related to computing. During that time, I've found that this community is at it's bes",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "f2b62fe582df241d",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "饶毅点名国际期刊中国出身主编索贿200万回应来了＊ 阿波罗新闻网 - 阿波罗新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iOTJFemozUUVWTTM4akVCR2JnakgzWmJ2VEFYZHBOeFkwMUpvMWpIbFJ0UHF5MzVJVXJCQzdLQUpMSEZEejFwcDhaZ3F4c0tYZDZ2bm4tS0RuR3JiUHc?oc=5",
-      "publishedAt": "2026-10-18T09:17:00.000Z",
-      "snippet": "饶毅点名国际期刊中国出身主编索贿200万回应来了＊ 阿波罗新闻网 阿波罗新闻网",
       "score": 5,
       "tags": []
     },
@@ -1598,19 +1606,6 @@
       ]
     },
     {
-      "id": "f697cce6246976ef",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "2000多篇论文撤稿,浪费数千万经费.... - 加西网",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOLVZQb0Z4NHZNeW9hMWU2Y0FQSmhZWnNDUXE2V3R0UmdzRl9aUDB6bzBDT1F6ek9Iak02dzZ2d0F0bXRuOEpVbW9rdVBSazFGSWZUTV93azhBRW9aa1hhSHViMFFZSXMxS05kQmhVLXFQNTZESFBzY3NmaDR5YW9MaDFRUFFsWWlfSGs5ZmV4S21wOG9nc3dSQ2FQZURYZlZZZ3lIUmd1eGNULWRKWG1wbG1uVmJhR25VRl8tQThRaG1pSHNWYlFLTV9PWVVyWC1ZWFliUUQ1SnM0UFBjV3pVZi13UmMxWDlDM0xVdnQxcXdZdFR6Tk9MTGRtQ1BwM2ZfMjMyd2NYb2VPalRlUWxwb1RpZzVLekVJbWoycGdUdllCUTZudDNHWGhOeEdDWVk4ZTBkb3dqem54ZGRaZEUyYWlVMWdtR0Ztekx2dUwzOWhBT19lWkNoY0piQXNWYVVxN0c1NHphRk1YSHpyUnc?oc=5",
-      "publishedAt": "2026-10-14T07:00:00.000Z",
-      "snippet": "2000多篇论文撤稿,浪费数千万经费.... 加西网",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "b1f7fd9522e738af",
       "domain": "ai",
       "source": "simonwillison",
@@ -1735,19 +1730,6 @@
       ]
     },
     {
-      "id": "7785f569b4fd0729",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "耿同学再度立功！知名学者顶刊论文正式撤稿，核心数据彻底失效 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVFVvSzN0WDZDOHVGaDVNR2JySTczYjZxZlo1Ml9kV2RBNm9ZNmk2bnZSbWRyLVI2WUh3QWViYVB5eUE5LUt5TFktMVVyYWZUenRkZFhPSndaMlp5SWw4bG9VY1RJZmVkWEJIMnYyVlpmQkN2X0JJbmZKaUREdmFxMHo3WVlCcThDTkNQZg?oc=5",
-      "publishedAt": "2026-10-04T14:59:00.000Z",
-      "snippet": "耿同学再度立功！知名学者顶刊论文正式撤稿，核心数据彻底失效 搜狐网",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "24170e8d26e4fbb0",
       "domain": "publishing",
       "source": "google_news_retraction",
@@ -1774,32 +1756,6 @@
       ]
     },
     {
-      "id": "fe09c2c445ffc3c5",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "【生态学】Nature文章被撤稿+1：因部分结果不可靠 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zSEZZUExmTkdJYVV4MTM1WDJFNnFudk9iSUktWk90UVJ0VHNPZWJMTEpIWVA0c3BDNi1WcHd3RnhudlhfV2RtM1JNc1N6NWRZc0h1XzBR?oc=5",
-      "publishedAt": "2026-09-27T09:15:00.000Z",
-      "snippet": "【生态学】Nature文章被撤稿+1：因部分结果不可靠 QQ News",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
-      "id": "9e7c09925204b531",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "这篇发表仅2年的Nature论文，被作者主动申请撤稿，但强调论文主要结论正确 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNmRMWHplaEJFUFF4VHFCSWQyQ1V3TEtWN21vdnY5X0FjRzF6YkF2NGlQOVdhYlJMbGFCbDNLTHNSckhpTFA1Q2hwOS1SeEFOdWx3OWhmOTE2RUxyanN4d2E5S1FvMThNbThuYTZkZjFkU2N2d2VIM2hVLTBtdkhUM0xyTnY?oc=5",
-      "publishedAt": "2026-09-26T07:00:00.000Z",
-      "snippet": "这篇发表仅2年的Nature论文，被作者主动申请撤稿，但强调论文主要结论正确 新浪财经",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "8330e04872fb54cf",
       "domain": "publishing",
       "source": "google_news_retraction",
@@ -1807,19 +1763,6 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NdVFnYUJYTC1ZLXk4N2FOM04xVWF0NFhRWUlTX0pRdVNRY3BDS2lpSks1VHhwSDUwTlBCOFJkanF0QnNuMFBpZUpHeWZhZGlKMElfelRB?oc=5",
       "publishedAt": "2026-09-25T07:00:00.000Z",
       "snippet": "中科院Nature论文通讯作者：承认造假，主动撤稿｜学术打假进入植物学领域 腾讯新闻",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
-      "id": "3f5a335b7ddab6e3",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "中科院王杰青承认Nature论文造假，主动撤稿 - 腾讯新闻",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41Q1hWb2JwNm42TmFGOU1nNzU0Q2g1eVZ6OVhwcl8wT0NhZW90SUtZbjg4T0xXY2dhOFZldUhBSG5VZkNGSTFjTUlxZkoxa251Z3ViNWVB?oc=5",
-      "publishedAt": "2026-09-24T07:00:00.000Z",
-      "snippet": "中科院王杰青承认Nature论文造假，主动撤稿 腾讯新闻",
       "score": 5,
       "tags": [
         "撤稿"
@@ -1836,19 +1779,6 @@
       "score": 5,
       "tags": [
         "retraction"
-      ]
-    },
-    {
-      "id": "5c56788ec4a1d335",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "撤稿声明：促进角质细胞愈合的药用级Triticum vulgare提取物的分子机制 - 生物通",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lTWE0dlUwUmFGb05NVlZqN0x3dmxfNkltdTU1QURUbHFINmk5Nnh4dWtQTktqSGJzYlVZMjN4VDNfMVFvUXE2ZEFwbEVrdU5PVW9aZzBuRVgtQVlfa3JaT0J6LWVZMFVjXzJ2TQ?oc=5",
-      "publishedAt": "2026-09-21T07:36:59.000Z",
-      "snippet": "撤稿声明：促进角质细胞愈合的药用级Triticum vulgare提取物的分子机制 生物通",
-      "score": 5,
-      "tags": [
-        "撤稿"
       ]
     },
     {
@@ -2281,39 +2211,6 @@
       "url": "https://scholarlykitchen.sspnet.org/2026/09/30/guest-post-medical-and-health-data-sharing-policies-need-specific-guidance-new-stm-recommendations-aim-to-help/",
       "publishedAt": "2026-09-30T09:30:51.000Z",
       "snippet": "STM has released voluntary recommendations to help journals and publishers clarify data sharing guidance for medical and health science researchers, where privacy, regulation, and ethics make generic policy language especially hard to apply. The post Guest Post — Medical and Health Data Sharing Poli",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "db51fde4a040cf5c",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "一种防AI的论文审查出现了：期刊编辑“口试作者” - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCbVNtY0RLams4Y1ZCNWhUSG5fVk1qWEw3NjBGbXlUY2YzMGg2OHJteDZNdXBqM3B5VVN5eElfZmluT2ZVbllwTUpiX0pJU0ZlSnpN?oc=5",
-      "publishedAt": "2026-09-30T07:00:00.000Z",
-      "snippet": "一种防AI的论文审查出现了：期刊编辑“口试作者” 搜狐网",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "6136128a83666b79",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "虚构疾病骗过了聊天机器人和一份学术期刊 - Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVZMbUxKTjA1eENJcVdpYTN5bjRtWkhpVTdGVHE1Y2hobXI5YlNCU2hRcktFTjVRczBDcnFRTXBtMGM5YzQ5b2VpRmdJRHQ0cWp2RnAyRGFYQ0RlajhXcjc0OVZYMVZTREt6MEZHNU4wVmxJeVpkSklhd1ItekdYZWdIQQ?oc=5",
-      "publishedAt": "2026-09-28T07:00:00.000Z",
-      "snippet": "虚构疾病骗过了聊天机器人和一份学术期刊 Pasquale Pillitteri",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "e4e092c0c612889b",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "国际期刊正式立案，学术不端举报迎来实质性进展|springer nature|泉州师范学院|戴伟宇|cope|厦门大学|学术不端_新浪新闻 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1TTUZ1bDJYUDlUenVxekV2OWRlVEFBVVNaRjd0OVZsRFltXzUwcWJXM1dRTDA4UVJJS2NpOFM0Q2VDRDlTQjNTWHNHM3J1NWEtTS1wNnhaX01KN1VUX1B3ZVBQOA?oc=5",
-      "publishedAt": "2026-09-28T07:00:00.000Z",
-      "snippet": "国际期刊正式立案，学术不端举报迎来实质性进展|springer nature|泉州师范学院|戴伟宇|cope|厦门大学|学术不端_新浪新闻 手机新浪网",
       "score": 4,
       "tags": []
     },
