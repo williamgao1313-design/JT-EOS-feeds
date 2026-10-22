@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T01:40:32.636Z",
+  "generatedAt": "2026-10-22T09:31:26.310Z",
   "counts": {
-    "raw": 201,
-    "deduped": 190,
-    "kept": 190
+    "raw": 197,
+    "deduped": 188,
+    "kept": 188
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 31,
+      "count": 29,
       "error": null,
-      "ms": 432
+      "ms": 416
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1205
+      "ms": 1173
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1148
+      "ms": 1294
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 12,
       "error": null,
-      "ms": 2290
+      "ms": 2838
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1099
+      "ms": 1130
     },
     {
       "key": "google_news_ai",
@@ -53,23 +53,23 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1574
+      "ms": 1528
     },
     {
       "key": "google_news_onhold",
       "ok": true,
       "status": 200,
-      "count": 2,
+      "count": 1,
       "error": null,
-      "ms": 1307
+      "ms": 1275
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 18,
+      "count": 17,
       "error": null,
-      "ms": 1398
+      "ms": 1218
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1376
+      "ms": 1357
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1236
+      "ms": 1260
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1179
+      "ms": 1109
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1763
+      "ms": 1675
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1096
+      "ms": 1136
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1326
+      "ms": 1169
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1095
+      "ms": 1171
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1038
+      "ms": 1052
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1027
+      "ms": 1307
     }
   ],
   "items": [
@@ -186,29 +186,102 @@
       ]
     },
     {
-      "id": "af58496f0a9714f3",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "publishedAt": "2026-10-21T07:00:00.000Z",
-      "snippet": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "score": 8,
+      "id": "e58220aae39eb49b",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Garmin Revamps and Opens Up Connect Developer API Program",
+      "url": "https://www.dcrainmaker.com/2026/10/garmin-connect-api-revamps-connect-developer.html",
+      "publishedAt": "2026-10-22T08:09:55.000Z",
+      "snippet": "Not exactly related to programming, but as a Garmin user I've always wanted an API for personal access so I can make my own stuff on top of it. I also really like the fact that they have a tier specifically targeting personal use. My prediction and fear is that, with AI allowing people to code their",
+      "score": 7,
       "tags": [
-        "openai"
+        "api"
       ]
     },
     {
-      "id": "393ba4e96c9ab4b8",
+      "id": "ad1aa420c6e74a21",
       "domain": "ai",
-      "source": "openai_news",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "publishedAt": "2026-10-21T04:50:00.000Z",
-      "snippet": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "score": 8,
+      "source": "google_news_ai",
+      "title": "Claude Duet launches as Anthropic's agent that messages you first - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZzZVMXNGQlZCS0V0bENVZzN4ZVBCanliMktYSUY1cnJVUHQ2Sk03YW5iamRYdFh1THg3V29RZjVsWEp3aHRleUU5SE82QmVuaVJVNndlU0RIZzF1ejhhOWQzLVh6T2hnUl9oX1g3NzlBbnRQWjBLQWhuMmNmdFhBaEZ6Qi1DbENyZVFzTw?oc=5",
+      "publishedAt": "2026-10-22T06:55:39.000Z",
+      "snippet": "Claude Duet launches as Anthropic's agent that messages you first Pasquale Pillitteri",
+      "score": 7,
       "tags": [
-        "openai"
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "80d0e873dd371a31",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Takes On OpenAI, Meta With New Proactive AI Agent Claude Duet - Inc42",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN3VicjFtRU9CVHFXRW9LZWgxQnhuUWxUaXlmeEkxbGprQm92RlpyQ0JZdlBzYVVIbXFQc0R1YzZ3NDZCYnNFLW9KYkpzbHBuWXFwbEoxdWNCZ3FFeUYxVmFHTExOVXgydnZ5Qm1TQmVVQ0JTdWVCcGswTEtXNmxaYjY0ZmZxZUNsbEk5NUxWdnNCRzRfa0lPbDhR?oc=5",
+      "publishedAt": "2026-10-22T06:06:13.000Z",
+      "snippet": "Anthropic Takes On OpenAI, Meta With New Proactive AI Agent Claude Duet Inc42",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "5614202aa25edc24",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic launches Claude Duet, a proactive agent app taking on Meta's Muse and OpenAI's Dots - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd3VjNGVCeWJQUjctZklVSzRpUVp4YldjSzFTaHhGSHdEZVBxeHM2OGJ1Szd6RzlVR25sREdmd1h0dE9tbFJxd2xJeWdROG9iSHNUT0lsSmRyVkYzT1VSNXdKZTVOQnNUUnNBTWx2Z2tkRzcwcmRURjdyc0ZJcExGUXdqUFpicWcwVERYYzNBU09XcHltd0tqVER3Z2JMRFM3YzRwbjVhRS0zY2wwZG81ZGllSEpyVkNWTzhfRDYtRUNrWTVl?oc=5",
+      "publishedAt": "2026-10-22T06:06:07.000Z",
+      "snippet": "Anthropic launches Claude Duet, a proactive agent app taking on Meta's Muse and OpenAI's Dots Dealroom",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "639dad995ea5a883",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Launches Claude Duet To Manage Workplace Tasks Across Apps - APAC Media",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkM5WmpKeU1VRlB2eGlMSU9RZ1VBSXFKdkpUZkhMTzdEZ2xOQmFpTUNoR2RZVGRkNVAtemw5NmNUcnplNmg0NW5yV0NCOVlVMXNiZ0wtdVFpMDdDUW45RDQ0R1JVUVdBYW9MTm9xMkVIdy1aaVo2VFNkZFNxbGN6ZHl2T2twcUl5SU5OWl9PbVZiQ2R1M1p3aG5VT1FLTWFhbWM0MkpPN2w?oc=5",
+      "publishedAt": "2026-10-22T04:12:14.000Z",
+      "snippet": "Anthropic Launches Claude Duet To Manage Workplace Tasks Across Apps APAC Media",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "a7db8f1dbd79424f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek DeepInfer release: scope and hardware - NeoTeo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcUdrN0U0MDB2U0VVT2ZMaDM0RDhRMUZ5dTlTTC0zcm9aVWpndDhSd1FDdnZyUlpvZkJfOGxieVVtT2w2U1hCN09aelNhdnBBblBLYmxaWnhWdTZDSnpIbEFrdnZxUFdYdm0tRnZPaHVpTVJldXdUcjRVbzBJTW1DWTVpMl9MUkNUeGRDNmRDRWdLdGd6NmtmUEpTVkk?oc=5",
+      "publishedAt": "2026-10-22T03:38:23.000Z",
+      "snippet": "DeepSeek DeepInfer release: scope and hardware NeoTeo",
+      "score": 7,
+      "tags": [
+        "deepseek",
+        "release"
+      ]
+    },
+    {
+      "id": "aececf57e3ff6593",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude Opus 5.5 vs GPT-6.1 Sol vs Gemini 4 Argon: 15x Gap [2026] - tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS01TRE1LQnctM3hZRWZlU1o0cHI5YXIxZGJkbkFsQWJLdFp1eXFaTmltQUo4NHZzd3Zicmtaa25jZjk3V2RIQm8taEwwNlZOMk12MVc2aVJSVUw0X25oeDI5dWNyMkxmWFN3aGRyeFNuaFNtVjdhSDhEclNEcEV0YnVJcnJDUGtCR1E?oc=5",
+      "publishedAt": "2026-10-22T02:25:05.000Z",
+      "snippet": "Claude Opus 5.5 vs GPT-6.1 Sol vs Gemini 4 Argon: 15x Gap [2026] tech-insider.org",
+      "score": 7,
+      "tags": [
+        "gemini",
+        "claude"
       ]
     },
     {
@@ -222,35 +295,6 @@
       "score": 7,
       "tags": [
         "撤稿"
-      ]
-    },
-    {
-      "id": "d5bd2bc03fd57a93",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek vs Mistral Large 4 vs Cohere: 9x Price Gap [2026] - tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN1hlSUJENkV6eFRCbEVzMl8zU3p4YjBTQ1dra0RTU2QyWnh3ZlVYZDB6cUNqdXNtUjFDZFZNYkpIVy1DV0F6S0tNdXpFZ3BkMWZLYXZaZ3VOUkczanNSS2RDUkZYWmhqUVZwRXhPaHB5LTc1dDVRM3IxSjBGNnl4djlEV2NCeV9uVWh5UWN5VQ?oc=5",
-      "publishedAt": "2026-10-22T00:44:58.000Z",
-      "snippet": "DeepSeek vs Mistral Large 4 vs Cohere: 9x Price Gap [2026] tech-insider.org",
-      "score": 7,
-      "tags": [
-        "deepseek",
-        "mistral"
-      ]
-    },
-    {
-      "id": "a70160ba3398c86a",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic Launches Claude Duet, Competing with OpenAI and Meta - GuruFocus",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDBvTWxzakhZRVF6Z2Z5aWttdEVsV0Z1amhNcFRfd29TZ1pjQTlXdTE5TGk0ODVPUURkbGoxVVFodXZ6aXB3d2ZLbWVTRDViaUtxdEN5LWJrSGZremltNGVzWndvNTQ1aHFzM1N0VmRha2dWN1hkek1uWml1d29rTVl0SmlwN0pCcFd6aE9WS1ZYdmsyZ3FfU3RvQnRJU1JwT2c?oc=5",
-      "publishedAt": "2026-10-21T23:30:47.000Z",
-      "snippet": "Anthropic Launches Claude Duet, Competing with OpenAI and Meta GuruFocus",
-      "score": 7,
-      "tags": [
-        "openai",
-        "anthropic",
-        "claude"
       ]
     },
     {
@@ -291,6 +335,20 @@
       "tags": []
     },
     {
+      "id": "0bc97294f9f28a10",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "url": "https://github.com/omnara-ai/omnara",
+      "publishedAt": "2026-10-21T16:44:53.000Z",
+      "snippet": "Hey all, Kartik from Omnara ( https://omnara.com ) here. We're building an open-source API for running durable agents. You create an agent with an API call, and Omnara runs the agent loop, gives the agent sandboxes to run commands in, and handles secrets, permissions, and RBAC. Each agent's state is",
+      "score": 7,
+      "tags": [
+        "api",
+        "show hn"
+      ]
+    },
+    {
       "id": "0ef47e8c27955908",
       "domain": "ai",
       "source": "openai_news",
@@ -302,15 +360,30 @@
       "tags": []
     },
     {
-      "id": "10ac5adb185cbdb8",
+      "id": "af58496f0a9714f3",
       "domain": "ai",
       "source": "openai_news",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "publishedAt": "2026-10-21T07:00:00.000Z",
-      "snippet": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "snippet": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
       "score": 7,
-      "tags": []
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "393ba4e96c9ab4b8",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "publishedAt": "2026-10-21T04:50:00.000Z",
+      "snippet": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "score": 7,
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "fb44a447d7826e47",
@@ -332,7 +405,7 @@
       "title": "DeepSeek-V4.1-Flash-1017",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "publishedAt": "2026-10-17T02:40:38.000Z",
-      "snippet": "New model release on Hugging Face · 42,122 downloads · 2,170 likes",
+      "snippet": "New model release on Hugging Face · 42,122 downloads · 2,241 likes",
       "score": 7,
       "tags": [
         "deepseek",
@@ -341,94 +414,178 @@
       ]
     },
     {
-      "id": "01abe614c8bb30fb",
+      "id": "10d5feaf3ecea251",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Gemini 4 Argon vs GPT-6 Astra: Real Cost per Task Alternatives - Memeburn",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYWVLWTJsMTBHb0hsbjk1TVVQeHNBZ3EyVEt6SF8za3MwOS1kTko0b1V2Q1FQNVlZNDFzRG5jWjhCVzFiS202b0cwODVFR1JHaHZoOTFaY2NZWGZLaVlVdS1xa1ZVX0dqU0p5TVc5eXB3U25OUUpMbmZ4ZFVYU2d1cmVLZUllSTBvRGRj?oc=5",
-      "publishedAt": "2026-10-22T01:10:23.000Z",
-      "snippet": "Gemini 4 Argon vs GPT-6 Astra: Real Cost per Task Alternatives Memeburn",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "0d8edb775808b581",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "GitLab Duo Adds Gemini 4 Argon, Now 10+ AI Models [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uZlFkVkF0RnNDT0s0YjUyRS1YWU9ZTTA3blVoaGVXbVlUdWRqQXFJM2Zyb1ZqTTlBcHNLUjRfcUdGekU5Zm81ZVctdEhzd09BX0FQZkxTVzdsNzdxa25jRzJNVXJSdkxySHAyNUJzWVJDSmVBVjRkZ0RZN2prZw?oc=5",
-      "publishedAt": "2026-10-22T00:42:54.000Z",
-      "snippet": "GitLab Duo Adds Gemini 4 Argon, Now 10+ AI Models [2026] https://tech-insider.org/",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "6eb66f896077fa4e",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic CEO Says Company Held Back a Frontier Model for Four Months in Response to Safety Criticism - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nVzBiTDJUZk9kaWZ1eDJKSjA2SjJqSDM1SU11QkF0X2xSWTRITUlzUGNkZEk1S1prbk9RUmZ5OFBIRlI0WHY3d2hwZTJtQ3pmWnZTM2lmaXlxclRXUG9USGlYNTB6Ml9ubjZTYnYwYlUyR0JpNkE?oc=5",
-      "publishedAt": "2026-10-22T00:25:00.000Z",
-      "snippet": "Anthropic CEO Says Company Held Back a Frontier Model for Four Months in Response to Safety Criticism BigGo Finance",
+      "title": "Anthropic finds 94 cases where open-source projects drop security controls without warning - Help Net Security",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYmpXdjBTUFNXMktmVldPYUM3dFdnZXRXbVJScjNka192dHpmeUNHUTE2NEF2cU8wbC0xTlo3anpPNHJNTkZNWmxBb3o2YnMxYUh3aks4bUNvYzdFSTI5Y29DTVAySmFTTk1XMXFuel9nTDBodVNTWEVZTUdTd2ZIMFFSc0d3Z2FyblVkOHNWX1FNcjVv?oc=5",
+      "publishedAt": "2026-10-22T09:10:55.000Z",
+      "snippet": "Anthropic finds 94 cases where open-source projects drop security controls without warning Help Net Security",
       "score": 6,
       "tags": [
         "anthropic"
       ]
     },
     {
-      "id": "6bf14feef3cb0fa9",
+      "id": "1bf452178f732a08",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "IEEE Sensors Reviews (2995-7478)",
+      "url": "https://doaj.org/toc/2995-7478?rss=",
+      "publishedAt": "2026-10-22T08:50:20.000Z",
+      "snippet": "Published by IEEE Added to DOAJ on 22 Oct 2026 LCC Subject Category: Technology: Electrical engineering. Electronics. Nuclear engineering: Electric apparatus and materials. Electric circuits. Electric networks",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "b600f6ebddd768f5",
+      "domain": "ai",
+      "source": "hf_blog",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publishedAt": "2026-10-22T07:51:31.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "4024a7dbd782541e",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI says GPT-6.1 Sol now migrates COBOL correctly 86.6% of the time, up from 5.4% - MIXED Reality News",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fSkY3NlFHVjJMRzJJWmxkQTRUT0tBUjVzZ0d6Q0pYVHJxNm9JRWNSWEJyc3ZqN2tXQ3pndFRwSEtkc0hhbFE0NFdRMjJtaWhOclBySkV3SjM2TnJ3YVBRRFRyeGVaQ0VJWWlGcnZQNTVTcEY2VElkZGlNSFg?oc=5",
-      "publishedAt": "2026-10-22T00:23:58.000Z",
-      "snippet": "OpenAI says GPT-6.1 Sol now migrates COBOL correctly 86.6% of the time, up from 5.4% MIXED Reality News",
+      "title": "AI-found bugs are expected to rise, and OpenAI has a five-stage response plan - Help Net Security",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdk1zbnRJX2tUdXJmdXJhRVJGTDRJR2dvM19vRzFlLTRQWDRKbHVOSTNNemhmWTlmYzJXMzBMS0xlRnZhUTZabHNrREJEUTdNakdnRmZoVUxMVTFUWnBvRFNYRkNNWUMxdGdWOFpYWWJlNXhGOURNWWdzZVRtWjVtRzhzUnJmM1U?oc=5",
+      "publishedAt": "2026-10-22T07:35:52.000Z",
+      "snippet": "AI-found bugs are expected to rise, and OpenAI has a five-stage response plan Help Net Security",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "d3328924d4c3c221",
+      "id": "f6b52f8dfd525d75",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Software Impacts (2665-9638)",
+      "url": "https://doaj.org/toc/2665-9638?rss=",
+      "publishedAt": "2026-10-22T07:26:38.000Z",
+      "snippet": "Published by Elsevier Added to DOAJ on 22 Oct 2026 LCC Subject Category: Science: Mathematics: Instruments and machines: Electronic computers. Computer science: Computer software",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "559969a864956191",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "The Gender Truth Journal (3043-5501, 3093-0677)",
+      "url": "https://doaj.org/toc/3093-0677?rss=",
+      "publishedAt": "2026-10-22T06:59:14.000Z",
+      "snippet": "Published by Afe Babalola University, Ado-Ekiti (ABUAD) Added to DOAJ on 22 Oct 2026 LCC Subject Category: Social Sciences: The family. Marriage. Woman",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "1da25bbf3dcb9dbc",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "examining the macOS gcc binary",
+      "url": "https://zoey-on-github.github.io/blog/macgcc.html",
+      "publishedAt": "2026-10-22T06:45:58.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "7b520ce0bc3c9572",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "World Journal of Economics, Business and Management (3049-2181)",
+      "url": "https://doaj.org/toc/3049-2181?rss=",
+      "publishedAt": "2026-10-22T06:21:51.000Z",
+      "snippet": "Published by WASR Publication Added to DOAJ on 22 Oct 2026 LCC Subject Category: Social Sciences: Commerce | Social Sciences: Finance",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "6be1f57b339564bb",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Journal of Social Science and Multidisciplinary Enquiry (3106-3462)",
+      "url": "https://doaj.org/toc/3106-3462?rss=",
+      "publishedAt": "2026-10-22T06:19:03.000Z",
+      "snippet": "Published by Noesis Publishing Added to DOAJ on 22 Oct 2026 LCC Subject Category: Social Sciences",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "2f36cb1aceecacfc",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Announcing DuckDB 2.0.0 LTS “Cinnamon Teal”",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200.html",
+      "publishedAt": "2026-10-22T06:15:07.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "3fda4bcbd07bf6ce",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI to make its most advanced AI models available in Google Cloud - SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjBQZjRYdE9GNVZPT1pROEl1ZHIyTmZQbEFzVGVjeDJObFRycENNMkl5MUxxMTNzYzFRZzdlaFRWaWdjTXlkelUzSUc0dlVXaE00LWp6ZEtHZHk0V19pck5ETC1vdm0zS1BFa1JBWkNXN3dkTVVzWlZodnRZMEstRk9WU3ZFeks2MjZlMFhkNmtPYmhmVDlWZFVNd0pPZFZqck03WXJZT0Q?oc=5",
-      "publishedAt": "2026-10-22T00:22:00.000Z",
-      "snippet": "OpenAI to make its most advanced AI models available in Google Cloud SiliconANGLE",
+      "title": "Google Cloud Expands Model Choice and Flexibility, Brings OpenAI Models to Customers - iTWire",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSWwxUVJWVmRsWk1CRlFxcDFTeEdPYUNJM0ppRnVqSzVSUXI1RDIxcXQ3eEFReHk1dDR6U3pQSW1tV0d0RkVWeXdYZFRtUFF6bWlUX3BsMnJoUEY5ZjhCYmVtczIzeWFwdEUxV0VkajdBQnJSbzkzYmNnTmxaWFdyVk15MmVxcHg3ck1kaU9TNEF4UEQ2N2x2blNOeFlCTTZpa2wzdHhLNV9oVlRub0dZR0l6dmNNaFVrbDBfREFXNmM0Zw?oc=5",
+      "publishedAt": "2026-10-22T05:32:47.000Z",
+      "snippet": "Google Cloud Expands Model Choice and Flexibility, Brings OpenAI Models to Customers iTWire",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "08cf2015a7a086ff",
+      "id": "f23d56f924798c49",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Jensen Huang’s 14-Day Computing Power Cluster + DeepSeek Open-Source Engine: Earn $38 Per GPU Hour Instantly - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9IQjNPODFDR0c5aUFlRjNheVBYWDVTYUp0b1lHSGlNYm0xQi13emlKb3h2U0RYNXVOYmpZMklJVHVRYnZXaHlKSVVBblBndjBTOW80?oc=5",
-      "publishedAt": "2026-10-22T00:01:17.000Z",
-      "snippet": "Jensen Huang’s 14-Day Computing Power Cluster + DeepSeek Open-Source Engine: Earn $38 Per GPU Hour Instantly 36Kr",
+      "source": "hackernews",
+      "title": "OpenAI CLI",
+      "url": "https://github.com/openai/openai-cli",
+      "publishedAt": "2026-10-22T05:23:11.000Z",
+      "snippet": "",
       "score": 6,
       "tags": [
-        "deepseek"
+        "openai"
       ]
     },
     {
-      "id": "7f1b71be246ca96d",
+      "id": "765c141662ea724a",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Extending concurrent separation logic to the hardware level to verify the xv6 OS kernel on RISC-V with AI agents",
+      "url": "https://arxiv.org/abs/2609.04043",
+      "publishedAt": "2026-10-22T04:47:01.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "de5cd82e88db9b0f",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Using a lookup-table to correct an approximation",
+      "url": "https://www.corsix.org/content/using-a-lookup-table-to-correct-an-approximation",
+      "publishedAt": "2026-10-22T04:18:37.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "2a08481974968f2d",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "DeepSeek Open-Source Inference Framework: Calculated 82% Gross Profit Margin for AI - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqUVVqM0pLelJTbHp2Q1kySW14Zk9QNEY3bkpNaDJfUmo4RmNrcWk2ZjlGTVhJOFpZbmtzRlhhdm12UzFKTnhwQl9PZUlhYzJZcjR3?oc=5",
-      "publishedAt": "2026-10-22T00:01:17.000Z",
-      "snippet": "DeepSeek Open-Source Inference Framework: Calculated 82% Gross Profit Margin for AI 36Kr",
+      "title": "Critical PHP flaws found using OpenAI model trigger urgent advisories - TechGig",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdHZCNmhKOEZIVFdGcmlFVXdsd3ByUzFXU2RBUF8zRzMzdDI3TXdyd3ZHN0o2TndVUlZPX3BQZXFPRFdDTkVXbWJYb0g3Slk1OXdqblphZjhOYU9oRWkyMW5KNl9oemdqZDBuM2xobEtZbVZhaV9KZmp1UmxLbHVvelQ1bWlmblo4Q2lacnZYQllsY1BKS21SczM1XzVmaUV4a0NnWHVsZ0Q2blJwTm53aS0yQW1rdzdNU3M5dm5fNNIBvwFBVV95cUxOdHZCNmhKOEZIVFdGcmlFVXdsd3ByUzFXU2RBUF8zRzMzdDI3TXdyd3ZHN0o2TndVUlZPX3BQZXFPRFdDTkVXbWJYb0g3Slk1OXdqblphZjhOYU9oRWkyMW5KNl9oemdqZDBuM2xobEtZbVZhaV9KZmp1UmxLbHVvelQ1bWlmblo4Q2lacnZYQllsY1BKS21SczM1XzVmaUV4a0NnWHVsZ0Q2blJwTm53aS0yQW1rdzdNU3M5dm5fNA?oc=5",
+      "publishedAt": "2026-10-22T02:30:38.000Z",
+      "snippet": "Critical PHP flaws found using OpenAI model trigger urgent advisories TechGig",
       "score": 6,
       "tags": [
-        "deepseek"
+        "openai"
       ]
     },
     {
@@ -443,25 +600,23 @@
       "tags": []
     },
     {
-      "id": "6fb3fab6d56deb7c",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Walmart launches AI shopping tools for ChatGPT, Gemini and other agents - BusinessLine",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa0RGd2xNa0szNjU5YzA4VHJDWU80VnpsdmJZaUdYOWhVRnY5d0JzcHk5TWZzamJhU1JTZkI4T0trdTNPWUZpcExNS2RvWGhWR1RUWEtodHJDMlItUGFfSXBFNXNsVGpHVFBBdnRjZE1JMGN2QkJXdXhzQlJhS0UtczVySUE3V2o2dWEzX3l0TWM1WG9YZkZRTEF5RnFZY1FwVHU1dXJGMDdmZGc4dDNxMXd1YUU0SkdLZEZCQzdtRlZ3VXJ3VEhwWkluRjRiSnhX0gHXAUFVX3lxTFBpZmpWZjloVFJkanltcHFYUzNvcDlaMDlONFFRcnp2X0JfWkZSQ3VQOGhBcjc4bW5VX3d5SE9iWEVmaGJ6TnFzYlBySWNJQWR2UGN5anNPQ053ZFU2OXpCSlMzR2JfR2wtM2MtM2pEWTZMWFNyZ2R2QkhuYnBVRmhRRF9mcjJPMm1Sc1JKZlowOE1yY01keFJBMjE2Z3FhR0dhMmp5XzdqUUg4Z0VQcmMtTmZmRmxVWndad1RCd3ppMFkwNnZ2R0JrbVhOcUpNaWhKcVdaOVMw?oc=5",
-      "publishedAt": "2026-10-21T23:47:00.000Z",
-      "snippet": "Walmart launches AI shopping tools for ChatGPT, Gemini and other agents BusinessLine",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
       "id": "54b2d362411255a3",
       "domain": "vibe_coding",
       "source": "lobsters",
       "title": "Railway Security Disclosure: Wednesday October 21st",
       "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
       "publishedAt": "2026-10-21T22:31:11.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "6eb8fed2215f0769",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "publishedAt": "2026-10-21T21:32:29.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
@@ -537,17 +692,6 @@
       "tags": []
     },
     {
-      "id": "7fa016fc71ac6183",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "YSU Journal of International Affairs (3045-3119, 3045-3100)",
-      "url": "https://doaj.org/toc/3045-3100?rss=",
-      "publishedAt": "2026-10-21T18:20:11.000Z",
-      "snippet": "Published by Yerevan State University Added to DOAJ on 21 Oct 2026 LCC Subject Category: Law: Law in general. Comparative and uniform law. Jurisprudence: Private international law. Conflict of laws | Political science: International relations",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "6644c581eaf64890",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -555,17 +699,6 @@
       "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
       "publishedAt": "2026-10-21T18:16:22.000Z",
       "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "c688db2c751d7c35",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Journal on Mathematics Education (2087-8885, 2407-0610)",
-      "url": "https://doaj.org/toc/2407-0610?rss=",
-      "publishedAt": "2026-10-21T17:48:42.000Z",
-      "snippet": "Published by Universitas Sriwijaya in Indonesian Mathematics Society Added to DOAJ on 21 Oct 2026 LCC Subject Category: Science: Mathematics",
       "score": 6,
       "tags": []
     },
@@ -614,17 +747,6 @@
       "tags": []
     },
     {
-      "id": "3dae50ead40ac8e3",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Mechanical Engineering for Society and Industry (2798-5245)",
-      "url": "https://doaj.org/toc/2798-5245?rss=",
-      "publishedAt": "2026-10-21T16:56:49.000Z",
-      "snippet": "Published by Universitas Muhammadiyah Magelang Added to DOAJ on 21 Oct 2026 LCC Subject Category: Technology: Engineering (General). Civil engineering (General): Engineering machinery, tools, and implements | Technology: Mechanical engineering and machinery | Technology: Engineering (General). Civil",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "44533408a48975a6",
       "domain": "github",
       "source": "github_changelog",
@@ -658,17 +780,6 @@
       "tags": []
     },
     {
-      "id": "07d7a812feaa0b30",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Lex Renaissance (2620-5386, 2620-5394)",
-      "url": "https://doaj.org/toc/2620-5394?rss=",
-      "publishedAt": "2026-10-21T16:03:21.000Z",
-      "snippet": "Published by Faculty of Law, Universitas Islam Indonesia Added to DOAJ on 21 Oct 2026 LCC Subject Category: Law: Islamic law",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "94cfacca6cdafd22",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -689,19 +800,6 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "9266b36dffd5a946",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Show HN: I told people I'm a convicted felon after 20 years of hiding it",
-      "url": "https://buford.bg/",
-      "publishedAt": "2026-10-21T15:46:43.000Z",
-      "snippet": "Hi there. I was engineer number 3 at Eventbrite and founding engineer at Reforge. I've created a dozen or so startups myself and have worked in many others, like Instacart. All this time, no one knew that I was a convicted felon. It wasn't exactly a topic that came up, but it was certainly something",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "90e78b434c8fff7f",
@@ -750,17 +848,6 @@
       ]
     },
     {
-      "id": "459a512cc21649f3",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "پژوهش‌های رهبری آموزشی (3115-9427, 3041-8658)",
-      "url": "https://doaj.org/toc/3041-8658?rss=",
-      "publishedAt": "2026-10-21T13:17:34.000Z",
-      "snippet": "Published by Allameh Tabataba'i University Press in Allameh Tabataba'i University Added to DOAJ on 21 Oct 2026 LCC Subject Category: Education",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "8f6d0e82e44eec91",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -774,57 +861,13 @@
       ]
     },
     {
-      "id": "5a3c38eabd6480c4",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Guest Post — Defining Our Future: Reassessing What, How, and Why We Publish",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/21/guest-post-defining-our-future-reassessing-what-how-and-why-we-publish/",
-      "publishedAt": "2026-10-21T09:30:49.000Z",
-      "snippet": "Today, the co-chairs of the 2027 SSP Annual Meeting discuss the theme and the importance of gathering to discuss what, how, and why we publish. The post Guest Post — Defining Our Future: Reassessing What, How, and Why We Publish appeared first on The Scholarly Kitchen .",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "9cc8dfdb97ca500f",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Unikernels in OCaml",
-      "url": "https://uniker.nl/",
-      "publishedAt": "2026-10-21T07:51:20.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "56070363a0089639",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Vector Graphics in Lil",
-      "url": "https://beyondloom.com/blog/vectorgraphics.html",
-      "publishedAt": "2026-10-21T07:33:04.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "e3fe67d00f7d20af",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Firefox security patch tests are now private for at least a week",
-      "url": "https://groups.google.com/a/mozilla.org/g/firefox-dev/c/4I1HSPtVyrI/m/giGra4ZzAQAJ",
-      "publishedAt": "2026-10-21T07:13:16.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "9acd53c85bf0ef24",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Future of CSS",
-      "url": "https://www.joshwcomeau.com/css/interop-2027/",
-      "publishedAt": "2026-10-21T06:16:50.000Z",
-      "snippet": "Comments",
+      "id": "10ac5adb185cbdb8",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "snippet": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "score": 6,
       "tags": []
     },
@@ -852,6 +895,20 @@
       "score": 6,
       "tags": [
         "changelog"
+      ]
+    },
+    {
+      "id": "b1caf578b783d63b",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: AI-built browser games, collected in one place",
+      "url": "https://playgroundarcade.com/",
+      "publishedAt": "2026-10-20T15:45:56.000Z",
+      "snippet": "Hello, HN friends. I spent many happy IT lessons messing around on Newgrounds when I was a kid. And, to further age me - Rotten and Maddox! From that, I built my first site at about 12/13 with a friend - essentially, a cheat code site-turned emulator and ROMs mirror link directory. It ended up, for ",
+      "score": 6,
+      "tags": [
+        "browser",
+        "show hn"
       ]
     },
     {
@@ -1050,6 +1107,39 @@
       ]
     },
     {
+      "id": "7495902b4cc676a6",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "A Markdown File Should Just Open",
+      "url": "https://joshuamorris.info/notes/2026/10/13/a-markdown-file-should-just-open/",
+      "publishedAt": "2026-10-22T07:21:52.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "af487712c00b8d7a",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+      "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+      "publishedAt": "2026-10-22T02:30:52.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "7dbfe492701278ba",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "publishedAt": "2026-10-22T02:18:41.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "4ae67a338923da4a",
       "domain": "github",
       "source": "hackernews",
@@ -1160,6 +1250,17 @@
       "tags": []
     },
     {
+      "id": "9266b36dffd5a946",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "I told people I'm a convicted felon after 20 years of hiding it",
+      "url": "https://buford.bg/",
+      "publishedAt": "2026-10-21T15:46:43.000Z",
+      "snippet": "Hi there. I was engineer number 3 at Eventbrite and founding engineer at Reforge. I've created a dozen or so startups myself and have worked in many others, like Instacart. All this time, no one knew that I was a convicted felon. It wasn't exactly a topic that came up, but it was certainly something",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "af0134a511fc9f96",
       "domain": "vibe_coding",
       "source": "hackernews",
@@ -1193,57 +1294,46 @@
       "tags": []
     },
     {
-      "id": "b1de2f125f0516a1",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "LayerFS: The filesystem for AI coding agents",
-      "url": "https://layerfs.ai/",
-      "publishedAt": "2026-10-21T12:34:46.000Z",
-      "snippet": "",
+      "id": "5a3c38eabd6480c4",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "Guest Post — Defining Our Future: Reassessing What, How, and Why We Publish",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/21/guest-post-defining-our-future-reassessing-what-how-and-why-we-publish/",
+      "publishedAt": "2026-10-21T09:30:49.000Z",
+      "snippet": "Today, the co-chairs of the 2027 SSP Annual Meeting discuss the theme and the importance of gathering to discuss what, how, and why we publish. The post Guest Post — Defining Our Future: Reassessing What, How, and Why We Publish appeared first on The Scholarly Kitchen .",
       "score": 5,
       "tags": []
     },
     {
-      "id": "1ae34efa26d79bd6",
+      "id": "9cc8dfdb97ca500f",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
-      "url": "https://www.ncsc.nl/actueel",
-      "publishedAt": "2026-10-21T12:31:28.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "Unikernels in OCaml",
+      "url": "https://uniker.nl/",
+      "publishedAt": "2026-10-21T07:51:20.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "3f91500fc11b54ee",
+      "id": "56070363a0089639",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
-      "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
-      "publishedAt": "2026-10-21T12:22:39.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "Vector Graphics in Lil",
+      "url": "https://beyondloom.com/blog/vectorgraphics.html",
+      "publishedAt": "2026-10-21T07:33:04.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "3a0dac90ed1519bc",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
-      "url": "https://alterauth.com/",
-      "publishedAt": "2026-10-21T06:42:12.000Z",
-      "snippet": "Hi HN! We’re Srikar and Kevan, founders of Alter – https://alterauth.com/ . We’re building access control for agents that can take actions on behalf of multiple users. If you’ve built an internal agent people use through Slack, you may have experienced this scenario: everyone signs in with their own",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "42f1b0034bff74fb",
+      "id": "9acd53c85bf0ef24",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
-      "url": "https://jackalsyn.com/posts/php-up-2026.html",
-      "publishedAt": "2026-10-21T04:26:56.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "The Future of CSS",
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "publishedAt": "2026-10-21T06:16:50.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1276,28 +1366,6 @@
       "title": "Upcoming Critical PHP Security Release",
       "url": "https://www.php.net/archive/2026.php",
       "publishedAt": "2026-10-20T22:23:54.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "560a15982186e1c3",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Do minor curl vulnerabilities in the open",
-      "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
-      "publishedAt": "2026-10-20T19:47:54.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "3a33f88584849f67",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "How I got over 300 Tor exit nodes removed",
-      "url": "https://kaba.cx/posts/20261020_Tor/",
-      "publishedAt": "2026-10-20T18:44:42.000Z",
       "snippet": "Comments",
       "score": 5,
       "tags": []
@@ -1338,17 +1406,6 @@
       "tags": []
     },
     {
-      "id": "fb5c7a3f0580a0f9",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Mastodon 5.0: A closer look",
-      "url": "https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/",
-      "publishedAt": "2026-10-20T17:33:54.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "41f2f899c79fd4fe",
       "domain": "github",
       "source": "github_changelog",
@@ -1366,17 +1423,6 @@
       "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
       "url": "https://huggingface.co/blog/allenai/fairstress",
       "publishedAt": "2026-10-20T16:09:19.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "d8dbefc9c5b8b2fc",
-      "domain": "ai",
-      "source": "hf_blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "publishedAt": "2026-10-20T15:19:48.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
@@ -1434,17 +1480,6 @@
       ]
     },
     {
-      "id": "bbc995bd45fa55fe",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "NixOS is making me less afraid",
-      "url": "https://entropicthoughts.com/nixos-is-making-me-less-afraid",
-      "publishedAt": "2026-10-20T13:44:53.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "c5016e66633baccd",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -1467,17 +1502,6 @@
       "tags": []
     },
     {
-      "id": "6898123bb5351e1b",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Setting up SSH keys on macOS with Touch ID",
-      "url": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
-      "publishedAt": "2026-10-20T10:23:58.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "e7076123d1f0b1cd",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -1487,19 +1511,6 @@
       "snippet": "Thoughts on the Frankfurt Book Fair 2026: how do we turn trusted content into useful knowledge — and help people act on it? The post From Content to Trusted Knowledge: Reflections on Frankfurt Book Fair 2026 appeared first on The Scholarly Kitchen .",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "6437e760232a5e27",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Death Plan Switch, a self-hosted dead man's switch for solo devs",
-      "url": "https://deathplanswitch.com/",
-      "publishedAt": "2026-10-20T04:37:43.000Z",
-      "snippet": "Hi HN, I'm Peter Bishop and I've been working in graphics and web tech for over 25yrs. I've recently launched Death Plan Switch to solve a major problem in my succession plan. What if I go missing or die? The right people are told and my business can continue to operate for my clients. There's a bac",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "d73b7cb855e23229",
@@ -1544,30 +1555,6 @@
       "snippet": "The poster linked below was presented at the IFLA World Library and Information Congress (WLIC) 2026. Title Bridging the AI Divide: A Collaborative Framework for Critical AI literacy in Public Libraries Authors Minseo Kim UNC SDIS Shelby Kruger UNC SDIS Abstract As Generative AI transforms the infor",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "0529388ac5c44313",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Guest Post — Whose Knowledge, Whose Terms? Governing Open Research in MENA, One Year On",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/19/guest-post-whose-knowledge-whose-terms-governing-open-research-in-mena-one-year-on/",
-      "publishedAt": "2026-10-19T09:30:59.000Z",
-      "snippet": "On October 19 and 20, 2026, the Forum for Open Research in MENA (Middle East and North Africa; FORM) will hold its 5th Annual Forum entirely online. This year's theme of resilience reflects the operating conditions facing many member organizations. The post Guest Post — Whose Knowledge, Whose Terms?",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "a768448d93b32d22",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "答不上来会撤稿：多家期刊开始“电话抽查”作者 - 搜狐",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMFJabjcwUUswbU0walJKTUJ5NDBiZ1RuMGFua2dRNWE0YzRWUXVqY2VYVmNZTXNFYWNrWC1Gdl9KWGJhVmtvSTN3ZVg5cUxWVndGMWhlVjZtWnhYM2tJZHo1QTN3eS1wWGpxX2dxQUlsUlNVc0l3amJCRlUxUVhudGtxdFNCQ3pRZGhqYw?oc=5",
-      "publishedAt": "2026-10-19T01:19:36.000Z",
-      "snippet": "答不上来会撤稿：多家期刊开始“电话抽查”作者 搜狐",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
     },
     {
       "id": "577e846b6ef0fb6d",
@@ -1622,13 +1609,13 @@
       ]
     },
     {
-      "id": "b7196ac83b547439",
+      "id": "f7448bfebda6c0ca",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "【中国新闻周刊】2000多篇论文撤稿，浪费数千万经费 - 中新网福建",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0xRExVVWZMcWZwMTFJQTh2UmpqYXh1WHlCVlFXZkg3bVJtdmlGUlNGd0xXUmk2SXlBS3BOLTJGYUhvWTZfYmlmMHc0NnJ5TVhCLUU1NnVjbjRaQmhzcnBlWXdfVTZvSFB6TjVUTFoyR1hDdw?oc=5",
-      "publishedAt": "2026-10-16T04:00:44.000Z",
-      "snippet": "【中国新闻周刊】2000多篇论文撤稿，浪费数千万经费 中新网福建",
+      "title": "撤稿论文，浪费数千万经费 - 中国新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CdkNXaEFTVXpETi1LSjRZMWFBUFVscWttRm9aZ1RZQTlhajFoMGZqMWVNZDJnLU1UZkNyd1VQazJhS0hjczFPaURCN3NfNmlsdUg0MlNyTkxXTS1yMWw1MWh5Um8tNUs5WHc?oc=5",
+      "publishedAt": "2026-10-16T06:15:14.000Z",
+      "snippet": "撤稿论文，浪费数千万经费 中国新闻网",
       "score": 5,
       "tags": [
         "撤稿"
@@ -1664,10 +1651,10 @@
       "id": "41d6c8d9e8be0d79",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 - 虎嗅",
+      "title": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 - 虎嗅网",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FX3RHNUQ1c2ozTk1lejNfWE9XMndiQi1hOHlYTGdxMERYb1hRY0ZiQU11NGlTOVN6UzJRbHA4YUtZV1l6WVBBdjRsU3VoaHJYcGk1cg?oc=5",
       "publishedAt": "2026-10-16T00:51:00.000Z",
-      "snippet": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 虎嗅",
+      "snippet": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 虎嗅网",
       "score": 5,
       "tags": [
         "撤稿"
@@ -1950,19 +1937,6 @@
       ]
     },
     {
-      "id": "ceba6e96b7fe51e4",
-      "domain": "publishing",
-      "source": "google_news_onhold",
-      "title": "Elsevier journal retracts 100+ papers for authorship issues, editor conflicts of interest - Retraction Watch",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWNTRzI2ZHBQWTdCZTlhbjBGS2Y5ZS1RcWlGOXhuZWFJWHBqTTBjajFIejJyNC1pSEhHZkJQaFVLaTNNcTJaelRJeGpSekE5V3Z5U2RZcmMwWUFzYm1mSTRxTkZtOS1uSWtBTnFNSWVXZWx5dzNkc0E3QkxfeVhjaTh4d2sxX3FMWHVLWURMeWk5Ykg4d05PUndtVUZSVTdqcVYxV3d2TmpCSHRDTlRBbWVxTk5JeFdVSlR3Zjd2VlB0NUNoOGc?oc=5",
-      "publishedAt": "2026-09-22T07:00:00.000Z",
-      "snippet": "Elsevier journal retracts 100+ papers for authorship issues, editor conflicts of interest Retraction Watch",
-      "score": 5,
-      "tags": [
-        "retraction"
-      ]
-    },
-    {
       "id": "00b34280dfba6a4f",
       "domain": "github",
       "source": "github_trending",
@@ -2052,6 +2026,17 @@
       "tags": [
         "stars"
       ]
+    },
+    {
+      "id": "0529388ac5c44313",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "Guest Post — Whose Knowledge, Whose Terms? Governing Open Research in MENA, One Year On",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/19/guest-post-whose-knowledge-whose-terms-governing-open-research-in-mena-one-year-on/",
+      "publishedAt": "2026-10-19T09:30:59.000Z",
+      "snippet": "On October 19 and 20, 2026, the Forum for Open Research in MENA (Middle East and North Africa; FORM) will hold its 5th Annual Forum entirely online. This year's theme of resilience reflects the operating conditions facing many member organizations. The post Guest Post — Whose Knowledge, Whose Terms?",
+      "score": 4,
+      "tags": []
     },
     {
       "id": "f2b62fe582df241d",
