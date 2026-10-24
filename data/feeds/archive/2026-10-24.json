@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T01:45:38.524Z",
+  "generatedAt": "2026-10-24T08:58:42.508Z",
   "counts": {
-    "raw": 183,
-    "deduped": 177,
-    "kept": 177
+    "raw": 179,
+    "deduped": 173,
+    "kept": 173
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 16,
+      "count": 15,
       "error": null,
-      "ms": 1244
+      "ms": 408
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1882
+      "ms": 1202
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1355
+      "ms": 1460
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 2162
+      "ms": 2086
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1112
+      "ms": 1091
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1520
+      "ms": 1523
     },
     {
       "key": "google_news_onhold",
@@ -61,15 +61,15 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1307
+      "ms": 1265
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 19,
+      "count": 17,
       "error": null,
-      "ms": 1266
+      "ms": 1253
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1321
+      "ms": 1166
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1327
+      "ms": 1208
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1137
+      "ms": 1100
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2101
+      "ms": 1886
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1168
+      "ms": 1082
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1148
+      "ms": 1108
     },
     {
       "key": "hf_blog",
@@ -125,15 +125,15 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1117
+      "ms": 1145
     },
     {
       "key": "deepseek_models",
       "ok": true,
       "status": 200,
-      "count": 1,
+      "count": 0,
       "error": null,
-      "ms": 1065
+      "ms": 1072
     },
     {
       "key": "github_changelog",
@@ -141,10 +141,23 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1128
+      "ms": 1058
     }
   ],
   "items": [
+    {
+      "id": "ece8d974475c6ceb",
+      "domain": "publishing",
+      "source": "retraction_watch",
+      "title": "Journal updates retraction notice as Princeton student author stays in the spotlight",
+      "url": "https://retractionwatch.com/2026/10/23/correction-retraction-rishika-porandla-princeton-macromolecular-materials-engineering-wiley/",
+      "publishedAt": "2026-10-23T20:59:06.000Z",
+      "snippet": "A Wiley journal has corrected a retraction notice to clarify the author, a Princeton student, never conducted the study in the first place, as the student has gained publicity for visits to the offices of Texas Congressional delegation. The paper, by Rishika Porandla, purportedly described a new way",
+      "score": 8,
+      "tags": [
+        "retraction"
+      ]
+    },
     {
       "id": "73d538c2dcd13c8f",
       "domain": "ai",
@@ -172,6 +185,48 @@
       ]
     },
     {
+      "id": "5f669b4893ea9ed4",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "UK Government Establishes National AI Biosecurity Lab With £100m Budget, OpenAI And Anthropic Credits - NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZ0puWnJyaW5qRVpTYmZBdUU0dGI1Q1lUR0lMN2dOVnZrS0VOYlkzN0k0dmVxOXR5YlJBTUFMcnlpV1JnQzM0TEUwSUZDUnQwRlhadkU2Vm84a1FSQjNaNWl4UkZDaUZXWDhZRVFITW8zT0U4UU5RRkdSYklGMHNfYU5EMVZVVjBqbEJ3MmdJLTlaVTc4aXhNSEN3dVZBV0hHSTdPX2xRTUU1RngxR01qZkxKQllCZjUydE5OamhYcC02UTdrRm1hZ1hOTEJ3eDlTRUlXODNVTzVRMV8tSGN2cmNsbml1OUxnN0E?oc=5",
+      "publishedAt": "2026-10-24T05:19:36.000Z",
+      "snippet": "UK Government Establishes National AI Biosecurity Lab With £100m Budget, OpenAI And Anthropic Credits NewsCord",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "d0543d9e224cc261",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "UK Commits £100M to AI Biosecurity Lab, £200M in OpenAI/Anthropic Credits - Techi",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nUloweGN6TUZEdFZja0Q3eUtUNFA1R3FnaXMxd3JWeDhZbEUwZlhsajk4XzRxeTVWc1RFdXR4VG1IUGM3d3B4Unc1b290RHV4N3Ezc0cwTEo3dEQ3N2RHUGdWaWpRNkNNVTJTb0RnM056aGZDVGhmazh3RzI2OUE?oc=5",
+      "publishedAt": "2026-10-24T03:49:00.000Z",
+      "snippet": "UK Commits £100M to AI Biosecurity Lab, £200M in OpenAI/Anthropic Credits Techi",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "56aadff6d7f84f46",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "UK vows 100 mn euros for biosecurity lab with OpenAI, Anthropic, and Google - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQUlsY05MU1JvTVBsQzU3TDEtaUFDak1Tc2FFSS0tVlo3UThSOF9xZktWVHlJUlVmM19NbVMyV01waVlnMll3elpDdVVQcjhpZ2d2OXRCSW43Y0JNT1BzaW9DWFF3RjRtV1R0akZrVTB4RUVuRTBZU05vdWJaMmNIWWg4S3ZWM0xaU0pRYS0xVWx2dlJoZzNuREJ6UzVyRFlFNEtuMjZfaVMtd0VzS09FYXZ3Q2JBSGVNY2xmRlF6b2plVndhUTBHZTEyN0tlOWhqZkJPOHh0UHBFUFgxb1FLcGFHV08wZ0HSAecBQVVfeXFMUEFJbGNOTFNSb01QbEM1N0wxLWlBQ2pNU3NhRUktLVZaN1E4UjhfcWZLVlR5SVJVZjNfTW1TMldNcGlZZzJZd3paQ3VVUHI4aWdndjl0QkluN2NCTU9Qc2lvQ1hRd0Y0bVdUdGpGa1UweEVFbkUwWVNOb3ViWjJjSFloOEt2VjNMWlNKUWEtMVVsdnZSaGczbkRCelM1ckRZRTRLbjI2X2lTLXdFc0tPRWF2d0NiQUhlTWNsZkZRem9qZVZ3YVEwR2UxMjdLZTloamZCTzh4dFBwRVBYMW9RS3BhR1dPMGdB?oc=5",
+      "publishedAt": "2026-10-24T03:23:04.000Z",
+      "snippet": "UK vows 100 mn euros for biosecurity lab with OpenAI, Anthropic, and Google Business Standard",
+      "score": 7,
+      "tags": [
+        "openai",
+        "anthropic"
+      ]
+    },
+    {
       "id": "0f2540280090ed6c",
       "domain": "github",
       "source": "github_changelog",
@@ -182,20 +237,6 @@
       "score": 7,
       "tags": [
         "copilot"
-      ]
-    },
-    {
-      "id": "9f8977700cfc7329",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI disables internet access during model training while Anthropic issues another mea culpa - The Register",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbVMxbXlyS2JEMTBHUmllX1hralpkMy11VTFfdUtlR3pTa1RyYkZTZUJvNkx2MF9yRVVJMElUVUhzQUtYdGFRamxlM2NTVDk5WFJ5TDJZbS1qUzJQUXJQTUZxSGtQVUlSN2J6ZGhUTzBuQ2FfaGdRQTRJVnRocVdZZGluMlp6Y05uTkFlZG5hQWU5YldkNTBmTnk4Uy12Rl9kcmJJMWxwSWN4WlhCVkJvVnJQT0tDQTdqbUlLak1IR1FKejNudC01cVFWOEZSWXhkbXBZbnA3bGhYWEh6NHQ2TVpyaHA1UQ?oc=5",
-      "publishedAt": "2026-10-23T22:36:11.000Z",
-      "snippet": "OpenAI disables internet access during model training while Anthropic issues another mea culpa The Register",
-      "score": 7,
-      "tags": [
-        "openai",
-        "anthropic"
       ]
     },
     {
@@ -228,36 +269,10 @@
       "id": "ef9e6abf2ad80d5d",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 - 搜狐",
+      "title": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcHJ5aWRRbTdwNXNlWXNjU3dsbjRSRlp3WkI5c2NZMnB4RnlzeHJrMmxrMmYzRmVsWGl0dEVpRkZvSTg4NkhYRlE0WHY2dlB5SklNWEZEbmwyZzBFVXQwbUFEeFh5VDdPLVpYbnBMMy1wY0otTnlvUHgzdEpvQ2Vyb1Z3ZUZFYms0QzloMA?oc=5",
       "publishedAt": "2026-10-23T11:12:00.000Z",
-      "snippet": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 搜狐",
-      "score": 7,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
-      "id": "026da38d50a99670",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Debunking \"Faster than Rust\": Malicious Benchmarks in Tov",
-      "url": "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov/",
-      "publishedAt": "2026-10-23T07:44:09.000Z",
-      "snippet": "Comments",
-      "score": 7,
-      "tags": [
-        "rust"
-      ]
-    },
-    {
-      "id": "ed2999008a3f1c8d",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44% - 虎嗅",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5c2pqaXBDeXhDeUozSmd2OUxHVnhEQ2ZaOEt5c1RSYVNYZUxFR1VCNFFkTklielUtTnhLMDFNYkV3cG1iaWg3SmJBX0xiRk42ei1GNQ?oc=5",
-      "publishedAt": "2026-10-23T04:06:42.000Z",
-      "snippet": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44% 虎嗅",
+      "snippet": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 搜狐网",
       "score": 7,
       "tags": [
         "撤稿"
@@ -329,45 +344,163 @@
       ]
     },
     {
-      "id": "b7685fa3b33e1b24",
-      "domain": "ai",
-      "source": "deepseek_models",
-      "title": "DeepSeek-V4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "publishedAt": "2026-10-17T02:40:38.000Z",
-      "snippet": "New model release on Hugging Face · 57,715 downloads · 2,590 likes",
-      "score": 7,
-      "tags": [
-        "deepseek",
-        "hugging face",
-        "release"
-      ]
+      "id": "233c4973b8d93b84",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Emacs finally folds to my liking",
+      "url": "https://jointhefreeworld.org/blog/articles/emacs/emacs-folding-kirigami/",
+      "publishedAt": "2026-10-24T08:45:01.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
     },
     {
-      "id": "2858b6b201df7bee",
+      "id": "6351e1999e635596",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI Restarts Frontier Training After 11-Day Halt [2026] - https://tech-insider.org/",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jUVE3S2ZuNlFqaHMteHNaLW1sU1N0UmpWUDBiMzJVeXpuWlNDRjVnWWVrM0JmR0MzNDg4cm9wT0M5S2JxXzdvZ2hyOFlLdjVTcVYzTGJ2MExqUGRWbmhJNFRkdTE1a3J6aG1IXzQ4MWtwakotUDVocjY0QkxFZlU?oc=5",
-      "publishedAt": "2026-10-24T01:07:27.000Z",
-      "snippet": "OpenAI Restarts Frontier Training After 11-Day Halt [2026] https://tech-insider.org/",
+      "title": "'I didn't believe it at first': OpenAI model transcribes, decodes Napoleon's cipher - Yahoo Tech",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmNYYVVsbEZpb1dNZ2E1UnZsR0dxV0owSlZZOUVubF82dHVQNUpTOEtmc1V5TkllSzI5RTRrRUpFMXN3bFBMeGdsT2RYd1d1cDdpYy1EVE1rWkFDUWhFOG5xV2pqRjFEbUtLN19LRGMxM05SQUlTZDhKeU41YW53UThPeDYyMlhZU0ZrU1lWRFVRc3RN?oc=5",
+      "publishedAt": "2026-10-24T08:11:00.000Z",
+      "snippet": "'I didn't believe it at first': OpenAI model transcribes, decodes Napoleon's cipher Yahoo Tech",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "eff43b08b75521e9",
+      "id": "5ad090a99ae2ed5f",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Big Runtimes Make Efficient Programs",
+      "url": "https://www.youtube.com/watch?v=vhDwy1eCXbs",
+      "publishedAt": "2026-10-24T07:51:04.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "ea77af6b47246b9f",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "DeepSeek API Search Agent: 13 Steps, 90 Min [2026] - tech-insider.org",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oaEtqSDI5NFJNR0ktZ0pwamtBWkhaclIxcjhiVmhKeTJuUHctU0lBWldWUk5IU2g4SmI0ZkxOSUItN2NleDlxQnA0enhqUWdNY0M0aUNORGpablVpMFFWal9SOEhBVVVxb1MwMmxzTG91MlFwS0dqdWdiSU5pZnc?oc=5",
-      "publishedAt": "2026-10-24T01:01:07.000Z",
-      "snippet": "DeepSeek API Search Agent: 13 Steps, 90 Min [2026] tech-insider.org",
+      "title": "OpenAI ends lockdown and resumes frontier model training - The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRlRSaXM5X2hOYmFLV0l4ZGpRUU9DbjE1S2k0SnJTaTZJTDdMdVVtU1RXOS0zV2pFUEdHdFFZZnNTZVpTMFd3OFpRRWJqRVViMnkzc1J4cC03eEdqQks3WFVjbmNtUU9meWFWcnY1MDVQSU9tMXNac0lVVGt5bGVlRF9uVlVlQWZZNGlSNXByVk5fY0hPU1M1aDZmNDFFM0l3cXBMdEpWcXJVYXBxSzhydmRSaXE?oc=5",
+      "publishedAt": "2026-10-24T07:42:19.000Z",
+      "snippet": "OpenAI ends lockdown and resumes frontier model training The Daily Star",
       "score": 6,
       "tags": [
-        "deepseek"
+        "openai"
       ]
+    },
+    {
+      "id": "a2fa1fdbff727044",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Twelve years of distributed SQLite",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "publishedAt": "2026-10-24T06:41:52.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "28600337c017366a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "AI Security Scare: OpenAI Blocks Internet Access During Frontier Model Training - The420.in",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUnZYOEd4TUdoVXE1Rng3bkw4bk5ZM3R4d0laRHVyWTh1XzRxWWE0MGJLZHRrYjF6TkotMUxjTUxBeGJhTmlJSkhpUDgyUXlrOWZPdnVtUzFUdHd0dnNySmNoT2RyVUNzLXZJLWs1UTNQdHludFAyWldfZGxSSjdQckZPc0dlaFh5VUd3UW4yU0FYV0gz?oc=5",
+      "publishedAt": "2026-10-24T06:24:03.000Z",
+      "snippet": "AI Security Scare: OpenAI Blocks Internet Access During Frontier Model Training The420.in",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "b9a3d8b847087b46",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+      "publishedAt": "2026-10-24T05:49:57.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "cddf2608558f2a72",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Kimi K3.1 Pro: China’s Open-Weight Model Beats GPT-6 and Gemini 4 - www.trendingtopics.eu",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HMTdYbTZPUEd2ei1UN1kzYUEwY3JNT3RyclVEYVc1VGxKYkl2V2RIVFpMWEN0b2ZZN3E3UlAyZENHclpHdnN4Z205U21MeFdUem9ZOXQtdVpXVU9mbDRUQWc5SlZfT0FlRHJrb2d2NA?oc=5",
+      "publishedAt": "2026-10-24T05:42:57.000Z",
+      "snippet": "Kimi K3.1 Pro: China’s Open-Weight Model Beats GPT-6 and Gemini 4 www.trendingtopics.eu",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "95e1b759756698d4",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude vs GPT: Opus 5.5 vs Sol, 40% vs 50% Cuts [2026] - shattered.io",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBYZGRSZFNYUUtTc1pJTngzTHZTQVkwd3RNb2F2MEtEY1VoZWRnX19lZnRTbml2RnRNSm9HODg0Vks4dWVJcjBwNmtDQmVjaDBFR3RxTTJUNFVNRWVTSDVsdGluTEU3b2ZFZlpoN1RQT3djUndfQi13bw?oc=5",
+      "publishedAt": "2026-10-24T05:20:05.000Z",
+      "snippet": "Claude vs GPT: Opus 5.5 vs Sol, 40% vs 50% Cuts [2026] shattered.io",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "02c7eaebedb7e75f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI resumes frontier AI model training after 11-day pause over security concerns - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQUV0ZTkwN1Bzb3FHM0tLdjNKX19Ua3ZBQXdJbGoySWZFallXYklFSl8yQmhZOEU4bThWZjRuZHI0cnVzYVZSY3VtcmJ3dzltOFlkM0RMcV9qZU16cHB2ekstODZUc1p4eUoxeFdLLTJ5UklQdnBHV0hCMFBYb094dm9wclQzczdDQkJ2eUNFSVdtMnh3aUt6dENtazF4QWtiOXlMU3dDSzUwN25hMHhBRHNWZTFjR1FKcEFFYXNxYnAwdC1LU0VSNXJn0gHKAUFVX3lxTE1BRXRlOTA3UHNvcUczS0t2M0pfX1RrdkFBd0lsajJJZkVqWVdiSUVKXzJCaFk4RThtOFZmNG5kcjRydXNhVlJjdW1yYnd3OW04WWQzRExxX2plTXpwcHZ6Sy04NlRzWnh5SjF4V0stMnlSSVB2cEdXSEIwUFhvT3h2b3ByVDNzN0NCQnZ5Q0VJV20yeHdpS3p0Q21rMXhBa2I5eUxTd0NLNTA3bmEweEFEc1ZlMWNHUUpwQUVhc3FicDB0LUtTRVI1cmc?oc=5",
+      "publishedAt": "2026-10-24T04:07:36.000Z",
+      "snippet": "OpenAI resumes frontier AI model training after 11-day pause over security concerns The Tribune",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "3f65527b46dc638c",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Indian government sites are serving revoked eMudhra certificates",
+      "url": "https://captnemo.in/blog/2026/10/23/emsign-revoked-gov-in/",
+      "publishedAt": "2026-10-24T04:06:06.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "28732fe8168038e1",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Kimi K3.1 Pro vs GPT Astra, Sol, Claude Fable & Opus - Kingy AI",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zaEVuSE8yNW43VU1zMThsSm5qNUsyZzIwYnQwUHlWUFdYcVQwU1loSS1rYk1fcWg2cFRaU3ZCdTdlNEJnUmlJWHFwM3FTREVXZFlfT1BoRDlXbWxFZzR6dFFFcTZuNGp4TWFRb2NobGFSOEd1eHAweks3NA?oc=5",
+      "publishedAt": "2026-10-24T04:05:39.000Z",
+      "snippet": "Kimi K3.1 Pro vs GPT Astra, Sol, Claude Fable & Opus Kingy AI",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "968bbb570c79ddf7",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "An Incremental Approach to JIT Construction",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3830440.3832304",
+      "publishedAt": "2026-10-24T02:10:41.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
     },
     {
       "id": "21f9ff9460d959d5",
@@ -379,97 +512,6 @@
       "snippet": "期刊《Molecules》因图像不当编辑与重复问题撤回迷迭香精油与姜黄素保肝研究论文 生物通",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "4e2bd3f8104c3d54",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Kimi K3.1 Pro vs. Claude Opus 5.5 and GPT-6 Astra - R&D World",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUdRdUVWU0tTX1FyTEhlWkVrX1FJd2tQTmVyamkxcjFkYTh4bXA3c1V0ZHdJc3F5UlNPYk9lMzNneXlObGFMSU9QSXRFNFI1SURhN2FXS2lxQjYwQkpjMDZLS04tOFcxUHl6NTlaMERkSFZ1cVQ4ZHlRcFVWUFM5UDVJLUZmSWxiMDlCS2dkLUp1SVZDYnhwaWw3bXFRVUE?oc=5",
-      "publishedAt": "2026-10-24T00:02:40.000Z",
-      "snippet": "Kimi K3.1 Pro vs. Claude Opus 5.5 and GPT-6 Astra R&D World",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "6207042497551313",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI pauses frontier model training after security breach - StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaG5GcDVHcmx4eU11aTNlSU9TNndZa0c0M3k3YkpCRXd6RVRJYTd6VVRaVTQyQ0d2MnNlQ005WTdsTGtnVk9oZTJKakN0WUNqbkQ5VjYtRG0xVElUejZZSHh5bmVpbVNsNlYyWnlWWEl0MUNvYWFuQThXcktVQWlKbG85QTFGajZsTXR5WGx2X1h0YnRSdE84eEpCZzNVa0F1Ym02TS1fS0RrYXQ1ZUtEajNHSVc3NXFJWUE?oc=5",
-      "publishedAt": "2026-10-23T23:38:36.000Z",
-      "snippet": "OpenAI pauses frontier model training after security breach StreetInsider",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "352f63d2a221a034",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic reveals Mythos 5 tried submitting malicious code to an open-source project - SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dqUk5faExZdzlTVHlwNVg1WHF1N3l4M3ZpTUJ1VDNCMll2TnA0NUxTQjJsYmVacF95Ui1mbk4yMXMzTFNTQVRNVnI4NW5VX3ZOZ1pfQVljR0Rvd2t0c0pIMVhSb0pnV3pGX3NJODNWUmRicUkySVlQMTlObUdrV19XbXBPS2trZGxTVXFjUnRhRjV0UXFHYm1yNGdGWEVZcE56VE45V1FVSV9JOHBTLXZGR3poWGF5d3I4c05B?oc=5",
-      "publishedAt": "2026-10-23T23:28:00.000Z",
-      "snippet": "Anthropic reveals Mythos 5 tried submitting malicious code to an open-source project SiliconANGLE",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "eb9b07e5a3209d8f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "A timeline of developments in AI safety since the attack on Hugging Face - The Daily Reflector",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORXh0M0xiWFYwSmdHUXZNbnBrTjl5Z00wZF8wMUxpX0I3ZjN5Z2JhNDhtXzFLbElOTzN0dGJvNXZ2ZlprdzBLeWkyT0t3QlJhcUhUVFlZT0NGSGZHM2pROEJieWU1a3ozMEkxNDBlamo2MFBiTl9OQ1p4Yzg4c3ZTcG11dGNUTXVUaUVZV0Y1YWZac3VXQ2JJYUdlNVd6ZGlMZ1h3RWYxZGdnY3ZfMUw4V3dZSVBMOXNNWHg2MFRHcmZ0S2hrZXpicjktMUZCdUxOQzBZWFB3X2FZRS1KVThaV3hQYW5SaklOWVFOaHUtWG1fZGs?oc=5",
-      "publishedAt": "2026-10-23T22:44:16.000Z",
-      "snippet": "A timeline of developments in AI safety since the attack on Hugging Face The Daily Reflector",
-      "score": 6,
-      "tags": [
-        "hugging face"
-      ]
-    },
-    {
-      "id": "b770800370ad2434",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI Says It's Cutting Off Internet Access For Frontier Model Training - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZVlVU2N1R05Jc0YxRjVGMFlBeTlGQVhUWnFzWXRWWVBneXl1YWl6YXFHdVlzUGNHcFdnMDJ3UFpJal9rcElReU15TkR2Q0RTT3dxNjBDeG9hazczZ18xeWgyRzM4ZlpWaTBvWENad2l1ZEZaOEpaNUQyY0kxMUF0V21BYkxLckVOaU5YU3JwNmxrNkM3UFFzaFBDT3BxejVCTktXNEd4eW4?oc=5",
-      "publishedAt": "2026-10-23T22:37:02.000Z",
-      "snippet": "OpenAI Says It's Cutting Off Internet Access For Frontier Model Training Engadget",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "ef4273b35acacef6",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "MCP Tasks arrives in Claude Code, long jobs now run in the background - Pasquale Pillitteri",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWXZVLXhLRWJPU1djSmUzWHlxVU9OV3ZiYWxESnpUNV9pVWZFUTlPSDhiTnU0Q3RJWDU3SkFIZXdaTmpfandZYllOa1VmNDRFakZVaVdGRnc2Z3FxblRaR2FFTDlkTGl1YjA2RExabXdBWXFVM25rQ1E0S3AtODhHNzBrN3Z3cXgxU3RIQ0N1UkVsaWo5SDllXw?oc=5",
-      "publishedAt": "2026-10-23T22:17:10.000Z",
-      "snippet": "MCP Tasks arrives in Claude Code, long jobs now run in the background Pasquale Pillitteri",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "28732fe8168038e1",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Kimi K3.1 Pro vs GPT Astra, Sol, Claude Fable & Opus - Kingy AI",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zaEVuSE8yNW43VU1zMThsSm5qNUsyZzIwYnQwUHlWUFdYcVQwU1loSS1rYk1fcWg2cFRaU3ZCdTdlNEJnUmlJWHFwM3FTREVXZFlfT1BoRDlXbWxFZzR6dFFFcTZuNGp4TWFRb2NobGFSOEd1eHAweks3NA?oc=5",
-      "publishedAt": "2026-10-23T22:13:05.000Z",
-      "snippet": "Kimi K3.1 Pro vs GPT Astra, Sol, Claude Fable & Opus Kingy AI",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
     },
     {
       "id": "fd6ff96543becd86",
@@ -505,17 +547,6 @@
       "tags": []
     },
     {
-      "id": "90eb97162c7961ba",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Distributed data, centralized fixes",
-      "url": "https://miren.dev/blog/distributed-data-centralized-fixes",
-      "publishedAt": "2026-10-23T19:50:52.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "8173704b50f36050",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -526,6 +557,19 @@
       "score": 6,
       "tags": [
         "show hn"
+      ]
+    },
+    {
+      "id": "1de0eb1472fc4616",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Rune 1.3: adds TypeScript, a Helix editor, Kitty graphics and OSC-7501",
+      "url": "https://rune.build/blog/rune-1-3-release",
+      "publishedAt": "2026-10-23T19:42:01.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "typescript"
       ]
     },
     {
@@ -584,17 +628,6 @@
       "tags": []
     },
     {
-      "id": "4e2bd1d9c647c080",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-      "url": "https://arxiv.org/abs/2610.14162",
-      "publishedAt": "2026-10-23T17:25:34.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "96a3bb36684bea2f",
       "domain": "github",
       "source": "github_changelog",
@@ -635,17 +668,6 @@
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "publishedAt": "2026-10-23T16:15:50.000Z",
       "snippet": "",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "5ad090a99ae2ed5f",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "How to Make Things, and Why",
-      "url": "https://www.youtube.com/watch?v=7yeH1DqK984",
-      "publishedAt": "2026-10-23T15:36:59.000Z",
-      "snippet": "Comments",
       "score": 6,
       "tags": []
     },
@@ -775,50 +797,30 @@
       "tags": []
     },
     {
-      "id": "0f746897fcf7ed7d",
+      "id": "026da38d50a99670",
       "domain": "vibe_coding",
       "source": "lobsters",
-      "title": "What are you doing this weekend?",
-      "url": "https://lobste.rs/s/crqz1g/what_are_you_doing_this_weekend",
-      "publishedAt": "2026-10-23T08:43:10.000Z",
-      "snippet": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "488f05cd92730faf",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Show HN: Swurf – Swipe through the real web",
-      "url": "https://swurf.org/",
-      "publishedAt": "2026-10-23T06:54:52.000Z",
-      "snippet": "Hello HN, Swurf allows you to swipe through the real web one page after another. It learns what you like and doesn’t show you the same page twice. The idea came naturally: there’s a seemingly infinite amount of high quality blog posts, random topic rabbit holes, and trending or cool sites that exist",
+      "title": "Debunking \"Faster than Rust\": Malicious Benchmarks in Tov",
+      "url": "https://blog.fyralabs.com/debunking-faster-than-rust-malicious-benchmarks-in-tov/",
+      "publishedAt": "2026-10-23T07:44:09.000Z",
+      "snippet": "Comments",
       "score": 6,
       "tags": [
-        "show hn"
+        "rust"
       ]
     },
     {
-      "id": "e41f822d328f49e6",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Many Many Missed Opportunities of Sonic 06",
-      "url": "https://isaacmarovitz.com/posts/sonic-06/",
-      "publishedAt": "2026-10-23T04:30:10.000Z",
-      "snippet": "Comments",
+      "id": "ed2999008a3f1c8d",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44% - 虎嗅",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5c2pqaXBDeXhDeUozSmd2OUxHVnhEQ2ZaOEt5c1RSYVNYZUxFR1VCNFFkTklielUtTnhLMDFNYkV3cG1iaWg3SmJBX0xiRk42ei1GNQ?oc=5",
+      "publishedAt": "2026-10-23T04:06:42.000Z",
+      "snippet": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44% 虎嗅",
       "score": 6,
-      "tags": []
-    },
-    {
-      "id": "07b5c81ed9acc5b4",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Hibernate Origin Story (Outsider Edition)",
-      "url": "https://fishbowl.pastiche.org/2026/10/23/hibernate-origin-story",
-      "publishedAt": "2026-10-23T04:21:32.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
+      "tags": [
+        "撤稿"
+      ]
     },
     {
       "id": "5505f1fd9b737398",
@@ -865,19 +867,6 @@
       "snippet": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "23e73524f5c0760b",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "关于《视黄酸诱导蛋白1与Smith-Magenis综合征：从遗传学到生物学及可能的治疗策略》的撤稿通知 - 生物通",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SYmd3VzVoWVNXQ2h2cTlQOGZlMnAwWkhBQTdfWGlXTXR4YkowTllVUlJWa2dKS3EtRUx3QjZtemh5V1l4eUVPRnlwdjJRT1BKRUI0bWgtaTQ0azNPcV9EYTh3XzZLYzhJeXdVZXB3?oc=5",
-      "publishedAt": "2026-10-22T00:55:11.000Z",
-      "snippet": "关于《视黄酸诱导蛋白1与Smith-Magenis综合征：从遗传学到生物学及可能的治疗策略》的撤稿通知 生物通",
-      "score": 6,
-      "tags": [
-        "撤稿"
-      ]
     },
     {
       "id": "d356a993bca77ec9",
@@ -1049,10 +1038,32 @@
       ]
     },
     {
+      "id": "b9f3a7837591c5fb",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "OBS Studio 33",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "publishedAt": "2026-10-24T04:49:58.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "95ce4217b412a1bf",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Apple Security Research Device",
+      "url": "https://security.apple.com/research-device/",
+      "publishedAt": "2026-10-24T02:36:38.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "3e86be933034a89c",
       "domain": "vibe_coding",
       "source": "hackernews",
-      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
       "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
       "publishedAt": "2026-10-23T23:30:17.000Z",
       "snippet": "",
@@ -1066,6 +1077,17 @@
       "title": "CVE Tracker",
       "url": "https://cve.0xosprey.com/",
       "publishedAt": "2026-10-23T21:21:47.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "2cd4b07c2ac8a755",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "publishedAt": "2026-10-23T19:31:36.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
@@ -1093,37 +1115,28 @@
       "tags": []
     },
     {
-      "id": "e5538c836e15a562",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "Remove pgrust: the entry is cheating (per-query kernels and result caching)",
-      "url": "https://github.com/ClickHouse/ClickBench/pull/2165",
-      "publishedAt": "2026-10-23T08:05:33.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "f9682184284f2006",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
-      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
-      "publishedAt": "2026-10-23T06:41:11.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "284177c0015e0342",
+      "id": "0f746897fcf7ed7d",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Median product \"lifespan\" has fallen from ~4y down to ~1.5y",
-      "url": "https://news.ycombinator.com/item?id=50204125",
-      "publishedAt": "2026-10-23T03:20:38.000Z",
-      "snippet": "The \"product graveyard\" of SaaSHub has been tracking the status (and lifespan) of hundreds of thousands of products. It's been hovering around 4y for quite some time. However, there's a sharp decline in 2026 leading to about 1.5y these days. https://www.saashub.com/product-graveyard That's a huge dr",
+      "source": "lobsters",
+      "title": "What are you doing this weekend?",
+      "url": "https://lobste.rs/s/crqz1g/what_are_you_doing_this_weekend",
+      "publishedAt": "2026-10-23T08:43:10.000Z",
+      "snippet": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "488f05cd92730faf",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Swurf – Swipe through the real web",
+      "url": "https://swurf.org/",
+      "publishedAt": "2026-10-23T06:54:52.000Z",
+      "snippet": "Hello HN, Swurf allows you to swipe through the real web one page after another. It learns what you like and doesn’t show you the same page twice. The idea came naturally: there’s a seemingly infinite amount of high quality blog posts, random topic rabbit holes, and trending or cool sites that exist",
+      "score": 5,
+      "tags": [
+        "show hn"
+      ]
     },
     {
       "id": "0df0b6ba7b49f9c4",
@@ -1174,7 +1187,7 @@
     {
       "id": "0a188e40cc4c32c9",
       "domain": "vibe_coding",
-      "source": "hackernews",
+      "source": "show_hn",
       "title": "Show HN: Impossible Machines: declaratively program the physical world",
       "url": "https://www.impossiblemachines.xyz/",
       "publishedAt": "2026-10-22T23:54:28.000Z",
@@ -1341,17 +1354,6 @@
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "publishedAt": "2026-10-22T07:51:31.000Z",
       "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "1da25bbf3dcb9dbc",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "examining the macOS gcc binary",
-      "url": "https://zoey-on-github.github.io/blog/macgcc.html",
-      "publishedAt": "2026-10-22T06:45:58.000Z",
-      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1648,17 +1650,6 @@
       ]
     },
     {
-      "id": "1e252fdddc10ceab",
-      "domain": "publishing",
-      "source": "retraction_watch",
-      "title": "A company named Springer that isn’t the publisher is offering authorship for sale",
-      "url": "https://retractionwatch.com/2026/10/12/springer-journals-online-authorship-for-sale/",
-      "publishedAt": "2026-10-12T19:03:53.000Z",
-      "snippet": "Computer scientist Richard Fateman got an email in August that was completely “out of the blue”: an offer of coauthorship in articles headed for publication in prestigious journals, in exchange for a fraction of the publication costs. Fateman, professor emeritus at the University of California, Berk",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "a0b4e24ed7b3ae81",
       "domain": "ai",
       "source": "simonwillison",
@@ -1763,19 +1754,6 @@
       ]
     },
     {
-      "id": "3f5a335b7ddab6e3",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "中科院王杰青承认Nature论文造假，主动撤稿 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41Q1hWb2JwNm42TmFGOU1nNzU0Q2g1eVZ6OVhwcl8wT0NhZW90SUtZbjg4T0xXY2dhOFZldUhBSG5VZkNGSTFjTUlxZkoxa251Z3ViNWVB?oc=5",
-      "publishedAt": "2026-09-24T07:00:00.000Z",
-      "snippet": "中科院王杰青承认Nature论文造假，主动撤稿 QQ News",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "5187bd21c4fd37d4",
       "domain": "github",
       "source": "github_trending",
@@ -1826,28 +1804,6 @@
       "tags": [
         "stars"
       ]
-    },
-    {
-      "id": "44801a5b2b598db6",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "The foolishness of \"natural language programming\" (1978)",
-      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
-      "publishedAt": "2026-10-23T00:52:01.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "c02ce6929844eaef",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Jank – The native Clojure dialect with seamless C++ interop",
-      "url": "https://jank-lang.org/",
-      "publishedAt": "2026-10-22T23:56:36.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
     },
     {
       "id": "67479244cacaf4b5",
