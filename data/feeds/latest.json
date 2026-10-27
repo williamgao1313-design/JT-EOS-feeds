@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T02:14:36.150Z",
+  "generatedAt": "2026-10-27T09:55:33.205Z",
   "counts": {
-    "raw": 183,
-    "deduped": 176,
-    "kept": 176
+    "raw": 187,
+    "deduped": 181,
+    "kept": 181
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 20,
+      "count": 21,
       "error": null,
-      "ms": 340
+      "ms": 476
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 7,
+      "count": 6,
       "error": null,
-      "ms": 1181
+      "ms": 1167
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1325
+      "ms": 1357
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 14,
       "error": null,
-      "ms": 2479
+      "ms": 2358
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1279
+      "ms": 1498
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1437
+      "ms": 1656
     },
     {
       "key": "google_news_onhold",
@@ -61,15 +61,15 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1309
+      "ms": 1252
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 11,
+      "count": 15,
       "error": null,
-      "ms": 1272
+      "ms": 1286
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1316
+      "ms": 1319
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1394
+      "ms": 1435
     },
     {
       "key": "retraction_watch",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1252
+      "ms": 1136
     },
     {
       "key": "doaj_added",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1788
+      "ms": 1949
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1118
+      "ms": 1184
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1138
+      "ms": 1132
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1149
+      "ms": 1184
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1069
+      "ms": 1057
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1243
+      "ms": 1106
     }
   ],
   "items": [
@@ -163,10 +163,10 @@
       "id": "b19a44f264091ba5",
       "domain": "publishing",
       "source": "retraction_watch",
-      "title": "Another Sydney investigation of astrophysicist leads to retraction",
+      "title": "Another Sydney investigation of astrophysicist leads to retractions",
       "url": "https://retractionwatch.com/2026/10/26/joachim-schmidt-university-sydney-investigation-space-scientist-retraction/",
       "publishedAt": "2026-10-26T18:49:21.000Z",
-      "snippet": "The University of Sydney has once again investigated the work of a former research fellow in its physics department, this time resulting in the retraction of a 2014 paper over concerns that data in several figures were likely fabricated. In September, the Journal of Geophysical Research: Space Physi",
+      "snippet": "The University of Sydney has once again investigated the work of a former research fellow in its physics department, this time resulting in the retraction of two papers over concerns that data in several figures were likely fabricated. In September, the Journal of Geophysical Research: Space Physics",
       "score": 8,
       "tags": [
         "retraction"
@@ -199,29 +199,17 @@
       ]
     },
     {
-      "id": "01b9fa510b3e7b5f",
+      "id": "e649c120345484b7",
       "domain": "ai",
-      "source": "openai_news",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "publishedAt": "2026-10-26T07:00:00.000Z",
-      "snippet": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "score": 8,
+      "source": "google_news_ai",
+      "title": "Anthropic's Claude AI Reached Georgia's Election Data, but Officials Dispute How It Got There - www.techtimes.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnhUdHBnVlJCVURIcHY0X3ZKQzREMmN4aGw0UndsZ3N4OWx4aWRKM2ZoTzlWQy1JUG5sSXNDWjlYLXBlbW1BeWVPalcxaVl2ZE5Fc0lnNjFSNXZCNDFrekswczBLTzFMd3Z6Y1RiRk9fZFEzZHBDVlU3NV90SDRCZTI3REItNzBrdWxsYUpDbEdnMlk?oc=5",
+      "publishedAt": "2026-10-27T07:41:23.000Z",
+      "snippet": "Anthropic's Claude AI Reached Georgia's Election Data, but Officials Dispute How It Got There www.techtimes.co.uk",
+      "score": 7,
       "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "a472b1c213ddcf7b",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "publishedAt": "2026-10-26T07:00:00.000Z",
-      "snippet": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "score": 8,
-      "tags": [
-        "openai"
+        "anthropic",
+        "claude"
       ]
     },
     {
@@ -230,11 +218,37 @@
       "source": "google_news_retraction",
       "title": "期刊文章更正：因撤稿文献移除及参考文献替换的勘误通知 - 生物通",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41U19IV2UzVjFwNzhzWkVUWWNJSHVseDA2dW1IZDlOQk10TkhidHdaZ3Z1NlBGWjdXaGNRNjctaEN3bmJDLTd0bHJuYVVTTi1kVlZCYk9hUFlJbnpaVWNMMjRzUnEtbnY0UC1uZVF3?oc=5",
-      "publishedAt": "2026-10-27T00:38:27.000Z",
+      "publishedAt": "2026-10-27T04:29:19.000Z",
       "snippet": "期刊文章更正：因撤稿文献移除及参考文献替换的勘误通知 生物通",
       "score": 7,
       "tags": [
         "撤稿"
+      ]
+    },
+    {
+      "id": "e48e829fc91ff269",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "关于Liv-52减轻厄洛替尼致大鼠肝损伤研究中撤稿参考文献替换的勘误说明 - 生物通",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE81X094UHVvTEU0SUtGSmxfeGJXV1h4MEVHUW1TR2FPUlNUU19Nd3FqTHZacEtFWnVLdlpTQi1KN2xqRU83RVBDclhySWdVZWVZUVBES2dFU0tQdzFuR2VuRDdnM19MSmxnSW5JOTh3?oc=5",
+      "publishedAt": "2026-10-27T02:50:54.000Z",
+      "snippet": "关于Liv-52减轻厄洛替尼致大鼠肝损伤研究中撤稿参考文献替换的勘误说明 生物通",
+      "score": 7,
+      "tags": [
+        "撤稿"
+      ]
+    },
+    {
+      "id": "d84f2302b475c15d",
+      "domain": "github",
+      "source": "github_changelog",
+      "title": "GitHub Copilot assisted permissions generally available",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
+      "publishedAt": "2026-10-26T22:31:30.000Z",
+      "snippet": "Assisted permissions are now generally available in GitHub Copilot CLI, GitHub Copilot app, and Visual Studio Code. When Copilot requests permission to run a command, access a file system path,… The post GitHub Copilot assisted permissions generally available appeared first on The GitHub Blog .",
+      "score": 7,
+      "tags": [
+        "copilot"
       ]
     },
     {
@@ -273,6 +287,32 @@
       "tags": []
     },
     {
+      "id": "01b9fa510b3e7b5f",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "publishedAt": "2026-10-26T07:00:00.000Z",
+      "snippet": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "score": 7,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "a472b1c213ddcf7b",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "publishedAt": "2026-10-26T07:00:00.000Z",
+      "snippet": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "score": 7,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "0e72e006f8498281",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -286,94 +326,199 @@
       ]
     },
     {
-      "id": "55601ad22d04b88b",
+      "id": "82e5c8dbeb3652d0",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI Launches Dots: AI Coding Tools Become Personal Assistant - The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMEZLdzVGdzhkbnZuS0xicXB0S0V3VmRIcVJSTWtOdXpFQUYxMG05dm4wZ3A3QkNkRXhxd3FBRVY5RTkwRW5zOVlkS19uRUlMaGM5YU9tenZuQXZnanpabHdlb29jb2xfeG5CdU9sRElqalotM1ExcWdIdkZtLWN1X2FsSmhqY3d0ejJmVHY2ZWZfVG80dFNnUmtHaw?oc=5",
-      "publishedAt": "2026-10-27T02:06:00.000Z",
-      "snippet": "OpenAI Launches Dots: AI Coding Tools Become Personal Assistant The Tech Buzz",
+      "title": "Analyzes screen content and edits video: OpenAI releases more affordable GPT-6.1 Terra AI model - Root-Nation.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZE1HLXRsRHRfX1hJYXRPQ3F0dDZ1bURwWk5zRG1mdGEtSWotV2hBRnVXVW8taTBFY29iZC1sb1FjX0ZCLWFXbVBySENLM3VFd25tZURkaFJraWFSaVQ5Rlk2cG9uTWhqOTdKZFVoSVFJanVvNUVOODJMb2ptV1BZeUZBOVRhdw?oc=5",
+      "publishedAt": "2026-10-27T09:38:06.000Z",
+      "snippet": "Analyzes screen content and edits video: OpenAI releases more affordable GPT-6.1 Terra AI model Root-Nation.com",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "77d542376ad56120",
+      "id": "f964d03b3831c56b",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUVCM0RUdHY3cXA1MUhJRW43ejN5Q1dmM3Nia1ZYck1mR3N1cUV6YkFLN2k2RUo1UEhOR1ppWHFWaHZPdlgtN2NiTWdJREJoTXRtU1NuVlFVOTB3VFBBNjJJN2daUTVBeFRTYnRRWnNRLUZvbW14U0dJMVd5NTRmTjlVMkx3aHQ0YVZBRkVyV0tKYnV6dHdzR2E4NVltOG5CcGZqcHZNb1NNcHBsWGVzbQ?oc=5",
-      "publishedAt": "2026-10-27T02:00:00.000Z",
-      "snippet": "How OpenAI turned its coding tools into dots, an always-on personal assistant TechCrunch",
+      "title": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’ - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTW1qby1EZWZscGRPRzhpNnU1bG1hUHBsSFFnc1NTZUJNZkVHRTB6TFJmeTVBTFlNaWw4RDFyZUZ1SGRSVHRiRTROdjNoODU5TERMbERKUUJVZl9JRFZTbl9BamZmM0JtRm8zLTl6dHRZS0JSc0N3VDd1a2R4N1RaVzZqcVdVZC1NVFZHbVBTUEFQM0xDUFU1V1hTcFlyczEwSTcySUhCeUNQaGxpVUhuak55b1BPbVdwZ1lGX1liM295ejZ2ampqVUpwSWVzRHNuQV8xTWVuR2N2MUtUa1NzZW5Udy1ucUdfUzBKWjhwcGHSAfYBQVVfeXFMTUtoaG9ha1hYRzFqOUg4T1c4X0hMc0QzX2wxa2ZIZG1EbkJrdWpDUVJiSmxidW1YUVNDT09RaElfYzdTY2JUT0N3bHh6YXRGd0dTTVZlZ3pkR0pvMHdkUnF2LUdzdUdaM3VrN2VvN05odGFqQmt2OE92Uk1qemFDM2F3TVVCUXdPVUhHSHZ5UTlwOTRLNThsT1VjZFRDbUFnaWpQQ3B1RGJzd3ZxQll3TG1WcTUtR0Q2SE9TYURXVEpERmtnMl9jSnF3SHpwaXdRNm9pTElqdExQWG1ucjNvOEJpanh5NnR3SjhXVGNXMVgzeWJtSmxn?oc=5",
+      "publishedAt": "2026-10-27T09:33:00.000Z",
+      "snippet": "OpenAI launches GPT-6.1 Terra: Sam Altman says ‘we are especially excited for …’ The Times of India",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "4b9492c19b23566c",
+      "id": "a623b41a72aaf5c6",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Alibaba's Qwen AI Caught Trying to Phone Home to Beijing - The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWlqTDhURXNBbmM5dEpwbFEtZThXeWljbFdTdldyWGZCejJVM0xBVzE1NDJlRUcybjBaeXNmRU85MXNYdlE4YnF0LWhWWlZqQk02Sl9MblVCUWlBQ3c1SHVLX0RwSVg4X05xazRnZ1V0RkxsNEdUNDR5a1psSlJNMUFaVWNqQUhDTHQwemRncWpaVlU?oc=5",
-      "publishedAt": "2026-10-27T01:36:00.000Z",
-      "snippet": "Alibaba's Qwen AI Caught Trying to Phone Home to Beijing The Tech Buzz",
-      "score": 6,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "id": "fab2eafcdd75e3b3",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Cohere flags Alibaba Qwen model behavior in cybersecurity test - Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRzhseG5QMXY3QXJmNEt2RFJRTG5rRzVDMVo5SEFvaTlZaTZVLXZWdE0ycWlNZGtDSm1uTVdJV3Ztc1BZUkphZkJsZk5DdGdoRTZJb3diSVZYWUkwNi14eHY2T2FURTdlZzZ4anFTNnNuLVB1Y3NaUlBHRTJRYjV6dzZjNENwSmd6QmJVc1l4SlBIY2dBY1dR?oc=5",
-      "publishedAt": "2026-10-27T01:25:29.000Z",
-      "snippet": "Cohere flags Alibaba Qwen model behavior in cybersecurity test Traders Union",
-      "score": 6,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "id": "56dac5c3f5a60b95",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing - TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSFN6MDd0bXJNOTIycHhtMnF1Uk1PVjFuaURPbHhYMkdBR1JVbWc2QjkxRVJSYmg4ZzZkQjRGd0ZMaDN6S0RtUXRhTFUxdUJOSzFHWGNjeXd2YmlqN09rZGtfWmQ1XzlIYWFvOFhfSURhYmR4VUJtTnNiZkFXQjBUdlNyMk4xTmVOaHNKVmhPTHNSRERCLS03MG55Q0steWc?oc=5",
-      "publishedAt": "2026-10-27T01:12:21.000Z",
-      "snippet": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing TechCrunch",
-      "score": 6,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "id": "b46d7ab6898f3e00",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI launches GPT-6.1 Terra, halves cost and boosts accuracy, coding - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MWkY4QVc5NDJxOTQ3bkxiOHJMLTZWSUQxblhySHllM0xPNW9CMlZaZG9uZDlkbHNRNTZCbWdnTXVTdUV4RDQ1UWRmTEJZdmdFVlNPelBzTnc1UHRzcFEydkhaVGlqVmhyM0dzRW1hZjVYckU1XzltN2530gGOAUFVX3lxTE9nZWtBa2M1czBaU1ZTallHLXhsVzRMV25Ta1U1emZDb25sV1VqU3ZyMkpMcFEzeWxwME5iVm9yUnlPcEN2U3ptOTl2Zk85eVRfYlQ4ODlGY1N5TjFTcWkybUd3N3BJWnNfVXM5UnpTRlZWTDA0STVtS0RlTDJMLTBQNjZMck5YZ3loZkRxV1E?oc=5",
-      "publishedAt": "2026-10-27T01:11:00.000Z",
-      "snippet": "OpenAI launches GPT-6.1 Terra, halves cost and boosts accuracy, coding Chosunbiz",
+      "title": "😺 OpenAI's big day brought a disproof and Terra - The Neuron",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN1ZwVG15OWdIRUdYZWFfSXhranZqSlY3M1dDXy1mOUhZcFQ4VVNWS1AtaGpnQzAydGRLM3BPV1l2U3gwZGZvSmcyS1ExRVV6Rl9XeU5wb2NaWFNCX2pRNDh2ZW9za2hPVmxuWTRLSUVhR0U0Z1ZoRU5FWXJTb2w3eFVTbGU?oc=5",
+      "publishedAt": "2026-10-27T09:32:50.000Z",
+      "snippet": "😺 OpenAI's big day brought a disproof and Terra The Neuron",
       "score": 6,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "e6d4ba5038013a0c",
+      "id": "b6f768e9e7d7f25d",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "Who Keeps the Catalog of Connectors? The Coming MCP Discovery Problem",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/27/mcp-discovery/",
+      "publishedAt": "2026-10-27T09:30:06.000Z",
+      "snippet": "Libraries and their vendor partners can build registries and metadata feeds that make MCP connectors for scholarly content findable, accessible, and usable. The post Who Keeps the Catalog of Connectors? The Coming MCP Discovery Problem appeared first on The Scholarly Kitchen .",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "57870fdd9bc0adce",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "What Anthropic’s potential IPO reveals about its business model, growth trajectory, customer base and path to profitability | Newswise - Newswise",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRDZTbFdFMURFdEtaR3NQQU5oNUllQkdGbWRuZk9UYlJDOF9xckh1Y1RzMUJLYk9oeWI1NzNBYlNveEdyNC1NcllfbmxQREkwMzhVSE5RNHhWbXhlSlBXZmF0NDZMa1hZTUVEVDVEZUR0VE9JaG5MdEp2dGlZSVdQamdOdjUxdTlHV1hZXzVEWGN5LUJReEx6UFFITDFoaXZSck1FWU5yZV9Zc0lORFhHQzZ4RGlra0x3cU5scjZLX1l2aXZkdVZLdjdhZGhETnRwLTYySDNqdm82Sk1kZzliMlBUZGlVQXJqaGgw0gHrAUFVX3lxTE1ENlNsV0UxREV0S1pHc1BBTmg1SWVCR0ZtZG5mT1RiUkM4X3FySHVjVHMxQktiT2h5YjU3M0FiU294R3I0LU1yWV9ubFBESTAzOFVITlE0eFZteGVKUFdmYXQ0NkxrWFlNRURUNURlRHRUT0lobkx0SnZ0aVlJV1BqZ052NTF1OUdXWFlfNURYY3ktQlF4THpQUUhMMWhpdlJyTUVZTnJlX1lzSU5EWEdDNnhEaWtrTHdxTmxyNktfWXZpdmR1Vkt2N2FkaEROdHAtNjJIM2p2bzZKTWRnOWIyUFRkaVVBcmpoaDA?oc=5",
-      "publishedAt": "2026-10-27T01:05:00.000Z",
-      "snippet": "What Anthropic’s potential IPO reveals about its business model, growth trajectory, customer base and path to profitability | Newswise Newswise",
+      "title": "OpenAI Launches GPT-6.1 Terra: What's New In OpenAI's Latest AI Model? - News18",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZDloR19vZGV1Z3lZR1N2cEgzbDJOYzRaY1QyNk1qV2dCcjlndjhqOE9KeEROVmE3WTVMeEtjWXVxN2NObXNRR2xiYkdOVmpQQlByQU9vME8zQjhWSll1aE9SUXNJQndaRGFjMlhjUElDbzlRWlI5YzhqaTZ2d3RzUldpeTdjNk1IdDVWYmY1YkNTeXRWQzZSZ1ZNeEVGVmV1cGtmaXFQcWNWX3JG0gGyAUFVX3lxTE54U2IteUFveHh3SlhfUS1fTG1vczhQaE1VWWo4ZExTZ2RzY0Q2cVlrdGNYSlRwN2lHSm5DZmhJSE9sclpJbS1hM3gwZURhUGlsN1libGROOUgtYlFKbXotbmVOYlZDOUg2RE9qSlFkTUpNMlo2MVJpR3A3c19Lbk1kdUlnNjI3cTdWd1licEpZeFpzTlRfY0FWWU13aXFia01pRmRrYTFObk5YRUpMYzA2LWc?oc=5",
+      "publishedAt": "2026-10-27T09:22:22.000Z",
+      "snippet": "OpenAI Launches GPT-6.1 Terra: What's New In OpenAI's Latest AI Model? News18",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "30b54e5e0747abec",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Launches GPT-6.1 Terra At Half The API Cost Of Sol - Dataconomy",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbUpISTBydUF4b1ZMUUp6Y0dFQ1JMaGs1WWpfZXB5NFJ4TnhmckNUVWkwcjVoRWRRcDl0eEZQT1JrUUs2d0NxOTBpc3cyRlFjbVh4Y3Zfelc1UlJrU2k3U2xZZUVaZnpxZXMyWGpJTlRleE4wSl94aGlZWndWVGpJcW03Y3RGV2tBeEE?oc=5",
+      "publishedAt": "2026-10-27T09:13:44.000Z",
+      "snippet": "OpenAI Launches GPT-6.1 Terra At Half The API Cost Of Sol Dataconomy",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "8810d47f39ab3da4",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "The Anatolian Journal of Anesthesiology and Intensive Care (3108-544X)",
+      "url": "https://doaj.org/toc/3108-544X?rss=",
+      "publishedAt": "2026-10-27T08:52:53.000Z",
+      "snippet": "Published by Mehmet Gamlı Added to DOAJ on 27 Oct 2026 LCC Subject Category: Medicine: Internal medicine: Medical emergencies. Critical care. Intensive care. First aid",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "f30d27e4df647376",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Felix, Head of Claude Engineering: Stop Using Claude the 2024 Way – Updated Best Practices for 2025 - 36Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tcS0tMGI1OUJIcXVxSkVrOVFZa3M1Qk53OE8wQ2xZM0hsWlFQd3VMZDloUmdpN2NMZ2FXQ3ktaHFGdmpHelM2WS1YOVRJcDc5anBF?oc=5",
+      "publishedAt": "2026-10-27T08:22:28.000Z",
+      "snippet": "Felix, Head of Claude Engineering: Stop Using Claude the 2024 Way – Updated Best Practices for 2025 36Kr",
+      "score": 6,
+      "tags": [
+        "claude"
+      ]
+    },
+    {
+      "id": "e2b528c8b63aa4ee",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Health and Population: Perspectives and Issues (0253-6803)",
+      "url": "https://doaj.org/toc/0253-6803?rss=",
+      "publishedAt": "2026-10-27T08:12:44.000Z",
+      "snippet": "Published by National Institute of Health and Family Welfare in Jaypee Brothers Added to DOAJ on 16 Oct 2026 LCC Subject Category: Medicine",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "e3794a4d534168a8",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Keyless Entry: Hacking SwitchBot Smart Locks",
+      "url": "https://neodyme.io/en/blog/switchbot",
+      "publishedAt": "2026-10-27T08:10:01.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "f19208f3c9ceec22",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Launches GPT-6.1 Terra With Advanced Computer Use and Cybersecurity Capabilities - Cyber Press",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1Mb2MwZEVtNmdNczJCZkJnM2xORW1VXzVhQlFvTHUxVWl5SUU4NXg5TEhHNVIyVEZKSEpDOGFVZXNzTG9hUHllelBMTmVuaWFyN1VHT2c1UlhPaXozZU1jckhaSdIBY0FVX3lxTE1Mb2MwZEVtNmdNczJCZkJnM2xORW1VXzVhQlFvTHUxVWl5SUU4NXg5TEhHNVIyVEZKSEpDOGFVZXNzTG9hUHllelBMTmVuaWFyN1VHT2c1UlhPaXozZU1jckhaSQ?oc=5",
+      "publishedAt": "2026-10-27T07:56:00.000Z",
+      "snippet": "OpenAI Launches GPT-6.1 Terra With Advanced Computer Use and Cybersecurity Capabilities Cyber Press",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "eef35e0c181c901b",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Paused Training Its Next AI Model for Over a Month Over Security Fears — Then Discovered Its Mo - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOTlJoa3k4LURYRklUck4zRFdKOGNEUHZDbk80SU1SSHAxQnRpN0FVZWFsMlV2QVgtaFd5aVh1NXBmRTlmelJFVlNMcXhoUzNWSklmYmw1dlJRM0dZR3RHTGgyUzJQN2Yzand3RzZlaGxwald3MENBOTEwWXdRSndtNkdqUGxvSFQ2bEQ0eExuTUtRZzUyVUE3S05USzM4bkxQMWVKMWNYR19EZDlKczFDZlg4VTlmdEVZd1c1c2JmVTZhaVRtYVp6cEZjY0hWdUhSd0xzTkdNWjhzNGFucFluTUtkOVpUQlZiaDlRa2FYMTlsNlR0Q1U4VDVBS2dqekRCdGZwODdQc3RGY050dWtabEVwLThyalgxbS1RVmV3YVZRd0pCcmt3Rk1VcGRJckptTXo2UlZrX1EtMjFDTk9ZWTFJSnduX1pReUdoV0F0ekM2ZkJuVTAzMF9R?oc=5",
+      "publishedAt": "2026-10-27T07:50:53.000Z",
+      "snippet": "Anthropic Paused Training Its Next AI Model for Over a Month Over Security Fears — Then Discovered Its Mo Benzinga",
       "score": 6,
       "tags": [
         "anthropic"
+      ]
+    },
+    {
+      "id": "7ac29d9590060887",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic model accessed publicly available Georgia voter data; no human authorization - WPEC",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeFduR3gwWGhwWTJ4MHpGRDg2bEhKbmRjWG5QdnFlWWoxTDlPVlVXTnJubFhmTzNpdF8wZ3hHcWxQUEFiaFJPTkl6WUZkMmFoTmpjZEVxNl82aWptQkxwTU9BZld1YkRnLU1yX3gwUy0wOVRnU2FvdVBsdGhibjY3VlFTRjFWcGN1aDFtTVdIWnNySlF3MmZ2TzNuaGl1OW5xQUxvVlJROU5lbEE2bloyWV9kbUJtV295U0xqdmttYjU2ZGVjcDdrR0NET0ZFVDVrcDg3NlJ5VXZWSE9VMUxnMVZ3VVplSXRkY1cxVXJwYkxjb2c?oc=5",
+      "publishedAt": "2026-10-27T07:38:52.000Z",
+      "snippet": "Anthropic model accessed publicly available Georgia voter data; no human authorization WPEC",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "d867cc9338d659c3",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Indian Journal of Arthroplasty (3107-7226)",
+      "url": "https://doaj.org/toc/3107-7226?rss=",
+      "publishedAt": "2026-10-27T07:11:21.000Z",
+      "snippet": "Published by Jaypee Brothers Medical Publisher in Indian Arthroplasty Association Added to DOAJ on 27 Oct 2026 LCC Subject Category: Medicine",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "09f790d1313a6874",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Python's experimental JIT to be removed",
+      "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "publishedAt": "2026-10-27T06:20:38.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "ec3409e91b35f29a",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "There are now 5 inference providers for abliterated DeepSeek",
+      "url": "https://allmodels.io/llm/abliterated",
+      "publishedAt": "2026-10-27T04:53:52.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "deepseek"
       ]
     },
     {
@@ -386,32 +531,6 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "b3047ba761edc10e",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI launches GPT-6.1 Terra, a faster and cheaper AI model for computer work - Nacionale",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM1gtSEJUWEhWZy1JRXJCUU5jVnpMSFRaYkVuWjZiLWdNQ1ZJdXVPa1NWa2RjWDB5WTd5M2J1TEttYjNkb2o4YXdVYmJBSXh3WmkyckdaU2JlbWdwN1ZnNWdJRE5GWXg2Q3dZTXdyb1lfZHlFM0p2ODBoTUhyeWxsS1BzRVRfU2Fwb01weXpTYm1PcEFNUENZODliX2tGS19rLTRCR1FJdDd4NUZFRVpRWm16Q2hfaThxaFdHcWc3QQ?oc=5",
-      "publishedAt": "2026-10-27T00:39:09.000Z",
-      "snippet": "OpenAI launches GPT-6.1 Terra, a faster and cheaper AI model for computer work Nacionale",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "04709d6079b22db3",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price - SiliconANGLE",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMjEySE5Ra2ZzMUFpWUNyaGVKWEc3cHlkcmRpdVRQZnZxeEZCYnZWWGZtSWJKeXdsMFB4QWN2cWN5YWxPV09FcWV2cXpTV1RlSkY5OHRQaVZ0RGNxQXVFelhVYUdQV0FfU0F4cnBfVE5IODhMUkVDX2FERTNXUnVmejFHaU55X3JDTWRHSzVKVFduWUdBeGpWdDB4ZlBDSzA5bTc1WFlpX0gzNHpIbXNUZlZ2aUZjT3ZyZWlSN1YwNms?oc=5",
-      "publishedAt": "2026-10-27T00:39:00.000Z",
-      "snippet": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price SiliconANGLE",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
     },
     {
       "id": "5ad090a99ae2ed5f",
@@ -671,104 +790,12 @@
       "tags": []
     },
     {
-      "id": "ca167fbd0be6996c",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Small Web Is Huge",
-      "url": "https://archive.org/download/small_web/11787-48384.mp4",
-      "publishedAt": "2026-10-26T11:34:43.000Z",
-      "snippet": "Speaker Page: https://pretalx.seagl.org/2026/talk/GQZEUY/ Additional Notes: https://punkto.org/blog/small_web Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "6ee6f621fb41449a",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Journal of Arid Land (1674-6767, 2194-7783)",
-      "url": "https://doaj.org/toc/2194-7783?rss=",
-      "publishedAt": "2026-10-26T11:09:02.000Z",
-      "snippet": "Published by KeAi Communications Co., Ltd. in Xinjiang Institute of Ecology and Geography, Chinese Academy of Sciences Added to DOAJ on 16 Oct 2026 LCC Subject Category: Geography. Anthropology. Recreation | Science: Geology",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "f930173d87a2ddab",
       "domain": "vibe_coding",
       "source": "lobsters",
       "title": "About the compromised eMudhra intermediate CAs",
       "url": "https://support.apple.com/en-us/149555",
       "publishedAt": "2026-10-26T09:58:55.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "58d3bae555349145",
-      "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Guest Post — When Research Integrity Fails, the Entire System Follows",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/26/guest-post-when-research-integrity-fails-the-entire-system-follows/",
-      "publishedAt": "2026-10-26T09:30:26.000Z",
-      "snippet": "Leadership in academia, publishing, funding, and across the supply chain must coordinate efforts to address research integrity. It is this collective responsibility that will restore and protect the credibility of research. The post Guest Post — When Research Integrity Fails, the Entire System Follo",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "2d4379a533a6dc37",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Interdisciplinary Journal of AI, Machine Learning & Data Science (3139-3527)",
-      "url": "https://doaj.org/toc/3139-3527?rss=",
-      "publishedAt": "2026-10-26T08:22:33.000Z",
-      "snippet": "Published by Scholiora Research Publications Added to DOAJ on 26 Oct 2026 LCC Subject Category: Science: Mathematics: Instruments and machines: Electronic computers. Computer science",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "af7c8a26d930421a",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Bangladesh Journal of Public Administration (1563-5023, 2664-4622)",
-      "url": "https://doaj.org/toc/2664-4622?rss=",
-      "publishedAt": "2026-10-26T08:02:40.000Z",
-      "snippet": "Published by Bangladesh Public Administration Training Centre Added to DOAJ on 26 Oct 2026 LCC Subject Category: Social Sciences",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "8e69091f253a91e4",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Show HN: TitleArt – Make text like it's 1997",
-      "url": "https://titleart.dvy.io/",
-      "publishedAt": "2026-10-26T03:23:57.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "069059e0bef00006",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-      "publishedAt": "2026-10-26T03:12:05.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
-      "id": "514be9e9ca3bbdc7",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "writing about pratt parsing so I remember it",
-      "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
-      "publishedAt": "2026-10-26T03:06:36.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
@@ -783,19 +810,6 @@
       "snippet": "Bringing fast and capable computer use to everyone",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "53025e7fb74e68b7",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "battledrones v14: Compass Rose, a four player map",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "publishedAt": "2026-10-24T03:59:57.000Z",
-      "snippet": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non",
-      "score": 6,
-      "tags": [
-        "release"
-      ]
     },
     {
       "id": "ece8d974475c6ceb",
@@ -1008,13 +1022,24 @@
       ]
     },
     {
-      "id": "c38ec4d875f970ce",
+      "id": "70a8103b874589ee",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "GPT-6.1 Terra Pro Is Not a Model: What It Actually Is - OrcaRouter",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PYTdHVXMxeF8wVjBxUjFUQl90Nzd3VXVzd0xlRTlxeEg3cTJQLWVObUxtVG9ZaUxDRHVvN25PWG4zRUFSRFp1N3FHT215c0xnLVgybU5MUE12V2otbUtmU25PQ0lXVjR4dmc?oc=5",
-      "publishedAt": "2026-10-27T01:31:48.000Z",
-      "snippet": "GPT-6.1 Terra Pro Is Not a Model: What It Actually Is OrcaRouter",
+      "source": "hackernews",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "publishedAt": "2026-10-27T06:25:37.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "56381058bef0d9f6",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "url": "https://github.com/otya128/winevdm",
+      "publishedAt": "2026-10-27T01:15:04.000Z",
+      "snippet": "",
       "score": 5,
       "tags": []
     },
@@ -1036,6 +1061,17 @@
       "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
       "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
       "publishedAt": "2026-10-26T22:41:48.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "14b7a2e6e4c2d538",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Proton to 'Re-Interview' Staff About AI to See Who Gets to Keep Their Job",
+      "url": "https://www.404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/",
+      "publishedAt": "2026-10-26T21:13:59.000Z",
       "snippet": "",
       "score": 5,
       "tags": []
@@ -1118,24 +1154,37 @@
       "tags": []
     },
     {
-      "id": "30e73d5a8f349ed0",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "publishedAt": "2026-10-26T04:11:40.000Z",
-      "snippet": "",
+      "id": "58d3bae555349145",
+      "domain": "publishing",
+      "source": "scholarly_kitchen",
+      "title": "Guest Post — When Research Integrity Fails, the Entire System Follows",
+      "url": "https://scholarlykitchen.sspnet.org/2026/10/26/guest-post-when-research-integrity-fails-the-entire-system-follows/",
+      "publishedAt": "2026-10-26T09:30:26.000Z",
+      "snippet": "Leadership in academia, publishing, funding, and across the supply chain must coordinate efforts to address research integrity. It is this collective responsibility that will restore and protect the credibility of research. The post Guest Post — When Research Integrity Fails, the Entire System Follo",
       "score": 5,
       "tags": []
     },
     {
-      "id": "c1f4af445ce15670",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "publishedAt": "2026-10-26T03:29:05.000Z",
+      "id": "8e69091f253a91e4",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
+      "publishedAt": "2026-10-26T03:23:57.000Z",
       "snippet": "",
+      "score": 5,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "514be9e9ca3bbdc7",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "writing about pratt parsing so I remember it",
+      "url": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+      "publishedAt": "2026-10-26T03:06:36.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1151,6 +1200,17 @@
       "tags": [
         "show hn"
       ]
+    },
+    {
+      "id": "6899b22c04fe218d",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "被质疑刊发论文数据造假，知名期刊称已启动调查 - 科学网—新闻",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rRXhzM0ZWcW8tMGpOeE1uMW9XUFF0eGZsTmVfc2FWRjdMUXRRMTJzb1VWXzNXek5HaUZJcDhpWk5WbDJaNVZtLVV5MUU1OXNfekxaSVFTalZoZzdzYmtibVdxMTNZQQ?oc=5",
+      "publishedAt": "2026-10-26T00:45:45.000Z",
+      "snippet": "被质疑刊发论文数据造假，知名期刊称已启动调查 科学网—新闻",
+      "score": 5,
+      "tags": []
     },
     {
       "id": "bd2f8999d5994fa8",
@@ -1210,17 +1270,6 @@
       "tags": []
     },
     {
-      "id": "fa51185e9393df35",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Vim Classic",
-      "url": "https://vim-classic.org/",
-      "publishedAt": "2026-10-25T15:05:45.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "7b637ab7ab5b1dcb",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -1258,16 +1307,16 @@
       ]
     },
     {
-      "id": "ccccc22ec33af49a",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: A Truly Modular Keyboard",
-      "url": "https://github.com/notaroomba/keybytes",
-      "publishedAt": "2026-10-25T03:47:56.000Z",
-      "snippet": "",
+      "id": "53025e7fb74e68b7",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "publishedAt": "2026-10-24T03:59:57.000Z",
+      "snippet": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non",
       "score": 5,
       "tags": [
-        "show hn"
+        "release"
       ]
     },
     {
@@ -1310,11 +1359,11 @@
       ]
     },
     {
-      "id": "ef9e6abf2ad80d5d",
+      "id": "c3132baac47b057a",
       "domain": "publishing",
       "source": "google_news_retraction",
       "title": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcHJ5aWRRbTdwNXNlWXNjU3dsbjRSRlp3WkI5c2NZMnB4RnlzeHJrMmxrMmYzRmVsWGl0dEVpRkZvSTg4NkhYRlE0WHY2dlB5SklNWEZEbmwyZzBFVXQwbUFEeFh5VDdPLVpYbnBMMy1wY0otTnlvUHgzdEpvQ2Vyb1Z3ZUZFYms0QzloMA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NSnlfc3dORlhmREdlRVF2QUVwZmp6NVZaOGN1X2hSaF9xcXdheWhxOGpRRTg3TzFuUUVidWd1Qy1DT2hMRGM5enpneThDT0xaZFdNZGgyVG5oODczQjc5eQ?oc=5",
       "publishedAt": "2026-10-23T11:12:00.000Z",
       "snippet": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 搜狐网",
       "score": 5,
@@ -1621,19 +1670,6 @@
       ]
     },
     {
-      "id": "24170e8d26e4fbb0",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "国自然资助论文15年超2000篇撤稿，仅版面费即损失近5000万 / 北理工通报：教师裴某师德失范，予以解聘 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wb0dqVWlUdzBZMUkyd3piR3k5TVR0djBnZVdPWTFQMThTSDVlS3dZLVhvWEtuYXRSV1J2TjV0aUhhb2g3aTAwd3hUeUlMQTg5OUVTUHJR?oc=5",
-      "publishedAt": "2026-09-30T07:00:00.000Z",
-      "snippet": "国自然资助论文15年超2000篇撤稿，仅版面费即损失近5000万 / 北理工通报：教师裴某师德失范，予以解聘 QQ News",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "5e444d5168c02494",
       "domain": "publishing",
       "source": "google_news_retraction",
@@ -1725,6 +1761,17 @@
       ]
     },
     {
+      "id": "30e73d5a8f349ed0",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "publishedAt": "2026-10-26T04:11:40.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "aa9706009567f2cf",
       "domain": "ai",
       "source": "simonwillison",
@@ -1743,17 +1790,6 @@
       "url": "https://github.blog/changelog/2026-10-23-emu-deletions-fix",
       "publishedAt": "2026-10-23T18:56:18.000Z",
       "snippet": "Between June 1 and June 13, 2026, some Enterprise Managed User accounts that were deprovisioned through SCIM were incorrectly deleted instead of being suspended and obfuscated as expected. As a… The post EMU deletions fix appeared first on The GitHub Blog .",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "96a3bb36684bea2f",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "Public monitoring adds triage, validity, API, and webhooks",
-      "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks",
-      "publishedAt": "2026-10-23T17:17:58.000Z",
-      "snippet": "Public monitoring now includes alert management capabilities like automatic validity checks to help you triage and remediate leaked secrets at scale. Alert management with dismissals, timelines, and filtering Always-on validity… The post Public monitoring adds triage, validity, API, and webhooks app",
       "score": 4,
       "tags": []
     },
@@ -2000,6 +2036,17 @@
       "tags": []
     },
     {
+      "id": "f2b62fe582df241d",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "饶毅点名国际期刊中国出身主编索贿200万 回应来了 - 阿波罗新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iOTJFemozUUVWTTM4akVCR2JnakgzWmJ2VEFYZHBOeFkwMUpvMWpIbFJ0UHF5MzVJVXJCQzdLQUpMSEZEejFwcDhaZ3F4c0tYZDZ2bm4tS0RuR3JiUHc?oc=5",
+      "publishedAt": "2026-10-18T07:00:00.000Z",
+      "snippet": "饶毅点名国际期刊中国出身主编索贿200万 回应来了 阿波罗新闻网",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "59dc5cbded2c46ab",
       "domain": "ai",
       "source": "simonwillison",
@@ -2154,6 +2201,17 @@
       "tags": []
     },
     {
+      "id": "487e1a7424f5af7a",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "人工智能虚构史料、伪造文献频现，多家期刊声明抵制此类学术不端 - ThePaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52RkhtSWx3OGF5WlJWbmpPdGFBUmg4RHIyQXdnZHBwTW9wS2lKSmcxakZkM1FpUzFjRzNGSUVpSW1keEZKNUFlY3VRVU82VkN1d0hydnBKZllyWEgxWU1MTQ?oc=5",
+      "publishedAt": "2026-10-13T07:00:00.000Z",
+      "snippet": "人工智能虚构史料、伪造文献频现，多家期刊声明抵制此类学术不端 ThePaper.cn",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "05bd138df9eba647",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -2198,13 +2256,13 @@
       "tags": []
     },
     {
-      "id": "2bc2badfc76797eb",
+      "id": "6136128a83666b79",
       "domain": "publishing",
-      "source": "scholarly_kitchen",
-      "title": "Research Integrity in Scholarly Communications — SSP Pulse Check Report",
-      "url": "https://scholarlykitchen.sspnet.org/2026/10/06/research-integrity-in-scholarly-communications-ssp-pulse-check-report/",
-      "publishedAt": "2026-10-06T09:30:14.000Z",
-      "snippet": "Today, we take a dive into the results of SSP's latest Pulse Check Survey, revealing how our community is grappling with research integrity and its interconnected challenges. The post Research Integrity in Scholarly Communications — SSP Pulse Check Report appeared first on The Scholarly Kitchen .",
+      "source": "google_news_retraction",
+      "title": "虚构疾病骗过了聊天机器人和一份学术期刊 - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVZMbUxKTjA1eENJcVdpYTN5bjRtWkhpVTdGVHE1Y2hobXI5YlNCU2hRcktFTjVRczBDcnFRTXBtMGM5YzQ5b2VpRmdJRHQ0cWp2RnAyRGFYQ0RlajhXcjc0OVZYMVZTREt6MEZHNU4wVmxJeVpkSklhd1ItekdYZWdIQQ?oc=5",
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "snippet": "虚构疾病骗过了聊天机器人和一份学术期刊 Pasquale Pillitteri",
       "score": 4,
       "tags": []
     },
