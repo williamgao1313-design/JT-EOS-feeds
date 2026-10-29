@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T01:32:46.518Z",
+  "generatedAt": "2026-10-29T01:50:56.473Z",
   "counts": {
-    "raw": 172,
-    "deduped": 166,
-    "kept": 166
+    "raw": 175,
+    "deduped": 171,
+    "kept": 171
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 19,
+      "count": 17,
       "error": null,
-      "ms": 529
+      "ms": 372
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1212
+      "ms": 1217
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1346
+      "ms": 1444
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 14,
       "error": null,
-      "ms": 2280
+      "ms": 2230
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1154
+      "ms": 1279
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1512
+      "ms": 1530
     },
     {
       "key": "google_news_onhold",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1353
+      "ms": 1232
     },
     {
       "key": "google_news_retraction",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 13,
       "error": null,
-      "ms": 1241
+      "ms": 1325
     },
     {
       "key": "infodocket",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1329
+      "ms": 1138
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1341
+      "ms": 1225
     },
     {
       "key": "retraction_watch",
@@ -93,15 +93,15 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1185
+      "ms": 1174
     },
     {
       "key": "doaj_added",
-      "ok": false,
-      "status": null,
-      "count": 0,
-      "error": "The operation was aborted due to timeout",
-      "ms": 41001
+      "ok": true,
+      "status": 200,
+      "count": 5,
+      "error": null,
+      "ms": 2110
     },
     {
       "key": "openai_news",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1184
+      "ms": 1115
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 4,
       "error": null,
-      "ms": 1514
+      "ms": 1450
     },
     {
       "key": "hf_blog",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1159
+      "ms": 1209
     },
     {
       "key": "deepseek_models",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1060
+      "ms": 1092
     },
     {
       "key": "github_changelog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1224
+      "ms": 1260
     }
   ],
   "items": [
@@ -450,6 +450,19 @@
       "tags": []
     },
     {
+      "id": "c466211f57f24962",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google announces Gemini 4 Carbon, its new frontier AI model - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KY0huTm8xc1V3aXd3ekl4NHdfX05NMGd1SmdERWxNdnllUWhDUVozVGNsVDFzekk3SklmMEdzdUV1SThYUERLRjFWRmRSZHJJMVBtME95QUEzcXlpOFBxQXFKdWRheTVjQjBNZXpqUUlybzdJR2NOZDVR?oc=5",
+      "publishedAt": "2026-10-28T22:49:44.000Z",
+      "snippet": "Google announces Gemini 4 Carbon, its new frontier AI model Mashable",
+      "score": 6,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
       "id": "f743b28cf4bb464f",
       "domain": "ai",
       "source": "google_news_ai",
@@ -502,19 +515,6 @@
       ]
     },
     {
-      "id": "126ebe72fa4bf00f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Gemini 4 Carbon AI Model Puts Google Back on Top, but Only Cyber Defenders Can Use It For Now - WinBuzzer",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN0EtMDFMd0RrSllyRFFEak15SWFwLVB5NWVncWN3TEZLWU8tTFNOQ29zVWtzSlRYNXotRmcyM2lycVFGZUlBeTJ0aXlRVUZFUS15cUJrZ1BsZWpUSWJVcDJnUDNFMGl3ZUV4OG5KakNGcE1OeTdUY3Z6dTRFa2o3MUkwOUhCRzc3c2lOUlNNWkpDakZsSUoya3NrMmNIdw?oc=5",
-      "publishedAt": "2026-10-28T21:13:04.000Z",
-      "snippet": "Gemini 4 Carbon AI Model Puts Google Back on Top, but Only Cyber Defenders Can Use It For Now WinBuzzer",
-      "score": 6,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
       "id": "48dec5cd5052879f",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -522,6 +522,17 @@
       "url": "https://nullpt.rs/fingerprinting-bioweapons",
       "publishedAt": "2026-10-28T18:55:15.000Z",
       "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "f604b1fd3502d31a",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Folia Scandinavica Posnaniensia (1230-4786, 2299-6885)",
+      "url": "https://doaj.org/toc/2299-6885?rss=",
+      "publishedAt": "2026-10-28T18:00:49.000Z",
+      "snippet": "Published by Adam Mickiewicz University in Poznań Added to DOAJ on 28 Oct 2026 LCC Subject Category: Language and Literature: Danish literature | Language and Literature: Norwegian literature | Language and Literature: Swedish literature",
       "score": 6,
       "tags": []
     },
@@ -739,6 +750,17 @@
       "tags": []
     },
     {
+      "id": "e2b528c8b63aa4ee",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Health and Population: Perspectives and Issues (0253-6803)",
+      "url": "https://doaj.org/toc/0253-6803?rss=",
+      "publishedAt": "2026-10-28T09:26:20.000Z",
+      "snippet": "Published by Jaypee Brothers in National Institute of Health and Family Welfare Added to DOAJ on 16 Oct 2026 LCC Subject Category: Medicine",
+      "score": 6,
+      "tags": []
+    },
+    {
       "id": "2f5821687e6d7e36",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -768,6 +790,17 @@
       "url": "https://daniel.haxx.se/blog/2011/10/28/whos-0xabadbabe-and-why/",
       "publishedAt": "2026-10-28T07:57:21.000Z",
       "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "93ffb22bbe719ba4",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Travesía (0329-9449, 2314-2707)",
+      "url": "https://doaj.org/toc/2314-2707?rss=",
+      "publishedAt": "2026-10-28T07:41:32.000Z",
+      "snippet": "Published by Universidad Nacional de Tucumán in Centro científico Tecnológico NOA Sur Added to DOAJ on 28 Oct 2026 LCC Subject Category: Social Sciences: Communities. Classes. Races: Urban groups. The city. Urban sociology: Regional economics. Space in economics | Social Sciences: Economic history a",
       "score": 6,
       "tags": []
     },
@@ -1136,17 +1169,6 @@
       "tags": []
     },
     {
-      "id": "8e1a335d3825fdab",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Git for the US Code",
-      "url": "https://lexifina.com/blog/git-for-the-us-code",
-      "publishedAt": "2026-10-28T01:47:50.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "e3cad67f0656cca9",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -1171,6 +1193,17 @@
       ]
     },
     {
+      "id": "bcf3653cffdfc9a0",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "БМУ жарчысы (1694-8386, 1694-8394)",
+      "url": "https://doaj.org/toc/1694-8394?rss=",
+      "publishedAt": "2026-10-27T22:38:12.000Z",
+      "snippet": "Published by Bishkek State University named after Academician Kusein Karasaev Added to DOAJ on 27 Oct 2026 LCC Subject Category: Language and Literature: Philology. Linguistics",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "f8563aa01d95cb93",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -1178,6 +1211,17 @@
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
       "publishedAt": "2026-10-27T22:06:07.000Z",
       "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "b609283892c333fa",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Limbă, Literatură, Folclor (2587-3881, 2587-4039)",
+      "url": "https://doaj.org/toc/2587-4039?rss=",
+      "publishedAt": "2026-10-27T21:53:36.000Z",
+      "snippet": "Published by Universitatea de Stat din Moldova Added to DOAJ on 27 Oct 2026 LCC Subject Category: Language and Literature: Philology. Linguistics | Geography. Anthropology. Recreation: Folklore",
       "score": 5,
       "tags": []
     },
@@ -1668,6 +1712,17 @@
       "tags": [
         "stars"
       ]
+    },
+    {
+      "id": "8e1a335d3825fdab",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Git for the US Code",
+      "url": "https://lexifina.com/blog/git-for-the-us-code",
+      "publishedAt": "2026-10-28T01:47:50.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
     },
     {
       "id": "8f9744032388fd17",
