@@ -22,23 +22,27 @@
  * 抓取闸门（硬性）：
  *   - 全程串行，任意两次请求之间 >= 1000ms（以上一次请求**结束**为起点计时）
  *   - 同一 host 一旦收到 403/429，立即停止抓该 host，错误如实记录
- *   - 请求总数上限 24（含重试）；网络/解析失败绝不折叠成 "0 条"，必须留下 error
+ *   - 请求总数上限 30（含重试）；网络/解析失败绝不折叠成 "0 条"，必须留下 error
  *
- * 十七个源（key / 形态 / domain）：
+ * 二十一个源（key / 形态 / domain）：
  *   hackernews             HN Algolia search_by_date（48h 内 >50 分）  → 按内容判 ai/github/vibe_coding
  *   show_hn                HN Algolia show_hn（48h 内 >25 分）        → 强制 vibe_coding
  *   lobsters               lobste.rs/rss                              → vibe_coding
  *   github_trending        github.com/trending?since=daily（HTML）     → github
  *   github_changelog       github.blog/changelog/feed/（RSS）          → github
  *   simonwillison          simonwillison.net/atom/everything/（Atom）  → ai
- *   google_news_ai         Google News RSS 厂商/模型实体查询 when:2d   → ai（过 AI_TERMS 闸门）
+ *   google_news_ai         Google News RSS 厂商/模型实体查询 when:2d   → ai（过 AI_TERMS 闸门；同品牌 ≤2）
+ *   google_news_ai_zh      Google News 中文版 国产厂商查询 when:2d     → ai（过 ZH_AI_TERMS 闸门；同品牌 ≤2）
  *   openai_news            openai.com/news/rss.xml（RSS，1287 条火管） → ai
  *   deepmind_blog          deepmind.google/blog/rss.xml（RSS）         → ai
  *   hf_blog                huggingface.co/blog/feed.xml（RSS，876 条）  → ai
  *   deepseek_models        HuggingFace 模型 API（JSON，无 RSS 的替代） → ai
+ *   deepseek_status        status.deepseek.com/feed.rss（RSS，36 条）   → ai
  *   google_news_onhold     Google News RSS on hold/delisted when:30d  → publishing
  *   google_news_retraction Google News RSS 撤稿 期刊 when:30d          → publishing
  *   doaj_added             doaj.org/feed（"Recent Journals Added"）    → publishing
+ *   doaj_blog              blog.doaj.org/feed/（RSS）                  → publishing
+ *   stm_assoc              stm-assoc.org/feed/（RSS，STM 协会）        → publishing
  *   infodocket             infodocket.com/feed/（RSS）                 → publishing
  *   scholarly_kitchen      scholarlykitchen.sspnet.org/feed/（RSS）    → publishing
  *   retraction_watch       retractionwatch.com/feed/（RSS）            → publishing
@@ -46,6 +50,10 @@
  * 火管源限流（实测得出）：openai_news 一份 feed 里躺着 1287 条、hf_blog 876 条、
  * doaj_added 一天上百条 —— 这些源必须写 maxAgeDays（覆盖默认 30 天窗口）与 maxItems
  * （按发布日期取最新 N 条），否则单源就能淹掉整个池子（池子目前 ~230 条/天）。
+ *
+ * 聚合源同品牌配额（2026-10-30 实测）：Google News 一天 96 条里 Mistral 一家 28 条、
+ * 排在最前的 15 条里 9 条是同一件事 —— 一篇新闻被十几家转载。所以聚合源加 `maxPerBrand`
+ * （同品牌先留前 2 条，余下的名额按时间序补位到 maxItems），并给中文厂商单开一个中文源。
  *
  * HN 的两个特殊处理（实测得出的，别删）：
  *   1) vibe_coding 落的 HN 条目必须过**技术主题闸门** HN_TECH_WORDS：HN 是通用热榜，
@@ -57,11 +65,13 @@
  * 打分公式（确定性，结果 clamp 到 0..10 后取整）：
  *   score = clamp(0, 10, round(
  *       baseline(source)                  // 源优先级基线：retraction_watch 与三家厂商一手源
- *                                         //   （openai_news / deepmind_blog / deepseek_models）= 4；
+ *                                         //   （openai_news / deepmind_blog / deepseek_models /
+ *                                         //   deepseek_status）= 4；
  *                                         //   scholarly_kitchen / infodocket / doaj_added /
  *                                         //   google_news_retraction / google_news_onhold /
  *                                         //   simonwillison / hf_blog / github_changelog /
- *                                         //   lobsters = 3；google_news_ai / hackernews /
+ *                                         //   doaj_blog / stm_assoc / lobsters = 3；
+ *                                         //   google_news_ai / hackernews /
  *                                         //   show_hn / github_trending = 2
  *     + freshness(publishedAt)            // <=24h: +3 / <=72h: +2 / 其它（含 null）: +1
  *     + min(signalHits, 2)                // 每个命中的 domain 信号词 +1，最多 +2
@@ -108,7 +118,7 @@ const ARCHIVE_KEEP = 30;
 const ARCHIVE_TZ_OFFSET_MIN = 8 * 60;
 
 const MIN_GAP_MS = 1000;          // 请求之间的最小间隔
-const MAX_REQUESTS = 24;          // 总请求预算（含重试）；17 个源 + 少量重试
+const MAX_REQUESTS = 30;          // 总请求预算（含重试）；21 个源 + 少量重试
 const REQUEST_TIMEOUT_MS = 20000;
 const MAX_AGE_DAYS = 30;          // 默认只保留最近 30 天；源可用 maxAgeDays 覆盖
 const SNIPPET_MAX = 300;
@@ -126,9 +136,13 @@ const SOURCE_BASELINE = {
   openai_news: 4,
   deepmind_blog: 4,
   deepseek_models: 4,
+  // 厂商自己的服务状态页（中断 / 性能下降通知），与上面三家一手源同级
+  deepseek_status: 4,
   scholarly_kitchen: 3,
   infodocket: 3,
   doaj_added: 3,
+  doaj_blog: 3,
+  stm_assoc: 3,
   google_news_retraction: 3,
   google_news_onhold: 3,
   simonwillison: 3,
@@ -136,6 +150,7 @@ const SOURCE_BASELINE = {
   github_changelog: 3,
   lobsters: 3,
   google_news_ai: 2,
+  google_news_ai_zh: 2,
   hackernews: 2,
   show_hn: 2,
   github_trending: 2,
@@ -148,7 +163,10 @@ const SIGNALS = {
     'scopus', 'retraction', '撤稿', '收录',
   ],
   ai: ['openai', 'anthropic', 'gemini', 'claude', 'llama', 'deepseek', 'qwen', 'mistral',
-    'hugging face', 'deepmind', 'benchmark', 'release'],
+    'hugging face', 'deepmind', 'benchmark', 'release',
+    // 中文源（google_news_ai_zh）的标题基本不出英文实体词，补一组中文信号词，否则中文条目
+    // 永远只有 baseline+freshness 分，被英文条压到队尾。
+    'kimi', 'moonshot', '智谱', '通义', '千问', '豆包', '混元', '大模型'],
   vibe_coding: ['vscode', 'copilot', 'cursor', 'typescript', 'react', 'rust', 'library',
     'frontend', 'backend', 'api', 'cli', 'browser', 'performance', 'database', 'show hn'],
   github: ['trending', 'changelog', 'copilot', 'actions', 'release'],
@@ -166,6 +184,76 @@ const AI_TERMS = [
   'deepseek', 'anthropic', 'claude', 'meta ai', 'llama', 'qwen', 'mistral',
   'grok', 'xai', 'hugging face', 'open-source model', 'foundation model',
 ];
+
+/**
+ * Google News 中文版的实体闸门。中文查询必须走 zh 版（见 googleNewsUrl 注释），闸门词也得是
+ * 中文实体 + 厂商拉丁名 —— 中文标题里基本不会出现 "openai" 这类英文词。
+ * 实测依据（2026-10-23）：Kimi 3.1 发布同一题材英文查询 0 条、中文查询 39 条。
+ */
+const ZH_AI_TERMS = [
+  'deepseek', '深度求索', 'kimi', '月之暗面', 'moonshot', '智谱', 'zhipu', 'glm',
+  'minimax', '通义', '千问', '豆包', '文心', '混元', '星火', '大模型',
+];
+
+/**
+ * 品牌表：只给 Google News 这类**聚合源**用（同品牌配额 / 二手转载判定）。
+ * "一条发布被十几家媒体转载"是聚合源的主要噪声来源 —— 2026-10-30 实测：一天 96 条里
+ * Mistral 一家 28 条，前 15 条里 9 条是同一件事（同一次发布的转载）。
+ * 命中顺序有意义（"Google DeepMind" 先归 google）。
+ */
+const BRANDS = [
+  { key: 'openai', re: /\bopenai\b|chatgpt|\bgpt-?\d/i },
+  { key: 'google', re: /\bgoogle\b|deepmind|gemini|alphabet/i },
+  { key: 'deepseek', re: /deepseek|深度求索/i },
+  { key: 'anthropic', re: /anthropic|\bclaude\b/i },
+  { key: 'mistral', re: /mistral/i },
+  { key: 'meta', re: /\bmeta\b|\bllama\b/i },
+  { key: 'xai', re: /\bxai\b|\bgrok\b/i },
+  { key: 'qwen', re: /\bqwen\b|通义|千问|阿里云|alibaba/i },
+  { key: 'kimi', re: /\bkimi\b|moonshot|月之暗面/i },
+  { key: 'zhipu', re: /智谱|zhipu|\bglm\b/i },
+  { key: 'minimax', re: /minimax/i },
+  { key: 'cohere', re: /\bcohere\b/i },
+  { key: 'nvidia', re: /nvidia|英伟达/i },
+];
+
+/** 标题 → 品牌 key；认不出来返回 null（不受配额约束）。 */
+export function brandOf(title) {
+  const s = String(title || '');
+  const hit = BRANDS.find((b) => b.re.test(s));
+  return hit ? hit.key : null;
+}
+
+/**
+ * 同品牌配额 + 补位：按时间序先把每个品牌留前 `perBrand` 条，再从被挤掉的条目里按时间序
+ * 补回来，直到凑到 `fillTo` 条（= 源的 maxItems）。
+ * 用户 2026-10-30 定：一条发布被十几家转载时，同样这两个名额留给别的厂商。
+ * **只对聚合源开**，一手源（厂商自己的渠道）不设配额。
+ */
+export function applyBrandQuota(items, perBrand, fillTo) {
+  if (!Number.isFinite(perBrand) || perBrand < 1) return items;
+  const sorted = items.slice().sort((a, b) => compareDateDesc(a.publishedAt, b.publishedAt));
+  const used = new Map();
+  const keep = [];
+  const rest = [];
+  for (const it of sorted) {
+    const brand = brandOf(it.title);
+    if (!brand) { keep.push(it); continue; }
+    const n = used.get(brand) || 0;
+    if (n < perBrand) { used.set(brand, n + 1); keep.push(it); } else rest.push(it);
+  }
+  const target = Number.isFinite(fillTo) ? Math.min(fillTo, items.length) : items.length;
+  // 补位也不允许单品牌无限长：最多 perBrand + 2 条（"2 个正常名额 + 2 个补位名额"）。
+  const hardCap = perBrand + 2;
+  for (const it of rest) {
+    if (keep.length >= target) break;
+    const brand = brandOf(it.title);
+    if (brand && (used.get(brand) || 0) >= hardCap) continue;
+    if (brand) used.set(brand, (used.get(brand) || 0) + 1);
+    keep.push(it);
+  }
+  return keep.sort((a, b) => compareDateDesc(a.publishedAt, b.publishedAt));
+}
 
 /** 用于判定 hackernews 条目是否落到 ai domain 的词表（比 SIGNALS.ai 宽）。 */
 const AI_WORDS = [
@@ -322,11 +410,27 @@ const SOURCES = [
     // ⚠ 2026-10-10 收紧：旧的 `AI model release when:1d` 一天回 57 条，绝大多数是
     // "某公司用 AI 提效"这类与模型发布无关的商业稿。改成**厂商/模型实体查询**
     // （窗口 1d→2d 兜住两次跑批的间隔），再由 AI_TERMS 闸门兜底。
+    // 2026-10-30 扩实体（用户：Kimi 3.1 发布、厂商融资这类也要）+ 同品牌配额。
     url: googleNewsUrl(
-      '(OpenAI OR "Google DeepMind" OR DeepSeek OR Anthropic OR Gemini OR Claude OR Qwen OR Mistral) (model OR release OR launches OR "open source") when:2d',
+      '(OpenAI OR "Google DeepMind" OR DeepSeek OR Anthropic OR Gemini OR Claude OR Qwen OR Mistral OR Kimi OR Moonshot OR "Meta AI" OR Llama OR Grok OR xAI OR Zhipu OR MiniMax OR Cohere) (model OR release OR launches OR "open source" OR funding OR raises OR valuation) when:2d',
     ),
     requireAny: AI_TERMS,
+    maxItems: 15,
+    maxPerBrand: 2,
+  },
+  {
+    key: 'google_news_ai_zh',
+    kind: 'feed',
+    domain: 'ai',
+    // 中文版实体查询：国产厂商（DeepSeek / Kimi / 智谱 / 通义 / 豆包…）的动态只在中文源里，
+    // 英文查询实测 0 条（2026-10-23）。窗口 2d 兜住两次跑批的间隔，再由 ZH_AI_TERMS 闸门兜底。
+    url: googleNewsUrl(
+      '(DeepSeek OR Kimi OR 月之暗面 OR 智谱 OR MiniMax OR 通义 OR 千问 OR 豆包 OR 文心一言 OR 混元) (发布 OR 开源 OR 融资 OR 模型 OR 上线) when:2d',
+      'zh',
+    ),
+    requireAny: ZH_AI_TERMS,
     maxItems: 10,
+    maxPerBrand: 2,
   },
   {
     key: 'google_news_onhold',
@@ -381,6 +485,25 @@ const SOURCES = [
     maxItems: 5,
   },
   {
+    key: 'doaj_blog',
+    kind: 'feed',
+    domain: 'publishing',
+    // DOAJ 官方博客（收录政策 / 目录动态）。实测 200 / 10 items，最新 2026-10-12。
+    url: 'https://blog.doaj.org/feed/',
+    maxAgeDays: 14,
+    maxItems: 5,
+  },
+  {
+    key: 'stm_assoc',
+    kind: 'feed',
+    domain: 'publishing',
+    // STM Association（国际科学、技术与医学出版商协会）官方博客 / 声明。
+    // 实测 200 / 10 items，最新 2026-10-09。
+    url: 'https://www.stm-assoc.org/feed/',
+    maxAgeDays: 14,
+    maxItems: 5,
+  },
+  {
     key: 'openai_news',
     kind: 'feed',
     domain: 'ai',
@@ -418,6 +541,17 @@ const SOURCES = [
     url: 'https://huggingface.co/api/models?author=deepseek-ai&sort=createdAt&direction=-1&limit=10',
     maxAgeDays: 7,
     maxItems: 4,
+  },
+  {
+    key: 'deepseek_status',
+    kind: 'feed',
+    domain: 'ai',
+    // DeepSeek 官方状态页（FlashDuty 托管）。实测 200 / 36 items（2026-10-15，最新一条当天 08:11 +0800）。
+    // 标题中英双语、同一事件的多条更新**标题几乎一字不差**（只差 Status: identified|resolved
+    // 与受影响组件）⇒ 标题指纹会把它们收成一条，所以上限 5 条就够。
+    url: 'https://status.deepseek.com/feed.rss',
+    maxAgeDays: 14,
+    maxItems: 5,
   },
   {
     key: 'github_changelog',
@@ -656,14 +790,30 @@ function absolutize(href, base) {
   try { return new URL(s, base).toString(); } catch { return null; }
 }
 
+/**
+ * 去掉 Google News 标题尾部的 " - <媒体名>"。
+ * 不去掉的话，**同一句标题在两家媒体下指纹不同**，标题去重挡不住（2026-10-30 实测：
+ * "港股大模型双雄集体下挫" 搜狐网 / 财闻网各进一条）。判据刻意保守：最后一段分隔符
+ * 之后是 2–40 字、不含分隔符的媒体名，且正文 ≥12 字 —— 短标题一律不动。
+ */
+export function stripPublisherSuffix(title) {
+  const s = String(title || '').trim();
+  const m = s.match(/^(.*\S)\s+[-–—]\s+([^-–—]{2,40})$/);
+  if (!m) return s;
+  const head = m[1].trim();
+  return head.length >= 12 ? head : s;
+}
+
 export function parseFeedEntries(xml, source) {
   const itemBlocks = [...String(xml).matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((m) => m[0]);
   const entryBlocks = [...String(xml).matchAll(/<entry\b[\s\S]*?<\/entry>/gi)].map((m) => m[0]);
   const blocks = itemBlocks.length > 0 ? itemBlocks : entryBlocks;
 
   const items = [];
+  const isGoogleNews = String(source.key || '').startsWith('google_news');
   for (const block of blocks) {
-    const title = toPlainText(firstTag(block, ['title']));
+    const rawTitle = toPlainText(firstTag(block, ['title']));
+    const title = isGoogleNews ? stripPublisherSuffix(rawTitle) : rawTitle;
     if (!title) continue;
 
     const url = absolutize(extractLink(block), source.url);
@@ -835,6 +985,8 @@ function scoreItem(item) {
   const baseline = SOURCE_BASELINE[item.source] != null ? SOURCE_BASELINE[item.source] : 2;
   const tags = scoreSignals(item);
   let score = baseline + freshnessBonus(item.publishedAt) + Math.min(tags.length, 2);
+  // 二手转载（官方源当天已发过同一品牌的消息）降 2 分，排在官方原文后面。
+  if (item.thirdParty) score -= 2;
   if (item.domain === 'github' && Number.isFinite(item.meta && item.meta.starsToday)) {
     if (item.meta.starsToday >= 1000) score += 2;
     else if (item.meta.starsToday >= 200) score += 1;
@@ -885,9 +1037,34 @@ function sortFinal(a, b) {
 
 /* ============================== 组装（纯函数，无 IO） ============================== */
 
+/** 一手源（厂商自己的发布渠道）：同品牌当天已有它们的条目时，聚合源的转载算"二手"。 */
+const OFFICIAL_SOURCES = new Set([
+  'openai_news', 'deepmind_blog', 'hf_blog', 'deepseek_models', 'deepseek_status',
+]);
+
+/**
+ * 一手源优先：同一品牌当天官方渠道已经发过东西，Google News 的同品牌条目标成 thirdParty
+ * （打分 -2，**不删** —— 融资 / 诉讼 / 人事这类只有第三方会报）。
+ */
+function markThirdPartyRepeats(items) {
+  const official = new Set();
+  for (const it of items) {
+    if (!OFFICIAL_SOURCES.has(it.source)) continue;
+    const b = brandOf(it.title);
+    if (b) official.add(b);
+  }
+  if (official.size === 0) return;
+  for (const it of items) {
+    if (it.source !== 'google_news_ai' && it.source !== 'google_news_ai_zh') continue;
+    const b = brandOf(it.title);
+    if (b && official.has(b)) it.thirdParty = true;
+  }
+}
+
 /** 打分 -> 去重 -> 排序 -> 投影成跨端契约 JSON。不联网、不写盘，便于离线复算。 */
 export function buildDocument(collected, sourceReports) {
   const raw = collected.length;
+  markThirdPartyRepeats(collected);
   for (const it of collected) {
     const s = scoreItem(it);
     it.score = s.score;
@@ -1048,6 +1225,26 @@ async function main() {
       // maxItems 再按发布日期截断（实测 OpenAI News 一份 feed 里躺着 1287 条历史）。
       const maxAgeDays = Number.isFinite(source.maxAgeDays) ? source.maxAgeDays : MAX_AGE_DAYS;
       let fresh = parsed.filter((it) => withinWindow(it.publishedAt, maxAgeDays));
+      // 同品牌配额（只对聚合源开）：先把单个厂商的刷屏压到 N 条，余下的名额按时间序补位。
+      if (Number.isFinite(source.maxPerBrand) && fresh.length > 0) {
+        const before = fresh.length;
+        fresh = applyBrandQuota(
+          fresh,
+          source.maxPerBrand,
+          Number.isFinite(source.maxItems) ? source.maxItems : before,
+        );
+        const perBrand = new Map();
+        for (const it of fresh) {
+          const b = brandOf(it.title);
+          if (b) perBrand.set(b, (perBrand.get(b) || 0) + 1);
+        }
+        const top = [...perBrand.entries()]
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 4)
+          .map(([k, v]) => `${k}×${v}`)
+          .join(' ');
+        process.stdout.write(`[brand] ${source.key.padEnd(22)} ${before} -> ${fresh.length} ${top}\n`);
+      }
       if (Number.isFinite(source.maxItems) && fresh.length > source.maxItems) {
         const before = fresh.length;
         fresh = fresh
