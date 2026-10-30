@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T02:45:14.106Z",
+  "generatedAt": "2026-10-30T08:39:34.901Z",
   "counts": {
-    "raw": 173,
-    "deduped": 171,
-    "kept": 171
+    "raw": 202,
+    "deduped": 196,
+    "kept": 196
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 18,
+      "count": 22,
       "error": null,
-      "ms": 389
+      "ms": 395
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 7,
+      "count": 9,
       "error": null,
-      "ms": 1194
+      "ms": 1171
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1434
+      "ms": 1287
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 11,
       "error": null,
-      "ms": 2173
+      "ms": 2125
     },
     {
       "key": "simonwillison",
@@ -45,15 +45,23 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1097
+      "ms": 1100
     },
     {
       "key": "google_news_ai",
       "ok": true,
       "status": 200,
+      "count": 15,
+      "error": null,
+      "ms": 1512
+    },
+    {
+      "key": "google_news_ai_zh",
+      "ok": true,
+      "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1567
+      "ms": 1379
     },
     {
       "key": "google_news_onhold",
@@ -61,15 +69,15 @@
       "status": 200,
       "count": 1,
       "error": null,
-      "ms": 1311
+      "ms": 1309
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 9,
+      "count": 8,
       "error": null,
-      "ms": 1258
+      "ms": 1245
     },
     {
       "key": "infodocket",
@@ -77,7 +85,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1310
+      "ms": 1421
     },
     {
       "key": "scholarly_kitchen",
@@ -85,7 +93,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1164
+      "ms": 1137
     },
     {
       "key": "retraction_watch",
@@ -93,7 +101,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1164
+      "ms": 1090
     },
     {
       "key": "doaj_added",
@@ -101,7 +109,23 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1866
+      "ms": 1996
+    },
+    {
+      "key": "doaj_blog",
+      "ok": true,
+      "status": 200,
+      "count": 4,
+      "error": null,
+      "ms": 1966
+    },
+    {
+      "key": "stm_assoc",
+      "ok": true,
+      "status": 200,
+      "count": 3,
+      "error": null,
+      "ms": 1696
     },
     {
       "key": "openai_news",
@@ -109,7 +133,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1155
+      "ms": 1117
     },
     {
       "key": "deepmind_blog",
@@ -117,7 +141,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 1149
+      "ms": 1159
     },
     {
       "key": "hf_blog",
@@ -125,7 +149,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1115
+      "ms": 1089
     },
     {
       "key": "deepseek_models",
@@ -133,7 +157,15 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1067
+      "ms": 1014
+    },
+    {
+      "key": "deepseek_status",
+      "ok": true,
+      "status": 200,
+      "count": 2,
+      "error": null,
+      "ms": 2041
     },
     {
       "key": "github_changelog",
@@ -141,7 +173,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1083
+      "ms": 1060
     }
   ],
   "items": [
@@ -186,19 +218,6 @@
       ]
     },
     {
-      "id": "f3411f1adbd3fb1b",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "publishedAt": "2026-10-29T07:00:00.000Z",
-      "snippet": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "score": 8,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "id": "4e870e87226e4b33",
       "domain": "ai",
       "source": "openai_news",
@@ -213,32 +232,31 @@
       ]
     },
     {
-      "id": "dbcbfd486383fada",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek Harness Pre-Release Lets Its Main Agent Hand Off Tasks to Local Codex and Claude Code - Pandaily",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXhBRHVvRk8yNUxZazg2NVFvRHBLQzByN3R3cTFtTzNrbHVueDV2Y1ozclhwbWpyemZaekUyWHB1bEphOVpHQjk4S2EwOS00VE9MWGVaVGUyTTIzZWE0T1dzRzc1OHd2LU9SQVRhNHl1b2RqUFpsNEpiODFMcWxfLUdXLThEWkc1UUtSWG14WC1kQTZ2VFZCd3BFSm5qVWI1MEpsQw?oc=5",
-      "publishedAt": "2026-10-30T02:07:18.000Z",
-      "snippet": "DeepSeek Harness Pre-Release Lets Its Main Agent Hand Off Tasks to Local Codex and Claude Code Pandaily",
+      "id": "84a26b16eb823def",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+      "url": "https://www.arsaze.com/",
+      "publishedAt": "2026-10-30T06:55:33.000Z",
+      "snippet": "",
       "score": 7,
       "tags": [
-        "claude",
-        "deepseek",
-        "release"
+        "cursor",
+        "show hn"
       ]
     },
     {
-      "id": "a45a45542570c060",
+      "id": "c0e6aa38240d89e3",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic sued for allegedly training Claude on Elvis Presley's music - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aM0VCcEtCcW8wb2VSYU8zM2ducWdqTGtXbTVSQlVFenFITHdISHUzVllRRXdSNGtBcHVWcjYyd1VJTk9BcWRjeVdCYVFkVkJtWlE4cEp4eHMwUE4zakZGUlE4QnVHbUpnbVRUSTNYU0QzQkxiamRkdlB2OWsxVlU?oc=5",
-      "publishedAt": "2026-10-29T22:07:36.000Z",
-      "snippet": "Anthropic sued for allegedly training Claude on Elvis Presley's music Mashable",
+      "source": "google_news_ai_zh",
+      "title": "豆包工作加入多模型阵营，千问办公成最后的坚守者？",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VbGtMd3lKUmE5QlZOMFFkQ1U3YTNtSVM3SGZXNkhiTlBIb0FWNXBrTmEtSE00MFVhUEZueUhER2Frc2Z4bVZyaGZ3VkVrTVBBbmtR?oc=5",
+      "publishedAt": "2026-10-30T06:21:05.000Z",
+      "snippet": "豆包工作加入多模型阵营，千问办公成最后的坚守者？ 华尔街见闻",
       "score": 7,
       "tags": [
-        "anthropic",
-        "claude"
+        "千问",
+        "豆包"
       ]
     },
     {
@@ -251,6 +269,19 @@
       "snippet": "A Springer Nature journal’s failure to find duplication in two papers by the same author could cost its official recognition as a scholarly publication in Norway. The national register in Norway that decides which journals count toward academics’ publication records has concluded there is “no doubt”",
       "score": 7,
       "tags": []
+    },
+    {
+      "id": "f3411f1adbd3fb1b",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "snippet": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "score": 7,
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "44a641f01abe132a",
@@ -306,53 +337,112 @@
       ]
     },
     {
-      "id": "8b3f11a4752623a6",
+      "id": "bda32b3f9a434c43",
+      "domain": "publishing",
+      "source": "stm_assoc",
+      "title": "STM joins publishers in OpenAI copyright amicus brief",
+      "url": "https://stm-assoc.org/stm-joins-publishers-in-openai-copyright-amicus-brief/",
+      "publishedAt": "2026-10-30T08:18:40.000Z",
+      "snippet": "STM has joined with the Association of American Publishers (AAP), the Independent Book Publishers Association (IBPA), and Copyright Clearance Center (CCC) in an amicus brief supporting the plaintiffs in In Re: OpenAI, Inc., Copyright Infringement Litigation before the US District Court for the South",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "ed3003df318f4290",
       "domain": "ai",
-      "source": "openai_news",
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "publishedAt": "2026-10-27T07:00:00.000Z",
-      "snippet": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "score": 7,
+      "source": "google_news_ai_zh",
+      "title": "豆包工作向企业客户开放配置三方模型-36氪",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zbjhsR1ZEbkh3QUR3LWlWUU5FcDl3Z0dOOGJNYkZKSFFBTV8zamQtbXdyQm1jUDI5TUxKWTR2Sy1OdWs2LUxxbmVKa3lkZkZuQ0o4V3AxOXpsWkVzcGc?oc=5",
+      "publishedAt": "2026-10-30T07:42:26.000Z",
+      "snippet": "豆包工作向企业客户开放配置三方模型-36氪 www.36kr.com",
+      "score": 6,
       "tags": [
-        "openai"
+        "豆包"
       ]
     },
     {
-      "id": "8f1e084cfb6cd27a",
+      "id": "d82527d24080dd7a",
       "domain": "vibe_coding",
       "source": "lobsters",
-      "title": "gh-inbox: clean up GitHub notifications in bulk from the command line",
-      "url": "https://github.com/maraino/gh-inbox",
-      "publishedAt": "2026-10-30T02:37:55.000Z",
+      "title": "arm64e pointer authentication: PAC keys, PACIASP, A12",
+      "url": "https://sigreturn.com/blog/pointer-authentication-arm64e/",
+      "publishedAt": "2026-10-30T07:39:04.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
     },
     {
-      "id": "1aa0ce3c654bc0f4",
+      "id": "b3ab91a4d8ed16f9",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "How curl was accidentally Turing-complete for nine months",
+      "url": "https://seriot.ch/computation/curl.html",
+      "publishedAt": "2026-10-30T07:24:01.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "6e91618e66423a4e",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral's Le Chonk is now a top open model for coding, ranking alongside Codex GPT-6.1 Terra - ZDNET",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oUDdGckVKYzJobVpZMk5HeFFpX1Z5U0FRQnRoQTJfeEZXaHRCRHVwLUluQWNJSDVKcHI5VFhPR3NvSDdvbUNhZ2JUbGN1SjVmeGltaVVDMTc2ODVnU1dGbXVUMGFCLWVKbVhIOExJZllTZnM?oc=5",
-      "publishedAt": "2026-10-30T02:01:54.000Z",
-      "snippet": "Mistral's Le Chonk is now a top open model for coding, ranking alongside Codex GPT-6.1 Terra ZDNET",
+      "source": "google_news_ai_zh",
+      "title": "签到30天白拿8800额度:豆包向新老用户敞开30天免费订阅",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0dzcwTjNyaF9JTGZxREJuTzNMckZ5cFRyV19HSVBWWnpkUHBKbTl4aDNFQzd6VXFrV3hxc29mZ2dPX0tqa21OcUxWa3ZEZw?oc=5",
+      "publishedAt": "2026-10-30T06:02:00.000Z",
+      "snippet": "签到30天白拿8800额度:豆包向新老用户敞开30天免费订阅 AIBase",
       "score": 6,
       "tags": [
-        "mistral"
+        "豆包"
       ]
     },
     {
-      "id": "520b72a776e98dd3",
+      "id": "49b8a5906361d1a9",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek V4.1 Pro vs V4 Pro: One Has a Price Sheet - OrcaRouter",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3Mi1adDY3UWplYkZlTnBFV1J5bERrc09lOEs0MjUtbFU4N0ZyYVU4cnlEeFZHLTFGTTMyUGZzV2xQRzA1OU9KMWZEclRIZERrNEdvcjVPNmVSa0w4Wnh5M1hFOWtBYW1zdjlhRHlLVXhFQ1YtdEE?oc=5",
-      "publishedAt": "2026-10-30T01:52:08.000Z",
-      "snippet": "DeepSeek V4.1 Pro vs V4 Pro: One Has a Price Sheet OrcaRouter",
+      "source": "google_news_ai_zh",
+      "title": "豆包再送免费福利：累计签到30天可得8800额度，新用户免费领一个月订阅",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQdVJPR0huUDlfS1p5YzNWR3NVVVlBcHFKOHNlM0R0VWY0Rm5waTBCWmYzV25HWWd3UEhxaWtDeUxCZW45TkZSbmhZbXRmMUZHdWtJWG9SM3VUNnh1RV9fcjM0UVlXanZDZHNMT2VNaENGSHRt?oc=5",
+      "publishedAt": "2026-10-30T05:45:22.000Z",
+      "snippet": "豆包再送免费福利：累计签到30天可得8800额度，新用户免费领一个月订阅 金融界",
       "score": 6,
       "tags": [
-        "deepseek"
+        "豆包"
+      ]
+    },
+    {
+      "id": "ac6bf4a443d7fd10",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "豆包上线签到送额度活动：连续签到30天可得8800额度，新用户可领一个月订阅",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZUdZZ21xX2Y3X20yX2ljeUxOOTdZQy1SQlRtc3B2S2xmclZrZTNjeVQ5UzQ3YW9CYkx5VVJnNEFsVENIbWY4QTAybDRBQmZLeG9IMWVIQWhSZ3l1RkY3VjZjZFlUN0NQeW1OQXJmSFZDSnh5ZjVKQ21SLVJCa2oxcDZIeE0zV2hGRFNJ?oc=5",
+      "publishedAt": "2026-10-30T05:40:06.000Z",
+      "snippet": "豆包上线签到送额度活动：连续签到30天可得8800额度，新用户可领一个月订阅 搜狐网",
+      "score": 6,
+      "tags": [
+        "豆包"
+      ]
+    },
+    {
+      "id": "1ee81deb9c824cfa",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Pidgin 3.0 Alpha 4 2.98.0 has been released",
+      "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-4-2-98-0-has-been-released/445",
+      "publishedAt": "2026-10-30T03:58:19.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "4af739368d317288",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
+      "url": "https://github.com/Millillion/lasm",
+      "publishedAt": "2026-10-30T02:05:41.000Z",
+      "snippet": "Lasm has been my dream for a good part of 2026. I firmly believe that formal verification is the next evolution of software engineering and programming languages. This next wave will largely be enabled by the incredibly intelligent LLMs that understand formal verification and its programming languag",
+      "score": 6,
+      "tags": [
+        "show hn"
       ]
     },
     {
@@ -378,42 +468,16 @@
       "tags": []
     },
     {
-      "id": "b8908ea74750a8ee",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic’s spending is worryingly anthropocentric - Breakingviews",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNak93d0hxZ04zVEtpR2dKS0lkemVpX0RXempnTXJSTERZYjhRVXhHM3RiVVNDdlFkcnBQbE84VEs2dHRLRXVmN2QyaDRxc2lvUVJjaFVYX3BhcDVmU19nVmZuWVA5SWd6S08wRlZKYTFIcTFlcUFMaDM4SHIxLWVYdVVPMVZVeHpIXzFDZlJmUFJIVjFKZDVITWJpS0JkTHNHVzgyc2YxRTFMZEFoQkNUVWl5WDRLdw?oc=5",
-      "publishedAt": "2026-10-30T00:41:27.000Z",
-      "snippet": "Anthropic’s spending is worryingly anthropocentric Breakingviews",
+      "id": "a468c6e3d050ca0c",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Cormac McCarthy's Library",
+      "url": "https://cormacmccarthy.lib.utk.edu/",
+      "publishedAt": "2026-10-30T00:31:00.000Z",
+      "snippet": "",
       "score": 6,
       "tags": [
-        "anthropic"
-      ]
-    },
-    {
-      "id": "e5444276b2e827d9",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Sam Altman Unveils OpenAI's Groundbreaking New Model: \"I Was So Excited I Couldn't Sleep For Two Consecutive Nights\" - 36Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96NlQ2SDFvSFpuQ010dlBKZ0JFaXdHRS1NRmRRQTBBcm54bzFJd3hwUXJWZlNGeTRFeWlnRGsxVUZMdno0alNRZ3F3cURHNHpUS0JF?oc=5",
-      "publishedAt": "2026-10-30T00:32:39.000Z",
-      "snippet": "Sam Altman Unveils OpenAI's Groundbreaking New Model: \"I Was So Excited I Couldn't Sleep For Two Consecutive Nights\" 36Kr",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "b916142e7ae27ebb",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral Releases Large 4 Weights for Self-Hosted AI - FindArticles",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1jU0VRNW5IWHJDWDRYQzZXNmt2bEQ3WVhISTk2OVM0MWZvaGNfMFBNN29nMEw4RkRDVlNSZ3EwdUlpZnlpU1FUNXhaZWhSMTFUYzNtSjFWUmdESWx4NE5ySTNGVTJuU21BOHpYYVpZQzFJSlhQb21SeENyZnNrZ9IBhgFBVV95cUxPWDZiYkVMbU94TkNMR1ltNExZclJSV2ZCdk9iOEZuYnNUZkFXcWZTSDZJVjVOOUZHcGdsX1BJTElzRzR2emY4WkhsX3VHZ0ozTTVhSmdUQVNZdUpjRkVyeFVSR3BOUXJCWGFZQXBnTy0yNk8zNnJCRy1iX3QwQUtYMEdrWXp3dw?oc=5",
-      "publishedAt": "2026-10-30T00:24:21.000Z",
-      "snippet": "Mistral Releases Large 4 Weights for Self-Hosted AI FindArticles",
-      "score": 6,
-      "tags": [
-        "mistral"
+        "library"
       ]
     },
     {
@@ -438,45 +502,6 @@
       "score": 6,
       "tags": [
         "show hn"
-      ]
-    },
-    {
-      "id": "c2dcdc0b5bd7d1f4",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Google Tops AI Smarts Ranking as OpenAI Slashes Prices - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNjFkLTNGNTRuazhTTFlkZUNnVEhKc0x6UVNWXzVXNUJHN05fODNIU2E0OTdaQnhJZmVEYWliNHd4NHg5MnBWVHJHVFBNd1gtM09kOVUycFpsTm83ckcybkJsellhSFZBdzRMZFUtUXJId2lhS1k5M1l1Y2V6S00tNXU0OEtKRFJUTVRuaTNxUEdsWk1Qa3ROMS1GdkZleTN3cWU0VzFNY3N0OGNQSzZiam1B?oc=5",
-      "publishedAt": "2026-10-29T22:30:38.000Z",
-      "snippet": "Google Tops AI Smarts Ranking as OpenAI Slashes Prices PYMNTS.com",
-      "score": 6,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "480c39796e6a2da7",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense - WinBuzzer",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSnVyT1ZIZG9vUnNBMFA3T2ZKYXd0VWlzQlp1SDFDRElLSlpiU1NOR2trZkZvUFBxeU5VbkpyLXB4UGFtRUxXcWRybHktQi1RLWtVLUl1Y2F2LUxSZkJhR2JNT1cxcjk1STdSeU5TVEVscmppWDVpdUx0ZFNsVm1mSkVCVVdhNGZNSmRpaHdRNjZPUTU4NTgyNnNXd1ZGb0V0?oc=5",
-      "publishedAt": "2026-10-29T22:26:34.000Z",
-      "snippet": "Mistral Releases Mistral Large 4 for Self-Hosted Cyber Defense WinBuzzer",
-      "score": 6,
-      "tags": [
-        "mistral"
-      ]
-    },
-    {
-      "id": "91f822aca2858032",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Mistral Touts Cyber Capabilities of Its ‘Chonk’ AI Model - PYMNTS.com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc01rX2tIcGRlYjBQODFkM2VDM1pvMjh3S25Xa2s3ODVnOGt0aG1ZUFlSRFhMTnVkZDZ6cXlHbnZYNU5rUTg1WURCVmRTQzdIOExyUkREbWNXQi1OUnh2YWExbGVFNFlza29LRFBJOWZhQUN1eHltZ3M3dExJUXBmM3EyRzhuSmNjcDRHdU81SE1EU2d5YkZiQm5MR19SZW1pU2FKelJfTGw?oc=5",
-      "publishedAt": "2026-10-29T22:04:51.000Z",
-      "snippet": "Mistral Touts Cyber Capabilities of Its ‘Chonk’ AI Model PYMNTS.com",
-      "score": 6,
-      "tags": [
-        "mistral"
       ]
     },
     {
@@ -525,6 +550,19 @@
       "score": 6,
       "tags": [
         "show hn"
+      ]
+    },
+    {
+      "id": "28a61aeacb1446cc",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdUdTTkVweWU5c2MwajUwLW1WNzdrdFFkZUdLYURmM2NHenFDOFV1dUNSRVlZVFBENnBRbXNxUGdJWEZrV3pFOVRPRE54aDlXdHkxLW1Cb3JPQkdIZDhDeWYyNFR2N2FVallMZ0RSYWc2Ym0yWDJWamNvUnR1TFo0LXQybS1jdHJFMHF5RF9KNHNYSDM1?oc=5",
+      "publishedAt": "2026-10-29T18:24:12.000Z",
+      "snippet": "Claude Model Builds Exploits Across Major Browsers & OSes Dark Reading",
+      "score": 6,
+      "tags": [
+        "claude"
       ]
     },
     {
@@ -629,6 +667,19 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "c3f1633cd6628800",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic Launched A Consulting Arm. 5 Ways The Industry Has To Change",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTGRzaFc1Qi1PLUNMVXNod05hdlZtSlQ2Mk10UWZCamdST1RhWEhpcHdjU0syd0NWZ0VRNTlCM2ZnZkY0TnVObFdCWWRmMmkzWHN1em8wTGZBc0lyRS04eDdQT0t5TkdpZUowT055MEk4MFBCcXNyazN0Qm0tTk9FY0VQbHYyR21pM0p6ck5zVlNKWDdCYm1iUTVjR0huUWF3M3JzR01FeHd5OUx3OEtWMUU4ZzlwVVVrNGoyNnBLLVpibEJN?oc=5",
+      "publishedAt": "2026-10-29T15:30:00.000Z",
+      "snippet": "Anthropic Launched A Consulting Arm. 5 Ways The Industry Has To Change Forbes",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
     },
     {
       "id": "aba48293a3f571af",
@@ -756,17 +807,6 @@
       ]
     },
     {
-      "id": "66fec0a66901df2c",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Nim version 2.4.0 released",
-      "url": "https://nim-lang.org/blog/2026/10/28/nim-240.html",
-      "publishedAt": "2026-10-29T12:07:26.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "66d6870e933cfaca",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -811,74 +851,6 @@
       "snippet": "Today we hear from some of SSP's Advocacy Committee members about what changes they'd like to see to US federal support for research. The post Ask the SSP Advocacy Committee: What one change would you most like to see in terms of U.S. federal support for research following the midterms? appeared fir",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "8628f1ea689a6d4f",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Akademik Siyer Dergisi (2687-5810)",
-      "url": "https://doaj.org/toc/2687-5810?rss=",
-      "publishedAt": "2026-10-29T08:30:12.000Z",
-      "snippet": "Published by Kahramanmaras Sutcu Imam University Added to DOAJ on 29 Oct 2026 LCC Subject Category: Philosophy. Psychology. Religion: Islam. Bahai Faith. Theosophy, etc.: Islam",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "1f7d31cd1fdcf869",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Journal of Anatomical Sciences (0970-1842)",
-      "url": "https://doaj.org/toc/0970-1842?rss=",
-      "publishedAt": "2026-10-29T08:28:24.000Z",
-      "snippet": "Published by Jaypee Brothers Medical Publisher in U. P. Chapter of the Anatomical Society of India (State Branch) Added to DOAJ on 29 Oct 2026 LCC Subject Category: Science: Human anatomy | Medicine",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "2d4379a533a6dc37",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Interdisciplinary Journal of AI, Machine Learning & Data Science (3139-3527)",
-      "url": "https://doaj.org/toc/3139-3527?rss=",
-      "publishedAt": "2026-10-29T07:44:11.000Z",
-      "snippet": "Published by Scholiora Research Publications Added to DOAJ on 26 Oct 2026 LCC Subject Category: Science: Mathematics: Instruments and machines: Electronic computers. Computer science",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "b2c8ff0f0d7b2147",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "What the fox say?",
-      "url": "https://entropicthoughts.com/what-the-fox-say",
-      "publishedAt": "2026-10-29T06:42:40.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "58a4931961cb0ffc",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Future Trait Has A Missing State",
-      "url": "https://blog.yoshuawuyts.com/the-future-trait-has-a-missing-state",
-      "publishedAt": "2026-10-29T04:24:28.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "7ed6398608ce26b4",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Claude Code regularly sends each background agent’s transcript to its model",
-      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-      "publishedAt": "2026-10-29T03:33:42.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
     },
     {
       "id": "6a5f648fba3f7e9b",
@@ -990,6 +962,32 @@
       "tags": []
     },
     {
+      "id": "4d9561b4e6a3ca6a",
+      "domain": "ai",
+      "source": "deepseek_status",
+      "title": "DeepSeek API 性能下降（DeepSeek API Degraded Performance）",
+      "url": "https://status.deepseek.com/incidents/7170710513287",
+      "publishedAt": "2026-10-27T07:07:39.000Z",
+      "snippet": "Status: resolved 本次问题已解决，服务已恢复。 The incident has been resolved and service has been restored. Affected components: DeepSeek V4 Pro API服务(API Service)",
+      "score": 6,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "8b3f11a4752623a6",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "snippet": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "2c470e0e83d06677",
       "domain": "ai",
       "source": "simonwillison",
@@ -1040,6 +1038,20 @@
       "score": 6,
       "tags": [
         "retraction"
+      ]
+    },
+    {
+      "id": "aa9706009567f2cf",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "publishedAt": "2026-10-23T19:40:54.000Z",
+      "snippet": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which ar",
+      "score": 6,
+      "tags": [
+        "kimi",
+        "moonshot"
       ]
     },
     {
@@ -1161,6 +1173,75 @@
       ]
     },
     {
+      "id": "380aac20d7432ed0",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "英伟达团队基于MiniMax H3开源视频增强方案 最高支持4K重生成",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZU01MGtOM0UxRDI0WjNyNVNEN3lRMXhqZ3ZsbEQtdWg4d1BoNXdRVTNqc0NfX3RwVGtQOUVzdmFVLXBPeE44eTRFUmY2SnJ1MzJsRGZtc2NtOUJzbjM0X1JpTWM3X3JVYVB2NE5nekhNby05UXo3eHp2NkFydEJmQmphZFh4WEwyb0NJQThsV3B2WUpaeG1qdjdqaE1WNkt0Q3FVOVIzMGJhTmw2eVBtQg?oc=5",
+      "publishedAt": "2026-10-30T07:47:27.000Z",
+      "snippet": "英伟达团队基于MiniMax H3开源视频增强方案 最高支持4K重生成 Moomoo",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "afa65df409e7db14",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "Mistral Large 4 与 Kimi K3.1 Pro：许可条款有别",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9uSWl3d25NbHhUUV9IWDdDeDltTG1EN2I2SElvZGV4RXR4VlZnY29LU1ZnTHhjRkwyYkJLeDEwcFVBTVB3aXYtcGpuaTRtb05taFNwNmF2MldsMHc5dlByaDdXbGNuUTFzbXZTcXpVUE16el9KSHk5cA?oc=5",
+      "publishedAt": "2026-10-30T06:48:57.000Z",
+      "snippet": "Mistral Large 4 与 Kimi K3.1 Pro：许可条款有别 OrcaRouter",
+      "score": 5,
+      "tags": [
+        "mistral",
+        "kimi"
+      ]
+    },
+    {
+      "id": "f3b0ee522047655d",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+      "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+      "publishedAt": "2026-10-30T02:33:04.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "78ca6c4741175ff4",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Pico CSS is no longer maintained",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "publishedAt": "2026-10-30T01:58:44.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "d2170102f2a92ad9",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Herdr has released native app",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "publishedAt": "2026-10-30T00:42:41.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "9aa68e9453b1bc5e",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Google value plunges by $500B as AI fears rattle Wall Street",
+      "url": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+      "publishedAt": "2026-10-29T22:22:13.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "393940cb66ec4c38",
       "domain": "ai",
       "source": "hackernews",
@@ -1271,13 +1352,68 @@
       "tags": []
     },
     {
-      "id": "f9e0eb5c47ccf078",
+      "id": "8628f1ea689a6d4f",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Akademik Siyer Dergisi (2687-5810)",
+      "url": "https://doaj.org/toc/2687-5810?rss=",
+      "publishedAt": "2026-10-29T08:30:12.000Z",
+      "snippet": "Published by Kahramanmaras Sutcu Imam University Added to DOAJ on 29 Oct 2026 LCC Subject Category: Philosophy. Psychology. Religion: Islam. Bahai Faith. Theosophy, etc.: Islam",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "1f7d31cd1fdcf869",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Journal of Anatomical Sciences (0970-1842)",
+      "url": "https://doaj.org/toc/0970-1842?rss=",
+      "publishedAt": "2026-10-29T08:28:24.000Z",
+      "snippet": "Published by Jaypee Brothers Medical Publisher in U. P. Chapter of the Anatomical Society of India (State Branch) Added to DOAJ on 29 Oct 2026 LCC Subject Category: Science: Human anatomy | Medicine",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "2d4379a533a6dc37",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Interdisciplinary Journal of AI, Machine Learning & Data Science (3139-3527)",
+      "url": "https://doaj.org/toc/3139-3527?rss=",
+      "publishedAt": "2026-10-29T07:44:11.000Z",
+      "snippet": "Published by Scholiora Research Publications Added to DOAJ on 26 Oct 2026 LCC Subject Category: Science: Mathematics: Instruments and machines: Electronic computers. Computer science",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "b2c8ff0f0d7b2147",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Zero click, silent, remote Android DoS",
-      "url": "https://smsofdeath.com/",
-      "publishedAt": "2026-10-29T07:08:50.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "What the fox say?",
+      "url": "https://entropicthoughts.com/what-the-fox-say",
+      "publishedAt": "2026-10-29T06:42:40.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "c2f3863e7efa9d60",
+      "domain": "publishing",
+      "source": "doaj_blog",
+      "title": "The Principles of Transparency and Best Practice in Scholarly Publishing have been revised and updated",
+      "url": "https://blog.doaj.org/2026/10/29/the-principles-of-transparency-and-best-practice-in-scholarly-publishing-have-been-revised-and-updated/",
+      "publishedAt": "2026-10-29T04:32:26.000Z",
+      "snippet": "The fifth edition of the Principles of Transparency and Best Practice in Scholarly Publishing has been released by COPE, DOAJ, OASPA, and WAME. Version 5.0 introduces key updates addressing AI governance, enhanced security against hijacked journals, expanded editorial independence, and revised misco",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "58a4931961cb0ffc",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "The Future Trait Has A Missing State",
+      "url": "https://blog.yoshuawuyts.com/the-future-trait-has-a-missing-state",
+      "publishedAt": "2026-10-29T04:24:28.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1324,6 +1460,19 @@
       "snippet": "Comments",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "93c62ffc1322024a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Alibaba’s Qwen AI Model Attempted Data Upload to China During Canadian Test - THE ELEC, Korea Electronics Industry Media",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sRmFDaGUyT3FvTTV0enVqSVloNGRMVjhUYkU5RnBxTzI1VE1ZSjZ6MHVxTERQY0RxNzNZcnRNV2RQbUZhX01PUWhmYWVYN3RzMEtoTVFIeEpXdjBReXZBTy14MU5hVEE?oc=5",
+      "publishedAt": "2026-10-28T23:27:09.000Z",
+      "snippet": "Alibaba’s Qwen AI Model Attempted Data Upload to China During Canadian Test THE ELEC, Korea Electronics Industry Media",
+      "score": 5,
+      "tags": [
+        "qwen"
+      ]
     },
     {
       "id": "b991e55a2f836337",
@@ -1453,17 +1602,6 @@
       "tags": []
     },
     {
-      "id": "f880d844b3c70de5",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "AlpineBSD",
-      "url": "https://wiki.alpinebsd.org/",
-      "publishedAt": "2026-10-28T10:34:55.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "4cf2ae4529afae3f",
       "domain": "ai",
       "source": "simonwillison",
@@ -1484,6 +1622,19 @@
       "snippet": "With the midterms approaching, read about this timely report on US government censorship of research on public health -- the first to analyze the aggregated impact The post From Anecdote to Evidence: How US Government Censorship is Impacting Public Health appeared first on The Scholarly Kitchen .",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "483248bc35fb09e8",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Cohere Flags Alibaba’s Qwen Model for Attempted Upload to Beijing Server During Security Test",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjVhNy03dVpEVTIyNWZUSnlnX2xGWkx2VmNmNFJfbmFmWnJJcVAta3Mzc2UtNFpiSGYxNDBPVi1GUUVSUWJlZXlPN2NJS2kzQ2RhN1BaeWxJZ29wdTRFSmFXblFwT0EzNFhvV2t4MDV0d29uSEtSMGViVmZtazNUQXN1bk9UV0lrNWg1Zk9pWloxcGV0aVZwNXhUWktaM3BqOUVLSWVNRXRmRUVvaXpkY016ZEtMNXB4RE9kSVk3VTktdll1VXN6RHVn?oc=5",
+      "publishedAt": "2026-10-28T07:23:57.000Z",
+      "snippet": "Cohere Flags Alibaba’s Qwen Model for Attempted Upload to Beijing Server During Security Test AI Insider",
+      "score": 5,
+      "tags": [
+        "qwen"
+      ]
     },
     {
       "id": "1d22581a9d51393a",
@@ -1548,7 +1699,7 @@
       "id": "c3132baac47b057a",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 - 搜狐网",
+      "title": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NSnlfc3dORlhmREdlRVF2QUVwZmp6NVZaOGN1X2hSaF9xcXdheWhxOGpRRTg3TzFuUUVidWd1Qy1DT2hMRGM5enpneThDT0xaZFdNZGgyVG5oODczQjc5eQ?oc=5",
       "publishedAt": "2026-10-23T11:12:00.000Z",
       "snippet": "一位“学者”的塌方：一辈子科研全靠编，撤稿论文多达41篇 搜狐网",
@@ -1561,7 +1712,7 @@
       "id": "ed2999008a3f1c8d",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44% - 虎嗅",
+      "title": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44%",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5c2pqaXBDeXhDeUozSmd2OUxHVnhEQ2ZaOEt5c1RSYVNYZUxFR1VCNFFkTklielUtTnhLMDFNYkV3cG1iaWg3SmJBX0xiRk42ei1GNQ?oc=5",
       "publishedAt": "2026-10-23T04:06:42.000Z",
       "snippet": "巴西毒蛇踩踏实验因伦理审批不符被撤稿，曾报告踩头咬击概率约44% 虎嗅",
@@ -1643,6 +1794,17 @@
       ]
     },
     {
+      "id": "edb72a5d049ee406",
+      "domain": "ai",
+      "source": "deepseek_status",
+      "title": "搜索服务异常（Search service error）",
+      "url": "https://status.deepseek.com/incidents/7140152117287",
+      "publishedAt": "2026-10-20T09:20:15.000Z",
+      "snippet": "Status: resolved 本次问题已解决，服务已恢复。 The incident has been resolved and service has been restored. Affected components: 搜索服务(Search Service)",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "2d4db9039b92efa3",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -1652,19 +1814,6 @@
       "snippet": "An investigation by a national research institute in Japan has concluded one of its former researchers fabricated and falsified figures in seven papers. Two publishers confirmed they are investigating the articles. Joseph Raj Xavier, of Saveetha Institute of Medical and Technical Sciences in Chennai",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "2e432fec143b45b9",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "答不上来会撤稿：多家期刊开始“电话抽查”作者 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93U0VPYVl2c0lCaDFuRDI4N0dDR2tKR0FMWHVPVTNIUl95MlhTVUtETkpmMnJEX3pvRGRYb1A1V091NHd4bllMY3RJM3NkZERLQWow?oc=5",
-      "publishedAt": "2026-10-19T07:00:00.000Z",
-      "snippet": "答不上来会撤稿：多家期刊开始“电话抽查”作者 搜狐网",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
     },
     {
       "id": "577e846b6ef0fb6d",
@@ -1698,7 +1847,7 @@
       "source": "google_news_retraction",
       "title": "撤稿敲响科研诚信警钟 - fjrb.fjdaily.com",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ydmt6aFlJUWp5NHlUU01URGw5QXJURnh2N2NwQ2dlemlET2RZOTMtMUlBOFN6RjhBZVFqQ0VHX29zdXZJRm9USUpPcTVROGRvWnFYeHR2SnJuTGx5ajNYdjlreGhPN0RKMW1Xbkt3?oc=5",
-      "publishedAt": "2026-10-18T06:07:35.000Z",
+      "publishedAt": "2026-10-18T06:07:19.000Z",
       "snippet": "撤稿敲响科研诚信警钟 fjrb.fjdaily.com",
       "score": 5,
       "tags": [
@@ -1722,7 +1871,7 @@
       "id": "f7448bfebda6c0ca",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "撤稿论文，浪费数千万经费 - 中国新闻网",
+      "title": "撤稿论文，浪费数千万经费",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CdkNXaEFTVXpETi1LSjRZMWFBUFVscWttRm9aZ1RZQTlhajFoMGZqMWVNZDJnLU1UZkNyd1VQazJhS0hjczFPaURCN3NfNmlsdUg0MlNyTkxXTS1yMWw1MWh5Um8tNUs5WHc?oc=5",
       "publishedAt": "2026-10-16T07:00:00.000Z",
       "snippet": "撤稿论文，浪费数千万经费 中国新闻网",
@@ -1735,7 +1884,7 @@
       "id": "91a27566f4e08d52",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 - 搜狐网",
+      "title": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50eE5PTW9kRTlDZy1oTVBMcEwxYUdaNTkzYkNQUWE0UHNPaGNvWlFHQ2dRc28yY3Z4TV9ocjh6VGtScklFUXpsc2dwRDlnd0F4dTA2RGdR?oc=5",
       "publishedAt": "2026-10-16T02:02:22.000Z",
       "snippet": "2000多篇论文、千万项目经费，撤稿代价敲响科研诚信警钟 搜狐网",
@@ -1761,7 +1910,7 @@
       "id": "41d6c8d9e8be0d79",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 - 虎嗅",
+      "title": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FX3RHNUQ1c2ozTk1lejNfWE9XMndiQi1hOHlYTGdxMERYb1hRY0ZiQU11NGlTOVN6UzJRbHA4YUtZV1l6WVBBdjRsU3VoaHJYcGk1cg?oc=5",
       "publishedAt": "2026-10-15T07:00:00.000Z",
       "snippet": "国际期刊主编索贿争议背后：论文发表费用、撤稿损失与科研评价改革受关注 虎嗅",
@@ -1810,6 +1959,171 @@
       ]
     },
     {
+      "id": "699d32ae4f4d3995",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek千亿融资细节曝光：国资占比27%",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Yb3RMekFvQUdPRWNSa3F3UVZRQzRSUE4wdDlSOFFadVdJQVVvZTdYVE9qOGlEalRRQTFENVU2anZFZVlqRnExeDFyY1dwV3JneDFodTRBM00?oc=5",
+      "publishedAt": "2026-10-30T08:05:16.000Z",
+      "snippet": "DeepSeek千亿融资细节曝光：国资占比27% 亿邦动力网",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "1aa0ce3c654bc0f4",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Mistral's Le Chonk is now a top open model for coding, ranking alongside Codex GPT-6.1 Terra",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1oUDdGckVKYzJobVpZMk5HeFFpX1Z5U0FRQnRoQTJfeEZXaHRCRHVwLUluQWNJSDVKcHI5VFhPR3NvSDdvbUNhZ2JUbGN1SjVmeGltaVVDMTc2ODVnU1dGbXVUMGFCLWVKbVhIOExJZllTZnM?oc=5",
+      "publishedAt": "2026-10-30T08:01:54.000Z",
+      "snippet": "Mistral's Le Chonk is now a top open model for coding, ranking alongside Codex GPT-6.1 Terra ZDNET",
+      "score": 4,
+      "tags": [
+        "mistral"
+      ]
+    },
+    {
+      "id": "73f9abc27fff5070",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek官网代码曝光Cyber独立模型：分企业版与个人版，小范围灰度中",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5YcmlIV0Nvdzk0QXF6c3hwZG4zVUxqLW9hSVRrUHpWMnZ0dGdtekJqd1JuenpVNUtBRkZKWTlHTUhtVlBUN2M4WHlDWHQ?oc=5",
+      "publishedAt": "2026-10-30T08:00:12.000Z",
+      "snippet": "DeepSeek官网代码曝光Cyber独立模型：分企业版与个人版，小范围灰度中 凤凰网科技",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "a7e69535aaa5fc73",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Orange Cyberdefense to detect security vulnerabilities with Mistral's latest AI model",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRm1lbGtkQ3R4REtXdGM5RG9SRUtmREhtWUptRWNyZHpZeVVERHF2X3BiRkc0SGdHTVAzaU8yS3ZWV2MzXzBsci1zMDZMTjlHaDV6ZVRPb3FfLXhVeEdhM24tbU1QeGt0akMxcVVHZ3NCa2xabU1TYUc2ODdJQkhGQktHb1pLRGpTeFpRVkZsOVY2bzFTeE5YckxRZ094VGhkWE51b0FraXNBRXRoeGRVNkxkNERRWXlaMG1fMU1pazZLdEE0cEE?oc=5",
+      "publishedAt": "2026-10-30T07:02:50.000Z",
+      "snippet": "Orange Cyberdefense to detect security vulnerabilities with Mistral's latest AI model Telecompaper",
+      "score": 4,
+      "tags": [
+        "mistral"
+      ]
+    },
+    {
+      "id": "f8bb9843c89ec40d",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek API: Two Bases, Two Model Names",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBDWkhUQk5ONHRQV1JPTjlEdmRaOVYycHJzN2VrMFp4U1h0TXVBLXZ4VU9DVjdFamhBc083UndCa0tHMXI3dE5rNUZvbVFpbV9LUE1ubGFKZ0p4RWZ4YUJDZGpNaUpyVjFHU1hF?oc=5",
+      "publishedAt": "2026-10-30T06:48:48.000Z",
+      "snippet": "DeepSeek API: Two Bases, Two Model Names OrcaRouter",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "4403ac91c07b8e8a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek V4.1 Pro vs MiniMax M3.1 Flash: When the Cheap Tier Is the Only Tier That Answers",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zR3U1NFN0WjFZOU1tdlVudGZVeVcwUDlVSXNiTjdpTkZrQ3poeHlMOV9BQjZRc3ZYNVNlZEtwc1IwcWZ1OW0waHBuX3F6Y0NiM0ZPVmdEVlVrNDFIQkRGNHZicVd2Q3hSV21yZ0NCa0Y2S2xkMV90c3dn?oc=5",
+      "publishedAt": "2026-10-30T06:48:27.000Z",
+      "snippet": "DeepSeek V4.1 Pro vs MiniMax M3.1 Flash: When the Cheap Tier Is the Only Tier That Answers OrcaRouter",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "59e06585ce5af941",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek V4.1 Pro 对比 GPT-6 Astra：无价格",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ham8yb1ZlS2toT21mZ0R1X2ZyMlk4TDlOeVdGT2xnTWFIMzRaX1RZdnNudDlzS1FVVURQdWxMRTUzVmxZdkZjTVRINnlLMmRPdU0wS1lvNGZxc0kyM0g4U3JkVDFHU05wZE1MUlMyNVg5ZXY4aHJJeQ?oc=5",
+      "publishedAt": "2026-10-30T06:47:59.000Z",
+      "snippet": "DeepSeek V4.1 Pro 对比 GPT-6 Astra：无价格 OrcaRouter",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "aceab5de9f31b431",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Mistral AI Releases Weights for the 1T-Parameter Mistral Large 4 Model",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMGlQQUFQbmp2NVJLLTd4VjdmX0ZFbzNVNE9COWhzQVI5U0pXdThHQ09Ha2pQUlR5RkwwQmZnempUWkNUenAzS0NHQUxzQXpFbTBadWQ0WUdhaktOM3FrS3ozeUlMNG5ZNC1Fak9KS2VXM3pxVDlqVEVMV1ZHSktJTHNJRUloLXdtdk40elJtVEJ4VFJ5TzdDUA?oc=5",
+      "publishedAt": "2026-10-30T02:47:43.000Z",
+      "snippet": "Mistral AI Releases Weights for the 1T-Parameter Mistral Large 4 Model KuCoin",
+      "score": 4,
+      "tags": [
+        "mistral"
+      ]
+    },
+    {
+      "id": "b4ba9d5437121faf",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI updates Model Spec: Five core values to enhance AI alignment and transparency",
+      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWVNfeDNOc1A0Yk9ZTG9uWG5pYUJJUG9KbHR6ZmtyWFpHUnFWWU5qaVFpcnJ5d2tCUS1jTVpIZXdqRndLdmhxVGdRTU5RR3ZmbklsY2JPU3Z0anB3enlnLWtKbElBNVhkeXBmUFJodlc1NmVrbEpPRkhzVV85a0F5aC1Dam9YNHZYeEpyaTROaW1OTEU2Xzk5SFROSXJxaTdScVNsYW5icmxBR3hxRUxYdjVhcm1vSEJ5amNFLXlvX1ptUmJJSUQwZmZFRFFHbndiakNsQ2xVeTRkZ1JlRFJFU0tBWjlYazI1eHBSYjVGNjJKckh3TDVURDZXTmVBUDFVSmpkN2pOVnhMR0p5Zm5kMGJVczRad3UzV1VPWW9CQmR3M0ZCX1Z5N2lFcEtSZzhCZGRZdDFGRWpnMkJGYVHSAfsBQVVfeXFMUENBUEh2a2U1VWM2NDBKcWNJVjdoaVVEcHpaQ2JRcXk4aFk5MENycTFsZVJ5RmR1a3VJMzZ2cTNWdlRNeVIza2lnbVF6Z0NwYzN1OEw5ZTQtakJzMTc2czJJcmJESEJMWGI3NXMtVzU4TWFEMEVGNWY1ZFlrU0xJZFlsZWV6RDN6aXRkVUpvNjZVVU1LVzZYZEZVeFhtV2VoeXdFczllREp2Yk9YMzRmZ1BvUnBvOFhTa2VRVkQtcG9PUENFTzJlZmRfNUxodE5Ram9QVzREMzFHWjAxX1BxeW12Q2syWFJjNm4yUUZlU1VLcHg1cjNSZ1BaaGc?oc=5",
+      "publishedAt": "2026-10-30T02:40:13.000Z",
+      "snippet": "OpenAI updates Model Spec: Five core values to enhance AI alignment and transparency ET CIO",
+      "score": 4,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "ca168f899096e54f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google launches Gemini 4 Carbon for cybersecurity",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAxQnkwbWlyaGdNcUU2VDU4RDlqTFQyMV9Bdm5kQ19ldWVoU3dQMkw5UmhzYVRNd1FFcW1jNVZNSHhQdGpNLTdWR2hEVTJ2RDRuWWl0U19ZNFpyYXRZNk1oYjhuZHZaa1B6bkJfRmtTWlBIUmZ5U3hnM0FaRlo?oc=5",
+      "publishedAt": "2026-10-29T21:51:38.000Z",
+      "snippet": "Google launches Gemini 4 Carbon for cybersecurity Ticker News",
+      "score": 4,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "6cbb073e4ccdef42",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Gemini 4 Carbon: the world’s best AI model yet?",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaDFDaTdZOWNyWFZFcHhSTGFvcnJsM2NkZ2Q4a0ctMVZDQ2NXaWNUWi1teEczSkd1Rk5KcTVoZE5ZTWhVa2gxT05POEZpemM5aUxDd1Fxb0c0WmRUOExQUVJ5Vm94V1duN0IxQ0hodnF6VW0wUUh3Qzc5eDNEQXlLSXJNZXRLTlZNaURTOXNwRHZrbEVZUGJJb1Zlcl96NWo3OFE?oc=5",
+      "publishedAt": "2026-10-29T18:49:45.000Z",
+      "snippet": "Gemini 4 Carbon: the world’s best AI model yet? Medium",
+      "score": 4,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "61b9c5493a28b026",
+      "domain": "publishing",
+      "source": "stm_assoc",
+      "title": "2026 Innovators showcase technologies tackling scholarly publishing’s most pressing challenges",
+      "url": "https://stm-assoc.org/2026-innovators-showcase-technologies-tackling-scholarly-publishings-most-pressing-challenges/",
+      "publishedAt": "2026-10-27T08:03:31.000Z",
+      "snippet": "STM has announced the 20 innovators selected to participate in the Innovator Fair at STM Innovation & Integrity Days 2026, taking place in London on 8 December. Chosen from more than 40 submissions, this year’s cohort reflects the pace of innovation across scholarly publishing, with new approaches t",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "0cf79cd23123d660",
+      "domain": "publishing",
+      "source": "doaj_blog",
+      "title": "Paradise Lost, Knowledge Regained: Jan Erik Frantsvåg on reclaiming open access (Part 2)",
+      "url": "https://blog.doaj.org/2026/10/27/paradise-lost-knowledge-regained-jan-erik-frantsvag-on-reclaiming-open-access-part-2/",
+      "publishedAt": "2026-10-27T03:08:03.000Z",
+      "snippet": "In the second part of this interview, Jan Erik Frantsvåg discusses the vital community-building role of smaller society journals and the ongoing need for institutional support in diamond open access publishing. He also examines the continued dominance of commercial publishers, the flaws of academic ",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "afb61b6cd85c3052",
       "domain": "ai",
       "source": "simonwillison",
@@ -1854,6 +2168,17 @@
       "tags": []
     },
     {
+      "id": "cf2fa8902552f72d",
+      "domain": "publishing",
+      "source": "doaj_blog",
+      "title": "VACANCY: Head of Editorial",
+      "url": "https://blog.doaj.org/2026/10/26/vacancy-head-of-editorial-2/",
+      "publishedAt": "2026-10-26T01:57:19.000Z",
+      "snippet": "Closing date: 12:00 UTC, Monday 9 November 2026 Full-time, at least 30 hours per week Do you have the combination of editorial and leadership experience to help shape the future of trusted open access publishing? Can you lead a remote, distributed team through change, while ensuring that editorial s",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "6899b22c04fe218d",
       "domain": "publishing",
       "source": "google_news_retraction",
@@ -1872,17 +2197,6 @@
       "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
       "publishedAt": "2026-10-25T15:10:19.000Z",
       "snippet": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on m",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "aa9706009567f2cf",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Introducing Kimi K3.1 Pro",
-      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-      "publishedAt": "2026-10-23T19:40:54.000Z",
-      "snippet": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which ar",
       "score": 4,
       "tags": []
     },
@@ -1964,6 +2278,17 @@
       "tags": []
     },
     {
+      "id": "9e9c60f8ec603545",
+      "domain": "publishing",
+      "source": "stm_assoc",
+      "title": "STM joins international media organisations calling for copyright protections to be maintained in Australian AI policy",
+      "url": "https://stm-assoc.org/stm-joins-international-media-organisations-calling-for-copyright-protections-to-be-maintained-in-australian-ai-policy/",
+      "publishedAt": "2026-10-21T11:51:48.000Z",
+      "snippet": "STM is one of 63 international media organisations from across publishing, media, music, photography and the wider creative industries that has signed a joint letter to the Australian Government expressing concern about reported proposals that could weaken copyright protections in the context of art",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "5a3c38eabd6480c4",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -1978,7 +2303,7 @@
       "id": "341437d32d9fe2cf",
       "domain": "publishing",
       "source": "google_news_onhold",
-      "title": "Who is to blame for a journal’s recent glut of retractions? - Times Higher Education",
+      "title": "Who is to blame for a journal’s recent glut of retractions?",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdDVpUFU1M3ZoZkpuYy1CME5XVzVBcDdicnJzT05rSHRfdDdQTGUzZnozUWZaZndsWVVxMjlSMEJfb3Z6RzRjTFBDRTNTeVp4RmFmbzZHYUt6TjVaVTZKRXhLN1F6dzZwUFV5aEduaXNlVDJiQnZ0WDBsY29MU3pGbDNxYjBLWmV2LVdWaDJB?oc=5",
       "publishedAt": "2026-10-21T07:00:00.000Z",
       "snippet": "Who is to blame for a journal’s recent glut of retractions? Times Higher Education",
@@ -2063,10 +2388,21 @@
       "tags": []
     },
     {
+      "id": "0b079c7f2bd30234",
+      "domain": "publishing",
+      "source": "doaj_blog",
+      "title": "From partnership to policy: How DOAJ and Ukraine are strengthening open access publishing",
+      "url": "https://blog.doaj.org/2026/10/19/from-partnership-to-policy-how-doaj-and-ukraine-are-strengthening-open-access-publishing/",
+      "publishedAt": "2026-10-19T07:18:05.000Z",
+      "snippet": "DOAJ is pleased to announce a Memorandum of Understanding with the State Scientific and Technical Library of Ukraine (SSTL) as a national ambassador institution. The partnership aims to establish a strategic national framework for strengthening open access scholarly publishing in Ukraine. DOAJ and S",
+      "score": 4,
+      "tags": []
+    },
+    {
       "id": "f2b62fe582df241d",
       "domain": "publishing",
       "source": "google_news_retraction",
-      "title": "饶毅点名国际期刊中国出身主编索贿200万 回应来了 - 阿波罗新闻网",
+      "title": "饶毅点名国际期刊中国出身主编索贿200万 回应来了",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iOTJFemozUUVWTTM4akVCR2JnakgzWmJ2VEFYZHBOeFkwMUpvMWpIbFJ0UHF5MzVJVXJCQzdLQUpMSEZEejFwcDhaZ3F4c0tYZDZ2bm4tS0RuR3JiUHc?oc=5",
       "publishedAt": "2026-10-18T07:00:00.000Z",
       "snippet": "饶毅点名国际期刊中国出身主编索贿200万 回应来了 阿波罗新闻网",
