@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T01:27:54.504Z",
+  "generatedAt": "2026-11-05T03:35:52.467Z",
   "counts": {
-    "raw": 210,
-    "deduped": 198,
-    "kept": 198
+    "raw": 207,
+    "deduped": 195,
+    "kept": 195
   },
   "sources": [
     {
@@ -13,15 +13,15 @@
       "status": 200,
       "count": 19,
       "error": null,
-      "ms": 550
+      "ms": 411
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 11,
+      "count": 8,
       "error": null,
-      "ms": 1215
+      "ms": 1412
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1374
+      "ms": 1387
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 16,
       "error": null,
-      "ms": 2463
+      "ms": 2667
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1149
+      "ms": 1184
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1518
+      "ms": 1526
     },
     {
       "key": "google_news_ai_zh",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1394
+      "ms": 1325
     },
     {
       "key": "google_news_onhold",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1277
+      "ms": 1279
     },
     {
       "key": "google_news_retraction",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1228
+      "ms": 1218
     },
     {
       "key": "infodocket",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1311
+      "ms": 1287
     },
     {
       "key": "scholarly_kitchen",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1367
+      "ms": 1294
     },
     {
       "key": "retraction_watch",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1149
+      "ms": 1131
     },
     {
       "key": "doaj_added",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2111
+      "ms": 2065
     },
     {
       "key": "doaj_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 4,
       "error": null,
-      "ms": 2178
+      "ms": 2298
     },
     {
       "key": "stm_assoc",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 2118
+      "ms": 2009
     },
     {
       "key": "openai_news",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1147
+      "ms": 1244
     },
     {
       "key": "deepmind_blog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1129
+      "ms": 1090
     },
     {
       "key": "hf_blog",
@@ -149,7 +149,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1157
+      "ms": 1140
     },
     {
       "key": "deepseek_models",
@@ -157,7 +157,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1063
+      "ms": 1067
     },
     {
       "key": "deepseek_status",
@@ -165,7 +165,7 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1746
+      "ms": 1789
     },
     {
       "key": "github_changelog",
@@ -173,7 +173,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1048
+      "ms": 1089
     }
   ],
   "items": [
@@ -415,16 +415,92 @@
       ]
     },
     {
-      "id": "e173d44d0970f061",
+      "id": "490ce29fb10db5c0",
       "domain": "ai",
       "source": "google_news_ai_zh",
-      "title": "月之暗面2.8万亿参数Kimi K3.1 Pro开放权重，登顶Agent Arena开放模型榜",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelhoYUc1N2x2N2FobEJ1UXV6MWFiSUR5S3V3bnpMd1pVSWNpazB5RGVCV1JJUXFKbEdCc0lFdkpfRVFCWHR1Qk8yamkwcU9WenNPeXdMTmUtelB4dmNJdmJqY2dhSDE2dURKSS1uczdraTlDZ19nYWRxTi1XSS1qcTlOOTBGdEUxYlVtcFhGS0pnZw?oc=5",
-      "publishedAt": "2026-11-05T01:04:05.000Z",
-      "snippet": "月之暗面2.8万亿参数Kimi K3.1 Pro开放权重，登顶Agent Arena开放模型榜 新浪财经",
+      "title": "Kimi Hosted Agents 正式发布：Harness as a Service",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1MEhXby1GbDZnNzZYeEtObnNMUUxfX21XSmdYQjZtdUtnYkxEQnJjT1AteDFTTkpYR1pQRm9mNHp5eWlZS21vbUx5ZTlOd3ZWcjNXQzhobFdWWDlJUmNTdTRJSlBnSHJxZ2k1YlJmWDc?oc=5",
+      "publishedAt": "2026-11-05T03:10:29.000Z",
+      "snippet": "Kimi Hosted Agents 正式发布：Harness as a Service 53AI",
       "score": 6,
       "tags": [
         "kimi"
+      ]
+    },
+    {
+      "id": "228ce50c8ecd475b",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "让2000名工程师使用中国大模型，这家英国企业实现了“词元自由”",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1HSmdXRXhoa1huZmlNZEljLVlpVzk2SlUyUjc3MTg0T0hjZTE0aW5ENlU3bWJMNHYyMUx3Wkd0WW1tZC1KZTBpV0JLU20?oc=5",
+      "publishedAt": "2026-11-05T02:47:44.000Z",
+      "snippet": "让2000名工程师使用中国大模型，这家英国企业实现了“词元自由” 凤凰网",
+      "score": 6,
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "dc908522ed04d7d5",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "港股异动| 腾讯控股(00700)涨超5% 混元最新模型Hy4 上线、跻身最强开源模型之列_股市直播_市场",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzZUxKX2FaenJUMEZhY0JJb1gwaEtuaWljc1pOX2JJSXJGeFliRmJHVm00TE1NZkpPT096VzJqUzhyWFpaY0ljMWJFcUFrS1lEcVo4ZV85c0pJZTZHbTU1WVhEZG9ZeGN0ZkRfTA?oc=5",
+      "publishedAt": "2026-11-05T02:45:02.000Z",
+      "snippet": "港股异动| 腾讯控股(00700)涨超5% 混元最新模型Hy4 上线、跻身最强开源模型之列_股市直播_市场 中金在线",
+      "score": 6,
+      "tags": [
+        "混元"
+      ]
+    },
+    {
+      "id": "34add2a3cedec9b8",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "豆包工作首次接入第三方模型_国内经济",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaSDh1cTZ5NHQyOEUxc0E3TkxWNjlnNlFQclUtXzF6LVBQLWREcFJjNWJMdzhIR2YxeWdhdEh5QS1uOEFsYnhHTk5vRl9tTElOZWJNZ3F1X1B2ZTREdGctRzNlUmg?oc=5",
+      "publishedAt": "2026-11-05T02:04:41.000Z",
+      "snippet": "豆包工作首次接入第三方模型_国内经济 证券之星",
+      "score": 6,
+      "tags": [
+        "豆包"
+      ]
+    },
+    {
+      "id": "381f93474892e635",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "SuperCLUE发布办公智能体端到端实战测评：豆包工作位列第一",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Tb0F0eUM2a0FKNmlrbE43VmxuUXJfMEh4LVh3ZWk1LXhiYkwtdnQ1akJXUGpsNUVzeE9tQklxUHBDNFc2N2lRdWJWMTY2TVVDWEFaY2ZjNTBEOHRyNVE?oc=5",
+      "publishedAt": "2026-11-05T01:58:26.000Z",
+      "snippet": "SuperCLUE发布办公智能体端到端实战测评：豆包工作位列第一 DoNews",
+      "score": 6,
+      "tags": [
+        "豆包"
+      ]
+    },
+    {
+      "id": "50049084de3cb47a",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "A history of backdoors (2015)",
+      "url": "https://blog.cryptographyengineering.com/2015/07/20/a-history-of-backdoors/",
+      "publishedAt": "2026-11-05T01:53:17.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "12a9959fbb6d581a",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "混元 Hy4 实测：腾讯的产品基因，模型继承了几分？",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlSDVscnVfVVZuN1kybUQtV0VwLTQyNWNiWEZTd1YwTVB0SHV2S2RET3VZNzdOZFcxNXFIX3dtWXp0b0JZZkZBVkhFVFVOZ0VLaHowZl85ZmFTQQ?oc=5",
+      "publishedAt": "2026-11-05T01:47:26.000Z",
+      "snippet": "混元 Hy4 实测：腾讯的产品基因，模型继承了几分？ InfoQ.cn",
+      "score": 6,
+      "tags": [
+        "混元"
       ]
     },
     {
@@ -439,13 +515,13 @@
       "tags": []
     },
     {
-      "id": "33aec5db63a0d89e",
+      "id": "37fef24d44ea3bd2",
       "domain": "ai",
       "source": "google_news_ai_zh",
-      "title": "月之暗面开源Kimi K3.1 Pro模型权重：登顶Agent Arena开放模型榜首，Bash可靠性跃居第一",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sRGdJbE1VMVRqUVFoSXdVWmNkTWZuMVJGSnlaYXFuX1dBRnYyR1ctd3pFT3A5Qk9YSWVFY2hxaFRkekhnQXAxMEVBMzRxQjRnVnp1aGl6S295TXZLanc?oc=5",
-      "publishedAt": "2026-11-05T00:08:00.000Z",
-      "snippet": "月之暗面开源Kimi K3.1 Pro模型权重：登顶Agent Arena开放模型榜首，Bash可靠性跃居第一 SmartHey",
+      "title": "2.8 万亿参数 Kimi K3.1 Pro 开放权重，登顶 Agent Arena 开源模型榜",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KR25aQS1wTjVBTTlVdDdWLUYwWWpXZ01jOFJTR3NqOVVkYUFuWFZkaHcwMk5qdlBhWUVvOGFIOEkxQWI4N1REMzZ5RHUwSDV0VXd6bXhjRElScUowc1E?oc=5",
+      "publishedAt": "2026-11-05T00:08:59.000Z",
+      "snippet": "2.8 万亿参数 Kimi K3.1 Pro 开放权重，登顶 Agent Arena 开源模型榜 DoNews",
       "score": 6,
       "tags": [
         "kimi"
@@ -476,13 +552,13 @@
       ]
     },
     {
-      "id": "0de45868292ebee2",
+      "id": "39ec047eb7b2f540",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "QUICK SPARK: Anthropic Wants AI Companies To Prove Their Models Are Telling The Truth",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQX29nU2J0cDJ3aDVTZkQzczVjUDNzOTU3aXJDQUQ3dGVWT2VSakROcmxMNTFzS3IxTlRkclNoeThfNW9tTzVBOHdxSzEwMDNXZ1h0MU56eTEyeUhQN1kyLTU4SzJ0VVA2WkNTaE9JLXVwbmpWdmdqRk50NlhQdlpWMG1NVHM1dzN3Wk5uYWQ2bzRSQzVUZ0xYYm0xU2xIMXpLU21uOHVMUi1LdWNVVXhhb0dIal9fOTY3b1FSN0h3R2R6U2M4dkhETTlldEZUamZmd0EwOWdidw?oc=5",
-      "publishedAt": "2026-11-04T20:23:30.000Z",
-      "snippet": "QUICK SPARK: Anthropic Wants AI Companies To Prove Their Models Are Telling The Truth Benzinga",
+      "title": "Anthropic Develops Tools to Confirm AI Models’ Identities",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaHhWLVF6WmpYalZHbnpFM1NMU1FDbUI1M084cGNIS3M1WHg1RkI5TjN4WmVMZEVFS1NJSXZQR19EcTRVTU5idDNRM3RXYlJYMDZGWE1rNzZ2Z3dNYUNrc0Z3Rl9lSVFJaUdjaGNVOEVqZU04UGJ0SXU4bDNQaWFXekwtX2U0dENsTmVMUHFRQjJ5T2loc3YtREZNRHBWR3ZTdWtRS0lXZGw0cjFYTXFSZ0xqMXI?oc=5",
+      "publishedAt": "2026-11-04T20:34:50.000Z",
+      "snippet": "Anthropic Develops Tools to Confirm AI Models’ Identities PYMNTS.com",
       "score": 6,
       "tags": [
         "anthropic"
@@ -662,19 +738,6 @@
       "tags": []
     },
     {
-      "id": "cd0b5680c9a4e71b",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "国行苹果AI开放测试：Siri整合千问，正式版拟12月推送",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1neGNWSHRhZzJoenFNempEMVE3Mm9kVWgtNHdPY3BDUW5jRUVwNWFDMDZZRGJzWUIxSkJoclVqeUV1R3p5c3JJMA?oc=5",
-      "publishedAt": "2026-11-04T14:28:00.000Z",
-      "snippet": "国行苹果AI开放测试：Siri整合千问，正式版拟12月推送 财联社",
-      "score": 6,
-      "tags": [
-        "千问"
-      ]
-    },
-    {
       "id": "8b140623f042c1dc",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -684,19 +747,6 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "bff70f24d06cfb76",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "中国大模型开源开放，逻辑在哪里？",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiZk16bUFRRmYwZDVOeS1aVndtcjRnR19Yci01QWtFQndYdHNieHZWMGZ4MjRKTTk5MTdIR0hSamJycEpyY1lmc1BZZ2JESXNjQ3FFREVBQU5kNHFqdTZma1JBdndiZGVGcGhKQVQzWUVNUQ?oc=5",
-      "publishedAt": "2026-11-04T13:32:00.000Z",
-      "snippet": "中国大模型开源开放，逻辑在哪里？ 京报网",
-      "score": 6,
-      "tags": [
-        "大模型"
-      ]
     },
     {
       "id": "470390d1941e69ae",
@@ -730,32 +780,6 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "abf89d193fb8307c",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "大模型独角兽涨价的钱去哪了",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hXzZFZGxDRjZxb08wZDJpQTFSS0hyWDhLM3BBU0E4YTMxYVktR0RKanJRcHQ5QTZFM25iZHZhWGRVa1hudUdLalBmX3hzWmpJUFpB?oc=5",
-      "publishedAt": "2026-11-04T11:56:56.000Z",
-      "snippet": "大模型独角兽涨价的钱去哪了 华尔街见闻",
-      "score": 6,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "id": "c605d91cdf996234",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "混元Hy4实测：基模有了视觉、Agen能跨应用，干活能力到底如何？",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9MeDFxV0lWZ3o0cHRUS1pvYXlqTmR3aUk3M01zRVVSZWpROF81Y2l5SzhQQmpaWURINnZOOUdjLVp4TS1sWHExNlJJYkhVUQ?oc=5",
-      "publishedAt": "2026-11-04T11:45:49.000Z",
-      "snippet": "混元Hy4实测：基模有了视觉、Agen能跨应用，干活能力到底如何？ 雷科技",
-      "score": 6,
-      "tags": [
-        "混元"
-      ]
     },
     {
       "id": "ef1ab26cae35368d",
@@ -813,17 +837,6 @@
       "tags": []
     },
     {
-      "id": "fbaa894e7172474a",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Fraction comparison trick revisited",
-      "url": "https://www.johndcook.com/blog/2026/11/03/fraction-comparison-trick-revisited/",
-      "publishedAt": "2026-11-04T09:02:48.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
       "id": "524eb3583c538990",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -841,17 +854,6 @@
       "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
       "url": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
       "publishedAt": "2026-11-04T07:33:05.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "60e53e852f6e3bc0",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Mac at any scale",
-      "url": "https://namespace.so/blog/mac-at-any-scale",
-      "publishedAt": "2026-11-04T03:08:11.000Z",
       "snippet": "Comments",
       "score": 6,
       "tags": []
@@ -989,35 +991,6 @@
       "score": 6,
       "tags": [
         "clarivate"
-      ]
-    },
-    {
-      "id": "ee611203a4455c69",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: I built a little browser game to practice Vim commands",
-      "url": "https://hjkl.duy.run/",
-      "publishedAt": "2026-11-03T03:10:04.000Z",
-      "snippet": "I made hjkl to help myself remember Vim commands. It’s a little browser game you can play when you want to unwind and get a bit of Vim practice in. There are still a lot of commands I want to add, but I hope someone finds it useful in the meantime :)",
-      "score": 6,
-      "tags": [
-        "browser",
-        "show hn"
-      ]
-    },
-    {
-      "id": "d00f96929ad6541d",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Rustable is an open source database client built in Rust",
-      "url": "https://rustable.app/",
-      "publishedAt": "2026-11-03T03:06:53.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "rust",
-        "database",
-        "show hn"
       ]
     },
     {
@@ -1220,18 +1193,17 @@
       ]
     },
     {
-      "id": "b2b74619fd30228e",
+      "id": "c53270ce8fa3c6d9",
       "domain": "ai",
       "source": "google_news_ai_zh",
-      "title": "最强中文大模型出炉：Gemini领跑总榜、Kimi国内第一",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Ieks4TWFmLV9RS011QUgwbEkwcUVkN0lJYU83VmdxWEtVNWRScDd2NnJmektHY3FUdkFUUUNjQlROTjRXenpXSXRZdEE1Mlh1YW5WZGFsMGs?oc=5",
-      "publishedAt": "2026-11-04T22:42:00.000Z",
-      "snippet": "最强中文大模型出炉：Gemini领跑总榜、Kimi国内第一 驱动之家",
+      "title": "大肥鱼取代豆包，DeepSeek被用户共创OC带火了",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9PcVI4eDJwOGdZNDJjQ29tbldQQ0tmR204ZlBqWEg2S2M0MFN6RjJTOTBpSmo4Y3RFWDJTZ2UzclFNMzFyakdCdTBiTC1PMVgz?oc=5",
+      "publishedAt": "2026-11-05T03:01:07.000Z",
+      "snippet": "大肥鱼取代豆包，DeepSeek被用户共创OC带火了 https://www.itopmarketing.com/",
       "score": 5,
       "tags": [
-        "gemini",
-        "kimi",
-        "大模型"
+        "deepseek",
+        "豆包"
       ]
     },
     {
@@ -1356,18 +1328,15 @@
       "tags": []
     },
     {
-      "id": "8ef468e8b1825cb7",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek, Qwen and MiniMax Leads Debate Open-Source Model Risks on Shared Wuzhen Stage",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVlkzbHVsbGRSd09EUWVBbHJnYjkyWXhYSmlHdTFka1BETGNKVlQ2QndpU3ZMdDA3TnNISW9YOGJhLWxuX0EtQ3BVMU9hRFBWQjJaMmYzS19PaHVtX3FCYzdaVlpKRDFsMS1QdUl3SGtQNjFHazUtdlpzZ0RTNWppcWtaNVpna1pNc1BVLW85Z0h5RHFPUkE?oc=5",
-      "publishedAt": "2026-11-04T02:00:10.000Z",
-      "snippet": "DeepSeek, Qwen and MiniMax Leads Debate Open-Source Model Risks on Shared Wuzhen Stage Pandaily",
+      "id": "60e53e852f6e3bc0",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Mac at any scale",
+      "url": "https://namespace.so/blog/mac-at-any-scale",
+      "publishedAt": "2026-11-04T03:08:11.000Z",
+      "snippet": "Comments",
       "score": 5,
-      "tags": [
-        "deepseek",
-        "qwen"
-      ]
+      "tags": []
     },
     {
       "id": "6b976fb9d46cdac5",
@@ -1626,19 +1595,6 @@
       ]
     },
     {
-      "id": "4d4f67474ee2640f",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
-      "url": "https://hackertimes.ca/",
-      "publishedAt": "2026-11-03T01:53:34.000Z",
-      "snippet": "I thought it would be fun to browse HN as if it were a newspaper. The site updates once an hour. Enjoy!",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
       "id": "dd4cc698b53261c1",
       "domain": "ai",
       "source": "hf_blog",
@@ -1659,19 +1615,6 @@
       "snippet": "",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "4a0313613783511e",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Developer Compiles RISC-V CPU Into Qwen AI Model and Runs Doom on It",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mMWtwb293bWJENjE0YXNkN0w3cmRwZGNrZ2RJSHZsNU1XLUNPQ05BRVppTzhrbTFpY2R1dXFuNDlwODJPNzd4a2hsSXB0V21IVEs0MHFHRFlDWEY0bFVn0gFkQVVfeXFMUE5EVFJQZDg4cDcwV2NvcUk0UGlfTnN6VzVaYjJOdnNSSUx3ZUpVWXVVdUlSR3J6dWp0YlZzYUl0M3BVQVR0ZWhnbHVSWDE0SDJvSGpSMG1jVkFyNjhRcWQ3RHJyWQ?oc=5",
-      "publishedAt": "2026-11-02T20:20:00.000Z",
-      "snippet": "Developer Compiles RISC-V CPU Into Qwen AI Model and Runs Doom on It Mezha",
-      "score": 5,
-      "tags": [
-        "qwen"
-      ]
     },
     {
       "id": "5aae86f11334e343",
@@ -2009,6 +1952,45 @@
       ]
     },
     {
+      "id": "0ee33c437faa0603",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI Uses GPT-6 Astra to Model Mazda Vehicle Nose Shapes",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFSHBXU3ptT0FUd2pQMW9HZTZxbGo2VUpUQ0xCZmJqckRmbkhXRHlKOFNyLW5OODU3aVd6TGVnck9RQzNRRTVtd3F5c0UzU1dBTVBmdUVyR0pnakE?oc=5",
+      "publishedAt": "2026-11-05T01:47:00.000Z",
+      "snippet": "OpenAI Uses GPT-6 Astra to Model Mazda Vehicle Nose Shapes www.tokenpost.com",
+      "score": 4,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "b35354ebe86e1a0f",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek押注昇腾，国产AI芯片的突围之年",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5McGlBa1NVZURseTRmSmFBbUtlTllwWHpvSzBjVmRQWFJNNW53UUNmNkhOX1hOa0tyVm1QVzJxTmhMZnV5bzhZekVwOGZIWl9NZ0F5VDhmZUhUcTJjNllZSg?oc=5",
+      "publishedAt": "2026-11-05T01:08:16.000Z",
+      "snippet": "DeepSeek押注昇腾，国产AI芯片的突围之年 信息化观察网",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "ddb1e70e0f9c358b",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "iOS 27.3 beta 正式接入阿里千问，替代 ChatGPT 角色",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xOTlpQVBmTzFtOVdvQy1zMlh4UTZ2VnFUSjN3Z2N1YmZtZnZIeVdleWVoa0l4UHE4SV9ZV3h1UDMzczFkaF9KTzlobXZRZw?oc=5",
+      "publishedAt": "2026-11-05T00:55:00.000Z",
+      "snippet": "iOS 27.3 beta 正式接入阿里千问，替代 ChatGPT 角色 AIBase",
+      "score": 4,
+      "tags": [
+        "千问"
+      ]
+    },
+    {
       "id": "edd21c5f513164f7",
       "domain": "ai",
       "source": "google_news_ai",
@@ -2019,71 +2001,6 @@
       "score": 4,
       "tags": [
         "openai"
-      ]
-    },
-    {
-      "id": "7a9363a1ee5ce14c",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Gemini 4 Flash Leak: 5 Hydrogen Checkpoints, No Model ID",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05Tm0tMXRscGcxcWVFNzg1QTNpMi1pQi1JS0Z2aUxpZ2NtOEZhSEdhOG8wZVYtRU9kYjNSV1BaRHpxbVRvMEdFdkNvRC1yNHpJVVY4NmxFZV9nRzJmV3Z4R2UyaXE0NXNRQWxF?oc=5",
-      "publishedAt": "2026-11-04T23:27:26.000Z",
-      "snippet": "Gemini 4 Flash Leak: 5 Hydrogen Checkpoints, No Model ID OrcaRouter",
-      "score": 4,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
-      "id": "5ff76d5e0999c2f2",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wd0JWNXNkT3NmUy1UV09ldm1iSXY3dTllQ1o1ZFg5MFZPS1BRY3RCTUJLc05UYWJTb1R6VHhoT0NXM3hJQU5xLQ?oc=5",
-      "publishedAt": "2026-11-04T23:22:04.000Z",
-      "snippet": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试 财联社",
-      "score": 4,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "1c7f4bc026d3482b",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "75.2亿元、40名LP，砺思又拿到了DeepSeek投资份额",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fcmFQb2kyNXFXSWhkR3V2TWNJZDUtUW9ndzk3REoxb0lzLTllQ28wTjNpZzNsUmxKOUxYNlpOeUh3UHNUQVZkYQ?oc=5",
-      "publishedAt": "2026-11-04T22:48:13.000Z",
-      "snippet": "75.2亿元、40名LP，砺思又拿到了DeepSeek投资份额 财联社",
-      "score": 4,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "64cbd02730043b4b",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "GPT-6.1 Sol vs Kimi K4: The Model That Never Existed",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUWHZCZURqUWZEbHNMNVJtUWN2aWpIcVdiLXVFU1VmejdMVFlMZ2hxX2dzd3FYM0MxNnBLRl82RTVRZUpVVU5rblRtTW9yMmZtSjZFRTRVeXRWLWhSZzRlLTJxaw?oc=5",
-      "publishedAt": "2026-11-04T22:38:42.000Z",
-      "snippet": "GPT-6.1 Sol vs Kimi K4: The Model That Never Existed OrcaRouter",
-      "score": 4,
-      "tags": [
-        "kimi"
-      ]
-    },
-    {
-      "id": "8b2d582bf602420f",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "GPT-6.1 Sol vs Kimi K4：从未存在过的模型",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1MHB3OGNNMGpwQnM1ak5DU1RKWHZlX3NsRVhrLTRuM055c3EzOHdabS1WN252X0dQeU1RTEdueHBxdFdtcm43THlmNW5uME1PTC13NnhWZGpOckJEaGM4VndmSC1tSHRtcy1n?oc=5",
-      "publishedAt": "2026-11-04T22:38:42.000Z",
-      "snippet": "GPT-6.1 Sol vs Kimi K4：从未存在过的模型 OrcaRouter",
-      "score": 4,
-      "tags": [
-        "kimi"
       ]
     },
     {
@@ -2100,17 +2017,43 @@
       ]
     },
     {
-      "id": "d7a4455d9d489de4",
+      "id": "caa5f5f029b152f7",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Redditor Uses DeepSeek AI To Unlock AMD Fluid Motion Frames 3 On RDNA 3 And RDNA 4 GPUs Ahead Of Official Release",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVGQ1azNDSDdoQlFzaVZwR1BsVm1xRlVlUEtlU3ZCZnBFSGdqeUM1MnpMcE5Qbk54Z0hnSGlQOWNHN1ZvTEIwdmtDU1JBLVNsX2VKTUlVMmRkdE4zbm44eDYxbklHUlZQZ1FzNHJqd19aLVE4a1BaTGNTLWNfT1I1a2o1UVZCTHNrV3plYzRGeXY4V09aVHlQdlV1S3lCa3AzS2pmRnkzdWRkZ3BsMmRNMWhXUlFGdTR6V3lTenpNNWxwOGhBQmhOOTYyUzVPUTZK0gHWAUFVX3lxTE5yc2ZTc2pYc2FwdjA3YWV0WDRvMFh5YXNvb1NNemVYSWxiNkc5NlROZ1FTcFlJd1VEUTJOU3Jha1RvMmVxUExTVzZSVzlzLTExVmxrQ3JkT3AtMjA4TjJvdFdZVXlrV0tnSFVVOTgyeXl3bTlBVTlCWUNfb1A3T1NaZ2dhN1Q2MlJIT25jX0xxZTJUMUJsQ19CQWtxNC1SMUZTYTBGYkV1R1RSNzZtMEZRNGVyQlNYNnl1cDctLThpWldhcVE0M1BmMXZyemNJNF90Q3dKeUE?oc=5",
-      "publishedAt": "2026-11-03T11:49:35.000Z",
-      "snippet": "Redditor Uses DeepSeek AI To Unlock AMD Fluid Motion Frames 3 On RDNA 3 And RDNA 4 GPUs Ahead Of Official Release Wccftech",
+      "title": "Argon Fieldnotes Launches Independent Gemini 4 Guide",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcXRXOHBDU0Y3Ykp1RzBRQm1NWXB4UjQ1ektEU2dfUHJGdTVvaUpQUlVEYU5EdlNyRGJ6UUVaV0lzQ1RLT2RpMXVjejBvOW9IeHZzYU9XMW5zYmpUcE5uallPRGdvNUsycVA1MkxtSVJZcEk5ZXREbm94NzVFMDJ4WUphMS1PTU41dWV3NFNON0h5dlpvd1Z6T1hUemo3UlVHLS1oNzRFRS0tMDlCQi1TMGpSWXc?oc=5",
+      "publishedAt": "2026-11-04T21:17:27.000Z",
+      "snippet": "Argon Fieldnotes Launches Independent Gemini 4 Guide The Des Moines Register",
+      "score": 4,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "8ef468e8b1825cb7",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek, Qwen and MiniMax Leads Debate Open-Source Model Risks on Shared Wuzhen Stage",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVlkzbHVsbGRSd09EUWVBbHJnYjkyWXhYSmlHdTFka1BETGNKVlQ2QndpU3ZMdDA3TnNISW9YOGJhLWxuX0EtQ3BVMU9hRFBWQjJaMmYzS19PaHVtX3FCYzdaVlpKRDFsMS1QdUl3SGtQNjFHazUtdlpzZ0RTNWppcWtaNVpna1pNc1BVLW85Z0h5RHFPUkE?oc=5",
+      "publishedAt": "2026-11-04T02:00:10.000Z",
+      "snippet": "DeepSeek, Qwen and MiniMax Leads Debate Open-Source Model Risks on Shared Wuzhen Stage Pandaily",
       "score": 4,
       "tags": [
         "deepseek",
-        "release"
+        "qwen"
+      ]
+    },
+    {
+      "id": "156ac83280d31984",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpR3hJSmtwcG5hVGtkX3hUYmFKcUdMalJkMzBOcjNWT2JOZXg0bHduLXRSTkxybUZZRVZ2MHJ4RC0tWHZHNmNzYWdzXy1oUUI0UVB1a2tzLTJ0am5wdVo4ZkRNMzNnWDRwamc?oc=5",
+      "publishedAt": "2026-11-02T02:38:52.000Z",
+      "snippet": "Alibaba's Qwen AI model to integrate into Apple Intelligence in landmark partnership China.org.cn",
+      "score": 4,
+      "tags": [
+        "qwen"
       ]
     },
     {
@@ -2555,6 +2498,19 @@
       "score": 4,
       "tags": [
         "stars"
+      ]
+    },
+    {
+      "id": "a05afe2b675f5b35",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek Plans to Train Its Next-Generation Model on Huawei Ascend Chips",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52NkNkNjNrLXlxV3lCc1ZyRzg3UDF3LXhqM3pQSFowSUJESzdFbXJHWHFfU3Q4dTBVd2ZLRlRkWTdWdW94TlJaMGxEMGtEVGkweDlJc2Z0NzRNTGxNQno0YzBaOGt2eUlQRmNQd0dnTDk?oc=5",
+      "publishedAt": "2026-11-03T10:00:06.000Z",
+      "snippet": "DeepSeek Plans to Train Its Next-Generation Model on Huawei Ascend Chips Geopolitechs",
+      "score": 3,
+      "tags": [
+        "deepseek"
       ]
     }
   ]
