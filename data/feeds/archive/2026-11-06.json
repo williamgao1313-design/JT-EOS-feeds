@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T01:56:35.373Z",
+  "generatedAt": "2026-11-06T03:30:31.305Z",
   "counts": {
-    "raw": 203,
-    "deduped": 198,
-    "kept": 198
+    "raw": 206,
+    "deduped": 200,
+    "kept": 200
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 15,
+      "count": 16,
       "error": null,
-      "ms": 425
+      "ms": 711
     },
     {
       "key": "show_hn",
       "ok": true,
       "status": 200,
-      "count": 7,
+      "count": 8,
       "error": null,
-      "ms": 1334
+      "ms": 3344
     },
     {
       "key": "lobsters",
@@ -29,15 +29,15 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1827
+      "ms": 1458
     },
     {
       "key": "github_trending",
       "ok": true,
       "status": 200,
-      "count": 14,
+      "count": 15,
       "error": null,
-      "ms": 2457
+      "ms": 2183
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1146
+      "ms": 1105
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1523
+      "ms": 1551
     },
     {
       "key": "google_news_ai_zh",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1464
+      "ms": 1392
     },
     {
       "key": "google_news_onhold",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1295
+      "ms": 1311
     },
     {
       "key": "google_news_retraction",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 7,
       "error": null,
-      "ms": 1202
+      "ms": 1243
     },
     {
       "key": "infodocket",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1273
+      "ms": 1415
     },
     {
       "key": "scholarly_kitchen",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1146
+      "ms": 1085
     },
     {
       "key": "retraction_watch",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1152
+      "ms": 1111
     },
     {
       "key": "doaj_added",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 2045
+      "ms": 1796
     },
     {
       "key": "doaj_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 4,
       "error": null,
-      "ms": 2062
+      "ms": 1820
     },
     {
       "key": "stm_assoc",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1796
+      "ms": 1954
     },
     {
       "key": "openai_news",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1152
+      "ms": 1115
     },
     {
       "key": "deepmind_blog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1187
+      "ms": 1083
     },
     {
       "key": "hf_blog",
@@ -149,7 +149,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1137
+      "ms": 1089
     },
     {
       "key": "deepseek_models",
@@ -157,7 +157,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1071
+      "ms": 1011
     },
     {
       "key": "deepseek_status",
@@ -165,7 +165,7 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1893
+      "ms": 2236
     },
     {
       "key": "github_changelog",
@@ -173,7 +173,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1221
+      "ms": 1060
     }
   ],
   "items": [
@@ -211,19 +211,6 @@
       "url": "https://openai.com/index/merge-builds-with-openai",
       "publishedAt": "2026-11-05T08:00:00.000Z",
       "snippet": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-      "score": 8,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "a72dd9cbf035bcce",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "publishedAt": "2026-11-05T02:00:00.000Z",
-      "snippet": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "score": 8,
       "tags": [
         "openai"
@@ -296,6 +283,31 @@
       ]
     },
     {
+      "id": "0c619408f9bcc734",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "snippet": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "score": 7,
+      "tags": []
+    },
+    {
+      "id": "e7cf89092d3dfe2f",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+      "url": "https://firenook.dev/",
+      "publishedAt": "2026-11-05T13:07:29.000Z",
+      "snippet": "Hi HN, we have been developing with Firebase for a long time, and the only way Firebase developers can build apps without directly costing them is using the official Firebase Emulator Suite. However, the issue with this suite is, it's dependent and running on Java with a old Console UI (not updated ",
+      "score": 7,
+      "tags": [
+        "rust",
+        "show hn"
+      ]
+    },
+    {
       "id": "e4a181c391bd965e",
       "domain": "ai",
       "source": "google_news_ai",
@@ -308,6 +320,19 @@
         "hugging face",
         "kimi",
         "moonshot"
+      ]
+    },
+    {
+      "id": "a72dd9cbf035bcce",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "snippet": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "score": 7,
+      "tags": [
+        "openai"
       ]
     },
     {
@@ -344,19 +369,6 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "snippet": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "score": 7,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "d094672a404e8cd4",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "A thousand fewer paths to root",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "snippet": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
       "score": 7,
       "tags": [
         "openai"
@@ -401,6 +413,58 @@
       "tags": [
         "on hold",
         "retraction"
+      ]
+    },
+    {
+      "id": "999142407717aaab",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Chatr Labs Releases Its Most Capable Unrestricted Qwen-Image-2.1 Model, Trained on One Million Images",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbUtrYVYzNlkxR2JLRlJEQ3h4Zjg5UEhmbW1qZUhxZlcwbTA2bVYtdXprNllKdklPd0ppclpPNWNya0hoN1g5Mm91R0lMVlBxWXA5T25KZFF2bEI1UU9xVGJBcVplMEQxNkdacGRmZjBicXNUZnlFcXJRLXo5ZWEtRUdURk5ZWnFUUzhMWVBwakNiZUFXemNfLUcxNjV2eFIzNTVYZ0E5bUVhRF9BWUc2MGdhUWRJSUpIR3hfOFNzVlVkUjdkRWZpM00tbDZ5TTVzeGUwVFRqdy05cU5fVDJPZ18ybEkwSUtRU2l3UkJYd0VKbnJv?oc=5",
+      "publishedAt": "2026-11-06T03:06:58.000Z",
+      "snippet": "Chatr Labs Releases Its Most Capable Unrestricted Qwen-Image-2.1 Model, Trained on One Million Images StreetInsider",
+      "score": 6,
+      "tags": [
+        "qwen"
+      ]
+    },
+    {
+      "id": "b9548a6c33d5cf89",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "Kimi发布托管智能体服务Harness as a Service",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05bExDd2NUYV9lb1FiYzZNVXdjZnFjeTl0OEJZd3hrMDR4VGUxeGY5bkdoVFVucF9KeEhEejZnQUtfSEM3RHBnSg?oc=5",
+      "publishedAt": "2026-11-06T02:09:58.000Z",
+      "snippet": "Kimi发布托管智能体服务Harness as a Service 品玩",
+      "score": 6,
+      "tags": [
+        "kimi"
+      ]
+    },
+    {
+      "id": "e1443478412ad036",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "腾讯混元Hy4拿下Arena中国模型第一，实验室排名全球第五但单模型列第13",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WVzN4Q3lSa2JVQy0teTRJeTVaOFF5ZGlfalI2cEFEX0lORTVEMVZaNTFSR2ZoVmRacnpERWdBSXlhR1k0TE9lWjNTbEl6amVTSXc?oc=5",
+      "publishedAt": "2026-11-06T02:05:46.000Z",
+      "snippet": "腾讯混元Hy4拿下Arena中国模型第一，实验室排名全球第五但单模型列第13 凤凰网",
+      "score": 6,
+      "tags": [
+        "混元"
+      ]
+    },
+    {
+      "id": "29d84c0ece2c7efa",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b%E2%80%99",
+      "publishedAt": "2026-11-06T00:31:11.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "anthropic"
       ]
     },
     {
@@ -673,26 +737,13 @@
       ]
     },
     {
-      "id": "cb3e03d5b99ea4df",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "对谈千问蒋冠军：从模型、记忆到生态，Personal Agent的技术架构如何搭建？",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41RTdybjhITWVORGw2MTRDY1h3b0xXakJVcGY0cTRfdHAySThfendHcEkxc2ZXeGcyYTItbU5NRV9DUnFjbnVJcTZENjNFVm82djdPV1dJekpfdGZ2a09qWU5EbngtNVZwWDFxbE1yQWt0cGlidWlUX0xMeVl4QlE?oc=5",
-      "publishedAt": "2026-11-05T10:10:00.000Z",
-      "snippet": "对谈千问蒋冠军：从模型、记忆到生态，Personal Agent的技术架构如何搭建？ 手机新浪网",
-      "score": 6,
-      "tags": [
-        "千问"
-      ]
-    },
-    {
-      "id": "c1ebc893b02e4b1e",
+      "id": "0a52df91c94c5466",
       "domain": "ai",
       "source": "google_news_ai_zh",
       "title": "腾讯混元：Hy4调用激增，WorkBuddy已十倍扩容、Hy3限免延长",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DWHpZNWlVS0t1b3R4RWlrNm9zSmNqZlJPcHRqVi15U2dGLWNBbXNDOWN6VWRKZU9QZEVwcjVVYUlLbjFfRnQ5WVRNSnRUU2hyQ0JLazFfTkhwclpOUF9DcnJFS1BGczVudUNMMGFtZ0k?oc=5",
-      "publishedAt": "2026-11-05T10:04:57.000Z",
-      "snippet": "腾讯混元：Hy4调用激增，WorkBuddy已十倍扩容、Hy3限免延长 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBQNjMzNnBrQWhSbW1GTmtRd3lMS0lLSVdRMW82ZTBlb09INVE0R3dTdjVtMFVXVERwcHl0VVZ0SExFOVRnaHdQdlMzd1Q?oc=5",
+      "publishedAt": "2026-11-05T10:19:01.000Z",
+      "snippet": "腾讯混元：Hy4调用激增，WorkBuddy已十倍扩容、Hy3限免延长 凤凰网科技",
       "score": 6,
       "tags": [
         "混元"
@@ -1205,17 +1256,6 @@
       "tags": []
     },
     {
-      "id": "08118bf3c48f5c25",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-      "publishedAt": "2026-11-05T20:21:43.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "ff7c320b07e0426a",
       "domain": "ai",
       "source": "hackernews",
@@ -1256,17 +1296,6 @@
       "url": "https://www.keychron.com/products/keychron-f4-he-8k-vibe-coding-keypad",
       "publishedAt": "2026-11-05T16:43:16.000Z",
       "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "259d96d4530b8346",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "月之暗面已图通过欧洲数据中心寻求英伟达Blackwell算力",
-      "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxPdTlqa1FCbFdiUE5rNkhpZmIyMVBTbDRtNGFycldnaE5ySk5aWHFlbXgwU3pmakp3cjI2ZWxNUEtHUV9tMjk2LVltVTJWZTNraXlLNGJWVHd4V0puVUxRZEJPOUNrLWRVbFpBSjVFYnpwOWpKd2xFU2NHQ0ZyQWpva3dnMmhCMnBwZEVYVXhFbzJ6S1JRck9kTERMQTlSal8xUkpkTklpY1VLa0g4NFZXLTNPMjdUX2duMFdfMmZKSHM0UGU0QVRneWpFZGdEUmhKZ0pJYkx5YXl5ZFN4dmVQc3VBbzFjSVpMcjBjME43THo4OUlaaUdUSjhfcXNaUG5ZUV83ekdVdFk5Y1YxbHNZWEZuWk5ROV9LRlZLb3pnU3NuUF9ydjlBMzJVci12VVRrYU43VjFyOFVzMC1GRHhzMW1HVVNJSUtGN1V6N28xaFZSM3BsVnBXbmFJc28wbC1IZ08yQ2puSWxSNklJb193eUFld0RLbzFVTzVJbUx0ZkdQVXdjbWcxcy1pZw?oc=5",
-      "publishedAt": "2026-11-05T15:14:36.000Z",
-      "snippet": "月之暗面已图通过欧洲数据中心寻求英伟达Blackwell算力 RFI",
       "score": 5,
       "tags": []
     },
@@ -1362,19 +1391,6 @@
       "tags": []
     },
     {
-      "id": "37bf282307888b79",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Ramp's 35B Qwen Model Beat Opus 4.6 on Finance Tasks at Haiku Speed, AI Engineer Speaker Says",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGVTFnclJ6LWF5SXhNMmxVMk1tZ21OZ09JZGJmYzZLeFdXQlAxbTJZZnM5NlJCSU1nZ0ZCZ0M0U1k0Rkp0M0V3cFNmM2FjOFVGNnZaYWxRTXU0ams?oc=5",
-      "publishedAt": "2026-11-05T00:08:00.000Z",
-      "snippet": "Ramp's 35B Qwen Model Beat Opus 4.6 on Finance Tasks at Haiku Speed, AI Engineer Speaker Says BigGo Finance",
-      "score": 5,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "id": "db23cc4830e074dc",
       "domain": "ai",
       "source": "hf_blog",
@@ -1395,6 +1411,19 @@
       "snippet": "Published by University of Rijeka, Faculty of Medicine, Department of Social Sciences and Medical Humanities in University of Rijeka, Faculty of Health Studies, \"Fritz Jahr\" Documentation and Research Centre for European Bioethics Added to DOAJ on 4 Nov 2026 LCC Subject Category: Philosophy. Psychol",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "8d5f1cc58fbca83a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "A thousand fewer paths to root",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YNndWbW1YdWJ1bFpGb3cyOGcyamlnWV9keHhVSV9NQ0poX0JTSzNMckF1TkNEZ05wdTNObGFXS04xU2xzVlIteXRFSkxfSnFsQVlnY0dLcUpGa1doY0NvX0VVNEVGYjg?oc=5",
+      "publishedAt": "2026-11-04T22:21:42.000Z",
+      "snippet": "A thousand fewer paths to root OpenAI",
+      "score": 5,
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "3c74d49c3c219d95",
@@ -1512,7 +1541,7 @@
       "title": "青海一高职教师论文两次被同事冒用：用于申学位，删改后投稿期刊",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSjg1Z2xOdVJHckE4RnctbkRaWXRMRG85TUxPYzYyWHBMUGd0aDFldjN5eUV1S1hyWV9KcF81T29aQ0ZjUHRxTk11ZUhrejUzcGVQVk1vdkgyZm9YYjhDYXJyM1lJUVl6T0dOUWlEbWs5aG83UWktR0hMUFJCSFluTWN1U1otelRybTdxWldqQUl4RHpfZ3dGeQ?oc=5",
       "publishedAt": "2026-11-04T14:47:40.000Z",
-      "snippet": "青海一高职教师论文两次被同事冒用：用于申学位，删改后投稿期刊 新浪财经",
+      "snippet": "青海一高职教师论文两次被同事冒用：用于申学位，删改后投稿期刊 新浪网",
       "score": 5,
       "tags": []
     },
@@ -1568,17 +1597,6 @@
       "url": "https://stm-assoc.org/research4lifes-new-report-strengthening-research-in-low-and-middle-income-countries/",
       "publishedAt": "2026-11-04T09:17:54.000Z",
       "snippet": "Research4Life together with Elsevier have today published their final strategic report, combining two complementary Research4Life studies exploring the views of more than 1,200 researchers and institutional leaders in in low- and middle-income countries (LMICs). The report, New horizons in participa",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "524eb3583c538990",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "C++26 Disapproved",
-      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
-      "publishedAt": "2026-11-04T08:56:24.000Z",
-      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1988,39 +2006,65 @@
       ]
     },
     {
-      "id": "561df78434634c35",
+      "id": "67c07da55eeec610",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI launches GPT-6 Cyber for approved security teams",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEZDYTh0REhia19oUWR6alMzRXVGWVBfdk8zYzBJZVRCN3lCd3RKVUlULVA2a19ITXg4OEkyUC1YWXZLXzN0dzdZUzJzd0hGd0l5cWxuMTdkSUJoRk1Sa0xIRjd1T2IzdF9SM0J5b2NCSXk2emFORDgta3g2YUQ4enBPZ1lOWUQ2Y0ViNENOMA?oc=5",
-      "publishedAt": "2026-11-05T22:54:51.000Z",
-      "snippet": "OpenAI launches GPT-6 Cyber for approved security teams TestingCatalog AI News",
+      "title": "OpenAI releases GPT-6 Cyber model, says it is less likely to hack companies",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZjJUZ3JiMENna0ppeDI0TVlrZEpFMkJFMTg2TzduZVloS1g4MzBZZ2ZtbFU5R0N6SG40UUE4WFY3cWlZdGhlU1A4REtoNHNoTWh0b21ma1hCLVI3Tnpyd0llQU5CUU5rdnhqUm00aEJaZmtzaU9sRWZWRzl3aHR3MTVqX2xFWHZRdzRBTVIxU3dpWVdTV0pGUVJVQ3NLZE94OEpTckNBempHcHR5RFhHeHc5SFBhRlJuNlBRNFpJd1p4OUItNURGcXd5VWhUWHNSTHFmM2JhRVdRVHRHWlHSAd4BQVVfeXFMTmYyVGdyYjBDZ2tKaXgyNE1Za2RKRTJCRTE4Nk83bmVZaEtYODMwWWdmbWxVOUdDekhuNFFBOFhWN3FpWXRoZVNQOERLaDRzaE1odG9tZmtYQi1SN056cndJZUFOQlFOa3Z4alJtNGhCWmZrc2lPbEVmVkc5d2h0dzE1al9sRVh2UXc0QU1SMVN3aVlXU1dKRlFSVUNzS2RPeDhKU3JDQXpqR3B0eURYR3h3OUhQYUZSbjZQUTRaSXdaeDlCLTVERnF3eVVoVFhzUkxxZjNiYUVXUVR0R1pR?oc=5",
+      "publishedAt": "2026-11-06T03:26:19.000Z",
+      "snippet": "OpenAI releases GPT-6 Cyber model, says it is less likely to hack companies India Today",
       "score": 4,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "93d1eb355c7678d2",
+      "id": "340f5973694b9a1f",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek Harness首次披露：日活用户超150万，一个月时间增超百万",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2ZEVHT1pNekpSbXc1d2phQ3NSYi1NSmdJMmlSSW5QbkozWXhoNVJHUnE4amtpb1h2SXBzNzFOSzhtUkxvbGNHTFlydE9BUVo5bzNPSHBGQ1hXcDFEUExTTA?oc=5",
+      "publishedAt": "2026-11-06T02:05:43.000Z",
+      "snippet": "DeepSeek Harness首次披露：日活用户超150万，一个月时间增超百万 ThePaper.cn",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "f184ffaa1874b06b",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI launches GPT-6 Cyber, an Astra model built to keep vulnerability research in scope",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM0Q3Tzkwa2RTa01WLWp6aXNqaXFnUTlmaHpFWEJkMVo5SU1aNW5EcFFiZEJNWGRfTXdmRnJBM0tXU1lWMjJsVmpFdVFpa01KMDN2aW5SMl91NUJabmVNckpHM0xwRlF6ZWdONkUzcl9QbzVGNF9CZWNEZUxDbHdkcFE4N2pxbmFMOUZPNWlQRDNNeFdsVlpqb3pIR2tzN1NueWQ3US03UzY5cUZqd1JuNEJSZmZjbmhoN1BJcTZkNkl1UWRZTzFCYmpR?oc=5",
-      "publishedAt": "2026-11-05T22:52:00.000Z",
-      "snippet": "OpenAI launches GPT-6 Cyber, an Astra model built to keep vulnerability research in scope SiliconANGLE",
+      "title": "OpenAI launches GPT-6 Cyber, which found 81 high-severity Firefox flaws",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcHZmY2QwRDJVWWFjaXpFRnF0U3M5YVpuRlNTMGZYRFVSQ2o0bVNPM1JLQ3JFVjNiVEprbkZGbm9vMHVTYkh1ekVybFNZWXNydkxYcG1LZzhfbzk5RlFlSHJ2UFhHMlhrUENIOGNZRy11VUxId2hZbEJLUEFkQlBYS3BmY1dGVHc0ZVZpd2Z1UDJ1cUxCb2ZqekJnNHZ3RzBWb2VyTWVSTGM3LTlVV3ZLYmMtVnBIbHY1SjA4?oc=5",
+      "publishedAt": "2026-11-05T23:37:31.000Z",
+      "snippet": "OpenAI launches GPT-6 Cyber, which found 81 high-severity Firefox flaws MarketScale",
       "score": 4,
       "tags": [
         "openai"
       ]
     },
     {
-      "id": "5d5e94789f846fe3",
+      "id": "f47e9cce218bc5f7",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "Google unveils new Gemini Omni 1.2 Flash AI video model (GOOG:NASDAQ)",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT3JNaXNCa1FWYzctck1VUTg3aUNMMDlfcDZBU0EyV2l3TUk2RmRHUnFTMlNfODhuU3lKTUNBSlBNQkFlVUU2cjJWckZURjJHRmVDcVhEem5tVDJPNTduTlhkeDRfU0hnX3VzV2YwT1JXVENlUmFtOVJkeUFmSWJ3eWxDVEtPTmNuMG9rakN1TFRvQ2xrSXROZA?oc=5",
-      "publishedAt": "2026-11-05T17:25:51.000Z",
-      "snippet": "Google unveils new Gemini Omni 1.2 Flash AI video model (GOOG:NASDAQ) Seeking Alpha",
+      "title": "Google’s Gemini 4 Carbon came two weeks after Argon and beats it, but you can’t use it yet",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sdHJXZ2FvSVpyamhJWWM5OWhUZmRfVnJzVDhZTGlLWldmZkdtdGxrRy1TYS1Rb2pGM3JHSlF6eDB5Y1RnemJqaGd0dzJSSXAwYjlJbGZUX2o0a3NtOTdlNEkwMVJiQVVJcEZCS1dPWDVzeUxNOVEyc3JB?oc=5",
+      "publishedAt": "2026-11-05T21:10:49.000Z",
+      "snippet": "Google’s Gemini 4 Carbon came two weeks after Argon and beats it, but you can’t use it yet Techish Kenya",
+      "score": 4,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "a272aa2eb3a56fe0",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGdycWROdW9kWlpFRWtJc0wzeVMtVTgxTENtWm1DbDJlREJxWkZKYWJLZWpQMEs0NTBHVW9BekxiZ3hJd1JfVnEzN3hwMm5fYThpMGZuQ0wxMnk4UUlHNG1kN0pZTTlqYXZEWG1Jd19Ld0pEVnZJR1dSVXhQLUMwZGtiWlcxM1V3VzFXWjRva3FzTGhudkIzaURaX1lTOXltVmdkaHduYk1JQnEyMDROSkFuTXhtME1BWncxTTdSc3MyQQ?oc=5",
+      "publishedAt": "2026-11-05T19:08:10.000Z",
+      "snippet": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent The Decoder",
       "score": 4,
       "tags": [
         "gemini"
@@ -2037,32 +2081,6 @@
       "score": 4,
       "tags": [
         "deepseek"
-      ]
-    },
-    {
-      "id": "8c2c3115c75129ab",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "DeepSeek Harness官宣日活达154万 插件生态蓬勃发展",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PSDNCQVd3ci1ZRjMzQTdRd2ZyTG5zNGx5YkxoVnRDSHRtc2pqUUpBcGFGbFMzbFRVaWpIN2FFOW8wT1BMaGY2bGtaOW56Q09RbUxkYXplLUpEX2hEdnNlT2RRcXZrODFvaGZZT3NHUkE?oc=5",
-      "publishedAt": "2026-11-05T15:36:53.000Z",
-      "snippet": "DeepSeek Harness官宣日活达154万 插件生态蓬勃发展 中华网",
-      "score": 4,
-      "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "223e6c8060272b33",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Blood bank fridge hacks, Anthropic model identity, Google Calendar phishing",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWUNMMjlOa3FiQm1CYkZ0Zno2TDlpMHZMV2huc3MxdXREakZ0dGd6M0ZYdWtCNVlmdmhuVW00U3RGMVlPOFRCNjJnU3c4NF91VFVNeGRCLThhajl6ZjFBYVVoQWhTbHdoZVBLYzZ1X2tOeEVUTy1IVUcxc3h6ZV9QVk5IMExhTlAyVmxoQXFqa3lnVlFoYURhM0xnU2daQUFGWjNj?oc=5",
-      "publishedAt": "2026-11-05T14:17:08.000Z",
-      "snippet": "Blood bank fridge hacks, Anthropic model identity, Google Calendar phishing LinkedIn",
-      "score": 4,
-      "tags": [
-        "anthropic"
       ]
     },
     {
@@ -2527,6 +2545,19 @@
       "url": "https://github.com/vercel-labs/agent-browser",
       "publishedAt": null,
       "snippet": "Browser automation CLI for AI agents [Rust] 150 stars today",
+      "score": 4,
+      "tags": [
+        "stars"
+      ]
+    },
+    {
+      "id": "8700eede98f07885",
+      "domain": "github",
+      "source": "github_trending",
+      "title": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "publishedAt": null,
+      "snippet": "Extremely Fast Compression algorithm [C] 23 stars today",
       "score": 4,
       "tags": [
         "stars"
