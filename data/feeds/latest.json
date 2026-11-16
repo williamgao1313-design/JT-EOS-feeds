@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T12:06:09.297Z",
+  "generatedAt": "2026-11-16T02:54:44.997Z",
   "counts": {
-    "raw": 215,
-    "deduped": 206,
-    "kept": 206
+    "raw": 205,
+    "deduped": 197,
+    "kept": 197
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 20,
+      "count": 14,
       "error": null,
-      "ms": 378
+      "ms": 396
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1188
+      "ms": 1168
     },
     {
       "key": "lobsters",
@@ -29,15 +29,15 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1287
+      "ms": 1247
     },
     {
       "key": "github_trending",
       "ok": true,
       "status": 200,
-      "count": 15,
+      "count": 12,
       "error": null,
-      "ms": 2014
+      "ms": 2091
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1080
+      "ms": 1132
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1433
+      "ms": 1475
     },
     {
       "key": "google_news_ai_zh",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1339
+      "ms": 1337
     },
     {
       "key": "google_news_onhold",
@@ -69,7 +69,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1272
+      "ms": 1282
     },
     {
       "key": "google_news_retraction",
@@ -77,7 +77,7 @@
       "status": 200,
       "count": 9,
       "error": null,
-      "ms": 1247
+      "ms": 1235
     },
     {
       "key": "infodocket",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1441
+      "ms": 1471
     },
     {
       "key": "scholarly_kitchen",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1192
+      "ms": 1328
     },
     {
       "key": "retraction_watch",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1066
+      "ms": 1104
     },
     {
       "key": "doaj_added",
@@ -109,15 +109,15 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 3716
+      "ms": 6119
     },
     {
       "key": "doaj_blog",
       "ok": true,
       "status": 200,
-      "count": 2,
+      "count": 1,
       "error": null,
-      "ms": 2066
+      "ms": 1821
     },
     {
       "key": "stm_assoc",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1706
+      "ms": 1675
     },
     {
       "key": "openai_news",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1180
+      "ms": 1092
     },
     {
       "key": "deepmind_blog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1071
+      "ms": 1240
     },
     {
       "key": "hf_blog",
@@ -149,7 +149,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1104
+      "ms": 1111
     },
     {
       "key": "deepseek_models",
@@ -157,7 +157,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1015
+      "ms": 1019
     },
     {
       "key": "deepseek_status",
@@ -165,7 +165,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 2017
+      "ms": 2150
     },
     {
       "key": "github_changelog",
@@ -173,35 +173,197 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1044
+      "ms": 1058
     }
   ],
   "items": [
     {
-      "id": "b11740ea76186304",
+      "id": "f23e41eb762bf287",
       "domain": "ai",
       "source": "simonwillison",
-      "title": "datasette-llm 0.1a11",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "publishedAt": "2026-11-14T23:59:28.000Z",
-      "snippet": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseu",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "publishedAt": "2026-11-15T23:20:27.000Z",
+      "snippet": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins",
       "score": 8,
       "tags": [
-        "openai",
+        "claude",
         "release"
       ]
     },
     {
-      "id": "6b8a66188c0e45e0",
-      "domain": "ai",
-      "source": "deepseek_status",
-      "title": "DeepSeek 网页/Chat 性能下降（DeepSeek Web/Chat Degraded Performance）",
-      "url": "https://status.deepseek.com/incidents/7252143961119",
-      "publishedAt": "2026-11-14T16:53:58.000Z",
-      "snippet": "Status: resolved 本次问题已解决，服务已恢复。 The incident has been resolved and service has been restored. Affected components: 对话服务(Chatservice)",
+      "id": "d63c6c33256d8456",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "publishedAt": "2026-11-15T22:39:34.000Z",
+      "snippet": "Comments",
       "score": 8,
       "tags": [
-        "deepseek"
+        "rust",
+        "library"
+      ]
+    },
+    {
+      "id": "8110ba64280a98cc",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "snippet": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "score": 8,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "528e4dcb572893a6",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "publishedAt": "2026-11-15T04:02:45.000Z",
+      "snippet": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see",
+      "score": 8,
+      "tags": [
+        "claude",
+        "release"
+      ]
+    },
+    {
+      "id": "e56145471b4ef8d9",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "阿里通义千问Qwen4-Max正式版发布",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IbFpBMFQwWjExU0tVcGJfUEZnMFVIOFpTSGgxcFBvdER1ODVoUzdYY0Z0VmJXRkhtZUhRS1hkS01qcWZoRzVhOXFPcEk?oc=5",
+      "publishedAt": "2026-11-16T02:21:08.000Z",
+      "snippet": "阿里通义千问Qwen4-Max正式版发布 凤凰网科技",
+      "score": 7,
+      "tags": [
+        "通义",
+        "千问"
+      ]
+    },
+    {
+      "id": "cc2f1a938d0b1880",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "全球AI大模型周调用量榜单出炉：前四名被中国模型包揽，腾讯混元Hy4冲进前二！MiniMax、Kimi跌出Top10",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWM1MjB4THlEalJMVHF2dHA4LTdSZEtBb3M5LV83QkNNWTB4QW9jeUVXQnUzRFZVRV9wblZXR3F2bXh4TzVYbjhzb0EwRGZFbk9TcUMyN2pPVWNKUnNRVGItU3E5ZC02bV9TVE4tQ010ekRlR0hSM1d5dVNQajZrMGlaMHZCU1lVMHFV?oc=5",
+      "publishedAt": "2026-11-16T02:17:06.000Z",
+      "snippet": "全球AI大模型周调用量榜单出炉：前四名被中国模型包揽，腾讯混元Hy4冲进前二！MiniMax、Kimi跌出Top10 Sohu",
+      "score": 7,
+      "tags": [
+        "kimi",
+        "混元",
+        "大模型"
+      ]
+    },
+    {
+      "id": "25a0b8d90b54c6e2",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "publishedAt": "2026-11-15T23:58:36.000Z",
+      "snippet": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Cl",
+      "score": 7,
+      "tags": [
+        "release"
+      ]
+    },
+    {
+      "id": "a6b9cea6a09305f5",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "publishedAt": "2026-11-15T23:18:17.000Z",
+      "snippet": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: sec",
+      "score": 7,
+      "tags": [
+        "release"
+      ]
+    },
+    {
+      "id": "1eb02e57510d3e9d",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Please Implement A Quorum Database",
+      "url": "https://transactional.blog/talk/please-implement-a-quorum-database",
+      "publishedAt": "2026-11-15T22:44:13.000Z",
+      "snippet": "Comments",
+      "score": 7,
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "id": "a0bfa3d070389424",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "publishedAt": "2026-11-15T22:00:01.000Z",
+      "snippet": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "score": 7,
+      "tags": []
+    },
+    {
+      "id": "f09c5ba1af0e0f57",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Rust Declarative Macros: Organization, Scoping, and Common Use-Cases",
+      "url": "https://sigseis.dev/articles/2026/11/10",
+      "publishedAt": "2026-11-15T19:40:13.000Z",
+      "snippet": "Comments",
+      "score": 7,
+      "tags": [
+        "rust"
+      ]
+    },
+    {
+      "id": "99f3f4edd4fc1d70",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeFlfNU82UGVDdk9qRlBDUDRhaFJBVlF3RmhOU2labVZFcFJaMHRySHVuSmY5cjdJbmQ3SjJBR1Z1UEc4WG1pWXVJTi1ER21YQ3JaaUZpVDhVVk1iOS1EVFR2bWE3djE5S25TZmZseVhQV21BaWJtU1czbzFMR0IwUU5adG9FVGhYdktMaVp4WkRBeTN5?oc=5",
+      "publishedAt": "2026-11-15T15:46:56.000Z",
+      "snippet": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them The Decoder",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
+      "id": "a766ed2aa92b57cb",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+      "url": "https://github.com/db-branch/db-branch",
+      "publishedAt": "2026-11-15T13:50:51.000Z",
+      "snippet": "",
+      "score": 7,
+      "tags": [
+        "database",
+        "show hn"
+      ]
+    },
+    {
+      "id": "7da0263bfee94df8",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "【视频】15.6英寸屏+豆包大模型2.0，ID.ERA 5X把合资座舱交互拉进主流",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YeDZyOUUyVTA0ZjZHTkNscnd6MjkwNnNTZnF1VGFNOXNRSmZNSTVSNnZxUmMteW9RMEc1SjdhUnFXT09RVWV0ZXdOUHgyQk5XU2Q0MXl6Y3pRTUk?oc=5",
+      "publishedAt": "2026-11-15T13:44:18.000Z",
+      "snippet": "【视频】15.6英寸屏+豆包大模型2.0，ID.ERA 5X把合资座舱交互拉进主流 汽车之家",
+      "score": 7,
+      "tags": [
+        "豆包",
+        "大模型"
       ]
     },
     {
@@ -232,72 +394,43 @@
       ]
     },
     {
-      "id": "79c30f2facbe22e3",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "大众ID.ERA 5X正式上市，4nm座舱芯片+豆包大模型",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1QUludmdHTDAzbjB4U2Q0U2xlTFc0Um9OdEN2Q1FRa0ttZ0s3YWl4bnpjWXo2WlJ4RHR2Wlg4ZDlDV3BTQl9aMUVrZ3ZHZkNEMWVybnAyN0E0Sk0?oc=5",
-      "publishedAt": "2026-11-14T18:31:03.000Z",
-      "snippet": "大众ID.ERA 5X正式上市，4nm座舱芯片+豆包大模型 汽车之家",
-      "score": 7,
-      "tags": [
-        "豆包",
-        "大模型"
-      ]
-    },
-    {
-      "id": "078e930eea0b4a33",
+      "id": "1f50d05a0f390d5f",
       "domain": "ai",
       "source": "simonwillison",
-      "title": "datasette-vega 0.7",
-      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
-      "publishedAt": "2026-11-14T17:09:09.000Z",
-      "snippet": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to ",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "publishedAt": "2026-11-15T03:49:47.000Z",
+      "snippet": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-a",
       "score": 7,
       "tags": [
         "release"
       ]
     },
     {
-      "id": "3e8ea3fc67adb23e",
+      "id": "b11740ea76186304",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM5cnNsaGNIMzZfVDNWZ19qWUg3c0UtNVZLdUdMbzc4ZS1uTGJ0VnN2dFItbVV5Q0VCMno4RGxNV05nQWd3ZDhlaVFIT3JZS0JMVFpMaUR0VlR5TGFROXpZMGwxUXBYdE9YUmtpZlZ5RVVSX0VYN1EzR2RTWW1UX0FGWHFxZVB0OUNvcEpPdDdvRUJMazNjdVRkM1RIdzA?oc=5",
-      "publishedAt": "2026-11-14T16:50:52.000Z",
-      "snippet": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 The Decoder",
+      "source": "simonwillison",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "publishedAt": "2026-11-14T23:59:28.000Z",
+      "snippet": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseu",
       "score": 7,
       "tags": [
-        "anthropic",
-        "claude"
+        "openai",
+        "release"
       ]
     },
     {
-      "id": "2d0f9a97460cb6a0",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-      "url": "https://github.com/paul-nameless/agweb",
-      "publishedAt": "2026-11-14T14:08:12.000Z",
-      "snippet": "",
+      "id": "6b8a66188c0e45e0",
+      "domain": "ai",
+      "source": "deepseek_status",
+      "title": "DeepSeek 网页/Chat 性能下降（DeepSeek Web/Chat Degraded Performance）",
+      "url": "https://status.deepseek.com/incidents/7252143961119",
+      "publishedAt": "2026-11-14T16:53:58.000Z",
+      "snippet": "Status: resolved 本次问题已解决，服务已恢复。 The incident has been resolved and service has been restored. Affected components: 对话服务(Chatservice)",
       "score": 7,
       "tags": [
-        "browser",
-        "show hn"
-      ]
-    },
-    {
-      "id": "49a807680a8a1116",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
-      "url": "https://gitlab.com/snipedbywifi/terminactory",
-      "publishedAt": "2026-11-14T14:05:54.000Z",
-      "snippet": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Re",
-      "score": 7,
-      "tags": [
-        "rust",
-        "show hn"
+        "deepseek"
       ]
     },
     {
@@ -327,46 +460,6 @@
       ]
     },
     {
-      "id": "40243ae082cb4b91",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "llm-gemini 0.37",
-      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
-      "publishedAt": "2026-11-12T22:55:19.000Z",
-      "snippet": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M)",
-      "score": 7,
-      "tags": [
-        "gemini",
-        "release"
-      ]
-    },
-    {
-      "id": "88ce5596f3facd8a",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "publishedAt": "2026-11-12T20:00:00.000Z",
-      "snippet": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "score": 7,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "720825c8bbb00ddd",
-      "domain": "ai",
-      "source": "deepmind_blog",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "publishedAt": "2026-11-12T18:00:50.000Z",
-      "snippet": "",
-      "score": 7,
-      "tags": [
-        "gemini"
-      ]
-    },
-    {
       "id": "5822380feb2d1ac7",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -383,6 +476,205 @@
       ]
     },
     {
+      "id": "aaee2b412be5285d",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Nix: Using the eval-profiler",
+      "url": "https://nix.dev/manual/nix/2.35/advanced-topics/eval-profiler",
+      "publishedAt": "2026-11-16T01:28:22.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "0500280681739ce0",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "beer.drv.drv.drv",
+      "url": "https://fzakaria.com/2026/11/14/beer-drv-drv-drv",
+      "publishedAt": "2026-11-16T00:47:28.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "ade480ddc0e69174",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Designing nextest's install scripts",
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "publishedAt": "2026-11-16T00:14:56.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "63c55b5209bed1ef",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "This Month in Redox - October 2026",
+      "url": "https://www.redox-os.org/news/this-month-261031/",
+      "publishedAt": "2026-11-15T23:05:45.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "5d9dce150f63f360",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
+      "url": "https://lastcomplication.com/",
+      "publishedAt": "2026-11-15T22:48:52.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
+      "id": "28f48d9e3395e98c",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "clice v1.0 Released: Welcome to Modern C++",
+      "url": "https://www.ykiko.me/en/articles/2105384023094834022/",
+      "publishedAt": "2026-11-15T21:19:35.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "292f7dab4ad9bf59",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Blog: Preventing Cross-Service UDP Loops in QUIC",
+      "url": "https://bughunters.google.com/blog/preventing-cross-service-udp-loops-in-quic",
+      "publishedAt": "2026-11-15T20:34:37.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "97b7baf66cd5f0b4",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Some problems of recursive descent parsers (2009)",
+      "url": "https://eli.thegreenplace.net/2009/03/14/some-problems-of-recursive-descent-parsers",
+      "publishedAt": "2026-11-15T19:38:25.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "53d856fba42b717b",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "腾讯混元字节研究人员集结！北京AI智能体大会及个人Agent研讨会要来了",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB5RU9PUmYybkk1NENnY2NzbjQzdjFaTzh2U2VQbGFaekdSenVpODVZRWN1Ym0za2NPUVdQYmZ0NkVhRjFWdHlBcA?oc=5",
+      "publishedAt": "2026-11-15T17:28:21.000Z",
+      "snippet": "腾讯混元字节研究人员集结！北京AI智能体大会及个人Agent研讨会要来了 智东西",
+      "score": 6,
+      "tags": [
+        "混元"
+      ]
+    },
+    {
+      "id": "60acde86d78ca82a",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "publishedAt": "2026-11-15T16:04:01.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "2c8f7489b22f4f80",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic IPO Demand Outpaces SpaceX's Early Days",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaDYyQktTUmNrczlJSnBnX05vNFNMUWVFSk55a3dZQ2NBVjk0Nmx1UlpZQmN6cDU0MkhucHZVdUhSRDc3YjBrc3I4R3JrWktzam42Wmg5SHJ2VGhNUmhiaTVKSF81cFhpMlNrZ291eW9qVFVRRUxSNXF4TWpoQVBrLS1GbDVjaHBt?oc=5",
+      "publishedAt": "2026-11-15T15:44:43.000Z",
+      "snippet": "Anthropic IPO Demand Outpaces SpaceX's Early Days 조선일보",
+      "score": 6,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "6fae443095633946",
+      "domain": "publishing",
+      "source": "infodocket",
+      "title": "Report From Utah: Voters Just Ousted The Republican Representative Behind The State’s Sweeping School Book Ban Law",
+      "url": "https://www.infodocket.com/2026/11/15/report-from-utah-voters-just-ousted-the-republican-representative-behind-the-states-sweeping-school-book-ban-law/",
+      "publishedAt": "2026-11-15T15:38:36.000Z",
+      "snippet": "From The Salt Lake Tribune: The Republican representative behind Utah’s statewide school book ban law was ousted last week. Rep. Ken Ivory, R-West Jordan, lost his race against Democrat Drew Howells, who secured 58.11% of the vote as of Friday morning. Ivory received about 41.89%. He acknowledged th",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "3ec2865029a9b41c",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Emacs Is My Browser",
+      "url": "https://joshblais.com/blog/emacs-as-my-browser/",
+      "publishedAt": "2026-11-15T15:21:21.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "browser"
+      ]
+    },
+    {
+      "id": "f2ee0d45dd7be225",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Memory management in 40 major C projects, a survey",
+      "url": "https://theconsensus.dev/p/2026/11/08/c-memory-management-survey.html",
+      "publishedAt": "2026-11-15T12:50:03.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "2e950d8f6b497f96",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "A NES emulator written in Odin",
+      "url": "https://lucypero.com/lucynes.html",
+      "publishedAt": "2026-11-15T12:37:33.000Z",
+      "snippet": "Comments",
+      "score": 6,
+      "tags": []
+    },
+    {
+      "id": "14259f44b8726c1b",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "千问办公2.0发布：团队Agent协作受权限和积分限制",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ2FTMV9XV1pzV1AyUU5fbERyOFROQ0U3SmM3UmhaUkR4SnZmNEl1aW9DcTY3eXExOGtJSEdiY2VCcWI2VGNUS2xiQU1BMW1Sb2s4Tkx1TS1sWHNadDBrYUV3X2kzV0NNZkQzbHhvdXUxckNabmpfWFdNMnA3cGw3MkdDTExKd3pCX09OMDlZTW15UVhoc1pyQnpYeEpoWm55QVA1MkdhUHB4OFhXMnRPWg?oc=5",
+      "publishedAt": "2026-11-15T11:44:00.000Z",
+      "snippet": "千问办公2.0发布：团队Agent协作受权限和积分限制 quasa.io",
+      "score": 6,
+      "tags": [
+        "千问"
+      ]
+    },
+    {
+      "id": "4f7ad3fffcf1c2dd",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "Kimi估值500亿美元 月之暗面为何紧急拆除海外架构",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NdktTcHJZdkNWZkdEWFVOU2VmR0hIVmcwY3I5Zkw0cUFXYldMellDSTNaRC1QUHhKMzZNLVNoMUdxOHI3d0Z1c1piWDRWNk5sSDF3?oc=5",
+      "publishedAt": "2026-11-15T08:32:00.000Z",
+      "snippet": "Kimi估值500亿美元 月之暗面为何紧急拆除海外架构 eu.36kr.com",
+      "score": 6,
+      "tags": [
+        "kimi"
+      ]
+    },
+    {
       "id": "65d0e08617eb2b41",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -392,32 +684,6 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
-    },
-    {
-      "id": "6a53a7c7dead2089",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5nUGNxdHlWT1VwYU5oMTZEUzI4SmFrUEd3WWRyU2RMSlVHZ0ZkOGdURUkzREVOMWNOLWROYjQ5Y292UWQ1MmEyUG8zVFducVlXY2pnVU54TWgwX0tOMzVMM3Z1aw?oc=5",
-      "publishedAt": "2026-11-15T07:33:01.000Z",
-      "snippet": "Kimi估值500亿美元，月之暗面为什么急着拆掉海外架构？ 潮起网",
-      "score": 6,
-      "tags": [
-        "kimi"
-      ]
-    },
-    {
-      "id": "c930f206ad7c50bb",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic IPO Sees Sixfold Institutional Demand in Three Days",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY003YVlQbUluYnd6UzNHR2FhdVlNaG12Q3ZtOUJFUjI0cVZUazBhNG1JNmxXMURkUUpabFlRWUFRcExITGE0SUhvM3RCWE50VFFkeWMxVS1SQTNNUXRSVUxjSExRWjFNX2RaWUYwbGlTWkY3aEJ5aXU2Yy1YWTFSWE42SzRJeHlN?oc=5",
-      "publishedAt": "2026-11-15T07:12:48.000Z",
-      "snippet": "Anthropic IPO Sees Sixfold Institutional Demand in Three Days 조선일보",
-      "score": 6,
-      "tags": [
-        "anthropic"
-      ]
     },
     {
       "id": "b0836c5ee552fc50",
@@ -455,19 +721,6 @@
       ]
     },
     {
-      "id": "b938d658ff8d4794",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "港股大模型双雄齐遭“杀估值” 为何空头资金却在加速大撤退？",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE04S0JYLVE2c2Eza1QtTk9JZ3RzdE5pSHlHSTdZazg3bzhUaWpYQTEtRDRpU0Z4OU1HUTAxS096T3VwUkxpV0FSag?oc=5",
-      "publishedAt": "2026-11-15T04:14:06.000Z",
-      "snippet": "港股大模型双雄齐遭“杀估值” 为何空头资金却在加速大撤退？ 财联社",
-      "score": 6,
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
       "id": "f10f0a0d2c19f73a",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -479,177 +732,57 @@
       "tags": []
     },
     {
-      "id": "af2e145306df8b70",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "25 of my favourite modern NES games",
-      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-      "publishedAt": "2026-11-15T02:40:40.000Z",
-      "snippet": "Comments",
+      "id": "078e930eea0b4a33",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "publishedAt": "2026-11-14T17:09:09.000Z",
+      "snippet": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to ",
       "score": 6,
-      "tags": []
+      "tags": [
+        "release"
+      ]
     },
     {
-      "id": "f1eeb2019f259b03",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Reintroducing Spaces",
-      "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
-      "publishedAt": "2026-11-15T02:34:44.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "9445b535b156c313",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Parsing nested lists in BQN",
-      "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
-      "publishedAt": "2026-11-15T01:59:26.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "8952e3f6217d7892",
+      "id": "2d0f9a97460cb6a0",
       "domain": "vibe_coding",
       "source": "show_hn",
-      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
-      "url": "https://bobbiec.github.io/jamaican-font.html",
-      "publishedAt": "2026-11-15T00:56:45.000Z",
+      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+      "url": "https://github.com/paul-nameless/agweb",
+      "publishedAt": "2026-11-14T14:08:12.000Z",
       "snippet": "",
       "score": 6,
       "tags": [
+        "browser",
         "show hn"
       ]
     },
     {
-      "id": "545bb9f91439180a",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "搭载千问的首款硬件夸克AI眼镜发布，28游戏官网入口聚焦AI终端落地",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Dd0lFaGdZWVhDdlB4NkFkSlJHR1R6UHBUQWZiUEtMaEV6NktBMjV5RlkwUzRpYzRxWVFsUDA2aGhtY0FmeVd4bTNRNWhhWnVxRzk4NGIzZXA?oc=5",
-      "publishedAt": "2026-11-14T21:46:01.000Z",
-      "snippet": "搭载千问的首款硬件夸克AI眼镜发布，28游戏官网入口聚焦AI终端落地 DoNews",
+      "id": "49a807680a8a1116",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "publishedAt": "2026-11-14T14:05:54.000Z",
+      "snippet": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Re",
       "score": 6,
       "tags": [
-        "千问"
+        "rust",
+        "show hn"
       ]
     },
     {
-      "id": "ad8aba7c8a65004e",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "搭载千问的首款硬件夸克AI眼镜发布，888集团电子游戏官方网站聚焦AI从屏幕走向物理世界",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1qUWU4NFowYzBkSFpyWUlyVnpyNEdVb29WT1UxdVBlWko4cDNqRkdqQTVVOEpaQ2wxbTItN29lUU9YOXE0aU93TFJia3BYc0xMNFE0WVJhZ24?oc=5",
-      "publishedAt": "2026-11-14T21:46:01.000Z",
-      "snippet": "搭载千问的首款硬件夸克AI眼镜发布，888集团电子游戏官方网站聚焦AI从屏幕走向物理世界 DoNews",
-      "score": 6,
-      "tags": [
-        "千问"
-      ]
-    },
-    {
-      "id": "2aa02d0655669df1",
+      "id": "9ecea8964cbbbd5a",
       "domain": "publishing",
-      "source": "infodocket",
-      "title": "Johns Hopkins University: Sheridan Libraries Launches New Digital Collections Site",
-      "url": "https://www.infodocket.com/2026/11/14/johns-hopkins-university-sheridan-libraries-launches-new-digital-collections-site/",
-      "publishedAt": "2026-11-14T16:47:58.000Z",
-      "snippet": "From JHSL: Now available at the click of a mouse: rare maps of Maryland dating as far back as the sixteenth century, the oral history of the Hopkins surgeon who implanted the first automatic defibrillator, records associated with Chinese indentured laborers in Cuba from 1855 to 1895, and much more. ",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "fbda1a78b151914e",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Let Me Let You Own Your Data",
-      "url": "https://www.willett.io/posts/data/",
-      "publishedAt": "2026-11-14T16:08:27.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": []
-    },
-    {
-      "id": "4e0322f46dbb3c4c",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-      "publishedAt": "2026-11-14T15:04:15.000Z",
-      "snippet": "",
+      "source": "google_news_retraction",
+      "title": "新动向！中央巡视组刚进驻31所高校，为什么论文“无痕撤稿”被推上审判台？评职称背后的“大生意”",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Uel91b0FUUUhNMkdDdjREY1VYUm1CVjhnTDAtTGhLRzZIazRnR2cxS1dPRlI5M3dIa2JVSWRHQnpwMDgtU1NKelhZZGhUcFpkVmhIZG40Z3RKZ2loUkw3aw?oc=5",
+      "publishedAt": "2026-11-14T02:44:00.000Z",
+      "snippet": "新动向！中央巡视组刚进驻31所高校，为什么论文“无痕撤稿”被推上审判台？评职称背后的“大生意” Sohu",
       "score": 6,
       "tags": [
-        "deepseek"
-      ]
-    },
-    {
-      "id": "4c88cecec37c2015",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
-      "url": "https://github.com/FURSOY/fursoy-cpu",
-      "publishedAt": "2026-11-14T14:06:34.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "33a630768678e2aa",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "The Claude Delusion",
-      "url": "https://www.netmeister.org/blog/claude-delusion.html",
-      "publishedAt": "2026-11-14T13:36:17.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "claude"
-      ]
-    },
-    {
-      "id": "2f68cbc0f6c31887",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "【视频】12万起，方盒子SUV首搭豆包大模型，纯电插混怎么选？",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQWp6c1V4a2VXUU1yXzRsVTQ3ZjJ1V2c3dS1nQUxGR3BlSzFfX2cxV29rbW0zS3VfSWtyRzFtRzdBR1RSRExjQ3ZEa2xPNmQyTm9BNnQ2TGN5RUU?oc=5",
-      "publishedAt": "2026-11-14T09:08:05.000Z",
-      "snippet": "【视频】12万起，方盒子SUV首搭豆包大模型，纯电插混怎么选？ 车家号",
-      "score": 6,
-      "tags": [
-        "豆包",
-        "大模型"
-      ]
-    },
-    {
-      "id": "7f0635307995c46b",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Writing a DSL for high performance parallel programming in OxCaml",
-      "url": "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml/",
-      "publishedAt": "2026-11-14T02:57:49.000Z",
-      "snippet": "Comments",
-      "score": 6,
-      "tags": [
-        "performance"
-      ]
-    },
-    {
-      "id": "d03ffa90a0df8bc7",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
-      "url": "https://claude.com/resources/articles/projects-redesigned",
-      "publishedAt": "2026-11-14T00:28:11.000Z",
-      "snippet": "",
-      "score": 6,
-      "tags": [
-        "anthropic",
-        "claude"
+        "撤稿"
       ]
     },
     {
@@ -742,16 +875,43 @@
       ]
     },
     {
-      "id": "5384bc694b2fdea8",
-      "domain": "github",
-      "source": "github_changelog",
-      "title": "Actions for ARM32 Linux & Windows retirement",
-      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
-      "publishedAt": "2026-11-12T20:59:36.000Z",
-      "snippet": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog .",
+      "id": "40243ae082cb4b91",
+      "domain": "ai",
+      "source": "simonwillison",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "publishedAt": "2026-11-12T22:55:19.000Z",
+      "snippet": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M)",
       "score": 6,
       "tags": [
-        "actions"
+        "gemini",
+        "release"
+      ]
+    },
+    {
+      "id": "88ce5596f3facd8a",
+      "domain": "ai",
+      "source": "openai_news",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "snippet": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "score": 6,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "720825c8bbb00ddd",
+      "domain": "ai",
+      "source": "deepmind_blog",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "gemini"
       ]
     },
     {
@@ -950,25 +1110,116 @@
       "title": "GoogleChrome/modern-web-guidance-src",
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
       "publishedAt": null,
-      "snippet": "Keep your coding agent up to date with the latest web best practices [TypeScript] 1220 stars today",
+      "snippet": "Keep your coding agent up to date with the latest web best practices [TypeScript] 1219 stars today",
       "score": 6,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "a94d67ccb3a11c7d",
+      "id": "7a3dd43edd8b3b7b",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI, Google and Anthropic Face AI Model Freeze Lawsuit",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeUFhZ2FMMFZNS003Z2dUQVVmTFBaOHdsNTdOTFUtSVdpdWMwSXhUWVoyeHZMYy14RUUxaFNUbXV1TFRwZzZMOEkwQ0Q4Qnd2by1ubnZ2ei01ZDdwUkswdFMxVDQ1VVF2WVo3ZURNa09wZHBNRkRBU0wyYzNVelBfQkUya19kck56aTBqaWp3VTBmdw?oc=5",
-      "publishedAt": "2026-11-15T11:05:00.000Z",
-      "snippet": "OpenAI, Google and Anthropic Face AI Model Freeze Lawsuit Cointribune",
+      "title": "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZFdKOG5tbVJQbG43cVFoU24zS2JzMF9hVlh6MFBRZDJ1bzQ4QnAtdFVlQ0pZNHVIOVdPaXUxaUVQeDltTEU4QnNLcGpLdmNhdkR6R3A4a0xRaFBUYU05NTlMUjVtMnJqdU5qS2NzcUlQZGViSVZDZExyUE91YTJEVHB2b3dtWGhiWmN2VFBzV3ZEUm5QcjdqTFpkdDZfTXhQaWpoYg?oc=5",
+      "publishedAt": "2026-11-16T02:38:11.000Z",
+      "snippet": "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI Crypto Briefing",
       "score": 5,
       "tags": [
         "openai",
         "anthropic"
       ]
+    },
+    {
+      "id": "5e13ac379c767fe4",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+      "url": "https://www.hntrends.com/2026/november.html",
+      "publishedAt": "2026-11-16T01:31:30.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "4260cd7ee2c499a3",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "publishedAt": "2026-11-15T19:39:46.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "5d205097ba008b98",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "Meta旗舰模型翻身！比DeepSeek还便宜，华裔掌门人骑脸Gemini",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5yVUIzNmpKOWI3X21aWW53bmdzMGlUTDl4a21DLTllWFZ6Y3BDbzRTVnN1SDhUMi1fNXRpTldqVTJFRFRYdHFKTQ?oc=5",
+      "publishedAt": "2026-11-15T19:09:46.000Z",
+      "snippet": "Meta旗舰模型翻身！比DeepSeek还便宜，华裔掌门人骑脸Gemini 智东西",
+      "score": 5,
+      "tags": [
+        "gemini",
+        "deepseek"
+      ]
+    },
+    {
+      "id": "9ae55626a2768c32",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "Eclipse Mosquitto – An open source MQTT broker",
+      "url": "https://github.com/eclipse-mosquitto/mosquitto",
+      "publishedAt": "2026-11-15T18:36:40.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "43a767729c7ee190",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Crows make decisions faster than we can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "publishedAt": "2026-11-15T17:53:31.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "1ea12618d1544fa6",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)",
+      "url": "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/",
+      "publishedAt": "2026-11-15T14:31:52.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "e047ece72776da57",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "publishedAt": "2026-11-15T12:14:06.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "b24bf26131b1f709",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Jensen Huang allegedly manufactured the GPU shortage",
+      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+      "publishedAt": "2026-11-15T10:53:50.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
     },
     {
       "id": "9541851d20aa2302",
@@ -982,106 +1233,124 @@
       "tags": []
     },
     {
-      "id": "84eb1ac65a31cdcd",
+      "id": "af2e145306df8b70",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
-      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-      "publishedAt": "2026-11-14T22:26:30.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "25 of my favourite modern NES games",
+      "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "publishedAt": "2026-11-15T02:40:40.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "749b19dc35f97bba",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Corlyx and Mark Gemini Thwaite release new single ‘Die Young’ - SIDE-LINE",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83X0RqTmZVd1JiX1UwNUpzWTFvNXFhMjBmQXJPY2tLMWppMDV1c0Z2d3BuVjlCZkh2MHpsSmI1WTRnYTkzbjlwWVFzejZHLUpTblBzNm9OU0hCc0JUeUk1RQ?oc=5",
-      "publishedAt": "2026-11-14T18:21:21.000Z",
-      "snippet": "Corlyx and Mark Gemini Thwaite release new single ‘Die Young’ SIDE-LINE",
+      "id": "f1eeb2019f259b03",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Reintroducing Spaces",
+      "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
+      "publishedAt": "2026-11-15T02:34:44.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "9445b535b156c313",
+      "domain": "vibe_coding",
+      "source": "lobsters",
+      "title": "Parsing nested lists in BQN",
+      "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
+      "publishedAt": "2026-11-15T01:59:26.000Z",
+      "snippet": "Comments",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "7215136365097914",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: Umbrella – macOS app to capture audio from any app",
+      "url": "https://umbrella.pixelegg.me/",
+      "publishedAt": "2026-11-15T01:35:20.000Z",
+      "snippet": "",
       "score": 5,
       "tags": [
-        "gemini",
-        "release"
+        "show hn"
       ]
     },
     {
-      "id": "f287a27bc73bc2aa",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "US IRS free online tax filing open source repo (2025)",
-      "url": "https://github.com/IRS-Public/direct-file",
-      "publishedAt": "2026-11-14T17:48:20.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "80001fa8522aec30",
+      "id": "8952e3f6217d7892",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "A family tree of software job titles",
-      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "publishedAt": "2026-11-14T17:45:19.000Z",
+      "source": "show_hn",
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "url": "https://bobbiec.github.io/jamaican-font.html",
+      "publishedAt": "2026-11-15T00:56:45.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
+      "tags": [
+        "show hn"
+      ]
     },
     {
-      "id": "81bb5d03ef256d99",
+      "id": "b1b21675713b0ee7",
       "domain": "ai",
-      "source": "hackernews",
-      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
-      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
-      "publishedAt": "2026-11-14T15:58:57.000Z",
-      "snippet": "",
+      "source": "google_news_ai_zh",
+      "title": "智谱认领神秘模型“牛来”跑在10万国产卡上，SemiAnalaysis评价“英伟达护城河再受考验”",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1BXVXhQQWdBQm9GTWc4Nk5oa2tpVVBYbjlvMHF3N1hfNkgwdDVGRlkyQ3JWSTFWaUJGQjdUbk5lcUVUdFVKYzR3UWlQdWNoazdrZnhaV3RDRjk0R0o4M0theGdFQlJwS0JJeWZaSVBwaEhwTDZSMXV1eEZGT3NqSm15c3Zlb041Zmk5S0Rhd0ZDQmJU?oc=5",
+      "publishedAt": "2026-11-14T22:07:49.000Z",
+      "snippet": "智谱认领神秘模型“牛来”跑在10万国产卡上，SemiAnalaysis评价“英伟达护城河再受考验” 富途牛牛",
+      "score": 5,
+      "tags": [
+        "智谱"
+      ]
+    },
+    {
+      "id": "2aa02d0655669df1",
+      "domain": "publishing",
+      "source": "infodocket",
+      "title": "Johns Hopkins University: Sheridan Libraries Launches New Digital Collections Site",
+      "url": "https://www.infodocket.com/2026/11/14/johns-hopkins-university-sheridan-libraries-launches-new-digital-collections-site/",
+      "publishedAt": "2026-11-14T16:47:58.000Z",
+      "snippet": "From JHSL: Now available at the click of a mouse: rare maps of Maryland dating as far back as the sixteenth century, the oral history of the Hopkins surgeon who implanted the first automatic defibrillator, records associated with Chinese indentured laborers in Cuba from 1855 to 1895, and much more. ",
       "score": 5,
       "tags": []
     },
     {
-      "id": "5f89a30cac997dea",
+      "id": "fbda1a78b151914e",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Formalizing US Tax Code (Using Lean)",
-      "url": "https://lexifina.com/blog/formalizing-the-us-tax-code",
-      "publishedAt": "2026-11-14T15:41:20.000Z",
-      "snippet": "",
+      "source": "lobsters",
+      "title": "Let Me Let You Own Your Data",
+      "url": "https://www.willett.io/posts/data/",
+      "publishedAt": "2026-11-14T16:08:27.000Z",
+      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
     {
-      "id": "7a3b7203dfb900d0",
+      "id": "4e0322f46dbb3c4c",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "publishedAt": "2026-11-14T15:40:52.000Z",
+      "source": "show_hn",
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "publishedAt": "2026-11-14T15:04:15.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
+      "tags": [
+        "show hn"
+      ]
     },
     {
-      "id": "dcd39242759b977f",
+      "id": "4c88cecec37c2015",
       "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Italy fines Meta $887M over Android users' data access",
-      "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-      "publishedAt": "2026-11-14T13:48:06.000Z",
+      "source": "show_hn",
+      "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
+      "url": "https://github.com/FURSOY/fursoy-cpu",
+      "publishedAt": "2026-11-14T14:06:34.000Z",
       "snippet": "",
       "score": 5,
-      "tags": []
-    },
-    {
-      "id": "976c01153eeef04e",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Advancing science and engineering with Antigravity's /teamwork",
-      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-      "publishedAt": "2026-11-14T13:20:43.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
+      "tags": [
+        "show hn"
+      ]
     },
     {
       "id": "bd6b15e09ed4ea55",
@@ -1090,17 +1359,6 @@
       "title": "Solving the fox game",
       "url": "http://blog.sesse.net/blog/tech/2026-11-13-19-51_solving_the_fox_game.html",
       "publishedAt": "2026-11-14T10:32:33.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "0584713d2c8c54dc",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Creating a self booting ZIP archive",
-      "url": "https://goliath32.com/blog/ziphead.html",
-      "publishedAt": "2026-11-14T10:01:58.000Z",
       "snippet": "Comments",
       "score": 5,
       "tags": []
@@ -1117,30 +1375,6 @@
       "tags": []
     },
     {
-      "id": "4e946e73eee4be9b",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-      "url": "https://arxiv.org/abs/2605.29713",
-      "publishedAt": "2026-11-14T04:51:14.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "82902d7887a00c34",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "腾讯混元发布实时语音模型 Hy Realtime：能说会唱、还能调用工具",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CdExXZGxpQlU1MHU3dWhocC04V3NaU3FnWk9LaC1IVUdNNVplLXdiWmNzVjhRSXBoNmtsclZiOUtrSklwdE1rODJpS3VodXROZUFsd0RENlExaktoUnc?oc=5",
-      "publishedAt": "2026-11-14T04:36:58.000Z",
-      "snippet": "腾讯混元发布实时语音模型 Hy Realtime：能说会唱、还能调用工具 DoNews",
-      "score": 5,
-      "tags": [
-        "混元"
-      ]
-    },
-    {
       "id": "00864acab37beb2e",
       "domain": "ai",
       "source": "google_news_ai",
@@ -1154,47 +1388,12 @@
       ]
     },
     {
-      "id": "61afb59fcf295e9e",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
-      "url": "https://grounds.top/",
-      "publishedAt": "2026-11-13T23:17:39.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "0a1048ee0b6c0d94",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Someone's impersonating this blog",
-      "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
-      "publishedAt": "2026-11-13T20:39:53.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "72507aec4bfebf15",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Kildall's algorithm",
-      "url": "https://bike.github.io/posts/kildall.html",
-      "publishedAt": "2026-11-13T19:34:28.000Z",
-      "snippet": "I work on a new [Common] Lisp compiler called Cleavir. Cleavir is the compiler part of Dr. Robert Strandh’s project, SICL Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "e5f34161d75a0210",
       "domain": "ai",
       "source": "google_news_ai",
       "title": "Building strong safety evaluations",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WQ1RoMWFsN1VyVjdlam5YZkZ4M1I1SUNjeWExWm1OcHR5MlRpRmtwU2NIT0dSQUhXSjlfb2hrZGhHYlVRUjUtUzBtRzRZUUZhcE9PNERJekdzNW1PUWhOd0s5MjBRXzVFdnFWZlJ5c0VSak5RZ3lUaA?oc=5",
-      "publishedAt": "2026-11-13T18:06:18.000Z",
+      "publishedAt": "2026-11-14T01:40:13.000Z",
       "snippet": "Building strong safety evaluations Anthropic",
       "score": 5,
       "tags": [
@@ -1213,30 +1412,6 @@
       "tags": []
     },
     {
-      "id": "c3891147f55df061",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
-      "url": "https://isometricsf.com/",
-      "publishedAt": "2026-11-13T17:58:37.000Z",
-      "snippet": "Technical Write-up: https://www.justinchavez.com/blog/isometric-sf-how/ Hi HN! Showcasing this fun project. I took 1300 square miles of the SF Bay Area from Google Photorealistic 3D Tiles and transformed them into a cohesive pixel map. It's really fun to explore and stumble upon various famous landm",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "bea8279afc18dd2c",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Link Previews and You",
-      "url": "https://sable.moe/en/blog/link-previews-and-you/",
-      "publishedAt": "2026-11-13T17:34:47.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "89f29999c7966253",
       "domain": "ai",
       "source": "hf_blog",
@@ -1244,28 +1419,6 @@
       "url": "https://huggingface.co/blog/allenai/xybench",
       "publishedAt": "2026-11-13T17:02:35.000Z",
       "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "1c986ca770131229",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Fixing a WebKit bug to see if promises are made of train tracks",
-      "url": "https://alistair.sh/thenables",
-      "publishedAt": "2026-11-13T16:48:01.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "ec133b713e1c3395",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Probabilistic data structures in Go",
-      "url": "https://antonz.org/probabilistic-data-structures/",
-      "publishedAt": "2026-11-13T16:03:44.000Z",
-      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1281,17 +1434,6 @@
       "tags": []
     },
     {
-      "id": "13b4ef047289e11a",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Beating the frontier on NetHack",
-      "url": "https://antithesis.com/blog/2026/nethack/",
-      "publishedAt": "2026-11-13T14:34:57.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "7e6096d03cd10957",
       "domain": "github",
       "source": "github_changelog",
@@ -1299,63 +1441,6 @@
       "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api",
       "publishedAt": "2026-11-13T12:22:41.000Z",
       "snippet": "You can now turn GitHub code scanning’s AI Scan for repositories on or off with the REST API at the organization and repository levels. This public preview adds a repository_scan… The post Manage AI Scan for repositories using the REST API appeared first on The GitHub Blog .",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "fc015b7277cf96f6",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Reflota – Open-source data recovery for NTFS/FAT disks with phased copy",
-      "url": "https://github.com/Christ10-8/reflota",
-      "publishedAt": "2026-11-13T12:17:52.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
-    },
-    {
-      "id": "75c0f51060ec7ad3",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Terminal borders that don't cost a cell",
-      "url": "https://www.joshka.net/cell-borders/",
-      "publishedAt": "2026-11-13T12:03:19.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "38225189154befe8",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "The need for at least a third option",
-      "url": "https://blog.ovalerio.net/archives/3359",
-      "publishedAt": "2026-11-13T11:36:44.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "87f61614a9fb49c3",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "ML Modules for Mere Mortals",
-      "url": "https://thunderseethe.dev/posts/ml-modules-for-mere-mortals/intro/",
-      "publishedAt": "2026-11-13T11:33:56.000Z",
-      "snippet": "Comments",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "4f303e63b2bed3a3",
-      "domain": "vibe_coding",
-      "source": "lobsters",
-      "title": "Running a law firm on Free software (2026 edition)",
-      "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-      "publishedAt": "2026-11-13T11:20:32.000Z",
-      "snippet": "Comments",
       "score": 5,
       "tags": []
     },
@@ -1393,48 +1478,17 @@
       "tags": []
     },
     {
-      "id": "f61cab1690048732",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Sponde (2939-3647)",
-      "url": "https://doaj.org/toc/2939-3647?rss=",
-      "publishedAt": "2026-11-12T21:21:24.000Z",
-      "snippet": "Published by University of Zadar Added to DOAJ on 12 Nov 2026 LCC Subject Category: Language and Literature: Literature (General)",
+      "id": "5384bc694b2fdea8",
+      "domain": "github",
+      "source": "github_changelog",
+      "title": "Actions for ARM32 Linux & Windows retirement",
+      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement",
+      "publishedAt": "2026-11-12T20:59:36.000Z",
+      "snippet": "GitHub Actions hosted runners will be ending support for ARM32 job execution on Windows and Linux by 8th Dec 2026. This follows our end of support for node20 where Node… The post Actions for ARM32 Linux & Windows retirement appeared first on The GitHub Blog .",
       "score": 5,
-      "tags": []
-    },
-    {
-      "id": "fb03349e5f97fa95",
-      "domain": "publishing",
-      "source": "doaj_added",
-      "title": "Myśl Polityczna (2658-2295, 2720-2283)",
-      "url": "https://doaj.org/toc/2720-2283?rss=",
-      "publishedAt": "2026-11-12T20:59:07.000Z",
-      "snippet": "Published by Kancelaria Sejmu, Biblioteka Sejmowa Added to DOAJ on 12 Nov 2026 LCC Subject Category: Political science: Political theory | Law",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "f40ced1f11eaa577",
-      "domain": "ai",
-      "source": "hf_blog",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "publishedAt": "2026-11-12T19:07:35.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "d9cf2ab525a976a0",
-      "domain": "publishing",
-      "source": "stm_assoc",
-      "title": "STM responds to EU consultation on copyright, AI, and research",
-      "url": "https://stm-assoc.org/stm-responds-to-eu-consultation-on-copyright-ai-and-research/",
-      "publishedAt": "2026-11-12T12:33:20.000Z",
-      "snippet": "STM has responded to the European Commission’s consultation on the copyright framework, setting out its position on the use of copyright-protected content in AI and in research. Scholarly publishers support the responsible development of AI and the widest sustainable dissemination of articles report",
-      "score": 5,
-      "tags": []
+      "tags": [
+        "actions"
+      ]
     },
     {
       "id": "bb2ccde0940a7eba",
@@ -1455,17 +1509,6 @@
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "publishedAt": "2026-11-12T09:30:00.000Z",
       "snippet": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "06c2b6efe9e1d5a5",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "snippet": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "score": 5,
       "tags": []
     },
@@ -1501,17 +1544,6 @@
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
       "publishedAt": "2026-11-11T15:00:15.000Z",
       "snippet": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
-      "score": 5,
-      "tags": []
-    },
-    {
-      "id": "700082c54602bbb1",
-      "domain": "ai",
-      "source": "openai_news",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "publishedAt": "2026-11-11T08:00:00.000Z",
-      "snippet": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "score": 5,
       "tags": []
     },
@@ -1688,45 +1720,6 @@
       ]
     },
     {
-      "id": "e21b187842dc00e5",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "datasette-agent 0.5a0",
-      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
-      "publishedAt": "2026-11-03T23:13:45.000Z",
-      "snippet": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent . The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this means you can prompt a",
-      "score": 5,
-      "tags": [
-        "release"
-      ]
-    },
-    {
-      "id": "79663c16cccb473d",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "llm 0.37.1",
-      "url": "https://simonwillison.net/2026/Nov/3/llm/",
-      "publishedAt": "2026-11-03T21:41:42.000Z",
-      "snippet": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm",
-      "score": 5,
-      "tags": [
-        "release"
-      ]
-    },
-    {
-      "id": "fdf1822c9e6772c3",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-      "publishedAt": "2026-11-03T16:29:48.000Z",
-      "snippet": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular G",
-      "score": 5,
-      "tags": [
-        "qwen"
-      ]
-    },
-    {
       "id": "771e51d7183a036d",
       "domain": "publishing",
       "source": "google_news_onhold",
@@ -1805,39 +1798,13 @@
       ]
     },
     {
-      "id": "021e557effb58714",
-      "domain": "github",
-      "source": "github_trending",
-      "title": "JuliusBrussee/caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "publishedAt": null,
-      "snippet": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman. [Go] 227 stars today",
-      "score": 5,
-      "tags": [
-        "stars"
-      ]
-    },
-    {
       "id": "12221ab3bb240c36",
       "domain": "github",
       "source": "github_trending",
       "title": "dream-num/univer",
       "url": "https://github.com/dream-num/univer",
       "publishedAt": null,
-      "snippet": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. [TypeScript] 495 stars today",
-      "score": 5,
-      "tags": [
-        "stars"
-      ]
-    },
-    {
-      "id": "1afac62df200929d",
-      "domain": "github",
-      "source": "github_trending",
-      "title": "martin-olivier/airgorah",
-      "url": "https://github.com/martin-olivier/airgorah",
-      "publishedAt": null,
-      "snippet": "A WiFi security auditing software [Rust] 270 stars today",
+      "snippet": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core. [TypeScript] 988 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -1850,20 +1817,20 @@
       "title": "tradermonty/claude-trading-skills",
       "url": "https://github.com/tradermonty/claude-trading-skills",
       "publishedAt": null,
-      "snippet": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. [Python] 707 stars today",
+      "snippet": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development. [Python] 706 stars today",
       "score": 5,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "61cb8fe8c7a5ca82",
+      "id": "62130df1ba3faa7f",
       "domain": "github",
       "source": "github_trending",
-      "title": "Likely7/Veyra-NRVideo",
-      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "title": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
       "publishedAt": null,
-      "snippet": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experie",
+      "snippet": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. [TypeScript] 355 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -1876,7 +1843,7 @@
       "title": "backnotprop/plannotator",
       "url": "https://github.com/backnotprop/plannotator",
       "publishedAt": null,
-      "snippet": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. [TypeScript] 860 stars today",
+      "snippet": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. [TypeScript] 866 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -1889,33 +1856,33 @@
       "title": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "publishedAt": null,
-      "snippet": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. [Go] 688 stars today",
+      "snippet": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible. [Go] 691 stars today",
       "score": 5,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "7cf7680da4856360",
+      "id": "828729b7e7ea7960",
       "domain": "github",
       "source": "github_trending",
-      "title": "louislam/uptime-kuma",
-      "url": "https://github.com/louislam/uptime-kuma",
+      "title": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
       "publishedAt": null,
-      "snippet": "A fancy self-hosted monitoring tool [JavaScript] 352 stars today",
+      "snippet": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. [TypeScript] 247 stars today",
       "score": 5,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "b1d0069746077f51",
+      "id": "bab17911f2988bd0",
       "domain": "github",
       "source": "github_trending",
-      "title": "we-promise/sure",
-      "url": "https://github.com/we-promise/sure",
+      "title": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
       "publishedAt": null,
-      "snippet": "The personal finance app for everyone (by everyone) [Ruby] 520 stars today",
+      "snippet": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants. [Go] 423 stars today",
       "score": 5,
       "tags": [
         "stars"
@@ -1928,10 +1895,36 @@
       "title": "ChromeDevTools/chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "publishedAt": null,
-      "snippet": "Chrome DevTools for coding agents [TypeScript] 718 stars today",
+      "snippet": "Chrome DevTools for coding agents [TypeScript] 717 stars today",
       "score": 5,
       "tags": [
         "stars"
+      ]
+    },
+    {
+      "id": "70c803b9b00d18bf",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google Gemini Launches Orchestrator to Enhance Multi-Model Workflows",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBCcHFObXZ3MEhCLThPalhQdGJsYzMxemN2XzlhRGJOUk9Bc2wwYlRhZExJVm82QXg1NW9DMDBsWWwxSThodi1yQVhMUXNaUQ?oc=5",
+      "publishedAt": "2026-11-15T19:58:00.000Z",
+      "snippet": "Google Gemini Launches Orchestrator to Enhance Multi-Model Workflows Small Business Trends",
+      "score": 4,
+      "tags": [
+        "gemini"
+      ]
+    },
+    {
+      "id": "5ff76d5e0999c2f2",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wd0JWNXNkT3NmUy1UV09ldm1iSXY3dTllQ1o1ZFg5MFZPS1BRY3RCTUJLc05UYWJTb1R6VHhoT0NXM3hJQU5xLQ?oc=5",
+      "publishedAt": "2026-11-15T17:36:11.000Z",
+      "snippet": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试 财联社",
+      "score": 4,
+      "tags": [
+        "deepseek"
       ]
     },
     {
@@ -1945,19 +1938,6 @@
       "score": 4,
       "tags": [
         "gemini"
-      ]
-    },
-    {
-      "id": "0bdd3e5179bd1306",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "DeepSeek开放全家桶API，支持复刻完整App",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qcWJGOThvb0I0T2FzZDJNLTdleE1zdVlSVTQ2aGRXdERZYW1sN0ZZc0dpZV95ajJCVDhrWTcwRDRXQVNiTFQ3Y0wwUm15bjFyekVVM21Nb1F0aEkweU83TTZ1Nno5RHg1?oc=5",
-      "publishedAt": "2026-11-15T10:54:37.000Z",
-      "snippet": "DeepSeek开放全家桶API，支持复刻完整App 三易生活",
-      "score": 4,
-      "tags": [
-        "deepseek"
       ]
     },
     {
@@ -1987,72 +1967,70 @@
       ]
     },
     {
-      "id": "284177c0015e0342",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
-      "url": "https://news.ycombinator.com/item?id=50494696",
-      "publishedAt": "2026-11-14T06:56:42.000Z",
-      "snippet": "Specifically, what are the most useful, concrete skills to learn as an individual to take economic advantage of the advances in LLMs, agents and associated new technological capabilities? What is accessible to learn just from the internet and experimentation, without a degree program, assuming a pre",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "ceff632aeaf0c045",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "publishedAt": "2026-11-14T02:52:59.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "dcab0bfe793d7611",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "MiniMax-H3-Image 对比 Krea 3 Ultra：速度还是深思熟虑",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBlY0czTnJSM1V3djk3NjdkM0FfOGhlRnNTc0dCelJ1dE9vMlE4WjlPSjl3ZEs3QU9vX0c1RGt1N2FBSTdPQ01BLVZQam01WEROZTJTb1Vvc2FuR0doNkJPQzFNWkFMcjd2UlBpQ1BRVHV1bmJSbnJoYw?oc=5",
-      "publishedAt": "2026-11-14T02:46:24.000Z",
-      "snippet": "MiniMax-H3-Image 对比 Krea 3 Ultra：速度还是深思熟虑 OrcaRouter",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "9d387dd0f20e67c6",
-      "domain": "github",
-      "source": "hackernews",
-      "title": "Ggml v1.0.0",
-      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-      "publishedAt": "2026-11-14T02:28:29.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "9f5eda764eb86845",
+      "id": "84eb1ac65a31cdcd",
       "domain": "vibe_coding",
       "source": "hackernews",
-      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
-      "url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
-      "publishedAt": "2026-11-14T02:15:41.000Z",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "publishedAt": "2026-11-14T22:26:30.000Z",
       "snippet": "",
       "score": 4,
       "tags": []
     },
     {
-      "id": "7abe3dd43241f2b9",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Alibaba launches flagship AI model Qwen 4 Max",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41bU1pNkJ6QW9OZXIxaWNYcVRfNFo4bWc4dDBoY0NkekxZQTdTRXhqSXZOdkdKeHdSaHQxT1NMVEdOVXZVRGxRUEdoTjBncW01Si1idk4wNFk?oc=5",
-      "publishedAt": "2026-11-12T10:58:37.000Z",
-      "snippet": "Alibaba launches flagship AI model Qwen 4 Max mobidevices.com",
+      "id": "f287a27bc73bc2aa",
+      "domain": "github",
+      "source": "hackernews",
+      "title": "US IRS free online tax filing open source repo (2025)",
+      "url": "https://github.com/IRS-Public/direct-file",
+      "publishedAt": "2026-11-14T17:48:20.000Z",
+      "snippet": "",
       "score": 4,
-      "tags": [
-        "qwen"
-      ]
+      "tags": []
+    },
+    {
+      "id": "f61cab1690048732",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Sponde (2939-3647)",
+      "url": "https://doaj.org/toc/2939-3647?rss=",
+      "publishedAt": "2026-11-12T21:21:24.000Z",
+      "snippet": "Published by University of Zadar Added to DOAJ on 12 Nov 2026 LCC Subject Category: Language and Literature: Literature (General)",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "fb03349e5f97fa95",
+      "domain": "publishing",
+      "source": "doaj_added",
+      "title": "Myśl Polityczna (2658-2295, 2720-2283)",
+      "url": "https://doaj.org/toc/2720-2283?rss=",
+      "publishedAt": "2026-11-12T20:59:07.000Z",
+      "snippet": "Published by Kancelaria Sejmu, Biblioteka Sejmowa Added to DOAJ on 12 Nov 2026 LCC Subject Category: Political science: Political theory | Law",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "f40ced1f11eaa577",
+      "domain": "ai",
+      "source": "hf_blog",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publishedAt": "2026-11-12T19:07:35.000Z",
+      "snippet": "",
+      "score": 4,
+      "tags": []
+    },
+    {
+      "id": "d9cf2ab525a976a0",
+      "domain": "publishing",
+      "source": "stm_assoc",
+      "title": "STM responds to EU consultation on copyright, AI, and research",
+      "url": "https://stm-assoc.org/stm-responds-to-eu-consultation-on-copyright-ai-and-research/",
+      "publishedAt": "2026-11-12T12:33:20.000Z",
+      "snippet": "STM has responded to the European Commission’s consultation on the copyright framework, setting out its position on the use of copyright-protected content in AI and in research. Scholarly publishers support the responsible development of AI and the widest sustainable dissemination of articles report",
+      "score": 4,
+      "tags": []
     },
     {
       "id": "4caf424c6c76b679",
@@ -2108,6 +2086,19 @@
       "snippet": "",
       "score": 4,
       "tags": []
+    },
+    {
+      "id": "3297653c18ee6e26",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Tether BotPsy Beats Larger Qwen AI in Company Tests",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlFmUXFxemFmTmVqOXoxcWtXczd2TmpKMnBqeEpUNkVrU3daYWdYSlFpMDVQMGloZkpJWi1uNzhMelV4aTlrVkF1a09pODdQVnJ4aE1NNkpiQko3ODA3ZlhEX2tLZVpkU21yV2JuT3JXbjZCc1BLN2hoejhPeUE1SFhYRUloTGVTZTF6Z2lhYk9vVTJIazZYc082YnVWRnJ2?oc=5",
+      "publishedAt": "2026-11-11T21:50:17.000Z",
+      "snippet": "Tether BotPsy Beats Larger Qwen AI in Company Tests Bitcoin Foundation",
+      "score": 4,
+      "tags": [
+        "qwen"
+      ]
     },
     {
       "id": "f7f8a9140a1b9ae1",
@@ -2196,19 +2187,6 @@
       "snippet": "From a Google Research Blog Post: Building products that reflect the world’s linguistic diversity takes far more than software engineering; it requires close collaboration with the communities we aim to serve, building in a way that’s deeply aligned and respectful of local communities, heritage, his",
       "score": 4,
       "tags": []
-    },
-    {
-      "id": "3303741fb093e484",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YczhZVHM5azFwMHJqTnJfM25LNVo4Mm9lVnhTZS1nWWoyU1hEUnE5OGo0S1cxODlRd2tKTjV5LVdNc0RqVllhMFJRSWs5QzUzR1p3MFNBTWs3alhyZUw3Sg?oc=5",
-      "publishedAt": "2026-11-09T18:30:12.000Z",
-      "snippet": "CodeRabbit scales agentic software development and ships 20x more OpenAI",
-      "score": 4,
-      "tags": [
-        "openai"
-      ]
     },
     {
       "id": "b6ec28e802d2baf9",
@@ -2435,28 +2413,6 @@
       "tags": []
     },
     {
-      "id": "958fffd855f659cf",
-      "domain": "publishing",
-      "source": "infodocket",
-      "title": "Company News: Cambridge University Press, Johns Hopkins University Press, Princeton University Press and Cashmere are Launching Meridian, an MCP Gateway to Scholarly Content",
-      "url": "https://www.infodocket.com/2026/11/03/company-news-cambridge-university-press-johns-hopkins-university-press-princeton-university-press-and-cashmere-are-launching-meridian-an-mcp-gateway-to-content/",
-      "publishedAt": "2026-11-03T20:31:15.000Z",
-      "snippet": "Here’s the Full Text of Today’s Joint Announcement: Cambridge University Press, Johns Hopkins University Press and Princeton University Press today announced they are Founding Publishers of Meridian, a new University Press community initiative convened by Cashmere, its initial operator and platform ",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "faba7d4bfeeb5004",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "AI is destroying my CS degree",
-      "url": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
-      "publishedAt": "2026-11-03T16:42:02.000Z",
-      "snippet": "My comment on AI is destroying my CS degree — Hacker News. I don't envy educators right now. AI clearly means you need to change how you teach and evaluate students. We are only a few years in though, and it's still extremely unclear what effective teaching with these tools looks like. The worst par",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "1cc9301fc113c7b8",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -2468,17 +2424,6 @@
       "tags": []
     },
     {
-      "id": "1d8f97c9e7f40596",
-      "domain": "ai",
-      "source": "simonwillison",
-      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
-      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
-      "publishedAt": "2026-11-03T05:32:25.000Z",
-      "snippet": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B dat",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "ea0ad8775253bcce",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -2486,17 +2431,6 @@
       "url": "https://scholarlykitchen.sspnet.org/2026/11/02/the-ai-transparency-trap/",
       "publishedAt": "2026-11-02T10:30:57.000Z",
       "snippet": "The absence of AI doesn’t guarantee trustworthy research. And neither does disclosing AI use. The post The AI Transparency Trap appeared first on The Scholarly Kitchen .",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "84008496ec2cfc6d",
-      "domain": "publishing",
-      "source": "doaj_blog",
-      "title": "DOAJ and Open Access Australasia partner to strengthen open access publishing",
-      "url": "https://blog.doaj.org/2026/11/01/doaj-and-open-access-australasia-partner-to-strengthen-open-access-publishing/",
-      "publishedAt": "2026-11-01T23:49:14.000Z",
-      "snippet": "The Directory of Open Access Journals (DOAJ) and Open Access Australasia (OAA) have signed a Memorandum of Understanding (MoU) to strengthen trusted, equitable and sustainable open access journal publishing across Australasia. The partnership reflects a shared commitment to advancing an open and equ",
       "score": 4,
       "tags": []
     },
@@ -2521,6 +2455,19 @@
       "snippet": "Today we hear from some of SSP's Advocacy Committee members about what changes they'd like to see to US federal support for research. The post Ask the SSP Advocacy Committee: What one change would you most like to see in terms of U.S. federal support for research following the midterms? appeared fir",
       "score": 4,
       "tags": []
+    },
+    {
+      "id": "b6b8018603cac737",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xNEEzYVdFemd2ZlNTclVaYVZ4M0JlcTBSODQ2ODlQRWpkc05hWk5sMDIxVG00OEJCbm8wX284VFBTTm1kUEktV0VlemVUQzI2WWFBNTlOWQ?oc=5",
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "snippet": "An updated Model Spec for more capable and beneficial AI OpenAI",
+      "score": 4,
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "487e41ba1ae1f6be",
@@ -2556,17 +2503,6 @@
       "tags": []
     },
     {
-      "id": "c72baf12ba606b2c",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "知名外科医生被调查：利用期刊主编职权，给顾问公司发论文",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLXlfSFA3SFVJbXZqb0VxczJSODZsZUc0c2ZvYjlJTnJMdE9Xb0ZGdThJTXV0QmVMY0g5QlFPalBMelFnMWdkWU1XSEdWM1l5U25tWnpVR2VNcnAtak1TTlk2bEhSY3hackpDU0xOczBDRGRwOEJVX2tGYXJzVnJURkQwVjE?oc=5",
-      "publishedAt": "2026-10-23T07:00:00.000Z",
-      "snippet": "知名外科医生被调查：利用期刊主编职权，给顾问公司发论文 微博",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "efe8ddef643799dc",
       "domain": "publishing",
       "source": "google_news_retraction",
@@ -2589,68 +2525,42 @@
       "tags": []
     },
     {
-      "id": "2dcc54bfbbb7edcd",
+      "id": "3180a066bc8d1069",
       "domain": "github",
       "source": "github_trending",
-      "title": "QwenLM/qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
+      "title": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "publishedAt": null,
-      "snippet": "An open-source AI coding agent that lives in your terminal. [TypeScript] 64 stars today",
+      "snippet": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices. [Python] 98 stars today",
       "score": 4,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "62130df1ba3faa7f",
+      "id": "74909a39c75f7c10",
       "domain": "github",
       "source": "github_trending",
-      "title": "ag-ui-protocol/ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "title": "ggml-org/ggml",
+      "url": "https://github.com/ggml-org/ggml",
       "publishedAt": null,
-      "snippet": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. [TypeScript] 9 stars today",
+      "snippet": "Tensor library for machine learning [C++] 43 stars today",
       "score": 4,
       "tags": [
         "stars"
       ]
     },
     {
-      "id": "bab17911f2988bd0",
+      "id": "a8112493baedfd5d",
       "domain": "github",
       "source": "github_trending",
-      "title": "Tencent/LoopForge",
-      "url": "https://github.com/Tencent/LoopForge",
+      "title": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
       "publishedAt": null,
-      "snippet": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants. [Go] 33 stars today",
+      "snippet": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. [Python] 122 stars today",
       "score": 4,
       "tags": [
         "stars"
-      ]
-    },
-    {
-      "id": "bf136e5cc29fb1fc",
-      "domain": "github",
-      "source": "github_trending",
-      "title": "ashhart/TensorFold",
-      "url": "https://github.com/ashhart/TensorFold",
-      "publishedAt": null,
-      "snippet": "LLM Inference Engine for Metal, CUDA and Vulkan. [Zig] 37 stars today",
-      "score": 4,
-      "tags": [
-        "stars"
-      ]
-    },
-    {
-      "id": "bbe92ee69ce3805c",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "llama.cpp reaches version 1.0 for local AI tools",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SWUVqR3FmWS00ZDdhUEpqa1N0cDd0V0hnZjdfd3FOS1ZVNzVCaUhPc2RXMS1kLWZkTEtORzhrbWZPSEhaUmJVNFNPYzh6ZnJzN2lMN0hTYTdjZmhG?oc=5",
-      "publishedAt": "2026-11-13T18:49:00.000Z",
-      "snippet": "llama.cpp reaches version 1.0 for local AI tools Tbreak UAE",
-      "score": 3,
-      "tags": [
-        "llama"
       ]
     },
     {
