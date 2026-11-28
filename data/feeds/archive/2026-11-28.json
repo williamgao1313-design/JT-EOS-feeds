@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T02:23:38.051Z",
+  "generatedAt": "2026-11-28T04:49:24.759Z",
   "counts": {
-    "raw": 215,
-    "deduped": 208,
-    "kept": 208
+    "raw": 208,
+    "deduped": 202,
+    "kept": 202
   },
   "sources": [
     {
       "key": "hackernews",
       "ok": true,
       "status": 200,
-      "count": 25,
+      "count": 24,
       "error": null,
-      "ms": 422
+      "ms": 439
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 9,
       "error": null,
-      "ms": 1182
+      "ms": 1229
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1490
+      "ms": 1480
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 16,
       "error": null,
-      "ms": 2136
+      "ms": 2328
     },
     {
       "key": "simonwillison",
@@ -45,7 +45,7 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1095
+      "ms": 1097
     },
     {
       "key": "google_news_ai",
@@ -53,7 +53,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1660
+      "ms": 1634
     },
     {
       "key": "google_news_ai_zh",
@@ -61,7 +61,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1269
+      "ms": 1247
     },
     {
       "key": "google_news_onhold",
@@ -69,15 +69,15 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1235
+      "ms": 1269
     },
     {
       "key": "google_news_retraction",
       "ok": true,
       "status": 200,
-      "count": 11,
+      "count": 5,
       "error": null,
-      "ms": 1218
+      "ms": 1207
     },
     {
       "key": "infodocket",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1150
+      "ms": 1146
     },
     {
       "key": "scholarly_kitchen",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1073
+      "ms": 1115
     },
     {
       "key": "retraction_watch",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1106
+      "ms": 1092
     },
     {
       "key": "doaj_added",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1897
+      "ms": 2079
     },
     {
       "key": "doaj_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 2161
+      "ms": 2071
     },
     {
       "key": "stm_assoc",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1981
+      "ms": 1891
     },
     {
       "key": "openai_news",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1089
+      "ms": 1103
     },
     {
       "key": "deepmind_blog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 4,
       "error": null,
-      "ms": 1268
+      "ms": 1117
     },
     {
       "key": "hf_blog",
@@ -149,7 +149,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1192
+      "ms": 1194
     },
     {
       "key": "deepseek_models",
@@ -157,7 +157,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1092
+      "ms": 1086
     },
     {
       "key": "deepseek_status",
@@ -165,7 +165,7 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1822
+      "ms": 1902
     },
     {
       "key": "github_changelog",
@@ -173,7 +173,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1115
+      "ms": 1122
     }
   ],
   "items": [
@@ -189,6 +189,20 @@
       "tags": [
         "claude",
         "release"
+      ]
+    },
+    {
+      "id": "9338eefa8a315269",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude Accused of Covertly Sabotaging AI Research: Lowering Learning Rates, Tampering with Scores; Anthropic Admits Training-Stage Limits on Model R&D Capabilities",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LMmRlenhRVksydDl4MkNNb2Q2YnNlMjAxOWZndUxIaEFjcmhZUVdOWm41UFppamFGcmJwNTBBcE80RVZ5MzVVWkZqWjdaMmJJWkdpTGhZcHdpX1lMYUZuMDNtVHdnOWJkbDk4al9wRmJKc0d5TlE?oc=5",
+      "publishedAt": "2026-11-28T02:25:00.000Z",
+      "snippet": "Claude Accused of Covertly Sabotaging AI Research: Lowering Learning Rates, Tampering with Scores; Anthropic Admits Training-Stage Limits on Model R&D Capabilities BigGo Finance",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "claude"
       ]
     },
     {
@@ -272,34 +286,6 @@
       ]
     },
     {
-      "id": "5d33f7fb8de85957",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "字节火山引擎：豆包大模型已服务八成国内头部电视厂商",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TUmIzT2xReWxWMWMtdm1XZ2k2LTcxUlpzal9PZElNSEtyU2Y0dGZmVElYQlppYmNINWFGY0NGMzlPMjRGWGNlWGtnVUlnRGJXNTFxeVNOcnhxS3ZsbHdqWDg3UHFiM3o2M0dZQ2x0Q0E?oc=5",
-      "publishedAt": "2026-11-27T10:36:56.000Z",
-      "snippet": "字节火山引擎：豆包大模型已服务八成国内头部电视厂商 新浪网",
-      "score": 7,
-      "tags": [
-        "豆包",
-        "大模型"
-      ]
-    },
-    {
-      "id": "4ce7be21f576f22c",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "Anthropic's Unreleased Claude Model Surfaces in User Tests, Turning Code Into Animation",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTdTNPY1lLOWdNb2ZfbUNIcjhMUmVYa2dJZml3MDd2YVJVQUZ4a19QQ0s2cVdZMmlLempSb2dVb0RoOUNaeVQzbHVKRlVWdkkzbkNqWXRuTTZaNmdVSllndGlWQTRBbEt4QkN5QUdpZWMxWXZZSGc?oc=5",
-      "publishedAt": "2026-11-27T07:35:00.000Z",
-      "snippet": "Anthropic's Unreleased Claude Model Surfaces in User Tests, Turning Code Into Animation BigGo Finance",
-      "score": 7,
-      "tags": [
-        "anthropic",
-        "claude"
-      ]
-    },
-    {
       "id": "49da20359108f460",
       "domain": "ai",
       "source": "hf_blog",
@@ -336,6 +322,19 @@
       "snippet": "Author announced the books are now free to download. Comments",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "0c601a8d4520d075",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "url": "https://tabernet.es/",
+      "publishedAt": "2026-11-27T23:00:30.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "browser"
+      ]
     },
     {
       "id": "fbf2fbff37fc3046",
@@ -485,6 +484,19 @@
       "tags": []
     },
     {
+      "id": "8a4bfbdd8bd8833e",
+      "domain": "vibe_coding",
+      "source": "show_hn",
+      "title": "Show HN: King – Man + Woman = ?",
+      "url": "https://kingminusman.com/",
+      "publishedAt": "2026-11-27T15:50:53.000Z",
+      "snippet": "",
+      "score": 6,
+      "tags": [
+        "show hn"
+      ]
+    },
+    {
       "id": "b557815ccb9b5f88",
       "domain": "vibe_coding",
       "source": "show_hn",
@@ -508,19 +520,6 @@
       "score": 6,
       "tags": [
         "show hn"
-      ]
-    },
-    {
-      "id": "9c2a1339cd5875e3",
-      "domain": "ai",
-      "source": "google_news_ai_zh",
-      "title": "千问否认后训练负责人周昊离职，将起诉造谣自媒体",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BeGVucmItR09jSl9VNTAzQkFnVTZjRWxUR2ptVVNTRDdoZ1hXQmlQODFJRy0yZ2FkQW96NVlySDY3Y3pzX0lIVGZaRlozakN1YnhkN3ZFbENqVkxuX1ZkeEVEWVBjOGs1dGFoNFRGN01BTzFuZE1FU0Mxcw?oc=5",
-      "publishedAt": "2026-11-27T13:38:00.000Z",
-      "snippet": "千问否认后训练负责人周昊离职，将起诉造谣自媒体 动点科技",
-      "score": 6,
-      "tags": [
-        "千问"
       ]
     },
     {
@@ -626,6 +625,19 @@
       "score": 6,
       "tags": [
         "混元"
+      ]
+    },
+    {
+      "id": "22ef64d2a258cdc2",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "豆包电视破亿 创维、海信、TCL都用上了",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DczlDUFVOa1VWWVdHXzYyMG40ZVFCZ3RtdVNlRmVCZ2RuQWRPTnBsRjRzcXF5VG1EZmRmWDhCWVJfM2hKZzdpcG42LWVmWWRXN2FjNHlTZUI?oc=5",
+      "publishedAt": "2026-11-27T10:09:00.000Z",
+      "snippet": "豆包电视破亿 创维、海信、TCL都用上了 驱动之家",
+      "score": 6,
+      "tags": [
+        "豆包"
       ]
     },
     {
@@ -1030,6 +1042,28 @@
       ]
     },
     {
+      "id": "3a5532420c37a14e",
+      "domain": "vibe_coding",
+      "source": "hackernews",
+      "title": "Atari Homebrew Awards Cancelled",
+      "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
+      "publishedAt": "2026-11-28T02:03:25.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
+      "id": "61168f7dba34a5a2",
+      "domain": "ai",
+      "source": "hackernews",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "publishedAt": "2026-11-28T01:32:56.000Z",
+      "snippet": "",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "f1a28e372c62d5ea",
       "domain": "ai",
       "source": "google_news_ai",
@@ -1140,17 +1174,6 @@
       "tags": []
     },
     {
-      "id": "a6280d8339506b3c",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Google will show solo Android developers' phone numbers and addresses",
-      "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
-      "publishedAt": "2026-11-27T03:11:41.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": []
-    },
-    {
       "id": "b39aca2571fd563a",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -1193,19 +1216,6 @@
       "snippet": "Comments",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "96c0975fca0f4363",
-      "domain": "vibe_coding",
-      "source": "hackernews",
-      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
-      "url": "https://bui.preetham.top/charts/",
-      "publishedAt": "2026-11-26T18:37:24.000Z",
-      "snippet": "",
-      "score": 5,
-      "tags": [
-        "library"
-      ]
     },
     {
       "id": "1ad2488835a57887",
@@ -1311,19 +1321,6 @@
       "snippet": "",
       "score": 5,
       "tags": []
-    },
-    {
-      "id": "394ea8808b3108ae",
-      "domain": "vibe_coding",
-      "source": "show_hn",
-      "title": "Show HN: Olumino, a Markdown notes and spaced repetition app",
-      "url": "https://olumino.app/",
-      "publishedAt": "2026-11-26T03:33:06.000Z",
-      "snippet": "I was inspired by Mochi and Anki, but wanted to make something that’s a mix of the two. Anki is very confusing and has an outdated interface while Mochi is very simple and has a more minimalist interface. Olumino is the combination of both. I also added Japanese flashcard support, including kana rea",
-      "score": 5,
-      "tags": [
-        "show hn"
-      ]
     },
     {
       "id": "f3901ac52050494c",
@@ -1711,19 +1708,6 @@
       "tags": []
     },
     {
-      "id": "1f02700348645e5b",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "新动向！中央巡视组刚进驻31所高校，为什么论文“无痕撤稿”被推上审判台？评职称背后的“大生意”",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fTWM2ZmYxUVNVaGdkVDh0QW8tMWhtQ2JOOE53Z3JTV0JiQTQtNHFiUzVHWnEtZGVvb3ZobEcxcnNEY0VNVS1LVG4tSC1YVzdTUG84?oc=5",
-      "publishedAt": "2026-11-14T08:00:00.000Z",
-      "snippet": "新动向！中央巡视组刚进驻31所高校，为什么论文“无痕撤稿”被推上审判台？评职称背后的“大生意” Sohu",
-      "score": 5,
-      "tags": [
-        "撤稿"
-      ]
-    },
-    {
       "id": "088d32d316c3e682",
       "domain": "publishing",
       "source": "google_news_onhold",
@@ -1773,19 +1757,6 @@
       "score": 5,
       "tags": [
         "retraction"
-      ]
-    },
-    {
-      "id": "ca895e53197896c1",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "创纪录的撤稿：IEEE一次性撤回1417篇会议论文 - 科学网—新闻",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5XNGVpLUstckdzb2QzSzkzRl9FUTFoWURWOGl5WmNra1RjTVVPSUp2VG53QTdESl9OcFRrUG1JbmtMUXJ6ckRPWnlpYXc0VDQwcnpBc015c1hBaFI1ei1USmdRczA2UQ?oc=5",
-      "publishedAt": "2026-11-02T08:00:00.000Z",
-      "snippet": "创纪录的撤稿：IEEE一次性撤回1417篇会议论文 科学网—新闻",
-      "score": 5,
-      "tags": [
-        "撤稿"
       ]
     },
     {
@@ -1984,49 +1955,38 @@
       ]
     },
     {
-      "id": "bd7ebe263c93b7ab",
+      "id": "5ff76d5e0999c2f2",
       "domain": "ai",
       "source": "google_news_ai_zh",
-      "title": "DeepSeek新增对话资费查询功能，展示免费服务Token消耗价格",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE16Y0Z1XzJyN2kxcFJqUTVHMlJGaTV5ODY5RjViTkRXaHBZSFlaRkE3Q29fc0FQTmRxV0NZT1hpT0xTcjlJOHJ6MjgzV1hNUDRUd0otNQ?oc=5",
-      "publishedAt": "2026-11-27T17:10:38.000Z",
-      "snippet": "DeepSeek新增对话资费查询功能，展示免费服务Token消耗价格 虎嗅网",
+      "title": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4wd0JWNXNkT3NmUy1UV09ldm1iSXY3dTllQ1o1ZFg5MFZPS1BRY3RCTUJLc05UYWJTb1R6VHhoT0NXM3hJQU5xLQ?oc=5",
+      "publishedAt": "2026-11-28T00:54:59.000Z",
+      "snippet": "V4全系列模型上线后，DeepSeek Harness开发者预览版开放测试 财联社",
       "score": 4,
       "tags": [
         "deepseek"
       ]
     },
     {
-      "id": "6a97e2ce088f3466",
+      "id": "dc5469dc1cc58480",
       "domain": "ai",
-      "source": "google_news_ai",
-      "title": "DeepSeek's Android App Adds Pricing Lookup Feature as Paid Model for LLMs Edges Closer",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DR1U1c3YydC1Iay01VndrMUV4bVJBVTRFU2dVeG5TNmtDc0x5U1IwSUdqQWV0QmZUc05lNkNqT0V4cGgxUzV3LTU0SmVOcWhhUFFoN1dFYkZtQWhCejNoaURnOHhJM1l3bTVYa0Y0ZXRRSDV2b3c?oc=5",
-      "publishedAt": "2026-11-27T03:36:00.000Z",
-      "snippet": "DeepSeek's Android App Adds Pricing Lookup Feature as Paid Model for LLMs Edges Closer BigGo Finance",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek开源数学专用模型，MATH基准表现逼近GPT-4",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15dWRuNDhCa0ZBOVk1OElGQ2h4Zk9WWE1wZ0VTenp2eTJvMkExWWRVckZjSlNrSUtrUTlHNkNQaVNfY1gtTFdsa0lablNmRXNSRHA0SlRB?oc=5",
+      "publishedAt": "2026-11-27T09:01:59.000Z",
+      "snippet": "DeepSeek开源数学专用模型，MATH基准表现逼近GPT-4 Sohu",
       "score": 4,
       "tags": [
         "deepseek"
       ]
     },
     {
-      "id": "a552b3b51b620bd4",
-      "domain": "github",
+      "id": "a6280d8339506b3c",
+      "domain": "vibe_coding",
       "source": "hackernews",
-      "title": "Rvoip: VoIP stack in Rust",
-      "url": "https://github.com/eisenzopf/rvoip",
-      "publishedAt": "2026-11-26T19:18:09.000Z",
-      "snippet": "",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "77d58a1ccf61e3c8",
-      "domain": "ai",
-      "source": "hackernews",
-      "title": "An introduction to uncertainty in machine learning",
-      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
-      "publishedAt": "2026-11-26T19:04:50.000Z",
+      "title": "Google will show solo Android developers' phone numbers and addresses",
+      "url": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+      "publishedAt": "2026-11-27T03:11:41.000Z",
       "snippet": "",
       "score": 4,
       "tags": []
@@ -2114,6 +2074,19 @@
       "tags": []
     },
     {
+      "id": "969f137b25ae6fb5",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51RURTZW9Mc2ZrRWI5bDFKYnpkeThPVFFKQ3hVamlUWUZ2akJBOVNEaTA0WjFPR2pRUEtNdEllSFBJRjhNXzRVbUxYNndSQW9SVnNpN0xMNXVIRkVfNGRkZGs2OC1TRlI1?oc=5",
+      "publishedAt": "2026-11-23T18:14:08.000Z",
+      "snippet": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections Anthropic Alignment Science Blog",
+      "score": 4,
+      "tags": [
+        "anthropic"
+      ]
+    },
+    {
       "id": "148bcf37492fe034",
       "domain": "github",
       "source": "github_changelog",
@@ -2178,17 +2151,6 @@
       "url": "https://simonwillison.net/2026/Nov/21/muru/",
       "publishedAt": "2026-11-21T23:56:28.000Z",
       "snippet": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development an",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "2cf00779beaa0858",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "期刊撤回伦敦研究所关于疫苗的论文——《南华早报》",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQclpiWlByNjNCVDJqWm9Tb0Q5ZGc2VzZUY0FCdk9WZ2RJUl8weFA3SUtyWElWMDNjZmF2TmJ3Yl9iMy1jMWF4VGRVR3ZUcWhuek5BX09lb2V5MnBWcnZCZFgyUmpGSWMtYnI4WlZpYkU5dktMMHFldlVRNVNBVVhTQkV4SU9yTUNRZUhOa05BSHhDLXZTeGk2TkttOUZubUctZHRRVkFfLUswQnhvMlJaQUlDV1ptVVlqWlE?oc=5",
-      "publishedAt": "2026-11-21T18:05:00.000Z",
-      "snippet": "期刊撤回伦敦研究所关于疫苗的论文——《南华早报》 UA.NEWS",
       "score": 4,
       "tags": []
     },
@@ -2274,17 +2236,6 @@
       "tags": []
     },
     {
-      "id": "8b7cdfedc87679e7",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "抄袭、洗稿事件频发，知名文学期刊接连致歉，“原创防线”能否守得住？",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDZUVGZE1BekhkT05sY3ZSTWxjQVl0TTlFMTZObkFpVnN6VUlKNXpjNXc3X3JSZ0M2Y3Ewc3ZkNDZpSzZWYWR6N1Vpd2Fxc2ZfYkZXeGFZeFZwZFpZYW1MU1FDbVdjZmRXNVRTOWp3UEJtQQ?oc=5",
-      "publishedAt": "2026-11-19T12:30:00.000Z",
-      "snippet": "抄袭、洗稿事件频发，知名文学期刊接连致歉，“原创防线”能否守得住？ 京报网",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "81fea424513dd3f9",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -2292,17 +2243,6 @@
       "url": "https://scholarlykitchen.sspnet.org/2026/11/19/guest-post-building-a-taxonomy-of-bots/",
       "publishedAt": "2026-11-19T10:30:59.000Z",
       "snippet": "To tame the bots hitting scholarly platforms, we must first name them. Today’s post proposes a bot taxonomy to support the community’s need to measure robotic traffic. The post Guest Post — Building a Taxonomy of Bots appeared first on The Scholarly Kitchen .",
-      "score": 4,
-      "tags": []
-    },
-    {
-      "id": "5c9420942d258b4d",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "学术不端频频事后曝光，期刊如何把风险拦截在见刊之前？",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBKYUVKY1lOOFZCNjNTOEdqOEVLSWcyalVCTEh4MWFSb2x5RERfSGdFdF9fQm5Kd2JUa3JjTzR6aXZTNW1CS0dQWHRqVUk?oc=5",
-      "publishedAt": "2026-11-19T08:00:00.000Z",
-      "snippet": "学术不端频频事后曝光，期刊如何把风险拦截在见刊之前？ 凤凰网",
       "score": 4,
       "tags": []
     },
@@ -2452,19 +2392,6 @@
       "tags": []
     },
     {
-      "id": "f5aea4935ab5502f",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "A step toward defining the Standard Model on a lattice",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xSGFfWmVQdlE5eUpDUzdzczVqWV9MSnhzQnhKXzlicXUtdmFfandZbE9fUTAtVnVUeElydnowdzQ0dkY0Q0VxeTlDQ2JpeU5iR0JGaW5uN3FibEZaVFFFOE5jVUVwS2dvWXRNTHpGUkNpUU0?oc=5",
-      "publishedAt": "2026-11-15T08:00:00.000Z",
-      "snippet": "A step toward defining the Standard Model on a lattice OpenAI",
-      "score": 4,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
       "id": "2aa02d0655669df1",
       "domain": "publishing",
       "source": "infodocket",
@@ -2575,17 +2502,6 @@
       "tags": []
     },
     {
-      "id": "1db27257939f4481",
-      "domain": "publishing",
-      "source": "google_news_retraction",
-      "title": "青海一高职教师论文两次被同事冒用：用于申学位，删改后投稿期刊",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92TE5tWWJnc2pRUXZfYzRQNEN2QmNINUVmQnc0aG03LVhmNHBScWlwaUVVV3JGdUcxc29sb25FbGdMVjBhdW5lX3NmWTlfeGk4SWxodGg2dkd3LVBaaUJuRTRReUxRUQ?oc=5",
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "snippet": "青海一高职教师论文两次被同事冒用：用于申学位，删改后投稿期刊 观察者网",
-      "score": 4,
-      "tags": []
-    },
-    {
       "id": "1cc9301fc113c7b8",
       "domain": "publishing",
       "source": "scholarly_kitchen",
@@ -2623,6 +2539,32 @@
       ]
     },
     {
+      "id": "6a97e2ce088f3466",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek's Android App Adds Pricing Lookup Feature as Paid Model for LLMs Edges Closer",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DR1U1c3YydC1Iay01VndrMUV4bVJBVTRFU2dVeG5TNmtDc0x5U1IwSUdqQWV0QmZUc05lNkNqT0V4cGgxUzV3LTU0SmVOcWhhUFFoN1dFYkZtQWhCejNoaURnOHhJM1l3bTVYa0Y0ZXRRSDV2b3c?oc=5",
+      "publishedAt": "2026-11-27T03:36:00.000Z",
+      "snippet": "DeepSeek's Android App Adds Pricing Lookup Feature as Paid Model for LLMs Edges Closer BigGo Finance",
+      "score": 3,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "451f4fd7b612b5bc",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "US restricts Nvidia chip access, OpenAI limits model use for Chinese firms",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQVVHSU9wbnkwbjhrR3gyankxZmxXMTBhNGJUeV9VNDJpdVdKUlk2RWhhWjdudEpxXzluSDlHaHNQakxhSnFGWlBNOXlDakw2b3lQZ2JjcFRxM3lDRUI1S2QtYU4ycUtuY203dF9pOG1Xb2U2WDVYLVRydng5Z3o5SmFsTHZzNDU4LVVxb0NtOF9KT1NQR3I3OVpOeENOZ1RNN0tB?oc=5",
+      "publishedAt": "2026-11-26T17:35:27.000Z",
+      "snippet": "US restricts Nvidia chip access, OpenAI limits model use for Chinese firms Crypto Briefing",
+      "score": 3,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "8a3661c319741e4f",
       "domain": "ai",
       "source": "google_news_ai",
@@ -2636,27 +2578,14 @@
       ]
     },
     {
-      "id": "6e36f804e8deaefd",
+      "id": "14edbae821f85eb6",
       "domain": "ai",
       "source": "google_news_ai",
-      "title": "OpenAI tests Private Inference, a sealed prompt while the model runs",
-      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE45M0J3UzJhVVZhRDA3emRqeEFCNFNKZTd4RFFOQi1iQjcxQjdGN1k3QWRXMmd5eWp3Q1Jv?oc=5",
-      "publishedAt": "2026-11-26T08:00:00.000Z",
-      "snippet": "OpenAI tests Private Inference, a sealed prompt while the model runs Howl.Link",
+      "title": "Google is back in AI game with Gemini 4 Neon, Elon Musk calls it impressive",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMzlpZkZvYnMtOUVMdE1FdXlNYVUyYjdRUDAxQUFsWWRFaE5fSHFHd2hUTTlxMlAxcUdEUHFXVlppcXJfRDU2blJxY08xUlBkdmlSb001dF9mRnNZV1liVUo3Z0ZmQTAwQ1F2VHRYMkJJM1Jtc0RaY1BXZmZaX3VJUVR2YXNKRWVhTXdPMUU4V1E1cUNTblhpblJIVTdTVUtndF9IZWxQeEdvSzl2SDlhX204U1JjRmhCZ0NUNDQ4SmkwMUlPVlVPNHZBRThsUFYtSnBHbGkzekhBdHV3TUHSAeMBQVVfeXFMUHFoNGNLWGtWMDM5ZFZocHp4MHlKYm91V214UjBJOTg5b0h6bTBJSl9pT3Ywd2U1UEdkXzYySGRfeEljbGJuZG5pTkdfQkJKejZ4T0Z3MG0wdHBWUWl2dFlKOVN1RjdSTTlGYmFBNU9iWlNMTmtPM1dOVFRPWmpRUE5FVF9LMllXeWx6NTMyeFh2VUdBZjdENkVWNmpOdk9id1JReERvTVJXWWtpeFJQVGhLZnhPTE9hd0hrNktpM2dtbmwzZnVObTh2QTRjR0g3Zm5KbGFQYlZuX0dkMHFleXJ0TFE?oc=5",
+      "publishedAt": "2026-11-25T10:01:08.000Z",
+      "snippet": "Google is back in AI game with Gemini 4 Neon, Elon Musk calls it impressive India Today",
       "score": 3,
-      "tags": [
-        "openai"
-      ]
-    },
-    {
-      "id": "4fe9505ccb74e7df",
-      "domain": "ai",
-      "source": "google_news_ai",
-      "title": "See what 5 builders are making with Gemini 4 Neon",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTkViODd2SnZMN05iTFpjM0hDbDhWal9IRDRMWFc2dm5vdTluRVNCSHJUQlVxUW9QREo3ZWhfc0hrRGZVQUFBT0JBYkYxZVdxUkVNUk5RNzBJLVVSOFVzVUtuaXlkRjZzQWY1dHVKcHloM1J3T0lsenlJMnZJM0JVTW1QXzNrY2Q2bm5OZzJENWxVM0Z1Ymw4NnRYZw?oc=5",
-      "publishedAt": "2026-11-24T17:42:49.000Z",
-      "snippet": "See what 5 builders are making with Gemini 4 Neon blog.google",
-      "score": 2,
       "tags": [
         "gemini"
       ]
