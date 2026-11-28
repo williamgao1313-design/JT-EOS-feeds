@@ -121,7 +121,11 @@ const MIN_GAP_MS = 1000;          // 请求之间的最小间隔
 const MAX_REQUESTS = 30;          // 总请求预算（含重试）；21 个源 + 少量重试
 const REQUEST_TIMEOUT_MS = 20000;
 const MAX_AGE_DAYS = 30;          // 默认只保留最近 30 天；源可用 maxAgeDays 覆盖
-const SNIPPET_MAX = 300;
+// 摘要保留长度：300 字会把 31% 的条目切在单词中间（2026-11-28 实测 63/204），
+// 详情面板又没有原文正文；放宽到 2000 并只在词/句边界截断，超出时补省略号。
+const SNIPPET_MAX = 2000;
+// 打分仍只看前 300 字，避免"摘要变长 → 命中更多信号词 → 排序变化"这种副作用。
+const SNIPPET_SCORE_MAX = 300;
 
 const USER_AGENT =
   'Mozilla/5.0 (compatible; journal-tools-feeds-collector/1.0; +https://github.com/williamgao1313-design/JT-EOS-feeds)';
@@ -478,11 +482,12 @@ const SOURCES = [
     key: 'doaj_added',
     kind: 'feed',
     domain: 'publishing',
-    // DOAJ 官方 "Recent Journals Added"（收录一手）。实测 200 / Atom 100 entries，
-    // 更新到小时级、一天上百条（每篇只是一个刊名+ISSN）⇒ 必须限流，只留最新 5 条。
+    // DOAJ 官方 "Recent Journals Added"（收录一手）。实测 feed 上限 100 entries；
+    // 2026-11-28 的 7 天窗口内有 76 条，旧的 maxItems:5 直接丢掉 71 条，
+    // 用户看到"DOAJ 收录不全"就是这个原因。现在 7 天内全留（feed 最多 100）。
     url: 'https://doaj.org/feed',
     maxAgeDays: 7,
-    maxItems: 5,
+    maxItems: 100,
   },
   {
     key: 'doaj_blog',
@@ -594,6 +599,26 @@ function toPlainText(raw) {
   s = s.replace(/<[^>]*>/g, ' '); // 解码后可能又冒出标签（&lt;p&gt;），再剥一次
   s = decodeEntities(s);
   return s.replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * 摘要截断：不在单词中间下刀，优先句末，其次空格；截断时补 `…` 让"还有下文"可见。
+ * 中文没有空格，按字符切（浏览器/客户端本身也按字符换行）。
+ */
+function clipSnippet(text, max = SNIPPET_MAX) {
+  const s = toPlainText(text);
+  if (s.length <= max) return s;
+  const head = s.slice(0, max);
+  const sentence = Math.max(
+    head.lastIndexOf('. '),
+    head.lastIndexOf('! '),
+    head.lastIndexOf('? '),
+    head.lastIndexOf('; '),
+  );
+  if (sentence >= max * 0.6) return `${head.slice(0, sentence + 1)}…`;
+  const space = head.lastIndexOf(' ');
+  if (space >= max * 0.6) return `${head.slice(0, space)}…`;
+  return `${head}…`;
 }
 
 function escapeRe(s) {
@@ -821,7 +846,7 @@ export function parseFeedEntries(xml, source) {
 
     const snippetRaw =
       firstTag(block, ['description', 'summary', 'content:encoded', 'content']) || '';
-    const snippet = toPlainText(snippetRaw).slice(0, SNIPPET_MAX);
+    const snippet = clipSnippet(snippetRaw);
 
     items.push({
       title,
@@ -873,7 +898,7 @@ export function collectHackerNews(text, opts = {}) {
       title,
       url: stripTracking(url),
       publishedAt: parseDate(hit.created_at),
-      snippet: body.slice(0, SNIPPET_MAX),
+      snippet: clipSnippet(body),
       source: sourceKey,
       domain,
       meta: { starsToday: null },
@@ -915,7 +940,7 @@ export function collectGithubTrending(html) {
       title,
       url: stripTracking(url),
       publishedAt: null,
-      snippet: snippetParts.join(' ').slice(0, SNIPPET_MAX),
+      snippet: clipSnippet(snippetParts.join(' ')),
       source: 'github_trending',
       domain: 'github',
       meta: { starsToday: Number.isFinite(starsToday) ? starsToday : null },
@@ -949,7 +974,7 @@ export function collectHfModels(text, source) {
       title: name,
       url: `https://huggingface.co/${repoId}`,
       publishedAt: parseDate(m.createdAt),
-      snippet: bits.join(' · ').slice(0, SNIPPET_MAX),
+      snippet: clipSnippet(bits.join(' · ')),
       source: source.key,
       domain: source.domain,
       meta: { starsToday: null },
@@ -961,7 +986,7 @@ export function collectHfModels(text, source) {
 /* ============================== 打分 ============================== */
 
 function scoreSignals(item) {
-  const text = `${item.title} ${item.snippet}`.toLowerCase();
+  const text = `${item.title} ${String(item.snippet || '').slice(0, SNIPPET_SCORE_MAX)}`.toLowerCase();
   const tags = [];
   for (const w of SIGNALS[item.domain] || []) {
     if (hasWord(text, w)) tags.push(w);
