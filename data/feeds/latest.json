@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T10:01:01.098Z",
+  "generatedAt": "2026-11-28T10:12:09.487Z",
   "counts": {
-    "raw": 244,
-    "deduped": 239,
-    "kept": 239
+    "raw": 280,
+    "deduped": 275,
+    "kept": 275
   },
   "sources": [
     {
@@ -13,7 +13,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 338
+      "ms": 354
     },
     {
       "key": "show_hn",
@@ -21,7 +21,7 @@
       "status": 200,
       "count": 9,
       "error": null,
-      "ms": 1220
+      "ms": 1180
     },
     {
       "key": "lobsters",
@@ -29,7 +29,7 @@
       "status": 200,
       "count": 25,
       "error": null,
-      "ms": 1251
+      "ms": 1332
     },
     {
       "key": "github_trending",
@@ -37,7 +37,7 @@
       "status": 200,
       "count": 16,
       "error": null,
-      "ms": 2342
+      "ms": 2411
     },
     {
       "key": "simonwillison",
@@ -45,39 +45,39 @@
       "status": 200,
       "count": 30,
       "error": null,
-      "ms": 1076
+      "ms": 1151
     },
     {
       "key": "google_news_ai",
-      "ok": false,
-      "status": null,
-      "count": 0,
-      "error": "HTTP 503",
-      "ms": 19539
+      "ok": true,
+      "status": 200,
+      "count": 15,
+      "error": null,
+      "ms": 1570
     },
     {
       "key": "google_news_ai_zh",
-      "ok": false,
-      "status": null,
-      "count": 0,
-      "error": "HTTP 503",
-      "ms": 23295
+      "ok": true,
+      "status": 200,
+      "count": 10,
+      "error": null,
+      "ms": 1268
     },
     {
       "key": "google_news_onhold",
-      "ok": false,
-      "status": null,
-      "count": 0,
-      "error": "HTTP 503",
-      "ms": 24701
+      "ok": true,
+      "status": 200,
+      "count": 6,
+      "error": null,
+      "ms": 1254
     },
     {
       "key": "google_news_retraction",
-      "ok": false,
-      "status": null,
-      "count": 0,
-      "error": "HTTP 503",
-      "ms": 24639
+      "ok": true,
+      "status": 200,
+      "count": 5,
+      "error": null,
+      "ms": 1283
     },
     {
       "key": "infodocket",
@@ -85,7 +85,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1105
+      "ms": 1286
     },
     {
       "key": "scholarly_kitchen",
@@ -93,7 +93,7 @@
       "status": 200,
       "count": 15,
       "error": null,
-      "ms": 1086
+      "ms": 1275
     },
     {
       "key": "retraction_watch",
@@ -101,7 +101,7 @@
       "status": 200,
       "count": 10,
       "error": null,
-      "ms": 1065
+      "ms": 1115
     },
     {
       "key": "doaj_added",
@@ -109,7 +109,7 @@
       "status": 200,
       "count": 76,
       "error": null,
-      "ms": 1946
+      "ms": 1845
     },
     {
       "key": "doaj_blog",
@@ -117,7 +117,7 @@
       "status": 200,
       "count": 3,
       "error": null,
-      "ms": 2083
+      "ms": 2037
     },
     {
       "key": "stm_assoc",
@@ -125,7 +125,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1859
+      "ms": 1966
     },
     {
       "key": "openai_news",
@@ -133,7 +133,7 @@
       "status": 200,
       "count": 8,
       "error": null,
-      "ms": 1090
+      "ms": 1140
     },
     {
       "key": "deepmind_blog",
@@ -141,7 +141,7 @@
       "status": 200,
       "count": 4,
       "error": null,
-      "ms": 1111
+      "ms": 1087
     },
     {
       "key": "hf_blog",
@@ -149,7 +149,7 @@
       "status": 200,
       "count": 6,
       "error": null,
-      "ms": 1145
+      "ms": 1122
     },
     {
       "key": "deepseek_models",
@@ -157,7 +157,7 @@
       "status": 200,
       "count": 0,
       "error": null,
-      "ms": 1084
+      "ms": 1066
     },
     {
       "key": "deepseek_status",
@@ -165,7 +165,7 @@
       "status": 200,
       "count": 2,
       "error": null,
-      "ms": 1849
+      "ms": 1925
     },
     {
       "key": "github_changelog",
@@ -173,7 +173,7 @@
       "status": 200,
       "count": 5,
       "error": null,
-      "ms": 1057
+      "ms": 1201
     }
   ],
   "items": [
@@ -192,6 +192,20 @@
       ]
     },
     {
+      "id": "9338eefa8a315269",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude Accused of Covertly Sabotaging AI Research: Lowering Learning Rates, Tampering with Scores; Anthropic Admits Training-Stage Limits on Model R&D Capabilities",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LMmRlenhRVksydDl4MkNNb2Q2YnNlMjAxOWZndUxIaEFjcmhZUVdOWm41UFppamFGcmJwNTBBcE80RVZ5MzVVWkZqWjdaMmJJWkdpTGhZcHdpX1lMYUZuMDNtVHdnOWJkbDk4al9wRmJKc0d5TlE?oc=5",
+      "publishedAt": "2026-11-28T02:25:00.000Z",
+      "snippet": "Claude Accused of Covertly Sabotaging AI Research: Lowering Learning Rates, Tampering with Scores; Anthropic Admits Training-Stage Limits on Model R&D Capabilities BigGo Finance",
+      "score": 7,
+      "tags": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
       "id": "a8597028b91549a8",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -205,6 +219,48 @@
       ]
     },
     {
+      "id": "58e1097800278233",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Claude Opus 5.6: Status, Routing Test and Release Date | AgentsPulse",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YbXkzQjB5NExxZXpRcTY1X2I1WDU3eWkxUkk2akcxQkxiU0k4ZGEyb1ZkRWlhSC1ucVc2NVota1FuZTJ0UVRwWXU5LUJtSFQzemlCSkloSDBwc3pPQVVNNmV6UlJqaG8?oc=5",
+      "publishedAt": "2026-11-27T16:00:00.000Z",
+      "snippet": "Claude Opus 5.6: Status, Routing Test and Release Date | AgentsPulse GitHub",
+      "score": 7,
+      "tags": [
+        "claude",
+        "release"
+      ]
+    },
+    {
+      "id": "7408c31719f67b3b",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "腾讯混元发布最新3D大模型Hy3D 3.6：专业级 3D 资产生成再进一步",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3ZC1YVW9oYTQtVk5UTTYzRDZnNzBuNnVodnhCZzVsVlIzYndIOHdzOTJXODdIRnNreHZMZjRXV2V5WHFlRmhkaGF5Q1Q0SWwyZmd4dHB3MHJFU1JLak1yZGF0WjRleXVOb0NiRzRR?oc=5",
+      "publishedAt": "2026-11-27T12:57:18.000Z",
+      "snippet": "腾讯混元发布最新3D大模型Hy3D 3.6：专业级 3D 资产生成再进一步 央广网",
+      "score": 7,
+      "tags": [
+        "混元",
+        "大模型"
+      ]
+    },
+    {
+      "id": "a33af9513fd6e585",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "AI进化速递 | 腾讯混元发布最新一代3D大模型Hy3D 3.6",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE54UGY0ekh1dXc5c1B5MmlPMW9xVzdycmhrQ2NyV3l3U2RjbEtaVHU1MlhHQ19HRGN1QWtMU05TZGdvUDlZSUl5UEp6S3BJNWpXR0o0OQ?oc=5",
+      "publishedAt": "2026-11-27T12:49:00.000Z",
+      "snippet": "AI进化速递 | 腾讯混元发布最新一代3D大模型Hy3D 3.6 第一财经",
+      "score": 7,
+      "tags": [
+        "混元",
+        "大模型"
+      ]
+    },
+    {
       "id": "a70ab1b5c7141c8c",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -214,6 +270,20 @@
       "snippet": "Jane Medwell received a message from a student one day in June of this year: Did Medwell know her 2007 paper on handwriting had been republished? That was news to her. Medwell read the paper and found it was nearly identical to hers – except this one was published under a different name, in a … Continue reading ‘Shameless cheating’: Near-identical version of handwriting essay published years later",
       "score": 7,
       "tags": []
+    },
+    {
+      "id": "4bd381522ad46c9c",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "豆包大模型已覆盖八成国内头部电视厂商",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBabXRaWXdldGR1TzRzcFpPRk1zaFlNaWVJOENwUk1pQ29yenYxWTVBTjJWNnhub05TTkRjeE5lR3BfU2Vrd0NKejZmLVMyVUNMcmY3TEl6QlBZWnMtZ2c?oc=5",
+      "publishedAt": "2026-11-27T10:51:04.000Z",
+      "snippet": "豆包大模型已覆盖八成国内头部电视厂商 DoNews",
+      "score": 7,
+      "tags": [
+        "豆包",
+        "大模型"
+      ]
     },
     {
       "id": "49da20359108f460",
@@ -475,6 +545,19 @@
       ]
     },
     {
+      "id": "6f54e282824a99d3",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "腾讯混元发布Hy3D 3.6，提升专业3D模型与材质生成能力",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVU9GS3hQSDJHMXFMbHlRQUxrcVFGdmhPMTlnc0Ezb1l5aEc1SGpQRmxsSEJTaXFjbERyVms1Um80WmdxT21vQVBidWVwMzhBbHcwQUlLM0Q0M3NTekVTR3N1eXRKeGF6bjBnOWl4Z1lsUGJEZnlyVWpUeUUtM0E0ZDJmaDhjNkVxSUxmbg?oc=5",
+      "publishedAt": "2026-11-27T13:37:00.000Z",
+      "snippet": "腾讯混元发布Hy3D 3.6，提升专业3D模型与材质生成能力 动点科技",
+      "score": 6,
+      "tags": [
+        "混元"
+      ]
+    },
+    {
       "id": "5177c5930c2c398b",
       "domain": "vibe_coding",
       "source": "lobsters",
@@ -506,6 +589,19 @@
       "snippet": "Comments",
       "score": 6,
       "tags": []
+    },
+    {
+      "id": "a5403e8041ecbd14",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "NeurIPS 2026｜基模告别重训！港科大、混元开源Rosetta：终结基模「学新忘旧」",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDZ3MDFEeHJHdkpKNTVoZkwzS2I1RlkzVkF0ZGtGX2R6T2FpUXlZaWxCeE9TQzhEOV9GN2ZBTTd1aVptcmktdG9vY3BuejdZVXd6Vi1fRHhEV2lyUThtZkFqQTBDSWU3SkxkNGFXdlNJdmotdUU0OGgzNEV4RmVQMms4dk1KT3A5?oc=5",
+      "publishedAt": "2026-11-27T11:50:46.000Z",
+      "snippet": "NeurIPS 2026｜基模告别重训！港科大、混元开源Rosetta：终结基模「学新忘旧」 Sohu",
+      "score": 6,
+      "tags": [
+        "混元"
+      ]
     },
     {
       "id": "be6307a7aef92a05",
@@ -563,6 +659,33 @@
       "tags": []
     },
     {
+      "id": "58347386cfb8bc6b",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "腾讯WorkRally首批接入混元Hy3D 3.6，一张设定图生成近200万面3D高模",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LSnhjRWp1cFJGXzliWkNVQ0JaRjFsZUNyTkV6eDZLRkJ3Qmd5NWctOC0tQXIzRjFhMWk1aHlwVVBFRjFhbGdMeTZLaFBNRlRQWTJGV0hnVkxQQU1NRXBfeUZHY0pVZ3ppdVdYbDJn?oc=5",
+      "publishedAt": "2026-11-27T10:17:30.000Z",
+      "snippet": "腾讯WorkRally首批接入混元Hy3D 3.6，一张设定图生成近200万面3D高模 中华网",
+      "score": 6,
+      "tags": [
+        "混元"
+      ]
+    },
+    {
+      "id": "4ce7be21f576f22c",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Anthropic's Unreleased Claude Model Surfaces in User Tests, Turning Code Into Animation",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTdTNPY1lLOWdNb2ZfbUNIcjhMUmVYa2dJZml3MDd2YVJVQUZ4a19QQ0s2cVdZMmlLempSb2dVb0RoOUNaeVQzbHVKRlVWdkkzbkNqWXRuTTZaNmdVSllndGlWQTRBbEt4QkN5QUdpZWMxWXZZSGc?oc=5",
+      "publishedAt": "2026-11-27T07:35:00.000Z",
+      "snippet": "Anthropic's Unreleased Claude Model Surfaces in User Tests, Turning Code Into Animation BigGo Finance",
+      "score": 6,
+      "tags": [
+        "anthropic",
+        "claude"
+      ]
+    },
+    {
       "id": "f859d529581994cf",
       "domain": "ai",
       "source": "simonwillison",
@@ -603,6 +726,19 @@
       ]
     },
     {
+      "id": "a7bb0e87adbd4aac",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "中国科学院上海分院通报Nature期刊论文撤稿争议",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa0dYN2dpVFpZQW0yZFE3NTY0OHlCWFpjRUUzTEc3dl9CWFFCbWNVM3RyTWhtUmMxYUdaUFNJTXVKQzhoS2VhamFlQzFQeGNQWGZHLUZicGRESXZEdzBmS2l1NnZfbmRDS2FlUU1leVlydGRvckIxN1k4VDZQMmxGX3kzQ1c1YV9jNmpudHNlOS10MHl1eXhGMjBKbnRuZ1pzTGZUM2dQYw?oc=5",
+      "publishedAt": "2026-11-26T14:26:15.000Z",
+      "snippet": "中国科学院上海分院通报Nature期刊论文撤稿争议 新浪财经_金融信息服务商",
+      "score": 6,
+      "tags": [
+        "撤稿"
+      ]
+    },
+    {
       "id": "64b9fce100a8653e",
       "domain": "github",
       "source": "github_changelog",
@@ -626,6 +762,19 @@
       "score": 6,
       "tags": [
         "release"
+      ]
+    },
+    {
+      "id": "633015a28f42f2ca",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "NASEM报告建议期刊在25周内处理问题论文并加快撤稿",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hLXdKLXFVQnQ0RGlDU3oyWkJYOWdScUtjMldqR2p5d3YzX2hpMWV2bzl0VWVOaGtLbzFLQnlQMHlvZTJDQUplTFhDbHo5Mlp6WXladA?oc=5",
+      "publishedAt": "2026-11-25T12:49:07.000Z",
+      "snippet": "NASEM报告建议期刊在25周内处理问题论文并加快撤稿 虎嗅",
+      "score": 6,
+      "tags": [
+        "撤稿"
       ]
     },
     {
@@ -844,6 +993,17 @@
       "tags": []
     },
     {
+      "id": "f1a28e372c62d5ea",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Grok Gets Build Upgrades and a Multi-Model Strategy - BASENOR",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVlhoRnlPeG5qUGJfdWliX1pxRkZJcXFocVJObC1wYmdUdVUyeXQ4Q2Q5dG9MY193LVlVZ04wQUdQcmZaYjJLUXhTNHAzMEMtSmVWZXNxMUJjREtHYTlKU3JiNTVfLXA5dlc4a1RZakdCOV9LOFUyUzJoQTZ2RWFIN2ZJeGJLczN0VDdxZ1llcw?oc=5",
+      "publishedAt": "2026-11-27T20:05:54.000Z",
+      "snippet": "Grok Gets Build Upgrades and a Multi-Model Strategy BASENOR - Tesla Accessories",
+      "score": 5,
+      "tags": []
+    },
+    {
       "id": "53e2dc491d56c6de",
       "domain": "vibe_coding",
       "source": "hackernews",
@@ -930,6 +1090,19 @@
       "snippet": "https://archive.ph/4hRp8",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "22ef64d2a258cdc2",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "豆包电视破亿 创维、海信、TCL都用上了",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DczlDUFVOa1VWWVdHXzYyMG40ZVFCZ3RtdVNlRmVCZ2RuQWRPTnBsRjRzcXF5VG1EZmRmWDhCWVJfM2hKZzdpcG42LWVmWWRXN2FjNHlTZUI?oc=5",
+      "publishedAt": "2026-11-27T10:09:00.000Z",
+      "snippet": "豆包电视破亿 创维、海信、TCL都用上了 驱动之家",
+      "score": 5,
+      "tags": [
+        "豆包"
+      ]
     },
     {
       "id": "02923a5064a79423",
@@ -1619,6 +1792,19 @@
       "tags": []
     },
     {
+      "id": "f911f5487c7fd898",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Is Scopus Peer Reviewed? What Indexing Covers",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1NmZsUGZPTlFrYnlNMjJuMGJ4T2E5NVNkSk1yWEh2T2xjZmFKYlpNbXFUbU5YbjktS2E2aFJsSHpEOG5MTDRwblJDcWdlbW91QjRTMjZseXhrbUZ0QlE?oc=5",
+      "publishedAt": "2026-11-25T06:04:26.000Z",
+      "snippet": "Is Scopus Peer Reviewed? What Indexing Covers CASRAI",
+      "score": 5,
+      "tags": [
+        "scopus"
+      ]
+    },
+    {
       "id": "36eb2cfcd6ac2069",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -1794,6 +1980,32 @@
       ]
     },
     {
+      "id": "c9bd14b1f632490f",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "Nature、Science齐发：呼吁期刊应加快纠错、撤稿！",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RNHFaSGdyaXJDZENBTzdmdi10d09ZM05QMXZ3enBSOHNQcFZZRnpmX2F2QVFmU2dQT29TRTlUU0ptV3lPZDdudTNRT3A5TjJPMGp6bXB3?oc=5",
+      "publishedAt": "2026-11-22T12:45:54.000Z",
+      "snippet": "Nature、Science齐发：呼吁期刊应加快纠错、撤稿！ 腾讯新闻",
+      "score": 5,
+      "tags": [
+        "撤稿"
+      ]
+    },
+    {
+      "id": "92573c332d338a58",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Hirsch Index in Scopus: Tracking & Calculation",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iNGtTMEFZeFE4M255bTRGc25Db0VESXQtVWVUNHRJQ2llYjh3S2pEYWY5cEQ4cERmcEJldHN2YmE0TUtzSmdDQW5IZzlRdnp4VXhuRW05Nk4?oc=5",
+      "publishedAt": "2026-11-20T23:42:56.000Z",
+      "snippet": "Hirsch Index in Scopus: Tracking & Calculation CASRAI",
+      "score": 5,
+      "tags": [
+        "scopus"
+      ]
+    },
+    {
       "id": "ed8fd9509d272bf6",
       "domain": "publishing",
       "source": "retraction_watch",
@@ -1899,6 +2111,84 @@
       "snippet": "Investigations into the work of a former top neuroscientist at the National Institutes of Health have left the researcher, Eliezer Masliah, with 32 retractions to date. Fifteen of them came this year, as journals continue examining his work following allegations — and findings — of scientific misconduct. Masliah was the director of neuroscience at the … Continue reading Former NIH neuroscientist passes 30 retractions",
       "score": 5,
       "tags": []
+    },
+    {
+      "id": "088d32d316c3e682",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "A CEO and CFO from Clarivate will present at a technology conference Nov. 18.",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbW1Zd0w3c1JVN1NwaEFsT1RPcUgxOFJWSTctZWlZbEwySlpWOGU4UG1sV1lmTEhWeXo5V3pwWlJDODhMVGFsNDFCaWZUZ09TS0tKcVkwc2Rkd2t4MHlnRTRlTnpreFJ2bzM0ZmFUc0sweUdQaUJ2RFY2VFZlWVVycWRlZmJEVG1TYU5SQkVXUElfSXZCOHQyVVVtWlliUC1kdXY1cnFmVGZGMlVmckZwNWlydUhUWXdPYW84bg?oc=5",
+      "publishedAt": "2026-11-11T08:00:00.000Z",
+      "snippet": "A CEO and CFO from Clarivate will present at a technology conference Nov. 18. Stock Titan",
+      "score": 5,
+      "tags": [
+        "clarivate"
+      ]
+    },
+    {
+      "id": "01030c59b964ab9f",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "第一作者明码标价！IEEE一天撤稿1417篇",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HdGVsMW5iN1hud0Q3WDMtcERIeldYaktMOC1qcFVacGNZTkI0VFNaekJxalR5azNtbmw0Qm0xbkRzaF81ZDhqTDRsdkYzYmNoc0tn?oc=5",
+      "publishedAt": "2026-11-10T08:00:00.000Z",
+      "snippet": "第一作者明码标价！IEEE一天撤稿1417篇 Sohu",
+      "score": 5,
+      "tags": [
+        "撤稿"
+      ]
+    },
+    {
+      "id": "28287fd132d7da4c",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Is 94% Revenue Growth at Coursera (NYSE:COUR) Really Organic as Clarivate (NYSE:CLVT), SmartRent (NYSE:SMRT) and SCWorx (NASDAQ:WORX) Trade as Penny Stocks?",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNclE2NnRLRmplRllSYVdkNkZCN1NleGpvYkJlNGVieVFZdEFSY3k0QmVxcTVNMVlCTC0xUk1pdzJaUk5GcDBpVmN6d284MWxBZEJLSzNvcDB5R3E1Ul9jSDJqLTNDMjlTaVFpS3lwN244SmwwTDBfb2w3eGhMSVN5alJJXzhJcnlJdHF5dVVaclV2dXo5by1Wb3RsR3BqR0hqUE9RTmxBV21JVkU2V1BYcGZ1UHdvR2l6bDVCeGZVUGlPN3BqdFNwcnNSM3diMXRQNWhlTTJHc0FiV0NZMzV1dlpwRlZmS0VrQzZnOHJGZjVxdFBOQi1FVjl2Q3RHVVhTS0NlbGFBcjloZw?oc=5",
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "snippet": "Is 94% Revenue Growth at Coursera (NYSE:COUR) Really Organic as Clarivate (NYSE:CLVT), SmartRent (NYSE:SMRT) and SCWorx (NASDAQ:WORX) Trade as Penny Stocks? kalkine.ca",
+      "score": 5,
+      "tags": [
+        "clarivate"
+      ]
+    },
+    {
+      "id": "925d5c81448a19d2",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Bioengineered retracts 119 more papers as investigation continues",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObXNENWJLR1pWcXdwQ1dmU3I1WmlhN3hBQU01Ml9qSXhiX19BdTNFWGZZZ2g3RnVLZ2tRa1dmS252TUJ6bngtcFdIa3lEM01yQ1lUQTQ0T3JLVEhnOTZqdW5TbU5tMjFKRzRZVTVIczhGZHh3elc5cURhbmo2WkoxQjFDVEtfeXdUYjE4cndkQUxncng4VjJVaDlWOVV6R01hVVR0V1ZSUVI?oc=5",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "snippet": "Bioengineered retracts 119 more papers as investigation continues Retraction Watch",
+      "score": 5,
+      "tags": [
+        "retraction"
+      ]
+    },
+    {
+      "id": "e1aee594860f303e",
+      "domain": "publishing",
+      "source": "google_news_onhold",
+      "title": "Computing journal retracts 13 papers, including four from past EIC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX3J5U0ZPSXREY0c1UXY3YXo2ZkpNcENBMlBMZmE5aTBjVXFjc0JsV3FDeWI0UXBrWHNlR0owTnpWbXpDUFhjTmNYVTl4VEpab0VvRXYtZkdzbXdsRlN0QmphaHFyRHF4VW5yZHhVTGJWU2UwR1B6bENIOFM2N2FuZlhQZTdfWk5XU2lqaTJ3UnZ0U3p3Y1Q4NmM5d21GLUxQR3FDdEJJYU4?oc=5",
+      "publishedAt": "2026-11-02T08:00:00.000Z",
+      "snippet": "Computing journal retracts 13 papers, including four from past EIC Retraction Watch",
+      "score": 5,
+      "tags": [
+        "retraction"
+      ]
+    },
+    {
+      "id": "71b1eb4b881fa48d",
+      "domain": "publishing",
+      "source": "google_news_retraction",
+      "title": "IEEE单日撤稿1417篇创历史纪录",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIV2ktdGtKVWpDa2djTkR1ajY3TFFyV3RpU0tpSmM2VmJ5Tkw1UHYxbG5lME5jZlRwOUJrejY4d05uSWtwZV93UWdUT2JEMU56bE9NLW53?oc=5",
+      "publishedAt": "2026-11-01T07:00:00.000Z",
+      "snippet": "IEEE单日撤稿1417篇创历史纪录 腾讯新闻",
+      "score": 5,
+      "tags": [
+        "撤稿"
+      ]
     },
     {
       "id": "3517f80a1ebb1658",
@@ -2054,6 +2344,58 @@
       "score": 5,
       "tags": [
         "stars"
+      ]
+    },
+    {
+      "id": "b7988a20251f501f",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek×昇腾950适配再提升：FlashMLA稀疏注意力算子Prefill达98.5%硬件峰值",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGg5TFBna256blVwTU0wVUpNQWJjYWxDUjJORjJvVk14OGQxRVFmSzh0aDA0d2NhNDNtZFFGUzF5Q0RlNmtyX1Q3MXRGcDhnSlh2RmpNYlBiQWdGZ2JHRFZWWGN2QndsV1c5Tm5DVDc5eFFEQUFxTnl6Vk9jeEFCTkpPUXVSUm9TWDRVUQ?oc=5",
+      "publishedAt": "2026-11-28T07:21:00.000Z",
+      "snippet": "DeepSeek×昇腾950适配再提升：FlashMLA稀疏注意力算子Prefill达98.5%硬件峰值 Sohu",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "7bfa08a51b9fb3bd",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek APP开始算账，收费前兆？",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRZzBBeDQ5VU5oS3VXbklSYm1sdzBYUmdWLTdFcFM0cUpreVRmbjJlQVF0bDBwSGF3WVJEcVE3ZmtKT21pd1JfamZrdGxzUVhTMmxzLWhRUlVEWldKR3dXMVk4V3NmcG9RSFdocExjQQ?oc=5",
+      "publishedAt": "2026-11-28T06:44:16.000Z",
+      "snippet": "DeepSeek APP开始算账，收费前兆？ 手机新浪网",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "6b002d99ad076c79",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek AI Model Shows Resistance to Shutdown, Raising Control Concerns",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNd19tUFBEa3RzZHJYQmd6VURiZGNaZlVYaGw2dW8tQUJpQldyTE5XQzlOY1RXMHQ0Nnd5cTJrMTV6QmppakdtbGtmOXZEemJqbmVXN2xWYm5FaFoxZ0pXMUZ6bjFKbGt6MlhCaUdWVkplTnZBRllFenhuQ2NGN1N2UDlPUHlEcU54R3JEVzk4ZE1ZcGRyTFByTHNpRTBnLXkxaXlHMXBzS20?oc=5",
+      "publishedAt": "2026-11-28T05:37:10.000Z",
+      "snippet": "DeepSeek AI Model Shows Resistance to Shutdown, Raising Control Concerns KuCoin",
+      "score": 4,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "22d66002521bb55e",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek is China’s latest developer to worry about losing control of AI",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ3MyLUlMOU1UNWl5YUNQcjFtdlR3SkFHX2VrT2Q4Sko1MTVUZUtjMFhOQVk4RjNRS3U0NFZ4aDZBNjNPZFVjUW9SbEdzazl4SDR1Y0xHNllRdmdJVGlTdkl1LVFma1dzRmFJdVJFTzNsVHZmVWpxbzNKdlNZNDMyM3NQNWR5Z0pOb2xIeUpESnNSZFp0SW1zYUpPc2x0RnA1cG1DVURwY9IBpwFBVV95cUxNbVpnQmMzaHJ2RFhTV2VWTUZITlB4TGhLN2NfcGNnSzFSTk0ycjZGYnpWaDljOVU4b0xoOGZBMXRmZGNyWU13TC1tRmxmZTJvVUd5dVBiczFBam42UXJKaHh5V2EyRUliUEZkTGN1enpmeDRPNHNHTWY4ZHk0eVphSlk2eEtqX3B0Qk9xSE1kdFZHdk5lWnVqYUtrVGNNSkZoUHk5eVdyMA?oc=5",
+      "publishedAt": "2026-11-28T02:00:11.000Z",
+      "snippet": "DeepSeek is China’s latest developer to worry about losing control of AI South China Morning Post",
+      "score": 4,
+      "tags": [
+        "deepseek"
       ]
     },
     {
@@ -2231,6 +2573,19 @@
       "snippet": "Published by Oxford University Press (OUP) in Johns Hopkins Bloomberg School of Public Health Added to DOAJ on 24 Nov 2026 LCC Subject Category: Medicine: Public aspects of medicine",
       "score": 4,
       "tags": []
+    },
+    {
+      "id": "22d131dbf1c312bb",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Qwen model rewrites its own weights in AI study",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9wVXpqbWxHRHpyeDhKeFFvLVlFSDBFdVZXX1pBNmwxcGJ0eWc1eXBNUXk1cl9EMS1rNV9IUTJaNkhQd19HVlMxV0ZlemxPdHd0UFFtN0Q4cTYzR1psaFhvTUVvRTBCQ2NNR0g0cGR2d0Q1R3JPX1E?oc=5",
+      "publishedAt": "2026-11-24T08:22:02.000Z",
+      "snippet": "Qwen model rewrites its own weights in AI study TNGlobal",
+      "score": 4,
+      "tags": [
+        "qwen"
+      ]
     },
     {
       "id": "74dace680564f0a7",
@@ -2497,6 +2852,19 @@
       "tags": []
     },
     {
+      "id": "dfa44de39124190a",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Perplexity and Intelligence",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96Sm1EaVlsMHctNGtBMDBYdVRreWpySVdVS1RhSVZCUzk3enZHQmlIS3lWY2Rmajh2Q3RNZWU2RDEwc3ZEX2tONEpsbEN6RXowZk1ySVdaWXVVR09jX21aelV6UQ?oc=5",
+      "publishedAt": "2026-11-22T19:12:41.000Z",
+      "snippet": "Perplexity and Intelligence OpenAI",
+      "score": 4,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "63b7bf873d266518",
       "domain": "publishing",
       "source": "doaj_added",
@@ -2684,6 +3052,19 @@
       "tags": []
     },
     {
+      "id": "dceb0d5189662d96",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RHJmSHZiNVNSOHgwYTFQNmh3WnlKVGwyRE43R2dWMEF5d2xsTHBqYzdHQllCanRHeTNYTHAyX0FmcTJiT3p1amxoRDVzMTBxemNiSXkxUXJMcDhxUjdCNw?oc=5",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "snippet": "Managing frontier AI risk: From training to deployment OpenAI",
+      "score": 4,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
       "id": "c2518115ebcadbb8",
       "domain": "ai",
       "source": "simonwillison",
@@ -2781,6 +3162,19 @@
       "snippet": "From The Salt Lake Tribune: The Republican representative behind Utah’s statewide school book ban law was ousted last week. Rep. Ken Ivory, R-West Jordan, lost his race against Democrat Drew Howells, who secured 58.11% of the vote as of Friday morning. Ivory received about 41.89%. He acknowledged the defeat in a recent Facebook post. Two […] The post Report From Utah: Voters Just Ousted The Republican Representative Behind The State’s Sweeping School Book Ban Law appeared first on Library Journal infoDOCKET .",
       "score": 4,
       "tags": []
+    },
+    {
+      "id": "f5aea4935ab5502f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xSGFfWmVQdlE5eUpDUzdzczVqWV9MSnhzQnhKXzlicXUtdmFfandZbE9fUTAtVnVUeElydnowdzQ0dkY0Q0VxeTlDQ2JpeU5iR0JGaW5uN3FibEZaVFFFOE5jVUVwS2dvWXRNTHpGUkNpUU0?oc=5",
+      "publishedAt": "2026-11-15T08:00:00.000Z",
+      "snippet": "A step toward defining the Standard Model on a lattice OpenAI",
+      "score": 4,
+      "tags": [
+        "openai"
+      ]
     },
     {
       "id": "2aa02d0655669df1",
@@ -2927,6 +3321,85 @@
       "score": 4,
       "tags": [
         "stars"
+      ]
+    },
+    {
+      "id": "dc5469dc1cc58480",
+      "domain": "ai",
+      "source": "google_news_ai_zh",
+      "title": "DeepSeek开源数学专用模型，MATH基准表现逼近GPT-4",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15dWRuNDhCa0ZBOVk1OElGQ2h4Zk9WWE1wZ0VTenp2eTJvMkExWWRVckZjSlNrSUtrUTlHNkNQaVNfY1gtTFdsa0lablNmRXNSRHA0SlRB?oc=5",
+      "publishedAt": "2026-11-27T09:01:59.000Z",
+      "snippet": "DeepSeek开源数学专用模型，MATH基准表现逼近GPT-4 Sohu",
+      "score": 3,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "6a97e2ce088f3466",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "DeepSeek's Android App Adds Pricing Lookup Feature as Paid Model for LLMs Edges Closer",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DR1U1c3YydC1Iay01VndrMUV4bVJBVTRFU2dVeG5TNmtDc0x5U1IwSUdqQWV0QmZUc05lNkNqT0V4cGgxUzV3LTU0SmVOcWhhUFFoN1dFYkZtQWhCejNoaURnOHhJM1l3bTVYa0Y0ZXRRSDV2b3c?oc=5",
+      "publishedAt": "2026-11-27T03:36:00.000Z",
+      "snippet": "DeepSeek's Android App Adds Pricing Lookup Feature as Paid Model for LLMs Edges Closer BigGo Finance",
+      "score": 3,
+      "tags": [
+        "deepseek"
+      ]
+    },
+    {
+      "id": "451f4fd7b612b5bc",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "US restricts Nvidia chip access, OpenAI limits model use for Chinese firms",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQVVHSU9wbnkwbjhrR3gyankxZmxXMTBhNGJUeV9VNDJpdVdKUlk2RWhhWjdudEpxXzluSDlHaHNQakxhSnFGWlBNOXlDakw2b3lQZ2JjcFRxM3lDRUI1S2QtYU4ycUtuY203dF9pOG1Xb2U2WDVYLVRydng5Z3o5SmFsTHZzNDU4LVVxb0NtOF9KT1NQR3I3OVpOeENOZ1RNN0tB?oc=5",
+      "publishedAt": "2026-11-26T17:35:27.000Z",
+      "snippet": "US restricts Nvidia chip access, OpenAI limits model use for Chinese firms Crypto Briefing",
+      "score": 3,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "8a3661c319741e4f",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "OpenAI's pricing mix-up means most users of its new AI models will hit limits faster",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGJiZ0ZrLTJYSmZ3d25GeGNZaVpMX3RyRmNtLTctdGUtZGpkVHVOQXJDWGlBdnVhNVhtVGdRTW9qUTg3dWFyeDRZQ3VsQTRzdjJzaHNGNmpYdGV4SWFGS0JyTF9QRWZIWld6WFZXVFV0YjJtZmtmWVRjMDNHT2lqVlIyUTBaRGFjb2dIUVMwWlBuSzJLdkFv?oc=5",
+      "publishedAt": "2026-11-26T13:15:00.000Z",
+      "snippet": "OpenAI's pricing mix-up means most users of its new AI models will hit limits faster Business Insider",
+      "score": 3,
+      "tags": [
+        "openai"
+      ]
+    },
+    {
+      "id": "2e78982406d040ee",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "Google Gemini 5 Release Date: What We Know So Far",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFByR0hiYkpFcWsyUDd0dEhidzlxSVRvRjFEYWgyWUZIM1lrWnZMTzdrVUFrNTZ4TDc0QnZfbGU1RzhRcGs?oc=5",
+      "publishedAt": "2026-11-25T06:06:24.000Z",
+      "snippet": "Google Gemini 5 Release Date: What We Know So Far Fello AI",
+      "score": 3,
+      "tags": [
+        "gemini",
+        "release"
+      ]
+    },
+    {
+      "id": "4fe9505ccb74e7df",
+      "domain": "ai",
+      "source": "google_news_ai",
+      "title": "See what 5 builders are making with Gemini 4 Neon",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTkViODd2SnZMN05iTFpjM0hDbDhWal9IRDRMWFc2dm5vdTluRVNCSHJUQlVxUW9QREo3ZWhfc0hrRGZVQUFBT0JBYkYxZVdxUkVNUk5RNzBJLVVSOFVzVUtuaXlkRjZzQWY1dHVKcHloM1J3T0lsenlJMnZJM0JVTW1QXzNrY2Q2bm5OZzJENWxVM0Z1Ymw4NnRYZw?oc=5",
+      "publishedAt": "2026-11-24T17:42:49.000Z",
+      "snippet": "See what 5 builders are making with Gemini 4 Neon blog.google",
+      "score": 2,
+      "tags": [
+        "gemini"
       ]
     }
   ]
